@@ -1,0 +1,7 @@
+.DS_Store
+.claude/
+
+# Raw HTML snapshot the sync script writes for local diffing/debugging.
+# index.json captures the structured data; the HTML is large and noisy.
+# Remove this line if you want versioned snapshots of the upstream page.
+source.html
