@@ -1,7 +1,7 @@
 # Annotated Warrant — Index
 
 Source: <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>  
-Last synced: 2026-04-29T22:39:51+00:00
+Last synced: 2026-04-29T23:08:37+00:00
 
 95 articles. Re-run `python3 SyncAnnotatedWarrant.py` from the project root to refresh.
 
