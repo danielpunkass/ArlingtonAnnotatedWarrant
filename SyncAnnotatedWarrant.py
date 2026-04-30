@@ -353,6 +353,22 @@ def sync():
         "articleCount": len(articles),
         "articles": articles,
     }
+
+    # If nothing but the timestamp would change, reuse the prior lastSynced so
+    # this run produces a no-op diff. Otherwise the scheduled CI job would
+    # commit every 30 minutes even when upstream is static.
+    if os.path.exists(manifest_path):
+        try:
+            with open(manifest_path) as fh:
+                prior = json.load(fh)
+            prior_ts = prior.get("lastSynced")
+            if prior_ts and {k: v for k, v in prior.items() if k != "lastSynced"} == \
+                           {k: v for k, v in manifest.items() if k != "lastSynced"}:
+                manifest["lastSynced"] = prior_ts
+                synced_at = prior_ts
+        except (OSError, json.JSONDecodeError):
+            pass
+
     with open(manifest_path, "w") as fh:
         json.dump(manifest, fh, indent=2)
         fh.write("\n")
