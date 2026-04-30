@@ -16,6 +16,7 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
 - [Article 55 Hollman Substitute Motion](./Article%2055%20Hollman%20Substitute%20Motion.pdf)
+- [Article 55 Statement Melleta Marx](./Article%2055%20Statement%20Melleta%20Marx.pdf)
 
 ---
 *Source item id:* `731`  

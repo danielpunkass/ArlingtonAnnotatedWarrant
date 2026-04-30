@@ -15,7 +15,11 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 ## Attachments
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
-- [Article 53 Slotnick Substitute Motion](./Article%2053%20Slotnick%20Substitute%20Motion.pdf)
+- [Article 53 Cullinane Substitute Motion](./Article%2053%20Cullinane%20Substitute%20Motion.pdf)
+- [Article 53 Statement Joanne Cullinane and Larry Slotnick](./Article%2053%20Statement%20Joanne%20Cullinane%20and%20Larry%20Slotnick.pdf)
+- [Article 53 Statement and video Joanne Cullinane and Larry Slotnick](./Article%2053%20Statement%20and%20video%20Joanne%20Cullinane%20and%20Larry%20Slotnick.pdf)
+- [Article 53 Statement Chamber of Commerce](./Article%2053%20Statement%20Chamber%20of%20Commerce.pdf)
+- [Article 53 Statement Melleta Marx](./Article%2053%20Statement%20Melleta%20Marx.pdf)
 
 ---
 *Source item id:* `729`  

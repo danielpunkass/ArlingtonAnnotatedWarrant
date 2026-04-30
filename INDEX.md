@@ -1,7 +1,7 @@
 # Annotated Warrant — Index
 
 Source: <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>  
-Last synced: 2026-04-30T04:11:00+00:00
+Last synced: 2026-04-30T19:56:19+00:00
 
 95 articles. Re-run `python3 SyncAnnotatedWarrant.py` from the project root to refresh.
 
@@ -49,7 +49,7 @@ Last synced: 2026-04-30T04:11:00+00:00
 | 41 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CORRECTION TO MULTI-FAMILY HOUSING OVERLAY DISTRICT STANDARDS](./articles/Article-41/article.md) | the Redevelopment Board | 1 |
 | 42 | [ZONING BYLAW AMENDMENT / PARKING AND LOADING STANDARDS](./articles/Article-42/article.md) | the Redevelopment Board | 1 |
 | 43 | [ZONING BYLAW AMENDMENT / MARQUEE SIGNS](./articles/Article-43/article.md) | the Redevelopment Board | 1 |
-| 44 | [ZONING BYLAW AMENDMENT / FLOODPLAIN DISTRICT](./articles/Article-44/article.md) | the Redevelopment Board | 1 |
+| 44 | [ZONING BYLAW AMENDMENT / FLOODPLAIN DISTRICT](./articles/Article-44/article.md) | the Redevelopment Board | 2 |
 | 45 | [ZONING BYLAW AMENDMENT / PORTABLE AND TEMPORARY SIGNS](./articles/Article-45/article.md) | the Redevelopment Board | 1 |
 | 46 | [ZONING BYLAW AMENDMENT / ANIMAL DAYCARE USES](./articles/Article-46/article.md) | the Redevelopment Board | 1 |
 | 47 | [ZONING BYLAW AMENDMENT / DEFINITION OF BUILDING HEIGHT](./articles/Article-47/article.md) | the Redevelopment Board | 2 |
@@ -58,9 +58,9 @@ Last synced: 2026-04-30T04:11:00+00:00
 | 50 | [ZONING BYLAW AMENDMENT / AMENDMENT TO ARLINGTON ZONING MAP](./articles/Article-50/article.md) | Mary Winstanley and ten registered voters | 1 |
 | 51 | [ZONING BYLAW AMENDMENT / AMENDMENT TO ZONING BYLAW TABLE OF DIMENSIONAL AND DENSITY REGULATIONS](./articles/Article-51/article.md) | Mary Winstanley and ten registered voters | 1 |
 | 52 | [ZONING BYLAW AMENDMENT / REZONING OF CERTAIN PARCELS FROM R-1 TO R-2](./articles/Article-52/article.md) | Stephen McKenna and ten registered voters | 1 |
-| 53 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-53/article.md) | Joanne Cullinane and Larry Slotnick and ten registered voters | 2 |
-| 54 | [ZONING BYLAW AMENDMENT / TRAFFIC VISIBILITY](./articles/Article-54/article.md) | Caitlin Monaghan and ten registered voters | 2 |
-| 55 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-55/article.md) | Aram Hollman and ten registered voters | 2 |
+| 53 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-53/article.md) | Joanne Cullinane and Larry Slotnick and ten registered voters | 6 |
+| 54 | [ZONING BYLAW AMENDMENT / TRAFFIC VISIBILITY](./articles/Article-54/article.md) | Caitlin Monaghan and ten registered voters | 4 |
+| 55 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-55/article.md) | Aram Hollman and ten registered voters | 3 |
 | 56 | [ZONING BYLAW AMENDMENT / DEVELOPMENT STANDARDS – OFF STREET PARKING AND BICYCLE PARKING](./articles/Article-56/article.md) | Neal Mongold and ten registered voters | 1 |
 | 57 | [ZONING BYLAW AMENDMENT / DEVELOPMENT STANDARDS-- BONUSES](./articles/Article-57/article.md) | Neal Mongold and ten registered voters | 1 |
 | 58 | [ZONING BYLAW AMENDMENT / FRONTAGE (FAÇADE) BUILD-OUT RATIO FOR SINGLE FAMILY DWELLINGS](./articles/Article-58/article.md) | Jennifer Cutraro and Fusun Yaman-Sirin and ten registered voters | 1 |
@@ -99,6 +99,6 @@ Last synced: 2026-04-30T04:11:00+00:00
 | 91 | [RESOLUTION / MEDICARE FOR ALL](./articles/Article-91/article.md) | Greg Dennis and ten registered voters | 2 |
 | 92 | [RESOLUTION / TRANSITIONING TO CLEAN HEAT IN MASSACHUSETTS](./articles/Article-92/article.md) | Patrick Hanlon and ten registered voters | 2 |
 | 93 | [RESOLUTION / DESIGNATING ARLINGTON A 4TH AMENDMENT WORKPLACE COMMUNITY](./articles/Article-93/article.md) | Linda Hanson and Elizabeth Dray and ten registered voters | 3 |
-| 94 | [RESOLUTION / AUTOMATIC LICENSE PLATE RECOGNITION SAFEGUARDS AND DRIVER PRIVACY](./articles/Article-94/article.md) | Samuel Polk and ten registered voters | 4 |
+| 94 | [RESOLUTION / AUTOMATIC LICENSE PLATE RECOGNITION SAFEGUARDS AND DRIVER PRIVACY](./articles/Article-94/article.md) | Samuel Polk and ten registered voters | 5 |
 | 95 | [RESOLUTION / CONCERNING ICE FACILITY](./articles/Article-95/article.md) | Guillermo Hamlin and ten registered voters | 1 |
 | 96 | [RESOLUTION / PROHIBIT FIRST GENERATION ANTICOAGULANT RODENTICIDES AND BROMETHALIN](./articles/Article-96/article.md) | Suzanne Chiarito and ten registered voters | 1 |

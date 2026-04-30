@@ -10,6 +10,7 @@ To see if the Town will vote to adopt a resolution opposing widespread deploymen
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
 - [Article 94 Polk Main Motion](./Article%2094%20Polk%20Main%20Motion.pdf)
+- [Article 94 Polk Presentation](./Article%2094%20Polk%20Presentation.pdf)
 - [Article 94 Human Rights Commission Statement](./Article%2094%20Human%20Rights%20Commission%20Statement.pdf)
 - [Article 94 Chief Flaherty Statement](./Article%2094%20Chief%20Flaherty%20Statement.pdf)
 
