@@ -16,10 +16,13 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
 - [Article 53 Cullinane Substitute Motion](./Article%2053%20Cullinane%20Substitute%20Motion.pdf)
-- [Article 53 Statement Joanne Cullinane and Larry Slotnick](./Article%2053%20Statement%20Joanne%20Cullinane%20and%20Larry%20Slotnick.pdf)
-- [Article 53 Statement and video Joanne Cullinane and Larry Slotnick](./Article%2053%20Statement%20and%20video%20Joanne%20Cullinane%20and%20Larry%20Slotnick.pdf)
-- [Article 53 Statement Chamber of Commerce](./Article%2053%20Statement%20Chamber%20of%20Commerce.pdf)
 - [Article 53 Statement Melleta Marx](./Article%2053%20Statement%20Melleta%20Marx.pdf)
+- [Article 53 Statement - gross floor area - Cullinane and Slotnick](./Article%2053%20Statement%20-%20gross%20floor%20area%20-%20Cullinane%20and%20Slotnick.pdf)
+- [Article 53 Statement and video - bonuses Cullinane and Slotnick](./Article%2053%20Statement%20and%20video%20-%20bonuses%20Cullinane%20and%20Slotnick.pdf)
+- [Article 53 Statement and video - commercial space Cullinane and Slotnick](./Article%2053%20Statement%20and%20video%20-%20commercial%20space%20Cullinane%20and%20Slotnick.pdf)
+- [Article 53 Statement Carla Valentine](./Article%2053%20Statement%20Carla%20Valentine.pdf)
+- [Article 53 Statement Chamber of Commerce](./Article%2053%20Statement%20Chamber%20of%20Commerce.pdf)
+- [Article 53 Statement to YourArlington Cullinane and Slotnick](./Article%2053%20Statement%20to%20YourArlington%20Cullinane%20and%20Slotnick.pdf)
 
 ---
 *Source item id:* `729`  

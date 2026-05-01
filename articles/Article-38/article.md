@@ -15,6 +15,7 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 ## Attachments
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
+- [Article 38 ARB Presentation](./Article%2038%20ARB%20Presentation.pdf)
 - [Article 38 Draft Site List](./Article%2038%20Draft%20Site%20List.pdf)
 
 ---

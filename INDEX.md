@@ -1,7 +1,7 @@
 # Annotated Warrant — Index
 
 Source: <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>  
-Last synced: 2026-04-30T19:56:19+00:00
+Last synced: 2026-05-01T19:21:39+00:00
 
 95 articles. Re-run `python3 SyncAnnotatedWarrant.py` from the project root to refresh.
 
@@ -43,12 +43,12 @@ Last synced: 2026-04-30T19:56:19+00:00
 | 35 | [ENDORSEMENT OF CDBG APPLICATION](./articles/Article-35/article.md) | the Town Manager | 1 |
 | 36 | [REVOLVING FUNDS](./articles/Article-36/article.md) | the Town Manager | 2 |
 | 37 | [DISPOSITION OF REAL ESTATE / 0 REED STREET](./articles/Article-37/article.md) | David Swanson and ten registered voters | 1 |
-| 38 | [EXTEND THE CHARGE OF THE AFFORDABLE HOUSING OVERLAY COMMITTEE](./articles/Article-38/article.md) | the Affordable Housing Overlay District (AHOD) Committee | 2 |
-| 39 | [ZONING BYLAW AMENDMENT/ ADMINISTRATIVE CLARIFICATION TO ACCESSORY DWELLING UNITS](./articles/Article-39/article.md) | the Redevelopment Board | 1 |
-| 40 | [ZONING BYLAW AMENDMENT / ZONING MAP CHANGE REQUIREMENTS](./articles/Article-40/article.md) | the Redevelopment Board | 1 |
+| 38 | [EXTEND THE CHARGE OF THE AFFORDABLE HOUSING OVERLAY COMMITTEE](./articles/Article-38/article.md) | the Affordable Housing Overlay District (AHOD) Committee | 3 |
+| 39 | [ZONING BYLAW AMENDMENT/ ADMINISTRATIVE CLARIFICATION TO ACCESSORY DWELLING UNITS](./articles/Article-39/article.md) | the Redevelopment Board | 3 |
+| 40 | [ZONING BYLAW AMENDMENT / ZONING MAP CHANGE REQUIREMENTS](./articles/Article-40/article.md) | the Redevelopment Board | 2 |
 | 41 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CORRECTION TO MULTI-FAMILY HOUSING OVERLAY DISTRICT STANDARDS](./articles/Article-41/article.md) | the Redevelopment Board | 1 |
-| 42 | [ZONING BYLAW AMENDMENT / PARKING AND LOADING STANDARDS](./articles/Article-42/article.md) | the Redevelopment Board | 1 |
-| 43 | [ZONING BYLAW AMENDMENT / MARQUEE SIGNS](./articles/Article-43/article.md) | the Redevelopment Board | 1 |
+| 42 | [ZONING BYLAW AMENDMENT / PARKING AND LOADING STANDARDS](./articles/Article-42/article.md) | the Redevelopment Board | 2 |
+| 43 | [ZONING BYLAW AMENDMENT / MARQUEE SIGNS](./articles/Article-43/article.md) | the Redevelopment Board | 2 |
 | 44 | [ZONING BYLAW AMENDMENT / FLOODPLAIN DISTRICT](./articles/Article-44/article.md) | the Redevelopment Board | 2 |
 | 45 | [ZONING BYLAW AMENDMENT / PORTABLE AND TEMPORARY SIGNS](./articles/Article-45/article.md) | the Redevelopment Board | 1 |
 | 46 | [ZONING BYLAW AMENDMENT / ANIMAL DAYCARE USES](./articles/Article-46/article.md) | the Redevelopment Board | 1 |
@@ -58,7 +58,7 @@ Last synced: 2026-04-30T19:56:19+00:00
 | 50 | [ZONING BYLAW AMENDMENT / AMENDMENT TO ARLINGTON ZONING MAP](./articles/Article-50/article.md) | Mary Winstanley and ten registered voters | 1 |
 | 51 | [ZONING BYLAW AMENDMENT / AMENDMENT TO ZONING BYLAW TABLE OF DIMENSIONAL AND DENSITY REGULATIONS](./articles/Article-51/article.md) | Mary Winstanley and ten registered voters | 1 |
 | 52 | [ZONING BYLAW AMENDMENT / REZONING OF CERTAIN PARCELS FROM R-1 TO R-2](./articles/Article-52/article.md) | Stephen McKenna and ten registered voters | 1 |
-| 53 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-53/article.md) | Joanne Cullinane and Larry Slotnick and ten registered voters | 6 |
+| 53 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-53/article.md) | Joanne Cullinane and Larry Slotnick and ten registered voters | 9 |
 | 54 | [ZONING BYLAW AMENDMENT / TRAFFIC VISIBILITY](./articles/Article-54/article.md) | Caitlin Monaghan and ten registered voters | 4 |
 | 55 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-55/article.md) | Aram Hollman and ten registered voters | 3 |
 | 56 | [ZONING BYLAW AMENDMENT / DEVELOPMENT STANDARDS – OFF STREET PARKING AND BICYCLE PARKING](./articles/Article-56/article.md) | Neal Mongold and ten registered voters | 1 |
@@ -69,7 +69,7 @@ Last synced: 2026-04-30T19:56:19+00:00
 | 61 | [POSITIONS RECLASSIFICATION](./articles/Article-61/article.md) | the Director of Human Resources | 1 |
 | 62 | [COLLECTIVE BARGAINING](./articles/Article-62/article.md) | the Town Manager | 1 |
 | 63 | [AMENDMENTS TO FY26 BUDGETS](./articles/Article-63/article.md) | the Town Manager | 1 |
-| 64 | [APPROPRIATION / TOWN BUDGETS](./articles/Article-64/article.md) | the Town Manager | 1 |
+| 64 | [APPROPRIATION / TOWN BUDGETS](./articles/Article-64/article.md) | the Town Manager | 2 |
 | 65 | [CAPITAL BUDGET](./articles/Article-65/article.md) | the Select Board, and at the request of the Town Manager and the Capital Planning Committee | 1 |
 | 66 | [CAPITAL BUDGET / OTTOSON MIDDLE SCHOOL FEASIBILITY STUDY](./articles/Article-66/article.md) | the Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee | 1 |
 | 67 | [CAPITAL BUDGET / HARDY SCHOOL FEASIBILITY STUDY AND SCHEMATIC DESIGN](./articles/Article-67/article.md) | the Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee | 1 |
