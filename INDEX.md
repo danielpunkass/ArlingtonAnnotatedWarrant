@@ -1,7 +1,7 @@
 # Annotated Warrant — Index
 
 Source: <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>  
-Last synced: 2026-05-01T19:21:39+00:00
+Last synced: 2026-05-03T14:28:41+00:00
 
 95 articles. Re-run `python3 SyncAnnotatedWarrant.py` from the project root to refresh.
 
@@ -58,7 +58,7 @@ Last synced: 2026-05-01T19:21:39+00:00
 | 50 | [ZONING BYLAW AMENDMENT / AMENDMENT TO ARLINGTON ZONING MAP](./articles/Article-50/article.md) | Mary Winstanley and ten registered voters | 1 |
 | 51 | [ZONING BYLAW AMENDMENT / AMENDMENT TO ZONING BYLAW TABLE OF DIMENSIONAL AND DENSITY REGULATIONS](./articles/Article-51/article.md) | Mary Winstanley and ten registered voters | 1 |
 | 52 | [ZONING BYLAW AMENDMENT / REZONING OF CERTAIN PARCELS FROM R-1 TO R-2](./articles/Article-52/article.md) | Stephen McKenna and ten registered voters | 1 |
-| 53 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-53/article.md) | Joanne Cullinane and Larry Slotnick and ten registered voters | 9 |
+| 53 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-53/article.md) | Joanne Cullinane and Larry Slotnick and ten registered voters | 10 |
 | 54 | [ZONING BYLAW AMENDMENT / TRAFFIC VISIBILITY](./articles/Article-54/article.md) | Caitlin Monaghan and ten registered voters | 4 |
 | 55 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-55/article.md) | Aram Hollman and ten registered voters | 3 |
 | 56 | [ZONING BYLAW AMENDMENT / DEVELOPMENT STANDARDS – OFF STREET PARKING AND BICYCLE PARKING](./articles/Article-56/article.md) | Neal Mongold and ten registered voters | 1 |
@@ -101,4 +101,4 @@ Last synced: 2026-05-01T19:21:39+00:00
 | 93 | [RESOLUTION / DESIGNATING ARLINGTON A 4TH AMENDMENT WORKPLACE COMMUNITY](./articles/Article-93/article.md) | Linda Hanson and Elizabeth Dray and ten registered voters | 3 |
 | 94 | [RESOLUTION / AUTOMATIC LICENSE PLATE RECOGNITION SAFEGUARDS AND DRIVER PRIVACY](./articles/Article-94/article.md) | Samuel Polk and ten registered voters | 5 |
 | 95 | [RESOLUTION / CONCERNING ICE FACILITY](./articles/Article-95/article.md) | Guillermo Hamlin and ten registered voters | 1 |
-| 96 | [RESOLUTION / PROHIBIT FIRST GENERATION ANTICOAGULANT RODENTICIDES AND BROMETHALIN](./articles/Article-96/article.md) | Suzanne Chiarito and ten registered voters | 1 |
+| 96 | [RESOLUTION / PROHIBIT FIRST GENERATION ANTICOAGULANT RODENTICIDES AND BROMETHALIN](./articles/Article-96/article.md) | Suzanne Chiarito and ten registered voters | 2 |

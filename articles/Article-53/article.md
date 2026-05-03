@@ -23,6 +23,7 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 - [Article 53 Statement Carla Valentine](./Article%2053%20Statement%20Carla%20Valentine.pdf)
 - [Article 53 Statement Chamber of Commerce](./Article%2053%20Statement%20Chamber%20of%20Commerce.pdf)
 - [Article 53 Statement to YourArlington Cullinane and Slotnick](./Article%2053%20Statement%20to%20YourArlington%20Cullinane%20and%20Slotnick.pdf)
+- [Article 53 Statement Jordan Weinstein](./Article%2053%20Statement%20Jordan%20Weinstein.pdf)
 
 ---
 *Source item id:* `729`  
