@@ -24,6 +24,13 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 - [Article 53 Statement Chamber of Commerce](./Article%2053%20Statement%20Chamber%20of%20Commerce.pdf)
 - [Article 53 Statement to YourArlington Cullinane and Slotnick](./Article%2053%20Statement%20to%20YourArlington%20Cullinane%20and%20Slotnick.pdf)
 - [Article 53 Statement Jordan Weinstein](./Article%2053%20Statement%20Jordan%20Weinstein.pdf)
+- [Article 53 Statement Diane Krause](./Article%2053%20Statement%20Diane%20Krause.pdf)
+- [Article 53 Statement Belinda Chu](./Article%2053%20Statement%20Belinda%20Chu.pdf)
+- [Article 53 Statement Carol Luddecke](./Article%2053%20Statement%20Carol%20Luddecke.pdf)
+- [Article 53 Statement Shevawn Hardesty](./Article%2053%20Statement%20Shevawn%20Hardesty.pdf)
+- [Article 53 Statement Stafan Wolpert](./Article%2053%20Statement%20Stafan%20Wolpert.pdf)
+- [Article 53 Statement Judith Miller](./Article%2053%20Statement%20Judith%20Miller.pdf)
+- [Article 53 Statement Gerry Leonard](./Article%2053%20Statement%20Gerry%20Leonard.pdf)
 
 ---
 *Source item id:* `729`  
