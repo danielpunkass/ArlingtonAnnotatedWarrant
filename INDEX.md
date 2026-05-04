@@ -1,7 +1,7 @@
 # Annotated Warrant — Index
 
 Source: <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>  
-Last synced: 2026-05-04T15:30:25+00:00
+Last synced: 2026-05-04T23:03:31+00:00
 
 95 articles. Re-run `python3 SyncAnnotatedWarrant.py` from the project root to refresh.
 
@@ -37,7 +37,7 @@ Last synced: 2026-05-04T15:30:25+00:00
 | 29 | [HOME RULE LEGISLATION / RECALL ELECTIONS](./articles/Article-29/article.md) | the Town Clerk | 1 |
 | 30 | [HOME RULE LEGISLATION / REPEAL MBTA PROHIBITION](./articles/Article-30/article.md) | Paul Schlichtman and ten registered voters | 3 |
 | 31 | [HOME RULE LEGISLATION / 61B EXEMPTION](./articles/Article-31/article.md) | Carmine Granucci and ten registered voters | 3 |
-| 32 | [HOME RULE LEGISLATION / PROHIBIT FIRST GENERATION ANTICOAGULANT RODENTICIDES (FGARS) IN ARLINGTON](./articles/Article-32/article.md) | Laura Kiesel and ten registered voters | 1 |
+| 32 | [HOME RULE LEGISLATION / PROHIBIT FIRST GENERATION ANTICOAGULANT RODENTICIDES (FGARS) IN ARLINGTON](./articles/Article-32/article.md) | Laura Kiesel and ten registered voters | 2 |
 | 33 | [ACCEPTANCE OF LEGISLATION / M.G.L. c. 60 SECTION 62A](./articles/Article-33/article.md) | Thomas Maloney and ten registered voters | 1 |
 | 34 | [ACCEPTANCE OF LEGISLATION / WAIVER OF CANINE LICENSING FEE FOR OWNERS 70 AND OLDER](./articles/Article-34/article.md) | the Town Clerk | 1 |
 | 35 | [ENDORSEMENT OF CDBG APPLICATION](./articles/Article-35/article.md) | the Town Manager | 1 |
