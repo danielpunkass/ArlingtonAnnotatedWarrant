@@ -16,6 +16,8 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
 - [Appendix B FY27 Budget](./Appendix%20B%20FY27%20Budget.pdf)
+- [Article 64 School Budget Presentation](./Article%2064%20School%20Budget%20Presentation.pdf)
+- [FY27 APS Budget Report](./FY27%20APS%20Budget%20Report.pdf)
 
 ---
 *Source item id:* `741`  

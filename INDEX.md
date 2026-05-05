@@ -1,7 +1,7 @@
 # Annotated Warrant — Index
 
 Source: <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>  
-Last synced: 2026-05-04T23:03:31+00:00
+Last synced: 2026-05-05T20:07:04+00:00
 
 95 articles. Re-run `python3 SyncAnnotatedWarrant.py` from the project root to refresh.
 
@@ -49,18 +49,18 @@ Last synced: 2026-05-04T23:03:31+00:00
 | 41 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CORRECTION TO MULTI-FAMILY HOUSING OVERLAY DISTRICT STANDARDS](./articles/Article-41/article.md) | the Redevelopment Board | 1 |
 | 42 | [ZONING BYLAW AMENDMENT / PARKING AND LOADING STANDARDS](./articles/Article-42/article.md) | the Redevelopment Board | 2 |
 | 43 | [ZONING BYLAW AMENDMENT / MARQUEE SIGNS](./articles/Article-43/article.md) | the Redevelopment Board | 2 |
-| 44 | [ZONING BYLAW AMENDMENT / FLOODPLAIN DISTRICT](./articles/Article-44/article.md) | the Redevelopment Board | 2 |
-| 45 | [ZONING BYLAW AMENDMENT / PORTABLE AND TEMPORARY SIGNS](./articles/Article-45/article.md) | the Redevelopment Board | 1 |
-| 46 | [ZONING BYLAW AMENDMENT / ANIMAL DAYCARE USES](./articles/Article-46/article.md) | the Redevelopment Board | 1 |
+| 44 | [ZONING BYLAW AMENDMENT / FLOODPLAIN DISTRICT](./articles/Article-44/article.md) | the Redevelopment Board | 3 |
+| 45 | [ZONING BYLAW AMENDMENT / PORTABLE AND TEMPORARY SIGNS](./articles/Article-45/article.md) | the Redevelopment Board | 2 |
+| 46 | [ZONING BYLAW AMENDMENT / ANIMAL DAYCARE USES](./articles/Article-46/article.md) | the Redevelopment Board | 2 |
 | 47 | [ZONING BYLAW AMENDMENT / DEFINITION OF BUILDING HEIGHT](./articles/Article-47/article.md) | the Redevelopment Board | 2 |
 | 48 | [ZONING BYLAW AMENDMENT / RESIDENTIAL PARKING](./articles/Article-48/article.md) | the Redevelopment Board | 1 |
-| 49 | [ZONING BYLAW AMENDMENT / HOME OCCUPATIONS](./articles/Article-49/article.md) | James Fleming and Andrew Greenspon and ten registered voters | 1 |
+| 49 | [ZONING BYLAW AMENDMENT / HOME OCCUPATIONS](./articles/Article-49/article.md) | James Fleming and Andrew Greenspon and ten registered voters | 2 |
 | 50 | [ZONING BYLAW AMENDMENT / AMENDMENT TO ARLINGTON ZONING MAP](./articles/Article-50/article.md) | Mary Winstanley and ten registered voters | 1 |
 | 51 | [ZONING BYLAW AMENDMENT / AMENDMENT TO ZONING BYLAW TABLE OF DIMENSIONAL AND DENSITY REGULATIONS](./articles/Article-51/article.md) | Mary Winstanley and ten registered voters | 1 |
 | 52 | [ZONING BYLAW AMENDMENT / REZONING OF CERTAIN PARCELS FROM R-1 TO R-2](./articles/Article-52/article.md) | Stephen McKenna and ten registered voters | 1 |
-| 53 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-53/article.md) | Joanne Cullinane and Larry Slotnick and ten registered voters | 17 |
+| 53 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-53/article.md) | Joanne Cullinane and Larry Slotnick and ten registered voters | 21 |
 | 54 | [ZONING BYLAW AMENDMENT / TRAFFIC VISIBILITY](./articles/Article-54/article.md) | Caitlin Monaghan and ten registered voters | 4 |
-| 55 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-55/article.md) | Aram Hollman and ten registered voters | 3 |
+| 55 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-55/article.md) | Aram Hollman and ten registered voters | 4 |
 | 56 | [ZONING BYLAW AMENDMENT / DEVELOPMENT STANDARDS – OFF STREET PARKING AND BICYCLE PARKING](./articles/Article-56/article.md) | Neal Mongold and ten registered voters | 1 |
 | 57 | [ZONING BYLAW AMENDMENT / DEVELOPMENT STANDARDS-- BONUSES](./articles/Article-57/article.md) | Neal Mongold and ten registered voters | 1 |
 | 58 | [ZONING BYLAW AMENDMENT / FRONTAGE (FAÇADE) BUILD-OUT RATIO FOR SINGLE FAMILY DWELLINGS](./articles/Article-58/article.md) | Jennifer Cutraro and Fusun Yaman-Sirin and ten registered voters | 1 |
@@ -69,15 +69,15 @@ Last synced: 2026-05-04T23:03:31+00:00
 | 61 | [POSITIONS RECLASSIFICATION](./articles/Article-61/article.md) | the Director of Human Resources | 1 |
 | 62 | [COLLECTIVE BARGAINING](./articles/Article-62/article.md) | the Town Manager | 1 |
 | 63 | [AMENDMENTS TO FY26 BUDGETS](./articles/Article-63/article.md) | the Town Manager | 1 |
-| 64 | [APPROPRIATION / TOWN BUDGETS](./articles/Article-64/article.md) | the Town Manager | 2 |
+| 64 | [APPROPRIATION / TOWN BUDGETS](./articles/Article-64/article.md) | the Town Manager | 4 |
 | 65 | [CAPITAL BUDGET](./articles/Article-65/article.md) | the Select Board, and at the request of the Town Manager and the Capital Planning Committee | 1 |
 | 66 | [CAPITAL BUDGET / OTTOSON MIDDLE SCHOOL FEASIBILITY STUDY](./articles/Article-66/article.md) | the Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee | 1 |
-| 67 | [CAPITAL BUDGET / HARDY SCHOOL FEASIBILITY STUDY AND SCHEMATIC DESIGN](./articles/Article-67/article.md) | the Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee | 1 |
+| 67 | [CAPITAL BUDGET / HARDY SCHOOL FEASIBILITY STUDY AND SCHEMATIC DESIGN](./articles/Article-67/article.md) | the Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee | 2 |
 | 68 | [RESCIND PRIOR BORROWING AUTHORIZATIONS](./articles/Article-68/article.md) | the Town Treasurer | 1 |
 | 69 | [APPROPRIATION / TRANSPORTATION INFRASTRUCTURE FUND](./articles/Article-69/article.md) | the Town Manager | 1 |
 | 70 | [APPROPRIATION / FINANCING OF CONSTRUCTION OR RECONSTRUCTION OF SEWERS AND SEWERAGE FACILITIES](./articles/Article-70/article.md) | the Town Manager and the Director of Public Works | 1 |
 | 71 | [APPROPRIATION / FINANCING OF CONSTRUCTION OR RECONSTRUCTION OF WATER MAINS AND WATER FACILITIES](./articles/Article-71/article.md) | the Town Manager and the Director of Public Works | 1 |
-| 72 | [APPROPRIATION / MINUTEMAN REGIONAL VOCATIONAL TECHNICAL HIGH SCHOOL AND OUT OF DISTRICT VOCATIONAL PLACEMENTS](./articles/Article-72/article.md) | the Minuteman Regional Vocational School District Committee | 1 |
+| 72 | [APPROPRIATION / MINUTEMAN REGIONAL VOCATIONAL TECHNICAL HIGH SCHOOL AND OUT OF DISTRICT VOCATIONAL PLACEMENTS](./articles/Article-72/article.md) | the Minuteman Regional Vocational School District Committee | 2 |
 | 73 | [APPROPRIATION / COMMITTEES AND COMMISSIONS](./articles/Article-73/article.md) | the Town Manager | 1 |
 | 74 | [APPROPRIATION / TOWN CELEBRATIONS AND EVENTS](./articles/Article-74/article.md) | the Town Manager | 1 |
 | 75 | [APPROPRIATION / MISCELLANEOUS](./articles/Article-75/article.md) | the Town Manager | 1 |
@@ -97,7 +97,7 @@ Last synced: 2026-05-04T23:03:31+00:00
 | 89 | [RESOLUTION / HYBRID TOWN MEETING](./articles/Article-89/article.md) | Alexander Bagnall and ten registered voters | 1 |
 | 90 | [RESOLUTION / COMPREHENSIVE PLAN ENDORSEMENT](./articles/Article-90/article.md) | the Department of Planning and Community Development | 1 |
 | 91 | [RESOLUTION / MEDICARE FOR ALL](./articles/Article-91/article.md) | Greg Dennis and ten registered voters | 2 |
-| 92 | [RESOLUTION / TRANSITIONING TO CLEAN HEAT IN MASSACHUSETTS](./articles/Article-92/article.md) | Patrick Hanlon and ten registered voters | 2 |
+| 92 | [RESOLUTION / TRANSITIONING TO CLEAN HEAT IN MASSACHUSETTS](./articles/Article-92/article.md) | Patrick Hanlon and ten registered voters | 3 |
 | 93 | [RESOLUTION / DESIGNATING ARLINGTON A 4TH AMENDMENT WORKPLACE COMMUNITY](./articles/Article-93/article.md) | Linda Hanson and Elizabeth Dray and ten registered voters | 3 |
 | 94 | [RESOLUTION / AUTOMATIC LICENSE PLATE RECOGNITION SAFEGUARDS AND DRIVER PRIVACY](./articles/Article-94/article.md) | Samuel Polk and ten registered voters | 5 |
 | 95 | [RESOLUTION / CONCERNING ICE FACILITY](./articles/Article-95/article.md) | Guillermo Hamlin and ten registered voters | 1 |

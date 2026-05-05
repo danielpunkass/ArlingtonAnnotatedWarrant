@@ -31,6 +31,10 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 - [Article 53 Statement Stafan Wolpert](./Article%2053%20Statement%20Stafan%20Wolpert.pdf)
 - [Article 53 Statement Judith Miller](./Article%2053%20Statement%20Judith%20Miller.pdf)
 - [Article 53 Statement Gerry Leonard](./Article%2053%20Statement%20Gerry%20Leonard.pdf)
+- [Article 53 Statement Susan Pace](./Article%2053%20Statement%20Susan%20Pace.pdf)
+- [Article 53 Statement Annem Waiy](./Article%2053%20Statement%20Annem%20Waiy.pdf)
+- [Article 53 Statement Rebecca Peterson](./Article%2053%20Statement%20Rebecca%20Peterson.pdf)
+- [Article 53 Statement Rebecca Peterson](./Article%2053%20Statement%20Rebecca%20Peterson.pdf)
 
 ---
 *Source item id:* `729`  
