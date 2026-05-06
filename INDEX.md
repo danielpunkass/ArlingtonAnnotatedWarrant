@@ -1,7 +1,7 @@
 # Annotated Warrant — Index
 
 Source: <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>  
-Last synced: 2026-05-05T20:07:04+00:00
+Last synced: 2026-05-06T15:41:23+00:00
 
 95 articles. Re-run `python3 SyncAnnotatedWarrant.py` from the project root to refresh.
 
@@ -52,13 +52,13 @@ Last synced: 2026-05-05T20:07:04+00:00
 | 44 | [ZONING BYLAW AMENDMENT / FLOODPLAIN DISTRICT](./articles/Article-44/article.md) | the Redevelopment Board | 3 |
 | 45 | [ZONING BYLAW AMENDMENT / PORTABLE AND TEMPORARY SIGNS](./articles/Article-45/article.md) | the Redevelopment Board | 2 |
 | 46 | [ZONING BYLAW AMENDMENT / ANIMAL DAYCARE USES](./articles/Article-46/article.md) | the Redevelopment Board | 2 |
-| 47 | [ZONING BYLAW AMENDMENT / DEFINITION OF BUILDING HEIGHT](./articles/Article-47/article.md) | the Redevelopment Board | 2 |
-| 48 | [ZONING BYLAW AMENDMENT / RESIDENTIAL PARKING](./articles/Article-48/article.md) | the Redevelopment Board | 1 |
+| 47 | [ZONING BYLAW AMENDMENT / DEFINITION OF BUILDING HEIGHT](./articles/Article-47/article.md) | the Redevelopment Board | 3 |
+| 48 | [ZONING BYLAW AMENDMENT / RESIDENTIAL PARKING](./articles/Article-48/article.md) | the Redevelopment Board | 2 |
 | 49 | [ZONING BYLAW AMENDMENT / HOME OCCUPATIONS](./articles/Article-49/article.md) | James Fleming and Andrew Greenspon and ten registered voters | 2 |
-| 50 | [ZONING BYLAW AMENDMENT / AMENDMENT TO ARLINGTON ZONING MAP](./articles/Article-50/article.md) | Mary Winstanley and ten registered voters | 1 |
+| 50 | [ZONING BYLAW AMENDMENT / AMENDMENT TO ARLINGTON ZONING MAP](./articles/Article-50/article.md) | Mary Winstanley and ten registered voters | 2 |
 | 51 | [ZONING BYLAW AMENDMENT / AMENDMENT TO ZONING BYLAW TABLE OF DIMENSIONAL AND DENSITY REGULATIONS](./articles/Article-51/article.md) | Mary Winstanley and ten registered voters | 1 |
-| 52 | [ZONING BYLAW AMENDMENT / REZONING OF CERTAIN PARCELS FROM R-1 TO R-2](./articles/Article-52/article.md) | Stephen McKenna and ten registered voters | 1 |
-| 53 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-53/article.md) | Joanne Cullinane and Larry Slotnick and ten registered voters | 21 |
+| 52 | [ZONING BYLAW AMENDMENT / REZONING OF CERTAIN PARCELS FROM R-1 TO R-2](./articles/Article-52/article.md) | Stephen McKenna and ten registered voters | 2 |
+| 53 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-53/article.md) | Joanne Cullinane and Larry Slotnick and ten registered voters | 25 |
 | 54 | [ZONING BYLAW AMENDMENT / TRAFFIC VISIBILITY](./articles/Article-54/article.md) | Caitlin Monaghan and ten registered voters | 4 |
 | 55 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-55/article.md) | Aram Hollman and ten registered voters | 4 |
 | 56 | [ZONING BYLAW AMENDMENT / DEVELOPMENT STANDARDS – OFF STREET PARKING AND BICYCLE PARKING](./articles/Article-56/article.md) | Neal Mongold and ten registered voters | 1 |
@@ -71,7 +71,7 @@ Last synced: 2026-05-05T20:07:04+00:00
 | 63 | [AMENDMENTS TO FY26 BUDGETS](./articles/Article-63/article.md) | the Town Manager | 1 |
 | 64 | [APPROPRIATION / TOWN BUDGETS](./articles/Article-64/article.md) | the Town Manager | 4 |
 | 65 | [CAPITAL BUDGET](./articles/Article-65/article.md) | the Select Board, and at the request of the Town Manager and the Capital Planning Committee | 1 |
-| 66 | [CAPITAL BUDGET / OTTOSON MIDDLE SCHOOL FEASIBILITY STUDY](./articles/Article-66/article.md) | the Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee | 1 |
+| 66 | [CAPITAL BUDGET / OTTOSON MIDDLE SCHOOL FEASIBILITY STUDY](./articles/Article-66/article.md) | the Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee | 2 |
 | 67 | [CAPITAL BUDGET / HARDY SCHOOL FEASIBILITY STUDY AND SCHEMATIC DESIGN](./articles/Article-67/article.md) | the Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee | 2 |
 | 68 | [RESCIND PRIOR BORROWING AUTHORIZATIONS](./articles/Article-68/article.md) | the Town Treasurer | 1 |
 | 69 | [APPROPRIATION / TRANSPORTATION INFRASTRUCTURE FUND](./articles/Article-69/article.md) | the Town Manager | 1 |

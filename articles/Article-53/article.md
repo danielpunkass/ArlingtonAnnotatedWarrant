@@ -34,7 +34,11 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 - [Article 53 Statement Susan Pace](./Article%2053%20Statement%20Susan%20Pace.pdf)
 - [Article 53 Statement Annem Waiy](./Article%2053%20Statement%20Annem%20Waiy.pdf)
 - [Article 53 Statement Rebecca Peterson](./Article%2053%20Statement%20Rebecca%20Peterson.pdf)
-- [Article 53 Statement Rebecca Peterson](./Article%2053%20Statement%20Rebecca%20Peterson.pdf)
+- [Article 53 Statement Claire Odom](./Article%2053%20Statement%20Claire%20Odom.pdf)
+- [Article 53 Statement Dominic Vecchione](./Article%2053%20Statement%20Dominic%20Vecchione.pdf)
+- [Article 53 Statement Douglas Funkhouser](./Article%2053%20Statement%20Douglas%20Funkhouser.pdf)
+- [Article 53 Statement to ARB regarding proposed development](./Article%2053%20Statement%20to%20ARB%20regarding%20proposed%20development.pdf)
+- [Article 53 Statement - availability of commercial space](./Article%2053%20Statement%20-%20availability%20of%20commercial%20space.pdf)
 
 ---
 *Source item id:* `729`  
