@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This repo is a **public mirror** of the Arlington Town Meeting Annotated Warrant from `arlingtonma.primegov.com`. The canonical sync logic lives in a separate private parent project (`Town Meeting/`); this repo holds a vendored copy of `SyncAnnotatedWarrant.py` (with `ARCHIVE_DIR = "."` so it writes to the repo root) plus a GitHub Actions workflow that runs the sync on a schedule, builds the static site with MkDocs Material, and deploys to GitHub Pages at <https://townmeeting.app/>.
 
-The Annotated Warrant is a *living* document on primegov: articles, descriptions, sponsors, and supporting attachments evolve as Town Meeting approaches and proceeds. The sync is designed to be re-run repeatedly and only commit real changes.
+The Annotated Warrant is a *living* document on primegov: articles, descriptions, requesters, and supporting attachments evolve as Town Meeting approaches and proceeds. The sync is designed to be re-run repeatedly and only commit real changes.
 
 ## Commands
 

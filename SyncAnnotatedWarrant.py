@@ -6,7 +6,7 @@ Vendored copy for the ArlingtonAnnotatedWarrant mirror repo. The canonical
 copy lives in the parent TMM project; the only difference is ARCHIVE_DIR,
 which here points at the repo root so the script writes alongside itself.
 
-The Annotated Warrant is a living document: articles, descriptions, sponsors,
+The Annotated Warrant is a living document: articles, descriptions, requesters,
 and supporting attachments evolve as Town Meeting approaches and proceeds.
 This script is idempotent — re-run it anytime to pull the latest state.
 
@@ -323,11 +323,11 @@ def parse_articles(html_text):
 
         meaningful = [p for p in paragraphs if not p.startswith("Article #")]
 
-        sponsor = None
+        requester = None
         description_paragraphs = []
         for p in meaningful:
             if p.startswith("Inserted at the request of"):
-                sponsor = p
+                requester = p
             else:
                 description_paragraphs.append(p)
         description = "\n\n".join(description_paragraphs).strip()
@@ -373,7 +373,7 @@ def parse_articles(html_text):
             "itemId": item_id,
             "articleNumber": article_number,
             "title": title or "",
-            "sponsor": sponsor,
+            "requester": requester,
             "description": description,
             "externalLinks": external_links,
             "attachments": attachments,
@@ -417,15 +417,15 @@ def slugify_attachment(att):
 
 
 def write_article_summary(article_dir, article, att_pages):
-    """Write the article's index.md (Summary page: description, sponsor, links).
+    """Write the article's index.md (Summary page: description, requester, links).
 
     `att_pages` is the same list `attachment_pages_for` produced — used to
     mirror the sidebar attachment list inline as a "Resources" section so
     they're discoverable from the summary view.
     """
     lines = [f"# Article {article['articleNumber']}: {article['title']}", ""]
-    if article["sponsor"]:
-        lines += [f"_{article['sponsor']}_", ""]
+    if article["requester"]:
+        lines += [f"_{article['requester']}_", ""]
     if article["description"]:
         lines += ["## Description", "", article["description"], ""]
     if att_pages:
@@ -627,13 +627,13 @@ def write_index_md(archive_dir, articles, synced_at):
         # leading "the " is stripped because it's grammatical filler in the
         # full phrase ("at the request of THE Moderator") — once that
         # context is gone, "the Moderator" reads oddly as a column entry.
-        sponsor = (a["sponsor"] or "").replace("Inserted at the request of ", "")
-        sponsor = re.sub(r"^the\s+", "", sponsor, flags=re.IGNORECASE)
+        requester = (a["requester"] or "").replace("Inserted at the request of ", "")
+        requester = re.sub(r"^the\s+", "", requester, flags=re.IGNORECASE)
         title = a["title"].replace("|", "\\|")
-        sponsor = sponsor.replace("|", "\\|")
+        requester = requester.replace("|", "\\|")
         dir_link = f"./{ARTICLES_SUBDIR}/{article_dirname(a)}/index.md"
         lines.append(
-            f"| {a['articleNumber']} | [{title}]({urllib.parse.quote(dir_link, safe='/.:')}) | {sponsor} | {len(a['attachments'])} |"
+            f"| {a['articleNumber']} | [{title}]({urllib.parse.quote(dir_link, safe='/.:')}) | {requester} | {len(a['attachments'])} |"
         )
     lines.append("")
     with open(os.path.join(archive_dir, "INDEX.md"), "w") as fh:
@@ -671,7 +671,7 @@ python3 SyncAnnotatedWarrant.py
 
 The sync is incremental: attachments whose `historyId` has not changed are
 skipped. Attachments that no longer exist upstream are removed. Article
-metadata (titles, descriptions, sponsors, external links) is regenerated on
+metadata (titles, descriptions, requesters, external links) is regenerated on
 every run.
 
 ## Source

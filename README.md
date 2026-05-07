@@ -28,7 +28,7 @@ python3 SyncAnnotatedWarrant.py
 
 The sync is incremental: attachments whose `historyId` has not changed are
 skipped. Attachments that no longer exist upstream are removed. Article
-metadata (titles, descriptions, sponsors, external links) is regenerated on
+metadata (titles, descriptions, requesters, external links) is regenerated on
 every run.
 
 ## Source
