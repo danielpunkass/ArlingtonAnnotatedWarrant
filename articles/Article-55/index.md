@@ -12,6 +12,7 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 - [Full Text](full-text/index.md)
 - [Article 55 Hollman Substitute Motion](article-55-hollman-substitute-motion/index.md)
+- [Article 55 Hollman Presentation](article-55-hollman-presentation/index.md)
 - [Article 55 Statement Melleta Marx](article-55-statement-melleta-marx/index.md)
 - [Article 55 Statement Joanne Cullinane](article-55-statement-joanne-cullinane/index.md)
 

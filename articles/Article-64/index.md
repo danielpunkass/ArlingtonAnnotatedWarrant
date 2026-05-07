@@ -12,6 +12,7 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
 
 - [Full Text](full-text/index.md)
 - [Appendix B FY27 Budget](appendix-b-fy27-budget/index.md)
+- [Article 64 Town Budget Presentation](article-64-town-budget-presentation/index.md)
 - [Article 64 School Budget Presentation](article-64-school-budget-presentation/index.md)
 - [FY27 APS Budget Report](fy27-aps-budget-report/index.md)
 

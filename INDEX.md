@@ -1,7 +1,7 @@
 # Annotated Warrant — Index
 
 Source: [Official 2026 Annotated Town Warrant](https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659)  
-<small>Last synced on Thursday, May 7 at 2:32PM</small>.
+<small>Last synced on Thursday, May 7 at 6:40PM</small>.
 
 | # | Title | Requested By | Attachments |
 | ---: | --- | --- | ---: |
@@ -56,9 +56,9 @@ Source: [Official 2026 Annotated Town Warrant](https://arlingtonma.primegov.com/
 | 50 | [ZONING BYLAW AMENDMENT / AMENDMENT TO ARLINGTON ZONING MAP](./articles/Article-50/index.md) | Mary Winstanley and ten registered voters | 2 |
 | 51 | [ZONING BYLAW AMENDMENT / AMENDMENT TO ZONING BYLAW TABLE OF DIMENSIONAL AND DENSITY REGULATIONS](./articles/Article-51/index.md) | Mary Winstanley and ten registered voters | 1 |
 | 52 | [ZONING BYLAW AMENDMENT / REZONING OF CERTAIN PARCELS FROM R-1 TO R-2](./articles/Article-52/index.md) | Stephen McKenna and ten registered voters | 2 |
-| 53 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-53/index.md) | Joanne Cullinane and Larry Slotnick and ten registered voters | 26 |
+| 53 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-53/index.md) | Joanne Cullinane and Larry Slotnick and ten registered voters | 27 |
 | 54 | [ZONING BYLAW AMENDMENT / TRAFFIC VISIBILITY](./articles/Article-54/index.md) | Caitlin Monaghan and ten registered voters | 4 |
-| 55 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-55/index.md) | Aram Hollman and ten registered voters | 4 |
+| 55 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-55/index.md) | Aram Hollman and ten registered voters | 5 |
 | 56 | [ZONING BYLAW AMENDMENT / DEVELOPMENT STANDARDS – OFF STREET PARKING AND BICYCLE PARKING](./articles/Article-56/index.md) | Neal Mongold and ten registered voters | 1 |
 | 57 | [ZONING BYLAW AMENDMENT / DEVELOPMENT STANDARDS-- BONUSES](./articles/Article-57/index.md) | Neal Mongold and ten registered voters | 1 |
 | 58 | [ZONING BYLAW AMENDMENT / FRONTAGE (FAÇADE) BUILD-OUT RATIO FOR SINGLE FAMILY DWELLINGS](./articles/Article-58/index.md) | Jennifer Cutraro and Fusun Yaman-Sirin and ten registered voters | 1 |
@@ -67,7 +67,7 @@ Source: [Official 2026 Annotated Town Warrant](https://arlingtonma.primegov.com/
 | 61 | [POSITIONS RECLASSIFICATION](./articles/Article-61/index.md) | Director of Human Resources | 1 |
 | 62 | [COLLECTIVE BARGAINING](./articles/Article-62/index.md) | Town Manager | 1 |
 | 63 | [AMENDMENTS TO FY26 BUDGETS](./articles/Article-63/index.md) | Town Manager | 1 |
-| 64 | [APPROPRIATION / TOWN BUDGETS](./articles/Article-64/index.md) | Town Manager | 4 |
+| 64 | [APPROPRIATION / TOWN BUDGETS](./articles/Article-64/index.md) | Town Manager | 5 |
 | 65 | [CAPITAL BUDGET](./articles/Article-65/index.md) | Select Board, and at the request of the Town Manager and the Capital Planning Committee | 1 |
 | 66 | [CAPITAL BUDGET / OTTOSON MIDDLE SCHOOL FEASIBILITY STUDY](./articles/Article-66/index.md) | Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee | 2 |
 | 67 | [CAPITAL BUDGET / HARDY SCHOOL FEASIBILITY STUDY AND SCHEMATIC DESIGN](./articles/Article-67/index.md) | Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee | 2 |
