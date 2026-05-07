@@ -69,7 +69,7 @@
   line-height: 1.4;
   padding-top: 0.25rem !important;
   padding-bottom: 0.25rem !important;
-  padding-left: 0.8rem !important;
+  padding-left: 0.7rem !important;
   color: var(--md-default-fg-color--light);
 }
 
@@ -80,7 +80,7 @@
   .md-nav__item--nested
   .md-nav__item:not(.md-nav__item--nested)
   > .md-nav__link {
-  padding-left: 1.6rem !important;
+  padding-left: 1.4rem !important;
 }
 
 /* Document icon (file-document-outline) for internal pages — Summary,
@@ -96,9 +96,13 @@
   > a.md-nav__link::before {
   content: "";
   display: inline-block;
+  /* `flex: none` (same as `flex: 0 0 auto`) prevents the link's flex
+     layout from shrinking the icon when long labels wrap to two
+     lines and put squeeze pressure on inline siblings. */
+  flex: none;
   width: 0.85rem;
   height: 0.85rem;
-  margin-right: 0.3rem;
+  margin-right: 0.15rem;
   vertical-align: -0.15rem;
   background-color: currentColor;
   opacity: 0.55;
@@ -119,9 +123,13 @@
   > .md-nav__link[href^="mailto"]::before {
   content: "";
   display: inline-block;
+  /* `flex: none` (same as `flex: 0 0 auto`) prevents the link's flex
+     layout from shrinking the icon when long labels wrap to two
+     lines and put squeeze pressure on inline siblings. */
+  flex: none;
   width: 0.85rem;
   height: 0.85rem;
-  margin-right: 0.3rem;
+  margin-right: 0.15rem;
   vertical-align: -0.15rem;
   background-color: currentColor;
   opacity: 0.55;
