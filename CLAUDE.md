@@ -62,8 +62,6 @@ The sync needs Python 3.9+ (for `zoneinfo`) and either a local `pdf2htmlEX` bina
 
 **pdf2htmlEX Docker image.** The workflow pre-pulls `pdf2htmlex/pdf2htmlex:0.18.8.rc2-master-20200820-ubuntu-20.04-x86_64` once before sync. We use the **ubuntu** variant, not the alpine one — alpine's iconv lacks Mac Roman encoding, which produces near-blank HTML for any PDF using that encoding (which warrant attachments often do). If you ever change the image tag, delete every `articles/**/*.pdf.html` first; the script's skip-if-html-exists logic doesn't know about image-version mismatches.
 
-**Non-blocking item to revisit.** The workflow currently emits a Node.js 20 deprecation warning from `actions/checkout@v4` and `actions/setup-python@v5`. GitHub will force these to Node 24 starting **June 2, 2026** and remove Node 20 entirely on **September 16, 2026**. No action needed now — those actions will ship Node-24-compatible versions before the cutoff. If a run starts failing post-June 2026, bump the action versions.
-
 ## Conventions
 
 - **Don't change the matching/parsing logic casually.** The HTML regex parsing is fragile by nature; if a sync run starts producing wrong data, prefer adding a targeted regex tweak over rewriting with a parser library — the script intentionally has no third-party dependencies in its imports so it can run in a clean Python install (the only external tooling is the pdf2htmlEX subprocess, which degrades gracefully).
