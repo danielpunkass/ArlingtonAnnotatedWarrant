@@ -1,6 +1,6 @@
 # Article 11: BYLAW AMENDMENT / WETLANDS BYLAW ENFORCEMENT
 
-**Sponsor:** Inserted at the request of the Conservation Commission
+_Inserted at the request of the Conservation Commission_
 
 ## Description
 
@@ -10,7 +10,7 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

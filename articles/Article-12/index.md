@@ -1,6 +1,6 @@
 # Article 12: BYLAW AMENDMENT / TOWN MEETING PROCEDURES COMMITTEE ROLLING MEMBERSHIP APPOINTMENTS
 
-**Sponsor:** Inserted at the request of the Town Meeting Procedures Committee
+_Inserted at the request of the Town Meeting Procedures Committee_
 
 ## Description
 
@@ -10,7 +10,7 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

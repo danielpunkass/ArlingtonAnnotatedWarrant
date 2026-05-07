@@ -1,6 +1,6 @@
 # Article 93: RESOLUTION / DESIGNATING ARLINGTON A 4TH AMENDMENT WORKPLACE COMMUNITY
 
-**Sponsor:** Inserted at the request of Linda Hanson and Elizabeth Dray and ten registered voters
+_Inserted at the request of Linda Hanson and Elizabeth Dray and ten registered voters_
 
 ## Description
 
@@ -8,9 +8,9 @@ To see if the Town will vote to support the designation of Arlington as a 4th Am
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 93 Hanson Main Motion](article-93-hanson-main-motion.md)
-- [Article 93 Human Rights Commission Statement](article-93-human-rights-commission-statement.md)
+- [Full Text](full-text/index.md)
+- [Article 93 Hanson Main Motion](article-93-hanson-main-motion/index.md)
+- [Article 93 Human Rights Commission Statement](article-93-human-rights-commission-statement/index.md)
 
 ---
 *Source item id:* `774`

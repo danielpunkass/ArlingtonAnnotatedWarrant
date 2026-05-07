@@ -1,6 +1,6 @@
 # Article 34: ACCEPTANCE OF LEGISLATION / WAIVER OF CANINE LICENSING FEE FOR OWNERS 70 AND OLDER
 
-**Sponsor:** Inserted at the request of the Town Clerk
+_Inserted at the request of the Town Clerk_
 
 ## Description
 
@@ -10,7 +10,7 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

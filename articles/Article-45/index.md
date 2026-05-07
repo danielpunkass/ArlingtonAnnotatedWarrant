@@ -1,6 +1,6 @@
 # Article 45: ZONING BYLAW AMENDMENT / PORTABLE AND TEMPORARY SIGNS
 
-**Sponsor:** Inserted at the request of the Redevelopment Board
+_Inserted at the request of the Redevelopment Board_
 
 ## Description
 
@@ -10,8 +10,8 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 45 ARB Presentation](article-45-arb-presentation.md)
+- [Full Text](full-text/index.md)
+- [Article 45 ARB Presentation](article-45-arb-presentation/index.md)
 
 ## External Links
 

@@ -1,6 +1,6 @@
 # Article 52: ZONING BYLAW AMENDMENT / REZONING OF CERTAIN PARCELS FROM R-1 TO R-2
 
-**Sponsor:** Inserted at the request of Stephen McKenna and ten registered voters
+_Inserted at the request of Stephen McKenna and ten registered voters_
 
 ## Description
 
@@ -10,8 +10,8 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 52 Statement and Maps - Director of Planning and Community Development](article-52-statement-and-maps---director-of-planning-and-community-development.md)
+- [Full Text](full-text/index.md)
+- [Article 52 Statement and Maps - Director of Planning and Community Development](article-52-statement-and-maps---director-of-planning-and-community-development/index.md)
 
 ## External Links
 

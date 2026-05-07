@@ -1,6 +1,6 @@
 # Article 57: ZONING BYLAW AMENDMENT / DEVELOPMENT STANDARDS-- BONUSES
 
-**Sponsor:** Inserted at the request of Neal Mongold and ten registered voters
+_Inserted at the request of Neal Mongold and ten registered voters_
 
 ## Description
 
@@ -10,7 +10,7 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

@@ -1,6 +1,6 @@
 # Article 33: ACCEPTANCE OF LEGISLATION / M.G.L. c. 60 SECTION 62A
 
-**Sponsor:** Inserted at the request of Thomas Maloney and ten registered voters
+_Inserted at the request of Thomas Maloney and ten registered voters_
 
 ## Description
 
@@ -10,7 +10,7 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

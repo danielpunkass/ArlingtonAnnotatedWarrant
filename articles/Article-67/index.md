@@ -1,6 +1,6 @@
 # Article 67: CAPITAL BUDGET / HARDY SCHOOL FEASIBILITY STUDY AND SCHEMATIC DESIGN
 
-**Sponsor:** Inserted at the request of the Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee
+_Inserted at the request of the Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee_
 
 ## Description
 
@@ -10,8 +10,8 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 67 Hardy Study Presentation](article-67-hardy-study-presentation.md)
+- [Full Text](full-text/index.md)
+- [Article 67 Hardy Study Presentation](article-67-hardy-study-presentation/index.md)
 
 ## External Links
 

@@ -1,6 +1,6 @@
 # Article 13: BYLAW AMENDMENT / ADOPTION OF UPDATED VERSION OF TOWN MEETING TIME
 
-**Sponsor:** Inserted at the request of the Town Meeting Procedures Committee
+_Inserted at the request of the Town Meeting Procedures Committee_
 
 ## Description
 
@@ -10,8 +10,8 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 13 Notes on Town Meeting Time 4th Edition](article-13-notes-on-town-meeting-time-4th-edition.md)
+- [Full Text](full-text/index.md)
+- [Article 13 Notes on Town Meeting Time 4th Edition](article-13-notes-on-town-meeting-time-4th-edition/index.md)
 
 ## External Links
 

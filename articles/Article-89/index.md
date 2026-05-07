@@ -1,6 +1,6 @@
 # Article 89: RESOLUTION / HYBRID TOWN MEETING
 
-**Sponsor:** Inserted at the request of Alexander Bagnall and ten registered voters
+_Inserted at the request of Alexander Bagnall and ten registered voters_
 
 ## Description
 
@@ -8,7 +8,7 @@ To see if the Town will vote to support the implementation of hybrid capabilitie
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ---
 *Source item id:* `770`

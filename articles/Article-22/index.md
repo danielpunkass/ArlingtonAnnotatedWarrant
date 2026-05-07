@@ -1,6 +1,6 @@
 # Article 22: BYLAW AMENDMENT / USE OF AREAS UNDER CONTROL OF PARK DEPARTMENT
 
-**Sponsor:** Inserted at the request of Elaine Crowder and ten registered voters
+_Inserted at the request of Elaine Crowder and ten registered voters_
 
 ## Description
 
@@ -10,9 +10,9 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 22 Crowder Amendment](article-22-crowder-amendment.md)
-- [Article 22 Crowder Presentation](article-22-crowder-presentation.md)
+- [Full Text](full-text/index.md)
+- [Article 22 Crowder Amendment](article-22-crowder-amendment/index.md)
+- [Article 22 Crowder Presentation](article-22-crowder-presentation/index.md)
 
 ## External Links
 

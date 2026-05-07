@@ -1,6 +1,6 @@
 # Article 36: REVOLVING FUNDS
 
-**Sponsor:** Inserted at the request of the Town Manager
+_Inserted at the request of the Town Manager_
 
 ## Description
 
@@ -10,8 +10,8 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 36 Revolving Fund Expenditure Detail](article-36-revolving-fund-expenditure-detail.md)
+- [Full Text](full-text/index.md)
+- [Article 36 Revolving Fund Expenditure Detail](article-36-revolving-fund-expenditure-detail/index.md)
 
 ## External Links
 

@@ -1,6 +1,6 @@
 # Article 25: BYLAW AMENDMENT / COMMUNITY CENTER REVOLVING FUND
 
-**Sponsor:** Inserted at the request of the Town Manager
+_Inserted at the request of the Town Manager_
 
 ## Description
 
@@ -10,8 +10,8 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 25 Chart](article-25-chart.md)
+- [Full Text](full-text/index.md)
+- [Article 25 Chart](article-25-chart/index.md)
 
 ## External Links
 

@@ -1,6 +1,6 @@
 # Article 58: ZONING BYLAW AMENDMENT / FRONTAGE (FAÇADE) BUILD-OUT RATIO FOR SINGLE FAMILY DWELLINGS
 
-**Sponsor:** Inserted at the request of Jennifer Cutraro and Fusun Yaman-Sirin and ten registered voters
+_Inserted at the request of Jennifer Cutraro and Fusun Yaman-Sirin and ten registered voters_
 
 ## Description
 
@@ -10,7 +10,7 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

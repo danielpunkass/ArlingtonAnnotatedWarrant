@@ -1,6 +1,6 @@
 # Article 70: APPROPRIATION / FINANCING OF CONSTRUCTION OR RECONSTRUCTION OF SEWERS AND SEWERAGE FACILITIES
 
-**Sponsor:** Inserted at the request of the Town Manager and the Director of Public Works
+_Inserted at the request of the Town Manager and the Director of Public Works_
 
 ## Description
 
@@ -10,7 +10,7 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

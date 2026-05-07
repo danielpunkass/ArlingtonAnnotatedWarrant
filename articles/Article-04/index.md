@@ -1,6 +1,6 @@
 # Article 4: APPOINTMENT OF MEASURER OF WOOD AND BARK
 
-**Sponsor:** Inserted at the request of the Select Board
+_Inserted at the request of the Select Board_
 
 ## Description
 
@@ -8,7 +8,7 @@ To choose and appoint all the usual Town Officers not hereinbefore mentioned, in
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ---
 *Source item id:* `652`

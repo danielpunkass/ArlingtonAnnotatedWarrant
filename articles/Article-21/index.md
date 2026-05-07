@@ -1,6 +1,6 @@
 # Article 21: BYLAW AMENDMENT / HOME EQUITY THEFT BAN
 
-**Sponsor:** Inserted at the request of Guillermo Hamlin and ten registered voters
+_Inserted at the request of Guillermo Hamlin and ten registered voters_
 
 ## Description
 
@@ -10,7 +10,7 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

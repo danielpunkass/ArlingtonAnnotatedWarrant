@@ -1,6 +1,6 @@
 # Article 91: RESOLUTION / MEDICARE FOR ALL
 
-**Sponsor:** Inserted at the request of Greg Dennis and ten registered voters
+_Inserted at the request of Greg Dennis and ten registered voters_
 
 ## Description
 
@@ -8,8 +8,8 @@ To see if the Town will vote to endorse state legislation to establish a single-
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 91 Dennis Main Motion](article-91-dennis-main-motion.md)
+- [Full Text](full-text/index.md)
+- [Article 91 Dennis Main Motion](article-91-dennis-main-motion/index.md)
 
 ---
 *Source item id:* `772`

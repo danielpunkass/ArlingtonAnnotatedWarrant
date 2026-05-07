@@ -1,6 +1,6 @@
 # Article 43: ZONING BYLAW AMENDMENT / MARQUEE SIGNS
 
-**Sponsor:** Inserted at the request of the Redevelopment Board
+_Inserted at the request of the Redevelopment Board_
 
 ## Description
 
@@ -10,8 +10,8 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 43 ARB Presentation](article-43-arb-presentation.md)
+- [Full Text](full-text/index.md)
+- [Article 43 ARB Presentation](article-43-arb-presentation/index.md)
 
 ## External Links
 

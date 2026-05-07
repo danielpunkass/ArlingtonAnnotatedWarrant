@@ -1,6 +1,6 @@
 # Article 55: ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT
 
-**Sponsor:** Inserted at the request of Aram Hollman and ten registered voters
+_Inserted at the request of Aram Hollman and ten registered voters_
 
 ## Description
 
@@ -10,10 +10,10 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 55 Hollman Substitute Motion](article-55-hollman-substitute-motion.md)
-- [Article 55 Statement Melleta Marx](article-55-statement-melleta-marx.md)
-- [Article 55 Statement Joanne Cullinane](article-55-statement-joanne-cullinane.md)
+- [Full Text](full-text/index.md)
+- [Article 55 Hollman Substitute Motion](article-55-hollman-substitute-motion/index.md)
+- [Article 55 Statement Melleta Marx](article-55-statement-melleta-marx/index.md)
+- [Article 55 Statement Joanne Cullinane](article-55-statement-joanne-cullinane/index.md)
 
 ## External Links
 

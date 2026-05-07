@@ -1,6 +1,6 @@
 # Article 7: BYLAW AMENDMENT / ARLINGTON COMMISSION FOR ARTS AND CULTURE ADMINISTRATIVE UPDATES
 
-**Sponsor:** Inserted at the request of the Arlington Commission for Arts and Culture and the Department of Planning and Community Development
+_Inserted at the request of the Arlington Commission for Arts and Culture and the Department of Planning and Community Development_
 
 ## Description
 
@@ -10,7 +10,7 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

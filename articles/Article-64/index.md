@@ -1,6 +1,6 @@
 # Article 64: APPROPRIATION / TOWN BUDGETS
 
-**Sponsor:** Inserted at the request of the Town Manager
+_Inserted at the request of the Town Manager_
 
 ## Description
 
@@ -10,10 +10,10 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Appendix B FY27 Budget](appendix-b-fy27-budget.md)
-- [Article 64 School Budget Presentation](article-64-school-budget-presentation.md)
-- [FY27 APS Budget Report](fy27-aps-budget-report.md)
+- [Full Text](full-text/index.md)
+- [Appendix B FY27 Budget](appendix-b-fy27-budget/index.md)
+- [Article 64 School Budget Presentation](article-64-school-budget-presentation/index.md)
+- [FY27 APS Budget Report](fy27-aps-budget-report/index.md)
 
 ## External Links
 

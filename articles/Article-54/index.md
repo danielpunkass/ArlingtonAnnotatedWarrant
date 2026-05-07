@@ -1,6 +1,6 @@
 # Article 54: ZONING BYLAW AMENDMENT / TRAFFIC VISIBILITY
 
-**Sponsor:** Inserted at the request of Caitlin Monaghan and ten registered voters
+_Inserted at the request of Caitlin Monaghan and ten registered voters_
 
 ## Description
 
@@ -10,10 +10,10 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 54 Monaghan Substitute Motion](article-54-monaghan-substitute-motion.md)
-- [Article 54 Statement Caitlin Monaghan](article-54-statement-caitlin-monaghan.md)
-- [Article 54 Monaghan Presentation](article-54-monaghan-presentation.md)
+- [Full Text](full-text/index.md)
+- [Article 54 Monaghan Substitute Motion](article-54-monaghan-substitute-motion/index.md)
+- [Article 54 Statement Caitlin Monaghan](article-54-statement-caitlin-monaghan/index.md)
+- [Article 54 Monaghan Presentation](article-54-monaghan-presentation/index.md)
 
 ## External Links
 

@@ -1,6 +1,6 @@
 # Article 76: APPROPRIATION / WATER BODIES FUND
 
-**Sponsor:** Inserted at the request of the Envision Arlington Standing Committee and its Spy Pond and Reservoir Task Groups, and the Arlington Conservation Commission
+_Inserted at the request of the Envision Arlington Standing Committee and its Spy Pond and Reservoir Task Groups, and the Arlington Conservation Commission_
 
 ## Description
 
@@ -10,7 +10,7 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

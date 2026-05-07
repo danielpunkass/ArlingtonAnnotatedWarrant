@@ -1,6 +1,6 @@
 # Article 75: APPROPRIATION / MISCELLANEOUS
 
-**Sponsor:** Inserted at the request of the Town Manager
+_Inserted at the request of the Town Manager_
 
 ## Description
 
@@ -10,7 +10,7 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

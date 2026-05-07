@@ -1,6 +1,6 @@
 # Article 94: RESOLUTION / AUTOMATIC LICENSE PLATE RECOGNITION SAFEGUARDS AND DRIVER PRIVACY
 
-**Sponsor:** Inserted at the request of Samuel Polk and ten registered voters
+_Inserted at the request of Samuel Polk and ten registered voters_
 
 ## Description
 
@@ -8,11 +8,11 @@ To see if the Town will vote to adopt a resolution opposing widespread deploymen
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 94 Polk Main Motion](article-94-polk-main-motion.md)
-- [Article 94 Polk Presentation](article-94-polk-presentation.md)
-- [Article 94 Human Rights Commission Statement](article-94-human-rights-commission-statement.md)
-- [Article 94 Chief Flaherty Statement](article-94-chief-flaherty-statement.md)
+- [Full Text](full-text/index.md)
+- [Article 94 Polk Main Motion](article-94-polk-main-motion/index.md)
+- [Article 94 Polk Presentation](article-94-polk-presentation/index.md)
+- [Article 94 Human Rights Commission Statement](article-94-human-rights-commission-statement/index.md)
+- [Article 94 Chief Flaherty Statement](article-94-chief-flaherty-statement/index.md)
 
 ---
 *Source item id:* `775`

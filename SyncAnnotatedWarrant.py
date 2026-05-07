@@ -21,6 +21,8 @@ import html
 import json
 import os
 import re
+import shutil
+import subprocess
 import sys
 import urllib.parse
 import urllib.request
@@ -137,6 +139,99 @@ def extract_pdf_uris(pdf_path):
             add(decoded.decode("latin-1", "replace"))
 
     return [u for u in uris if u.lower().startswith(("http://", "https://", "mailto:"))]
+
+
+_PDF2HTMLEX_DOCKER_TAG = (
+    "pdf2htmlex/pdf2htmlex:0.18.8.rc2-master-20200820-ubuntu-20.04-x86_64"
+)
+_PDF2HTMLEX_FLAGS = [
+    "--zoom", "1.5",
+    "--embed-css", "1",
+    "--embed-font", "1",
+    "--embed-image", "1",
+    "--embed-javascript", "0",
+    "--embed-outline", "0",
+    "--process-outline", "0",
+    "--printing", "0",
+]
+
+
+def convert_pdf_to_html(pdf_path, html_path):
+    """Convert `pdf_path` to a self-contained HTML file at `html_path`.
+
+    Tries a local `pdf2htmlEX` binary first, then falls back to its
+    official Docker image. Returns True on success, False if neither
+    path produced output — callers should degrade to the iframe view
+    rather than fail the sync.
+
+    pdf2htmlEX writes its output into a `--dest-dir`, so we always
+    point that at the article directory and pass bare basenames; this
+    avoids host-vs-container path translation when running under
+    Docker.
+    """
+    in_dir = os.path.dirname(os.path.abspath(pdf_path))
+    in_name = os.path.basename(pdf_path)
+    out_name = os.path.basename(html_path)
+    args = _PDF2HTMLEX_FLAGS + ["--dest-dir", "/data", in_name, out_name]
+
+    if shutil.which("pdf2htmlEX"):
+        try:
+            r = subprocess.run(
+                ["pdf2htmlEX"] + _PDF2HTMLEX_FLAGS + ["--dest-dir", in_dir, in_name, out_name],
+                cwd=in_dir,
+                capture_output=True,
+                timeout=180,
+            )
+            if r.returncode == 0 and os.path.exists(html_path):
+                return True
+        except subprocess.TimeoutExpired:
+            pass
+
+    if shutil.which("docker"):
+        try:
+            r = subprocess.run(
+                [
+                    "docker", "run", "--rm",
+                    "-v", f"{in_dir}:/data",
+                    "-w", "/data",
+                    _PDF2HTMLEX_DOCKER_TAG,
+                ] + args,
+                capture_output=True,
+                timeout=300,
+            )
+            if r.returncode == 0 and os.path.exists(html_path):
+                return True
+        except subprocess.TimeoutExpired:
+            pass
+
+    return False
+
+
+_HTML_STYLE_RE = re.compile(r"<style[^>]*>.*?</style>", re.DOTALL | re.IGNORECASE)
+_HTML_BODY_RE = re.compile(r"<body[^>]*>(.*?)</body>", re.DOTALL | re.IGNORECASE)
+
+
+def extract_html_body(html_path):
+    """Read a pdf2htmlEX HTML file and return (style_block, body_inner).
+
+    pdf2htmlEX produces a self-contained document with absolutely-positioned
+    page divs and font/CSS embedded in <head>. We pull both out as raw
+    strings so the attachment markdown page can splice them in directly:
+    the page is part of the host document (Cmd+F-able, indexed by the
+    site's search), not iframed.
+
+    Returns (None, None) on read or parse failure.
+    """
+    try:
+        with open(html_path, "r", encoding="utf-8") as fh:
+            content = fh.read()
+    except OSError:
+        return (None, None)
+    styles = "\n".join(_HTML_STYLE_RE.findall(content))
+    body_match = _HTML_BODY_RE.search(content)
+    if not body_match:
+        return (None, None)
+    return (styles, body_match.group(1))
 
 
 def parse_articles(html_text):
@@ -282,13 +377,13 @@ def write_article_summary(article_dir, article, att_pages):
     """
     lines = [f"# Article {article['articleNumber']}: {article['title']}", ""]
     if article["sponsor"]:
-        lines += [f"**Sponsor:** {article['sponsor']}", ""]
+        lines += [f"_{article['sponsor']}_", ""]
     if article["description"]:
         lines += ["## Description", "", article["description"], ""]
     if att_pages:
         lines += ["## Resources", ""]
         for slug, name, _ in att_pages:
-            lines.append(f"- [{name}]({slug}.md)")
+            lines.append(f"- [{name}]({slug}/index.md)")
         lines.append("")
     if article["externalLinks"]:
         lines += ["## External Links", ""]
@@ -305,12 +400,21 @@ def write_article_summary(article_dir, article, att_pages):
         fh.write("\n".join(lines))
 
 
+def link_label(url):
+    """Compact sidebar label for an external URL: drop scheme, truncate."""
+    cleaned = re.sub(r"^https?://", "", url, flags=re.IGNORECASE).rstrip("/")
+    return cleaned if len(cleaned) <= 48 else cleaned[:47] + "…"
+
+
 def write_attachment_page(article_dir, slug, display_name, att):
-    """Write a per-attachment page that embeds the PDF in an iframe.
+    """Write a per-attachment subdirectory: index.md (iframe + searchable
+    text) plus a .pages file declaring the section title and any /URI
+    links found in the PDF as nav children (rendered with a link icon by
+    extra.css). Each attachment thus becomes a navigable section.
 
     Requires the `md_in_html` and `attr_list` markdown extensions on the
-    site side (the iframe and `{target="_blank"}` annotation otherwise pass
-    through as raw text).
+    site side (the iframe and `{target="_blank"}` annotation otherwise
+    pass through as raw text).
     """
     filename = att.get("filename")
     if not filename:
@@ -318,52 +422,81 @@ def write_attachment_page(article_dir, slug, display_name, att):
     encoded = urllib.parse.quote(filename)
     is_pdf = filename.lower().endswith(".pdf")
 
-    # Path scheme below is intentionally asymmetric:
-    #   - The <iframe src> is raw HTML; MkDocs doesn't rewrite it, so it must
-    #     match the *served* URL. With use_directory_urls (default), this page
-    #     is at .../<slug>/, and the PDF lives one level up — hence `../`.
-    #   - The markdown [link](...) IS rewritten by MkDocs's link resolver,
-    #     which evaluates relative paths against the *source* location
-    #     (articles/Article-N/<slug>.md). The bare filename resolves to the
-    #     PDF sitting alongside the source, and MkDocs rewrites the href to
-    #     the correct output URL — and validates it during build.
+    sub_dir = os.path.join(article_dir, slug)
+    os.makedirs(sub_dir, exist_ok=True)
+
+    # The PDF lives one directory up from this attachment's index.md, so
+    # both the served-URL iframe src and the source-relative markdown link
+    # use `../<filename>`. (MkDocs's link checker validates the markdown
+    # link against source paths; the iframe is raw HTML and not checked.)
     lines = [f"# {display_name}", ""]
     if is_pdf:
-        title_attr = html.escape(display_name, quote=True)
         lines += [
-            f'<iframe src="../{encoded}" style="width:100%; height:80vh; border:0;" '
-            f'title="{title_attr}"></iframe>',
-            "",
-            f'[Open PDF in new tab]({encoded}){{target="_blank" rel="noopener"}}',
+            f'[Open PDF in new tab](../{encoded}){{target="_blank" rel="noopener"}}',
             "",
         ]
+        # Prefer the pdf2htmlEX render (real DOM, Cmd+F-able, indexed by
+        # site search). Iframe is a fallback for the case where conversion
+        # didn't happen (no pdf2htmlEX, no Docker, or a tool error).
+        html_filename = att.get("htmlFilename")
+        styles = body = None
+        if html_filename:
+            styles, body = extract_html_body(
+                os.path.join(article_dir, html_filename)
+            )
+        if body:
+            if styles:
+                lines += [styles, ""]
+            lines += ['<div class="pdf-rendered">', body, "</div>", ""]
+        else:
+            title_attr = html.escape(display_name, quote=True)
+            lines += [
+                f'<iframe src="../{encoded}" style="width:100%; height:80vh; border:0;" '
+                f'title="{title_attr}"></iframe>',
+                "",
+            ]
     else:
-        lines += [f"[Download attachment]({encoded})", ""]
-    pdf_links = att.get("pdfLinks") or []
-    if pdf_links:
-        lines += ["## Links in this PDF", ""]
-        for url in pdf_links:
-            lines.append(f"- <{url}>")
-        lines.append("")
-    with open(os.path.join(article_dir, f"{slug}.md"), "w") as fh:
+        lines += [f"[Download attachment](../{encoded})", ""]
+
+    with open(os.path.join(sub_dir, "index.md"), "w") as fh:
         fh.write("\n".join(lines))
+
+    # .pages: section title + index.md as the section's overview page,
+    # followed by each /URI link as a nav child. The empty list-of-links
+    # case still needs a .pages so the section title carries through.
+    pdf_links = att.get("pdfLinks") or []
+    pages_lines = [
+        f"title: {json.dumps(display_name)}",
+        "nav:",
+        "  - index.md",
+    ]
+    for url in pdf_links:
+        pages_lines.append(f"  - {json.dumps(link_label(url))}: {json.dumps(url)}")
+    with open(os.path.join(sub_dir, ".pages"), "w") as fh:
+        fh.write("\n".join(pages_lines) + "\n")
 
 
 def write_pages_file(article_dir, article, nav_entries):
     """Write a `.pages` file for the awesome-pages MkDocs plugin.
 
-    Sets the section title to the full article heading (so the sidebar shows
-    "Article 2: STATE OF THE TOWN ADDRESS" instead of just "Article-02") and
-    declares the order of child pages: Summary, then attachments.
+    Sets the section title to a short label ("Article 2") so the sidebar
+    stays scannable across all 95 articles; the full title still appears
+    as the H1 of the article's summary page once selected. Declares the
+    child page order (Summary, then attachments).
     """
-    section_title = f"Article {article['articleNumber']}: {article['title']}"
+    if article.get("articleNumber"):
+        section_title = f"Article {article['articleNumber']}"
+    else:
+        section_title = f"Item {article['itemId']}"
     lines = [
         f"title: {json.dumps(section_title)}",
         "nav:",
         "  - Summary: index.md",
     ]
     for slug, name in nav_entries:
-        lines.append(f"  - {json.dumps(name)}: {slug}.md")
+        # Reference the attachment subdirectory; awesome-pages reads its
+        # own .pages for section title and child link order.
+        lines.append(f"  - {json.dumps(name)}: {slug}")
     with open(os.path.join(article_dir, ".pages"), "w") as fh:
         fh.write("\n".join(lines) + "\n")
 
@@ -392,6 +525,22 @@ def attachment_pages_for(article):
     if ft_idx is not None and ft_idx != 0:
         pages.insert(0, pages.pop(ft_idx))
     return pages
+
+
+def write_root_pages(archive_dir, articles):
+    """Write the root `.pages` for awesome-pages.
+
+    Lists Index first, then every article subdirectory explicitly so the
+    articles render at the top level of the sidebar (rather than nested
+    inside an "articles" wrapper section). awesome-pages' `... | <glob>`
+    filter only operates at the current directory level, so we have to
+    enumerate the subdirs ourselves.
+    """
+    lines = ["nav:", "  - Index: index.md"]
+    for a in articles:
+        lines.append(f"  - {ARTICLES_SUBDIR}/{article_dirname(a)}")
+    with open(os.path.join(archive_dir, ".pages"), "w") as fh:
+        fh.write("\n".join(lines) + "\n")
 
 
 def write_index_md(archive_dir, articles, synced_at):
@@ -526,6 +675,35 @@ def sync():
             else:
                 att["pdfLinks"] = []
 
+            # Convert PDF → self-contained HTML for inline rendering. Skip
+            # if the PDF wasn't re-downloaded AND the .html is already on
+            # disk (idempotent re-runs stay cheap). Conversion failure is
+            # non-fatal — write_attachment_page falls back to the iframe.
+            if target_filename.lower().endswith(".pdf"):
+                html_filename = target_filename + ".html"
+                kept_filenames.add(html_filename)
+                pdf_unchanged = bool(
+                    old and old.get("filename") == target_filename
+                )
+                html_path = os.path.join(adir, html_filename)
+                needs_convert = not (pdf_unchanged and os.path.exists(html_path))
+                if needs_convert:
+                    ok = convert_pdf_to_html(
+                        os.path.join(adir, target_filename), html_path
+                    )
+                    if ok:
+                        print(
+                            f"  Article {article['articleNumber']:>2}: "
+                            f"converted {target_filename} → {html_filename}"
+                        )
+                    else:
+                        print(
+                            f"  Article {article['articleNumber']:>2}: "
+                            f"WARNING: pdf2htmlEX conversion failed for "
+                            f"{target_filename}; falling back to iframe view"
+                        )
+                att["htmlFilename"] = html_filename if os.path.exists(html_path) else None
+
         # Generate the per-article page set: index.md (Summary), one wrapper
         # page per attachment (which embeds the PDF in an iframe), and a
         # .pages file declaring sidebar title + child order.
@@ -535,24 +713,29 @@ def sync():
             write_attachment_page(adir, slug, name, att)
         write_pages_file(adir, article, [(s, n) for s, n, _ in att_pages])
 
-        # Remove anything we didn't just generate or download.
+        # Remove anything we didn't just generate or download. Each
+        # attachment is now a subdirectory (slug/), so cleanup must
+        # rmtree directories that aren't in the current attachment set.
         preserved = set(kept_filenames)
         preserved.update({"index.md", ".pages"})
-        preserved.update(f"{s}.md" for s, _, _ in att_pages)
+        preserved.update(s for s, _, _ in att_pages)
         for entry in os.listdir(adir):
+            path = os.path.join(adir, entry)
             if entry.startswith(".pending-"):
-                os.remove(os.path.join(adir, entry))
+                os.remove(path)
                 continue
-            if entry not in preserved:
-                os.remove(os.path.join(adir, entry))
-                print(f"  Article {article['articleNumber']:>2}: removed stale {entry}")
+            if entry in preserved:
+                continue
+            if os.path.isdir(path):
+                shutil.rmtree(path)
+            else:
+                os.remove(path)
+            print(f"  Article {article['articleNumber']:>2}: removed stale {entry}")
 
     for entry in os.listdir(articles_dir):
         full = os.path.join(articles_dir, entry)
         if os.path.isdir(full) and entry not in seen_dirs:
-            for f in os.listdir(full):
-                os.remove(os.path.join(full, f))
-            os.rmdir(full)
+            shutil.rmtree(full)
             print(f"Removed orphan article dir: {entry}")
 
     synced_at = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
@@ -584,6 +767,7 @@ def sync():
         fh.write("\n")
 
     write_index_md(archive_dir, articles, synced_at)
+    write_root_pages(archive_dir, articles)
     write_readme(archive_dir)
     print(f"\nWrote manifest to {manifest_path}")
     print(f"Archive root: {archive_dir}")

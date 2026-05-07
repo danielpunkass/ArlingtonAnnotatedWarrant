@@ -1,6 +1,6 @@
 # Article 27: VOTE / ENVISION ARLINGTON STANDING COMMITTEE QUORUM
 
-**Sponsor:** Inserted at the request of the Envision Arlington Standing Committee
+_Inserted at the request of the Envision Arlington Standing Committee_
 
 ## Description
 
@@ -10,7 +10,7 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

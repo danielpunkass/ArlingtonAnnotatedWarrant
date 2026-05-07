@@ -1,6 +1,6 @@
 # Article 44: ZONING BYLAW AMENDMENT / FLOODPLAIN DISTRICT
 
-**Sponsor:** Inserted at the request of the Redevelopment Board
+_Inserted at the request of the Redevelopment Board_
 
 ## Description
 
@@ -10,9 +10,9 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 44 Benson Amendment](article-44-benson-amendment.md)
-- [Article 44 ARB Presentation](article-44-arb-presentation.md)
+- [Full Text](full-text/index.md)
+- [Article 44 Benson Amendment](article-44-benson-amendment/index.md)
+- [Article 44 ARB Presentation](article-44-arb-presentation/index.md)
 
 ## External Links
 

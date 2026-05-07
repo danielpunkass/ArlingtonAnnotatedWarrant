@@ -1,6 +1,6 @@
 # Article 23: BYLAW AMENDMENT / TREE PRESERVATION AND PROTECTION
 
-**Sponsor:** Inserted at the request of Jennifer Cutraro and Robin Bergman and ten registered voters
+_Inserted at the request of Jennifer Cutraro and Robin Bergman and ten registered voters_
 
 ## Description
 
@@ -10,11 +10,11 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 23 Cutraro Substitute Motion](article-23-cutraro-substitute-motion.md)
-- [Article 23 Statement Save Arlington Wildlife](article-23-statement-save-arlington-wildlife.md)
-- [Article 23 Statement Mothers Out Front](article-23-statement-mothers-out-front.md)
-- [Article 23 Statement Trees as a Public Good Network](article-23-statement-trees-as-a-public-good-network.md)
+- [Full Text](full-text/index.md)
+- [Article 23 Cutraro Substitute Motion](article-23-cutraro-substitute-motion/index.md)
+- [Article 23 Statement Save Arlington Wildlife](article-23-statement-save-arlington-wildlife/index.md)
+- [Article 23 Statement Mothers Out Front](article-23-statement-mothers-out-front/index.md)
+- [Article 23 Statement Trees as a Public Good Network](article-23-statement-trees-as-a-public-good-network/index.md)
 
 ## External Links
 

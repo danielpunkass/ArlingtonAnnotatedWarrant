@@ -1,6 +1,6 @@
 # Article 28: HOME RULE LEGISLATION / ADDITIONAL ON PREMISES ALL ALCOHOL LICENSES
 
-**Sponsor:** Inserted at the request of the Select Board
+_Inserted at the request of the Select Board_
 
 ## Description
 
@@ -10,7 +10,7 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

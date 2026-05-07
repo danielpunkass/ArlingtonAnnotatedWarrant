@@ -1,44 +1,26 @@
-/* Sidebar: subtly subordinate the per-article child pages
-   (Summary, Full Text, attachments). No guide lines — just a small
-   leading document icon and lighter type so the children read as
-   resources beneath the long article title. */
+/* Sidebar nav: subtly subordinate the leaf children of any expanded
+   section. Indent + small leading icon carry the hierarchy; size and
+   line-height match the parent label so the layout reads as one
+   cohesive list rather than two competing scales. */
 
-/* Article titles (the nested labels) are necessarily long, so dial their
-   size down a bit to make room for longer wrapped lines. `:has()` scopes
-   this to nested items that contain leaf children — i.e., individual
-   articles — leaving any wrapper section ("Articles") at default size. */
-.md-nav__item--nested:has(
-    > .md-nav > .md-nav__list > .md-nav__item:not(.md-nav__item--nested)
-  )
-  > .md-nav__link {
-  font-size: 0.88em;
-  line-height: 1.35;
-}
-
-/* Leaf children of an expanded article (Summary / Full Text / each
-   attachment). Bumped up so they're easy to click; the icon prefix +
-   muted color carry the visual subordination. */
-.md-nav__item--nested
-  > .md-nav
-  > .md-nav__list
-  > .md-nav__item:not(.md-nav__item--nested)
-  > .md-nav__link {
+/* Leaf nav links inside any nested section (article > attachment, or
+   attachment > external link). Depth-agnostic: a uniform look at every
+   level keeps the cascade readable. */
+.md-nav__item--nested .md-nav__item:not(.md-nav__item--nested) > .md-nav__link {
   position: relative;
   padding-left: 1.5rem;
-  font-size: 0.95em;
-  line-height: 1.35;
+  font-size: 1em;
+  line-height: 1.4;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   color: var(--md-default-fg-color--light);
 }
 
-/* Material "file-document-outline" SVG, masked so it inherits text color
-   and stays crisp at any zoom level. */
+/* Document icon (file-document-outline) for internal pages — Summary,
+   Full Text, attachment overview pages. */
 .md-nav__item--nested
-  > .md-nav
-  > .md-nav__list
-  > .md-nav__item:not(.md-nav__item--nested)
-  > .md-nav__link::before {
+  .md-nav__item:not(.md-nav__item--nested)
+  > .md-nav__link:not([href^="http"]):not([href^="https"]):not([href^="mailto"])::before {
   content: "";
   position: absolute;
   left: 0.35rem;
@@ -51,19 +33,53 @@
           mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6m4 18H6V4h7v5h5v11M8 12v2h8v-2H8m0 4v2h5v-2H8z'/></svg>") center / contain no-repeat;
 }
 
-/* Active child returns to full strength. */
+/* Link icon (chain link) for external nav children — /URI annotations
+   surfaced from the attachment PDFs. */
 .md-nav__item--nested
-  > .md-nav
-  > .md-nav__list
-  > .md-nav__item:not(.md-nav__item--nested)
+  .md-nav__item:not(.md-nav__item--nested)
+  > .md-nav__link[href^="http"]::before,
+.md-nav__item--nested
+  .md-nav__item:not(.md-nav__item--nested)
+  > .md-nav__link[href^="https"]::before,
+.md-nav__item--nested
+  .md-nav__item:not(.md-nav__item--nested)
+  > .md-nav__link[href^="mailto"]::before {
+  content: "";
+  position: absolute;
+  left: 0.35rem;
+  top: 0.45em;
+  width: 0.85em;
+  height: 0.85em;
+  background-color: currentColor;
+  opacity: 0.55;
+  -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7a5 5 0 0 0 0 10h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1M8 13h8v-2H8v2m9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4a5 5 0 0 0 0-10z'/></svg>") center / contain no-repeat;
+          mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7a5 5 0 0 0 0 10h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1M8 13h8v-2H8v2m9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4a5 5 0 0 0 0-10z'/></svg>") center / contain no-repeat;
+}
+
+/* pdf2htmlEX-rendered PDF content. The generator stacks fixed-size
+   <div class="pf"> page elements with absolute-positioned text inside.
+   Constrain to the content column with horizontal scroll fallback so
+   wide pages (some warrant attachments are landscape) don't break
+   Material's layout. */
+.pdf-rendered {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1em 0;
+}
+
+.pdf-rendered .pf {
+  margin: 0 auto 1em;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+/* Active leaf returns to full strength. */
+.md-nav__item--nested
+  .md-nav__item:not(.md-nav__item--nested)
   > .md-nav__link--active {
   color: var(--md-typeset-a-color);
 }
-
 .md-nav__item--nested
-  > .md-nav
-  > .md-nav__list
-  > .md-nav__item:not(.md-nav__item--nested)
+  .md-nav__item:not(.md-nav__item--nested)
   > .md-nav__link--active::before {
   opacity: 0.9;
 }

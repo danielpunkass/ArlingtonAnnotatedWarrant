@@ -28,6 +28,14 @@ jobs:
         with:
           python-version: "3.12"
 
+      # pdf2htmlEX renders each PDF attachment as a self-contained HTML
+      # file (fonts/CSS/images embedded). The sync inlines those into
+      # MkDocs pages so browser Cmd+F and the site's search index both
+      # see PDF content as real document text — not iframed.
+      # Pre-pulling the image once avoids re-pulling on every conversion.
+      - name: Pre-pull pdf2htmlEX Docker image
+        run: docker pull pdf2htmlex/pdf2htmlex:0.18.8.rc2-master-20200820-ubuntu-20.04-x86_64
+
       # Pull from primegov on schedule/manual. Skip on push events: the push
       # already captured any source-content change, and re-running sync would
       # try to push a noisy duplicate commit.
@@ -50,14 +58,22 @@ jobs:
 
       # Stage just what we want shipped to the site into _site_build/, since
       # MkDocs forbids docs_dir from being the same dir as mkdocs.yml.
-      # INDEX.md becomes index.md (MkDocs convention).
+      #
+      # We flatten the article directories from `articles/Article-N/` up to
+      # `_site_build/Article-N/` so the awesome-pages plugin can list each
+      # article as a top-level nav entry (the plugin's pattern matching only
+      # operates at the current directory level — it can't pull items out of
+      # a child dir into the parent's nav). The .pages and INDEX.md files
+      # are written by sync with `articles/...` paths (correct for github.com
+      # source browsing); a sed pass strips that prefix during staging.
       - name: Stage content for build
         run: |
           rm -rf _site_build
           mkdir -p _site_build
-          cp -R articles _site_build/
+          cp -R articles/. _site_build/
           cp -R stylesheets _site_build/
-          cp INDEX.md _site_build/index.md
+          sed 's|articles/||g' .pages > _site_build/.pages
+          sed 's|articles/||g' INDEX.md > _site_build/index.md
           cp index.json _site_build/
           cp CNAME _site_build/
 

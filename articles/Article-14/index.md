@@ -1,6 +1,6 @@
 # Article 14: BYLAW AMENDMENT / TREE COMMITTEE RULES AND PROCEDURES
 
-**Sponsor:** Inserted at the request of the Arlington Tree Committee
+_Inserted at the request of the Arlington Tree Committee_
 
 ## Description
 
@@ -10,8 +10,8 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 14 Moore Presentation](article-14-moore-presentation.md)
+- [Full Text](full-text/index.md)
+- [Article 14 Moore Presentation](article-14-moore-presentation/index.md)
 
 ## External Links
 

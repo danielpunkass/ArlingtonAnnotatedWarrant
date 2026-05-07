@@ -1,6 +1,6 @@
 # Article 30: HOME RULE LEGISLATION / REPEAL MBTA PROHIBITION
 
-**Sponsor:** Inserted at the request of Paul Schlichtman and ten registered voters
+_Inserted at the request of Paul Schlichtman and ten registered voters_
 
 ## Description
 
@@ -10,9 +10,9 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 30 Schlichtman Substitute Motion](article-30-schlichtman-substitute-motion.md)
-- [Article 30 Schlichtman Statement](article-30-schlichtman-statement.md)
+- [Full Text](full-text/index.md)
+- [Article 30 Schlichtman Substitute Motion](article-30-schlichtman-substitute-motion/index.md)
+- [Article 30 Schlichtman Statement](article-30-schlichtman-statement/index.md)
 
 ## External Links
 

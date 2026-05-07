@@ -1,6 +1,6 @@
 # Article 18: BYLAW AMENDMENT / REGULATION OF LEAD PIPE IN RESIDENTIAL AND COMMERCIAL HOUSING
 
-**Sponsor:** Inserted at the request of the Director of Public Works
+_Inserted at the request of the Director of Public Works_
 
 ## Description
 
@@ -10,7 +10,7 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

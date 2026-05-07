@@ -1,6 +1,6 @@
 # Article 47: ZONING BYLAW AMENDMENT / DEFINITION OF BUILDING HEIGHT
 
-**Sponsor:** Inserted at the request of the Redevelopment Board
+_Inserted at the request of the Redevelopment Board_
 
 ## Description
 
@@ -10,9 +10,9 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 47 Benson Amendment](article-47-benson-amendment.md)
-- [Article 47 ARB Presentation](article-47-arb-presentation.md)
+- [Full Text](full-text/index.md)
+- [Article 47 Benson Amendment](article-47-benson-amendment/index.md)
+- [Article 47 ARB Presentation](article-47-arb-presentation/index.md)
 
 ## External Links
 

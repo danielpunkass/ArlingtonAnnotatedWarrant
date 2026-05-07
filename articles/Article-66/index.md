@@ -1,6 +1,6 @@
 # Article 66: CAPITAL BUDGET / OTTOSON MIDDLE SCHOOL FEASIBILITY STUDY
 
-**Sponsor:** Inserted at the request of the Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee
+_Inserted at the request of the Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee_
 
 ## Description
 
@@ -10,8 +10,8 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 66 Ottoson Study Presentation](article-66-ottoson-study-presentation.md)
+- [Full Text](full-text/index.md)
+- [Article 66 Ottoson Study Presentation](article-66-ottoson-study-presentation/index.md)
 
 ## External Links
 

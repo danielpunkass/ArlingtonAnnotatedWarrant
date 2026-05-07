@@ -1,6 +1,6 @@
 # Article 60: ENDORSEMENT OF PARKING BENEFIT DISTRICT EXPENDITURES
 
-**Sponsor:** Inserted at the request of the Town Manager
+_Inserted at the request of the Town Manager_
 
 ## Description
 
@@ -10,8 +10,8 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 60 FY27 Parking Fund Budget](article-60-fy27-parking-fund-budget.md)
+- [Full Text](full-text/index.md)
+- [Article 60 FY27 Parking Fund Budget](article-60-fy27-parking-fund-budget/index.md)
 
 ## External Links
 

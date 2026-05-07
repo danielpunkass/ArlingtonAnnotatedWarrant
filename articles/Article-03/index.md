@@ -1,6 +1,6 @@
 # Article 3: REPORTS OF COMMITTEES
 
-**Sponsor:** Inserted at the request of the Moderator
+_Inserted at the request of the Moderator_
 
 ## Description
 
@@ -8,7 +8,7 @@ To receive, hear, and act upon the reports of the Select Board, Finance Committe
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ---
 *Source item id:* `648`

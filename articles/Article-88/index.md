@@ -1,6 +1,6 @@
 # Article 88: APPROPRIATION / FISCAL STABILITY STABILIZATION FUND
 
-**Sponsor:** Inserted at the request of the Finance Committee
+_Inserted at the request of the Finance Committee_
 
 ## Description
 
@@ -8,7 +8,7 @@ To see if the Town will make an appropriation to or from the Fiscal Stability St
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ---
 *Source item id:* `769`

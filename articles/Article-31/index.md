@@ -1,6 +1,6 @@
 # Article 31: HOME RULE LEGISLATION / 61B EXEMPTION
 
-**Sponsor:** Inserted at the request of Carmine Granucci and ten registered voters
+_Inserted at the request of Carmine Granucci and ten registered voters_
 
 ## Description
 
@@ -10,9 +10,9 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 31 Granucci Presentation](article-31-granucci-presentation.md)
-- [Article 31 Granucci Statement](article-31-granucci-statement.md)
+- [Full Text](full-text/index.md)
+- [Article 31 Granucci Presentation](article-31-granucci-presentation/index.md)
+- [Article 31 Granucci Statement](article-31-granucci-statement/index.md)
 
 ## External Links
 

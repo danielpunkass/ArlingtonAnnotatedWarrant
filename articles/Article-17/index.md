@@ -1,6 +1,6 @@
 # Article 17: LOCAL OPTION / ACCEPTANCE OF M.G.L. CHAPTER 40, §22F REGARDING FEES
 
-**Sponsor:** Inserted at the request of the Town Manager
+_Inserted at the request of the Town Manager_
 
 ## Description
 
@@ -10,7 +10,7 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

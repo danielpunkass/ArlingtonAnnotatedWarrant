@@ -1,6 +1,6 @@
 # Article 92: RESOLUTION / TRANSITIONING TO CLEAN HEAT IN MASSACHUSETTS
 
-**Sponsor:** Inserted at the request of Patrick Hanlon and ten registered voters
+_Inserted at the request of Patrick Hanlon and ten registered voters_
 
 ## Description
 
@@ -8,9 +8,9 @@ To see if the Town will vote to support the creation of a strategic plan for the
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 92 Hanlon Main Motion](article-92-hanlon-main-motion.md)
-- [Article 92 Clean Energy Future Committee Statement](article-92-clean-energy-future-committee-statement.md)
+- [Full Text](full-text/index.md)
+- [Article 92 Hanlon Main Motion](article-92-hanlon-main-motion/index.md)
+- [Article 92 Clean Energy Future Committee Statement](article-92-clean-energy-future-committee-statement/index.md)
 
 ---
 *Source item id:* `773`

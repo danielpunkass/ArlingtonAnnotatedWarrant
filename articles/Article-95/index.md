@@ -1,6 +1,6 @@
 # Article 95: RESOLUTION / CONCERNING ICE FACILITY
 
-**Sponsor:** Inserted at the request of Guillermo Hamlin and ten registered voters
+_Inserted at the request of Guillermo Hamlin and ten registered voters_
 
 ## Description
 
@@ -8,7 +8,7 @@ To see if the Town will vote to formally condemn violations of local zoning law 
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ---
 *Source item id:* `776`

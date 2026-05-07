@@ -1,6 +1,6 @@
 # Article 72: APPROPRIATION / MINUTEMAN REGIONAL VOCATIONAL TECHNICAL HIGH SCHOOL AND OUT OF DISTRICT VOCATIONAL PLACEMENTS
 
-**Sponsor:** Inserted at the request of the Minuteman Regional Vocational School District Committee
+_Inserted at the request of the Minuteman Regional Vocational School District Committee_
 
 ## Description
 
@@ -10,8 +10,8 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 72 Minuteman Presentation](article-72-minuteman-presentation.md)
+- [Full Text](full-text/index.md)
+- [Article 72 Minuteman Presentation](article-72-minuteman-presentation/index.md)
 
 ## External Links
 

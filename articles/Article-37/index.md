@@ -1,6 +1,6 @@
 # Article 37: DISPOSITION OF REAL ESTATE / 0 REED STREET
 
-**Sponsor:** Inserted at the request of David Swanson and ten registered voters
+_Inserted at the request of David Swanson and ten registered voters_
 
 ## Description
 
@@ -10,7 +10,7 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

@@ -1,6 +1,6 @@
 # Article 10: BYLAW AMENDMENT / WETLANDS PROTECTION
 
-**Sponsor:** Inserted at the request of the Conservation Commission
+_Inserted at the request of the Conservation Commission_
 
 ## Description
 
@@ -10,8 +10,8 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 10 Benson Amendment](article-10-benson-amendment.md)
+- [Full Text](full-text/index.md)
+- [Article 10 Benson Amendment](article-10-benson-amendment/index.md)
 
 ## External Links
 

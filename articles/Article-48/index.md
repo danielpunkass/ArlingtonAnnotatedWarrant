@@ -1,6 +1,6 @@
 # Article 48: ZONING BYLAW AMENDMENT / RESIDENTIAL PARKING
 
-**Sponsor:** Inserted at the request of the Redevelopment Board
+_Inserted at the request of the Redevelopment Board_
 
 ## Description
 
@@ -10,8 +10,8 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 48 ARB Presentation](article-48-arb-presentation.md)
+- [Full Text](full-text/index.md)
+- [Article 48 ARB Presentation](article-48-arb-presentation/index.md)
 
 ## External Links
 

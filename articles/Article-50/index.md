@@ -1,6 +1,6 @@
 # Article 50: ZONING BYLAW AMENDMENT / AMENDMENT TO ARLINGTON ZONING MAP
 
-**Sponsor:** Inserted at the request of Mary Winstanley and ten registered voters
+_Inserted at the request of Mary Winstanley and ten registered voters_
 
 ## Description
 
@@ -10,8 +10,8 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 50 Statement and Maps - Director of Planning and Community Development](article-50-statement-and-maps---director-of-planning-and-community-development.md)
+- [Full Text](full-text/index.md)
+- [Article 50 Statement and Maps - Director of Planning and Community Development](article-50-statement-and-maps---director-of-planning-and-community-development/index.md)
 
 ## External Links
 

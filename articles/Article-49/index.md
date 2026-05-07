@@ -1,6 +1,6 @@
 # Article 49: ZONING BYLAW AMENDMENT / HOME OCCUPATIONS
 
-**Sponsor:** Inserted at the request of James Fleming and Andrew Greenspon and ten registered voters
+_Inserted at the request of James Fleming and Andrew Greenspon and ten registered voters_
 
 ## Description
 
@@ -10,8 +10,8 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 49 Presentation](article-49-presentation.md)
+- [Full Text](full-text/index.md)
+- [Article 49 Presentation](article-49-presentation/index.md)
 
 ## External Links
 

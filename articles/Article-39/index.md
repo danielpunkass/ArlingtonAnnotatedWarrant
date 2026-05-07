@@ -1,6 +1,6 @@
 # Article 39: ZONING BYLAW AMENDMENT/ ADMINISTRATIVE CLARIFICATION TO ACCESSORY DWELLING UNITS
 
-**Sponsor:** Inserted at the request of the Redevelopment Board
+_Inserted at the request of the Redevelopment Board_
 
 ## Description
 
@@ -10,9 +10,9 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 39 ARB Presentation](article-39-arb-presentation.md)
-- [Article 39 Statement Attorney General on ADUs](article-39-statement-attorney-general-on-adus.md)
+- [Full Text](full-text/index.md)
+- [Article 39 ARB Presentation](article-39-arb-presentation/index.md)
+- [Article 39 Statement Attorney General on ADUs](article-39-statement-attorney-general-on-adus/index.md)
 
 ## External Links
 

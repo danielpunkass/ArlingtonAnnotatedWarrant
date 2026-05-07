@@ -1,6 +1,6 @@
 # Article 16: BYLAW AMENDMENT / TOWN FEES AND CHARGES
 
-**Sponsor:** Inserted at the request of the Town Manager
+_Inserted at the request of the Town Manager_
 
 ## Description
 
@@ -10,9 +10,9 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 16 Fischer Amendment](article-16-fischer-amendment.md)
-- [Article 16 Fee Information](article-16-fee-information.md)
+- [Full Text](full-text/index.md)
+- [Article 16 Fischer Amendment](article-16-fischer-amendment/index.md)
+- [Article 16 Fee Information](article-16-fee-information/index.md)
 
 ## External Links
 

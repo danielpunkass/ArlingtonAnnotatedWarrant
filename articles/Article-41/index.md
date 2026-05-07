@@ -1,6 +1,6 @@
 # Article 41: ZONING BYLAW AMENDMENT / ADMINISTRATIVE CORRECTION TO MULTI-FAMILY HOUSING OVERLAY DISTRICT STANDARDS
 
-**Sponsor:** Inserted at the request of the Redevelopment Board
+_Inserted at the request of the Redevelopment Board_
 
 ## Description
 
@@ -10,7 +10,7 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

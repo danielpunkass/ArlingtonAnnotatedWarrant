@@ -1,6 +1,6 @@
 # Article 5: ELECTION OF ASSISTANT TOWN MODERATOR
 
-**Sponsor:** Inserted at the request of the Town Moderator
+_Inserted at the request of the Town Moderator_
 
 ## Description
 
@@ -8,7 +8,7 @@ To elect a Town Meeting Member as Assistant Moderator for a term of one year, as
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ---
 *Source item id:* `653`

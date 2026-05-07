@@ -1,6 +1,6 @@
 # Article 2: STATE OF THE TOWN ADDRESS
 
-**Sponsor:** Inserted at the request of Envision Arlington
+_Inserted at the request of Envision Arlington_
 
 ## Description
 
@@ -8,7 +8,7 @@ To hear the Chair of the Select Board review important events in the past year i
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ---
 *Source item id:* `647`

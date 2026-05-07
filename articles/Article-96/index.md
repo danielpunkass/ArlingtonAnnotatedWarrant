@@ -1,6 +1,6 @@
 # Article 96: RESOLUTION / PROHIBIT FIRST GENERATION ANTICOAGULANT RODENTICIDES AND BROMETHALIN
 
-**Sponsor:** Inserted at the request of Suzanne Chiarito and ten registered voters
+_Inserted at the request of Suzanne Chiarito and ten registered voters_
 
 ## Description
 
@@ -8,8 +8,8 @@ To see if the Town will vote to endorse a non-binding resolution requesting the 
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 96 Chiarito Main Motion](article-96-chiarito-main-motion.md)
+- [Full Text](full-text/index.md)
+- [Article 96 Chiarito Main Motion](article-96-chiarito-main-motion/index.md)
 
 ---
 *Source item id:* `777`

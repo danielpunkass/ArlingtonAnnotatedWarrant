@@ -1,6 +1,6 @@
 # Article 51: ZONING BYLAW AMENDMENT / AMENDMENT TO ZONING BYLAW TABLE OF DIMENSIONAL AND DENSITY REGULATIONS
 
-**Sponsor:** Inserted at the request of Mary Winstanley and ten registered voters
+_Inserted at the request of Mary Winstanley and ten registered voters_
 
 ## Description
 
@@ -10,7 +10,7 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

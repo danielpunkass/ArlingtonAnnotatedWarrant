@@ -1,6 +1,6 @@
 # Article 81: APPROPRIATION / PENSION ADJUSTMENT FOR FORMER TWENTY- FIVE YEAR / ACCIDENTAL DISABILITY EMPLOYEES
 
-**Sponsor:** Inserted at the request of the Contributory Retirement Board
+_Inserted at the request of the Contributory Retirement Board_
 
 ## Description
 
@@ -10,7 +10,7 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ## External Links
 

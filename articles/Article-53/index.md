@@ -1,6 +1,6 @@
 # Article 53: ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT
 
-**Sponsor:** Inserted at the request of Joanne Cullinane and Larry Slotnick and ten registered voters
+_Inserted at the request of Joanne Cullinane and Larry Slotnick and ten registered voters_
 
 ## Description
 
@@ -10,32 +10,32 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 53 Cullinane Substitute Motion](article-53-cullinane-substitute-motion.md)
-- [Article 53 Statement Melleta Marx](article-53-statement-melleta-marx.md)
-- [Article 53 Statement - gross floor area - Cullinane and Slotnick](article-53-statement---gross-floor-area---cullinane-and-slotnick.md)
-- [Article 53 Statement and video - bonuses Cullinane and Slotnick](article-53-statement-and-video---bonuses-cullinane-and-slotnick.md)
-- [Article 53 Statement and video - commercial space Cullinane and Slotnick](article-53-statement-and-video---commercial-space-cullinane-and-slotnick.md)
-- [Article 53 Statement Carla Valentine](article-53-statement-carla-valentine.md)
-- [Article 53 Statement Chamber of Commerce](article-53-statement-chamber-of-commerce.md)
-- [Article 53 Statement to YourArlington Cullinane and Slotnick](article-53-statement-to-yourarlington-cullinane-and-slotnick.md)
-- [Article 53 Statement Jordan Weinstein](article-53-statement-jordan-weinstein.md)
-- [Article 53 Statement Diane Krause](article-53-statement-diane-krause.md)
-- [Article 53 Statement Belinda Chu](article-53-statement-belinda-chu.md)
-- [Article 53 Statement Carol Luddecke](article-53-statement-carol-luddecke.md)
-- [Article 53 Statement Shevawn Hardesty](article-53-statement-shevawn-hardesty.md)
-- [Article 53 Statement Stafan Wolpert](article-53-statement-stafan-wolpert.md)
-- [Article 53 Statement Judith Miller](article-53-statement-judith-miller.md)
-- [Article 53 Statement Gerry Leonard](article-53-statement-gerry-leonard.md)
-- [Article 53 Statement Susan Pace](article-53-statement-susan-pace.md)
-- [Article 53 Statement Annem Waiy](article-53-statement-annem-waiy.md)
-- [Article 53 Statement Christian Webb](article-53-statement-christian-webb.md)
-- [Article 53 Statement Rebecca Peterson](article-53-statement-rebecca-peterson.md)
-- [Article 53 Statement Claire Odom](article-53-statement-claire-odom.md)
-- [Article 53 Statement Dominic Vecchione](article-53-statement-dominic-vecchione.md)
-- [Article 53 Statement Douglas Funkhouser](article-53-statement-douglas-funkhouser.md)
-- [Article 53 Statement to ARB regarding proposed development](article-53-statement-to-arb-regarding-proposed-development.md)
-- [Article 53 Statement - availability of commercial space](article-53-statement---availability-of-commercial-space.md)
+- [Full Text](full-text/index.md)
+- [Article 53 Cullinane Substitute Motion](article-53-cullinane-substitute-motion/index.md)
+- [Article 53 Statement Melleta Marx](article-53-statement-melleta-marx/index.md)
+- [Article 53 Statement - gross floor area - Cullinane and Slotnick](article-53-statement---gross-floor-area---cullinane-and-slotnick/index.md)
+- [Article 53 Statement and video - bonuses Cullinane and Slotnick](article-53-statement-and-video---bonuses-cullinane-and-slotnick/index.md)
+- [Article 53 Statement and video - commercial space Cullinane and Slotnick](article-53-statement-and-video---commercial-space-cullinane-and-slotnick/index.md)
+- [Article 53 Statement Carla Valentine](article-53-statement-carla-valentine/index.md)
+- [Article 53 Statement Chamber of Commerce](article-53-statement-chamber-of-commerce/index.md)
+- [Article 53 Statement to YourArlington Cullinane and Slotnick](article-53-statement-to-yourarlington-cullinane-and-slotnick/index.md)
+- [Article 53 Statement Jordan Weinstein](article-53-statement-jordan-weinstein/index.md)
+- [Article 53 Statement Diane Krause](article-53-statement-diane-krause/index.md)
+- [Article 53 Statement Belinda Chu](article-53-statement-belinda-chu/index.md)
+- [Article 53 Statement Carol Luddecke](article-53-statement-carol-luddecke/index.md)
+- [Article 53 Statement Shevawn Hardesty](article-53-statement-shevawn-hardesty/index.md)
+- [Article 53 Statement Stafan Wolpert](article-53-statement-stafan-wolpert/index.md)
+- [Article 53 Statement Judith Miller](article-53-statement-judith-miller/index.md)
+- [Article 53 Statement Gerry Leonard](article-53-statement-gerry-leonard/index.md)
+- [Article 53 Statement Susan Pace](article-53-statement-susan-pace/index.md)
+- [Article 53 Statement Annem Waiy](article-53-statement-annem-waiy/index.md)
+- [Article 53 Statement Christian Webb](article-53-statement-christian-webb/index.md)
+- [Article 53 Statement Rebecca Peterson](article-53-statement-rebecca-peterson/index.md)
+- [Article 53 Statement Claire Odom](article-53-statement-claire-odom/index.md)
+- [Article 53 Statement Dominic Vecchione](article-53-statement-dominic-vecchione/index.md)
+- [Article 53 Statement Douglas Funkhouser](article-53-statement-douglas-funkhouser/index.md)
+- [Article 53 Statement to ARB regarding proposed development](article-53-statement-to-arb-regarding-proposed-development/index.md)
+- [Article 53 Statement - availability of commercial space](article-53-statement---availability-of-commercial-space/index.md)
 
 ## External Links
 

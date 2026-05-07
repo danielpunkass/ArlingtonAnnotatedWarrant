@@ -1,6 +1,6 @@
 # Article 90: RESOLUTION / COMPREHENSIVE PLAN ENDORSEMENT
 
-**Sponsor:** Inserted at the request of the Department of Planning and Community Development
+_Inserted at the request of the Department of Planning and Community Development_
 
 ## Description
 
@@ -8,7 +8,7 @@ To see if the Town will accept, receive, or resolve to endorse the Comprehensive
 
 ## Resources
 
-- [Full Text](full-text.md)
+- [Full Text](full-text/index.md)
 
 ---
 *Source item id:* `771`

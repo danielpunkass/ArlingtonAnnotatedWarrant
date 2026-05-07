@@ -9,6 +9,12 @@ source.html
 # MkDocs build output.
 site/
 
+# pdf2htmlEX-generated renderings of the attachment PDFs. These are
+# inlined into per-attachment pages by the sync script. They're ~5-10MB
+# each (fonts embedded) and would push the repo near GitHub's 1GB soft
+# limit; CI regenerates them from the source PDFs on each sync run.
+articles/**/*.pdf.html
+
 # Staging directory the deploy workflow populates with site-relevant files
 # (articles, index.md derived from INDEX.md, index.json, CNAME) before
 # running `mkdocs build`. Never committed.

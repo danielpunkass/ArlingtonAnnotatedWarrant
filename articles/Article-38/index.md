@@ -1,6 +1,6 @@
 # Article 38: EXTEND THE CHARGE OF THE AFFORDABLE HOUSING OVERLAY COMMITTEE
 
-**Sponsor:** Inserted at the request of the Affordable Housing Overlay District (AHOD) Committee
+_Inserted at the request of the Affordable Housing Overlay District (AHOD) Committee_
 
 ## Description
 
@@ -10,9 +10,9 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 38 ARB Presentation](article-38-arb-presentation.md)
-- [Article 38 Draft Site List](article-38-draft-site-list.md)
+- [Full Text](full-text/index.md)
+- [Article 38 ARB Presentation](article-38-arb-presentation/index.md)
+- [Article 38 Draft Site List](article-38-draft-site-list/index.md)
 
 ## External Links
 

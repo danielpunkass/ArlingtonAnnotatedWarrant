@@ -1,6 +1,6 @@
 # Article 32: HOME RULE LEGISLATION / PROHIBIT FIRST GENERATION ANTICOAGULANT RODENTICIDES (FGARS) IN ARLINGTON
 
-**Sponsor:** Inserted at the request of Laura Kiesel and ten registered voters
+_Inserted at the request of Laura Kiesel and ten registered voters_
 
 ## Description
 
@@ -10,8 +10,8 @@ Select Board 2026 Article Hearings - right click to view in new tab
 
 ## Resources
 
-- [Full Text](full-text.md)
-- [Article 32 Presentation](article-32-presentation.md)
+- [Full Text](full-text/index.md)
+- [Article 32 Presentation](article-32-presentation/index.md)
 
 ## External Links
 
