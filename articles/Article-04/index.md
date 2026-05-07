@@ -11,5 +11,4 @@ To choose and appoint all the usual Town Officers not hereinbefore mentioned, in
 - [Full Text](full-text/index.md)
 
 ---
-*Source item id:* `652`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

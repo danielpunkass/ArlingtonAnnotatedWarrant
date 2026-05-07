@@ -27,6 +27,7 @@ import sys
 import urllib.parse
 import urllib.request
 import zlib
+from zoneinfo import ZoneInfo
 
 MEETING_TEMPLATE_ID = 1659
 SOURCE_URL = f"https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId={MEETING_TEMPLATE_ID}"
@@ -392,7 +393,6 @@ def write_article_summary(article_dir, article, att_pages):
         lines.append("")
     lines += [
         "---",
-        f"*Source item id:* `{article['itemId']}`  ",
         f"*Source:* <{SOURCE_URL}>",
         "",
     ]
@@ -432,7 +432,7 @@ def write_attachment_page(article_dir, slug, display_name, att):
     lines = [f"# {display_name}", ""]
     if is_pdf:
         lines += [
-            f'[Open PDF in new tab](../{encoded}){{target="_blank" rel="noopener"}}',
+            f'[Open PDF in new window](../{encoded}){{target="_blank" rel="noopener"}}',
             "",
         ]
         # Prefer the pdf2htmlEX render (real DOM, Cmd+F-able, indexed by
@@ -544,19 +544,34 @@ def write_root_pages(archive_dir, articles):
 
 
 def write_index_md(archive_dir, articles, synced_at):
+    # Convert the manifest's UTC ISO timestamp into a friendly local-time
+    # string for the page header. Eastern time is the relevant timezone —
+    # Arlington Town Meeting members read this in MA. `%-d` / `%-I` strip
+    # leading zeros (GNU strftime); macOS and Linux both honor that.
+    try:
+        utc_dt = datetime.datetime.fromisoformat(synced_at)
+        local_dt = utc_dt.astimezone(ZoneInfo("America/New_York"))
+        synced_human = local_dt.strftime("%A, %B %-d at %-I:%M%p")
+    except ValueError:
+        synced_human = synced_at
+
     lines = [
         "# Annotated Warrant — Index",
         "",
-        f"Source: <{SOURCE_URL}>  ",
-        f"Last synced: {synced_at}",
+        f"Source: <{SOURCE_URL}>",
         "",
-        f"{len(articles)} articles. Re-run `python3 SyncAnnotatedWarrant.py` from the project root to refresh.",
+        f"<small>Last synced on {synced_human}</small>",
         "",
-        "| # | Title | Sponsor | Attachments |",
+        "| # | Title | Requested By | Attachments |",
         "| ---: | --- | --- | ---: |",
     ]
     for a in articles:
+        # "Inserted at the request of the Moderator" → "Moderator". The
+        # leading "the " is stripped because it's grammatical filler in the
+        # full phrase ("at the request of THE Moderator") — once that
+        # context is gone, "the Moderator" reads oddly as a column entry.
         sponsor = (a["sponsor"] or "").replace("Inserted at the request of ", "")
+        sponsor = re.sub(r"^the\s+", "", sponsor, flags=re.IGNORECASE)
         title = a["title"].replace("|", "\\|")
         sponsor = sponsor.replace("|", "\\|")
         dir_link = f"./{ARTICLES_SUBDIR}/{article_dirname(a)}/index.md"

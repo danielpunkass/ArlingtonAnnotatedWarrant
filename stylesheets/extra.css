@@ -1,3 +1,11 @@
+/* Sidebar nav: pull the disclosure chevron up next to the section
+   label rather than leaving Material's default `margin-left: auto`
+   behavior, which pushes it all the way to the right edge and leaves
+   a wide expanse of dead space between the title and the indicator. */
+.md-nav__link .md-nav__icon {
+  margin-left: 0.35em;
+}
+
 /* Sidebar nav: subtly subordinate the leaf children of any expanded
    section. Indent + small leading icon carry the hierarchy; size and
    line-height match the parent label so the layout reads as one
@@ -56,15 +64,32 @@
           mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7a5 5 0 0 0 0 10h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1M8 13h8v-2H8v2m9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4a5 5 0 0 0 0-10z'/></svg>") center / contain no-repeat;
 }
 
-/* pdf2htmlEX-rendered PDF content. The generator stacks fixed-size
-   <div class="pf"> page elements with absolute-positioned text inside.
-   Constrain to the content column with horizontal scroll fallback so
-   wide pages (some warrant attachments are landscape) don't break
-   Material's layout. */
+/* pdf2htmlEX-rendered PDF content. The generator outputs a viewport-
+   filling page-container (position: absolute over the whole window) and
+   a stacked set of fixed-size .pf page divs inside. Without overrides,
+   the absolute-positioned container escapes Material's content column
+   and covers the entire page (including the sidebar). The block below
+   reins it back into normal flow inside .pdf-rendered, hides the
+   pdf2htmlEX sidebar (which is for in-PDF outline navigation we don't
+   ship anyway), and gives each page card a thin shadow so successive
+   pages read as separate sheets. */
 .pdf-rendered {
+  position: relative;
   max-width: 100%;
   overflow-x: auto;
   margin: 1em 0;
+}
+
+.pdf-rendered #page-container {
+  position: static;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: visible;
+}
+
+.pdf-rendered #sidebar {
+  display: none;
 }
 
 .pdf-rendered .pf {

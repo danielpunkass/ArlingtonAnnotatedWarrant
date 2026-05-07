@@ -11,5 +11,4 @@ To see if the Town will vote to formally condemn violations of local zoning law 
 - [Full Text](full-text/index.md)
 
 ---
-*Source item id:* `776`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

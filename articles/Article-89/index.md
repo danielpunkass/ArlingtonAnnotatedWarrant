@@ -11,5 +11,4 @@ To see if the Town will vote to support the implementation of hybrid capabilitie
 - [Full Text](full-text/index.md)
 
 ---
-*Source item id:* `770`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

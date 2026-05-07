@@ -13,5 +13,4 @@ To see if the Town will vote to support the designation of Arlington as a 4th Am
 - [Article 93 Human Rights Commission Statement](article-93-human-rights-commission-statement/index.md)
 
 ---
-*Source item id:* `774`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

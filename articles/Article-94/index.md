@@ -15,5 +15,4 @@ To see if the Town will vote to adopt a resolution opposing widespread deploymen
 - [Article 94 Chief Flaherty Statement](article-94-chief-flaherty-statement/index.md)
 
 ---
-*Source item id:* `775`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

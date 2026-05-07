@@ -12,5 +12,4 @@ To see if the Town will vote to endorse a non-binding resolution requesting the 
 - [Article 96 Chiarito Main Motion](article-96-chiarito-main-motion/index.md)
 
 ---
-*Source item id:* `777`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

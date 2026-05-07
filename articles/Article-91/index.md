@@ -12,5 +12,4 @@ To see if the Town will vote to endorse state legislation to establish a single-
 - [Article 91 Dennis Main Motion](article-91-dennis-main-motion/index.md)
 
 ---
-*Source item id:* `772`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

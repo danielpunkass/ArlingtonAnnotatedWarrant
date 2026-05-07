@@ -11,5 +11,4 @@ To receive, hear, and act upon the reports of the Select Board, Finance Committe
 - [Full Text](full-text/index.md)
 
 ---
-*Source item id:* `648`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

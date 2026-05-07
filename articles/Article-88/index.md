@@ -11,5 +11,4 @@ To see if the Town will make an appropriation to or from the Fiscal Stability St
 - [Full Text](full-text/index.md)
 
 ---
-*Source item id:* `769`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

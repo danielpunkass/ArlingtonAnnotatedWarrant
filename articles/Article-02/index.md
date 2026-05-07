@@ -11,5 +11,4 @@ To hear the Chair of the Select Board review important events in the past year i
 - [Full Text](full-text/index.md)
 
 ---
-*Source item id:* `647`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

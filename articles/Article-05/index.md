@@ -11,5 +11,4 @@ To elect a Town Meeting Member as Assistant Moderator for a term of one year, as
 - [Full Text](full-text/index.md)
 
 ---
-*Source item id:* `653`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

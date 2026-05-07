@@ -13,5 +13,4 @@ To see if the Town will vote to support the creation of a strategic plan for the
 - [Article 92 Clean Energy Future Committee Statement](article-92-clean-energy-future-committee-statement/index.md)
 
 ---
-*Source item id:* `773`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

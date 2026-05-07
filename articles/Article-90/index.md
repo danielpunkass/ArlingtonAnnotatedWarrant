@@ -11,5 +11,4 @@ To see if the Town will accept, receive, or resolve to endorse the Comprehensive
 - [Full Text](full-text/index.md)
 
 ---
-*Source item id:* `771`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>
