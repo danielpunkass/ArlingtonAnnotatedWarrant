@@ -21,5 +21,5 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
 - [Article 66 Ottoson Study Presentation](./Article%2066%20Ottoson%20Study%20Presentation.pdf)
 
 ---
-*Source item id:* `743`
+*Source item id:* `743`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

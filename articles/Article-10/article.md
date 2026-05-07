@@ -20,5 +20,5 @@ Select Board 2026 Article Hearings - right click to view in new tab
 - [Article 10 Benson Amendment](./Article%2010%20Benson%20Amendment.pdf)
 
 ---
-*Source item id:* `667`
+*Source item id:* `667`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

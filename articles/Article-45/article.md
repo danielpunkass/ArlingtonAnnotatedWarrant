@@ -20,5 +20,5 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 - [Article 45 ARB Presentation](./Article%2045%20ARB%20Presentation.pdf)
 
 ---
-*Source item id:* `721`
+*Source item id:* `721`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

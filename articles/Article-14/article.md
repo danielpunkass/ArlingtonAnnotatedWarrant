@@ -20,5 +20,5 @@ Select Board 2026 Article Hearings - right click to view in new tab
 - [Article 14 Moore Presentation](./Article%2014%20Moore%20Presentation.pdf)
 
 ---
-*Source item id:* `673`
+*Source item id:* `673`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

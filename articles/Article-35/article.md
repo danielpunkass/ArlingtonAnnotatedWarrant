@@ -20,5 +20,5 @@ Select Board 2026 Article Hearings - right click to view in new tab
     - <https://www.arlingtonma.gov/home/showdocument?id=77333&t=639111565170004328>
 
 ---
-*Source item id:* `711`
+*Source item id:* `711`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

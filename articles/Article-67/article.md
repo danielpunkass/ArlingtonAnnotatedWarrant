@@ -21,5 +21,5 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
 - [Article 67 Hardy Study Presentation](./Article%2067%20Hardy%20Study%20Presentation.pdf)
 
 ---
-*Source item id:* `744`
+*Source item id:* `744`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

@@ -20,5 +20,5 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 - [Article 49 Presentation](./Article%2049%20Presentation.pdf)
 
 ---
-*Source item id:* `725`
+*Source item id:* `725`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

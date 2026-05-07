@@ -20,5 +20,5 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
     - <https://www.arlingtonma.gov/home/showdocument?id=77562&t=639135809486122808>
 
 ---
-*Source item id:* `762`
+*Source item id:* `762`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

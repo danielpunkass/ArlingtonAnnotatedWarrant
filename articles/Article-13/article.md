@@ -22,5 +22,5 @@ Select Board 2026 Article Hearings - right click to view in new tab
     - <https://massmoderators.org/tmt4/>
 
 ---
-*Source item id:* `672`
+*Source item id:* `672`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

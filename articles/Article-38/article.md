@@ -21,5 +21,5 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 - [Article 38 Draft Site List](./Article%2038%20Draft%20Site%20List.pdf)
 
 ---
-*Source item id:* `714`
+*Source item id:* `714`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

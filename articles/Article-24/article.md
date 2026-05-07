@@ -20,5 +20,5 @@ Select Board 2026 Article Hearings - right click to view in new tab
 - [Article 24 Chart](./Article%2024%20Chart.pdf)
 
 ---
-*Source item id:* `700`
+*Source item id:* `700`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

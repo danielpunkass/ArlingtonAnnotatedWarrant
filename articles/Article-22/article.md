@@ -21,5 +21,5 @@ Select Board 2026 Article Hearings - right click to view in new tab
 - [Article 22 Crowder Presentation](./Article%2022%20Crowder%20Presentation.pdf)
 
 ---
-*Source item id:* `698`
+*Source item id:* `698`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

@@ -21,5 +21,5 @@ Select Board 2026 Article Hearings - right click to view in new tab
 - [Article 16 Fee Information](./Article%2016%20Fee%20Information.pdf)
 
 ---
-*Source item id:* `675`
+*Source item id:* `675`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

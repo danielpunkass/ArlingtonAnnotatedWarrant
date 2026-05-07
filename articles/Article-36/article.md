@@ -20,5 +20,5 @@ Select Board 2026 Article Hearings - right click to view in new tab
 - [Article 36 Revolving Fund Expenditure Detail](./Article%2036%20Revolving%20Fund%20Expenditure%20Detail.pdf)
 
 ---
-*Source item id:* `712`
+*Source item id:* `712`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

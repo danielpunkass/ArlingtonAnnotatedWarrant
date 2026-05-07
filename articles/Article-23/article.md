@@ -55,5 +55,5 @@ Select Board 2026 Article Hearings - right click to view in new tab
     - <http://creativecommons.org/licenses/by/4.0/>
 
 ---
-*Source item id:* `699`
+*Source item id:* `699`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

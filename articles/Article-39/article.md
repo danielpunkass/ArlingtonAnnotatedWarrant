@@ -27,5 +27,5 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
     - <http://www.mass.gov/ago/munilaw>
 
 ---
-*Source item id:* `715`
+*Source item id:* `715`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

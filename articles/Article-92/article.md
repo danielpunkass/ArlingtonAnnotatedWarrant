@@ -15,5 +15,5 @@ To see if the Town will vote to support the creation of a strategic plan for the
     - <https://www.mass.gov/news/ag-campbell-applauds-changes-to-gsep-program-that-will-save-ratepayers-money>
 
 ---
-*Source item id:* `773`
+*Source item id:* `773`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

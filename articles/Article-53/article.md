@@ -60,5 +60,5 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
     - <https://youtu.be/HWIOtWojpGY?si=ocDMjZXqvZ8uGF1J&t=7356>
 
 ---
-*Source item id:* `729`
+*Source item id:* `729`  
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>
