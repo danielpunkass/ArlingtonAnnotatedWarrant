@@ -210,6 +210,53 @@ def convert_pdf_to_html(pdf_path, html_path):
 
 _HTML_STYLE_RE = re.compile(r"<style[^>]*>.*?</style>", re.DOTALL | re.IGNORECASE)
 _HTML_BODY_RE = re.compile(r"<body[^>]*>(.*?)</body>", re.DOTALL | re.IGNORECASE)
+_HTML_A_RE = re.compile(r'<a\b[^>]*\bhref="([^"]+)"', re.IGNORECASE)
+_HTML_TEXT_DIV_RE = re.compile(r'<div class="t [^"]*"[^>]*>(.*?)</div>', re.DOTALL)
+
+
+def extract_html_links(html_path):
+    """Return [(label, url), ...] from a pdf2htmlEX-generated HTML.
+
+    pdf2htmlEX renders each /URI annotation as an invisible <a> over an
+    empty positional <div>; the visible link text lives in a sibling
+    <div class="t ...">…</div> immediately preceding the <a>. We use that
+    DOM adjacency as a heuristic to recover the original anchor label
+    (e.g. "Finance Committee Report") rather than displaying the raw URL.
+    Falls back to the URL when no preceding text div is found.
+
+    Returns ordered, de-duplicated by URL. Filters to http(s)/mailto.
+    """
+    try:
+        with open(html_path, encoding="utf-8") as fh:
+            content = fh.read()
+    except OSError:
+        return []
+    body_match = _HTML_BODY_RE.search(content)
+    if not body_match:
+        return []
+    body = body_match.group(1)
+
+    seen = set()
+    out = []
+    for m in _HTML_A_RE.finditer(body):
+        href = html.unescape(m.group(1))
+        if not href.lower().startswith(("http://", "https://", "mailto:")):
+            continue
+        if href in seen:
+            continue
+        seen.add(href)
+
+        before = body[:m.start()]
+        text_matches = list(_HTML_TEXT_DIV_RE.finditer(before))
+        label = href
+        if text_matches:
+            txt = re.sub(r"<[^>]+>", "", text_matches[-1].group(1))
+            txt = html.unescape(txt)
+            txt = re.sub(r"\s+", " ", txt).strip()
+            if txt:
+                label = txt
+        out.append((label, href))
+    return out
 
 
 def extract_html_body(html_path):
@@ -470,8 +517,16 @@ def write_attachment_page(article_dir, slug, display_name, att):
         "nav:",
         "  - index.md",
     ]
-    for url in pdf_links:
-        pages_lines.append(f"  - {json.dumps(link_label(url))}: {json.dumps(url)}")
+    for link in pdf_links:
+        # New dict shape carries the anchor text; legacy string entries
+        # have no label, so we synthesize one from the URL.
+        if isinstance(link, dict):
+            url = link.get("url", "")
+            label = link.get("label") or link_label(url)
+        else:
+            url = link
+            label = link_label(url)
+        pages_lines.append(f"  - {json.dumps(label)}: {json.dumps(url)}")
     with open(os.path.join(sub_dir, ".pages"), "w") as fh:
         fh.write("\n".join(pages_lines) + "\n")
 
@@ -558,9 +613,11 @@ def write_index_md(archive_dir, articles, synced_at):
     lines = [
         "# Annotated Warrant — Index",
         "",
-        f"Source: <{SOURCE_URL}>",
-        "",
-        f"<small>Last synced on {synced_human}</small>",
+        # Two trailing spaces = markdown line break, so "Source:" and the
+        # "Last synced" line render as adjacent lines in one paragraph
+        # rather than separated by a paragraph gap.
+        f"Source: [Official 2026 Annotated Town Warrant]({SOURCE_URL})  ",
+        f"<small>Last synced on {synced_human}</small>.",
         "",
         "| # | Title | Requested By | Attachments |",
         "| ---: | --- | --- | ---: |",
@@ -683,13 +740,6 @@ def sync():
                 print(f"  Article {article['articleNumber']:>2}: downloaded {final_name} ({size} bytes)")
             kept_filenames.add(target_filename)
 
-            if old and old.get("filename") == target_filename and "pdfLinks" in old:
-                att["pdfLinks"] = list(old["pdfLinks"])
-            elif target_filename.lower().endswith(".pdf"):
-                att["pdfLinks"] = extract_pdf_uris(os.path.join(adir, target_filename))
-            else:
-                att["pdfLinks"] = []
-
             # Convert PDF → self-contained HTML for inline rendering. Skip
             # if the PDF wasn't re-downloaded AND the .html is already on
             # disk (idempotent re-runs stay cheap). Conversion failure is
@@ -718,6 +768,40 @@ def sync():
                             f"{target_filename}; falling back to iframe view"
                         )
                 att["htmlFilename"] = html_filename if os.path.exists(html_path) else None
+            else:
+                att["htmlFilename"] = None
+
+            # Extract /URI links with their visible anchor text for the
+            # sidebar nav. Manifest format is [{"url": ..., "label": ...}].
+            # Reuse the cached entries when the PDF is unchanged AND the
+            # cache is in the new dict-shape (legacy string lists are
+            # rebuilt). Falls back to the raw-PDF binary scan when no HTML
+            # render is available — labels are then unknown so the URL
+            # itself is used.
+            cached = old.get("pdfLinks") if old else None
+            cache_is_new_shape = (
+                isinstance(cached, list) and (not cached or isinstance(cached[0], dict))
+            )
+            if (
+                old
+                and old.get("filename") == target_filename
+                and cache_is_new_shape
+            ):
+                att["pdfLinks"] = list(cached)
+            elif att.get("htmlFilename"):
+                att["pdfLinks"] = [
+                    {"url": u, "label": lbl}
+                    for lbl, u in extract_html_links(
+                        os.path.join(adir, att["htmlFilename"])
+                    )
+                ]
+            elif target_filename.lower().endswith(".pdf"):
+                att["pdfLinks"] = [
+                    {"url": u, "label": u}
+                    for u in extract_pdf_uris(os.path.join(adir, target_filename))
+                ]
+            else:
+                att["pdfLinks"] = []
 
         # Generate the per-article page set: index.md (Summary), one wrapper
         # page per attachment (which embeds the PDF in an iframe), and a

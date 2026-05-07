@@ -1,40 +1,105 @@
-/* Sidebar nav: pull the disclosure chevron up next to the section
-   label rather than leaving Material's default `margin-left: auto`
-   behavior, which pushes it all the way to the right edge and leaves
-   a wide expanse of dead space between the title and the indicator. */
-.md-nav__link .md-nav__icon {
-  margin-left: 0.35em;
+/* Sidebar nav: hide the disclosure chevron entirely. With
+   `navigation.expand` enabled in mkdocs.yml, every section starts
+   open and stays open — indentation alone communicates nesting,
+   so the chevron toggle is visual noise we don't need. */
+.md-nav__container > .md-nav__link[for] {
+  display: none !important;
 }
+
+/* Mobile: render the primary nav as an in-place tree instead of
+   Material's default drill-down behavior. Drill-down replaces the
+   visible nav with each child level (with a back button), forcing
+   the user to go back-back-back to switch articles; a tree keeps
+   the parent context visible at all times. We do this by undoing
+   the absolute-positioning Material applies to nested navs at
+   narrow viewports, hiding the per-level title bars, and falling
+   back to checkbox-state-driven show/hide (the same pattern the
+   desktop layout uses). */
+@media screen and (max-width: 76.1875em) {
+  .md-nav--primary .md-nav__item--nested .md-nav {
+    position: static !important;
+    transform: none !important;
+    background: transparent !important;
+    height: auto !important;
+    width: auto !important;
+  }
+
+  .md-nav--primary .md-nav__title {
+    display: none !important;
+  }
+
+  .md-nav--primary .md-nav__toggle ~ .md-nav {
+    display: none;
+  }
+
+  .md-nav--primary .md-nav__toggle:checked ~ .md-nav {
+    display: block;
+  }
+}
+
 
 /* Sidebar nav: subtly subordinate the leaf children of any expanded
    section. Indent + small leading icon carry the hierarchy; size and
    line-height match the parent label so the layout reads as one
    cohesive list rather than two competing scales. */
 
-/* Leaf nav links inside any nested section (article > attachment, or
-   attachment > external link). Depth-agnostic: a uniform look at every
-   level keeps the cascade readable. */
-.md-nav__item--nested .md-nav__item:not(.md-nav__item--nested) > .md-nav__link {
-  position: relative;
-  padding-left: 1.5rem;
-  font-size: 1em;
+/* Sub-items under an article. We hit two distinct DOM shapes at the
+   same logical level:
+     • leaf items (Summary, simple attachments, URI links) — their
+       link is a direct child of .md-nav__item.
+     • nested items (attachments that have URI children) — their
+       link sits inside .md-nav__container, alongside the (hidden)
+       chevron toggle.
+   Both get the same indent and typography so they read as peers,
+   and we *also* force the URI links under an attachment to use the
+   same indent as their attachment parent — Material's default would
+   nudge level-2 deeper, but the user prefers a flat list under the
+   article header. */
+/* Use absolute units (rem) for both font-size and the icon dimensions
+   so cascading em context can't make the icons diverge between
+   adjacent rows. Padding-left is also explicit per nesting level. */
+.md-nav__item--nested
+  .md-nav__item:not(.md-nav__item--nested)
+  > .md-nav__link,
+.md-nav__item--nested
+  .md-nav__item--nested
+  > .md-nav__container
+  > a.md-nav__link {
+  font-size: 0.7rem !important;
   line-height: 1.4;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+  padding-left: 0.8rem !important;
   color: var(--md-default-fg-color--light);
 }
 
+/* Level-2 leaves (URI links beneath an attachment): deeper indent than
+   their attachment parent — about 2× the level-1 padding so the
+   visual hierarchy is unmistakable. */
+.md-nav__item--nested
+  .md-nav__item--nested
+  .md-nav__item:not(.md-nav__item--nested)
+  > .md-nav__link {
+  padding-left: 1.6rem !important;
+}
+
 /* Document icon (file-document-outline) for internal pages — Summary,
-   Full Text, attachment overview pages. */
+   Full Text, attachment overview pages — whether the attachment is a
+   leaf or has URI children of its own. Inline so it flows with the
+   text regardless of indent level. */
 .md-nav__item--nested
   .md-nav__item:not(.md-nav__item--nested)
-  > .md-nav__link:not([href^="http"]):not([href^="https"]):not([href^="mailto"])::before {
+  > .md-nav__link:not([href^="http"]):not([href^="https"]):not([href^="mailto"])::before,
+.md-nav__item--nested
+  .md-nav__item--nested
+  > .md-nav__container
+  > a.md-nav__link::before {
   content: "";
-  position: absolute;
-  left: 0.35rem;
-  top: 0.45em;
-  width: 0.85em;
-  height: 0.85em;
+  display: inline-block;
+  width: 0.85rem;
+  height: 0.85rem;
+  margin-right: 0.3rem;
+  vertical-align: -0.15rem;
   background-color: currentColor;
   opacity: 0.55;
   -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6m4 18H6V4h7v5h5v11M8 12v2h8v-2H8m0 4v2h5v-2H8z'/></svg>") center / contain no-repeat;
@@ -53,15 +118,46 @@
   .md-nav__item:not(.md-nav__item--nested)
   > .md-nav__link[href^="mailto"]::before {
   content: "";
-  position: absolute;
-  left: 0.35rem;
-  top: 0.45em;
-  width: 0.85em;
-  height: 0.85em;
+  display: inline-block;
+  width: 0.85rem;
+  height: 0.85rem;
+  margin-right: 0.3rem;
+  vertical-align: -0.15rem;
   background-color: currentColor;
   opacity: 0.55;
   -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7a5 5 0 0 0 0 10h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1M8 13h8v-2H8v2m9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4a5 5 0 0 0 0-10z'/></svg>") center / contain no-repeat;
           mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7a5 5 0 0 0 0 10h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1M8 13h8v-2H8v2m9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4a5 5 0 0 0 0-10z'/></svg>") center / contain no-repeat;
+}
+
+/* Layout: pin the primary nav near the viewport's left edge (with a
+   small breathing margin) and let the content area consume all
+   remaining horizontal space. Material's default centers the
+   .md-grid at a max-width (~61rem), which on wide monitors leaves a
+   big margin on both sides — we'd rather use that space for the
+   inlined PDF renders, which can be wider than the readable column.
+   Markdown body text is kept readable by capping .md-content__inner;
+   PDF pages opt out of that cap below. */
+.md-grid {
+  max-width: none !important;
+  margin-left: 1rem;
+  margin-right: 0;
+}
+
+/* Drop the sidebar's right gutter — the link items have their own
+   padding, so an extra column-edge buffer just bleeds whitespace
+   between the nav and the content. */
+.md-sidebar--primary {
+  padding-right: 0 !important;
+}
+
+.md-content__inner {
+  max-width: 61rem;
+}
+
+/* Pages that embed a pdf2htmlEX render let the full content area be
+   used, so wide PDF pages aren't clipped. */
+.md-content__inner:has(.pdf-rendered) {
+  max-width: none;
 }
 
 /* pdf2htmlEX-rendered PDF content. The generator outputs a viewport-

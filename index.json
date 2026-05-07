@@ -1,7 +1,7 @@
 {
   "source": "https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659",
   "meetingTemplateId": 1659,
-  "lastSynced": "2026-05-07T17:41:49+00:00",
+  "lastSynced": "2026-05-07T18:32:07+00:00",
   "articleCount": 95,
   "articles": [
     {
@@ -17,8 +17,8 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 115484,
-          "pdfLinks": [],
-          "htmlFilename": "View full text of Article.pdf.html"
+          "htmlFilename": "View full text of Article.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -35,8 +35,8 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 115601,
-          "pdfLinks": [],
-          "htmlFilename": "View full text of Article.pdf.html"
+          "htmlFilename": "View full text of Article.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -53,8 +53,8 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 22870,
-          "pdfLinks": [],
-          "htmlFilename": "View full text of Article.pdf.html"
+          "htmlFilename": "View full text of Article.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -71,8 +71,8 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 22861,
-          "pdfLinks": [],
-          "htmlFilename": "View full text of Article.pdf.html"
+          "htmlFilename": "View full text of Article.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -94,10 +94,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117440,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -119,10 +122,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 123248,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -144,10 +150,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118144,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -169,10 +178,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117424,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -194,18 +206,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 194270,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         },
         {
           "historyId": "2c3ab9b1-6484-488d-8a43-a8ab38941897",
           "title": "Article 10 Benson Amendment",
           "filename": "Article 10 Benson Amendment.pdf",
           "size": 132595,
-          "pdfLinks": [],
-          "htmlFilename": "Article 10 Benson Amendment.pdf.html"
+          "htmlFilename": "Article 10 Benson Amendment.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -227,10 +242,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 120362,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -252,10 +270,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119473,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -277,20 +298,26 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117736,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         },
         {
           "historyId": "e8dac440-62f1-43e6-9fa9-dd6ea7aa9c94",
           "title": "Article 13 Notes on Town Meeting Time 4th Edition",
           "filename": "Article 13 Notes on Town Meeting Time 4th Edition.pdf",
           "size": 227062,
+          "htmlFilename": "Article 13 Notes on Town Meeting Time 4th Edition.pdf.html",
           "pdfLinks": [
-            "https://massmoderators.org/tmt4/"
-          ],
-          "htmlFilename": "Article 13 Notes on Town Meeting Time 4th Edition.pdf.html"
+            {
+              "url": "https://massmoderators.org/tmt4/",
+              "label": "\u00a7 1.6. Two Town Meetings on One Night: new material added and now a separate section."
+            }
+          ]
         }
       ]
     },
@@ -312,18 +339,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119725,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         },
         {
           "historyId": "98c0a752-d8da-4fdc-bd71-175ac3b3a360",
           "title": "Article 14 Moore Presentation",
           "filename": "Article 14 Moore Presentation.pdf",
           "size": 153057,
-          "pdfLinks": [],
-          "htmlFilename": "Article 14 Moore Presentation.pdf.html"
+          "htmlFilename": "Article 14 Moore Presentation.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -345,10 +375,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117562,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -370,26 +403,29 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 168591,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         },
         {
           "historyId": "3f3652a2-cd19-4434-ad13-91d1a64445fa",
           "title": "Article 16 Fischer Amendment",
           "filename": "Article 16 Fischer Amendment.pdf",
           "size": 119875,
-          "pdfLinks": [],
-          "htmlFilename": "Article 16 Fischer Amendment.pdf.html"
+          "htmlFilename": "Article 16 Fischer Amendment.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "176d43aa-381c-4001-a5c1-54d6b18df0b4",
           "title": "Article 16 Fee Information",
           "filename": "Article 16 Fee Information.pdf",
           "size": 652655,
-          "pdfLinks": [],
-          "htmlFilename": "Article 16 Fee Information.pdf.html"
+          "htmlFilename": "Article 16 Fee Information.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -411,11 +447,17 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118195,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40/Section22F",
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40/Section22F",
+              "label": "this provision is adopted, the existing schedule of fees and"
+            },
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -437,10 +479,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117838,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -462,10 +507,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 121393,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -487,10 +535,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 126878,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -512,10 +563,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117436,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -537,26 +591,29 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 124830,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         },
         {
           "historyId": "7383d94f-e8a7-44f7-ac54-4d38690e447c",
           "title": "Article 22 Crowder Amendment",
           "filename": "Article 22 Crowder Amendment.pdf",
           "size": 104470,
-          "pdfLinks": [],
-          "htmlFilename": "Article 22 Crowder Amendment.pdf.html"
+          "htmlFilename": "Article 22 Crowder Amendment.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "9fbfb79c-fec6-42a0-9048-ff72f34c2e12",
           "title": "Article 22 Crowder Presentation",
           "filename": "Article 22 Crowder Presentation.pdf",
           "size": 9860444,
-          "pdfLinks": [],
-          "htmlFilename": "Article 22 Crowder Presentation.pdf.html"
+          "htmlFilename": "Article 22 Crowder Presentation.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -578,74 +635,167 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117939,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         },
         {
           "historyId": "aa316ecd-1b1e-46fa-9067-acdacc8936c0",
           "title": "Article 23 Cutraro Substitute Motion",
           "filename": "Article 23 Cutraro Substitute Motion.pdf",
           "size": 142681,
-          "pdfLinks": [],
-          "htmlFilename": "Article 23 Cutraro Substitute Motion.pdf.html"
+          "htmlFilename": "Article 23 Cutraro Substitute Motion.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "2346e1fe-3da0-40b5-8db5-cf3c895da2e8",
           "title": "Article 23 Statement Save Arlington Wildlife",
           "filename": "Article 23 Statement Save Arlington Wildlife.pdf",
           "size": 33028,
+          "htmlFilename": "Article 23 Statement Save Arlington Wildlife.pdf.html",
           "pdfLinks": [
-            "https://www.savearlingtonwildlife.org/"
-          ],
-          "htmlFilename": "Article 23 Statement Save Arlington Wildlife.pdf.html"
+            {
+              "url": "https://www.savearlingtonwildlife.org/",
+              "label": "https://www.savearlingtonwildlife.org/"
+            }
+          ]
         },
         {
           "historyId": "0d350e06-18f0-4194-964d-8854755c6e2a",
           "title": "Article 23 Statement Mothers Out Front",
           "filename": "Article 23 Statement Mothers Out Front.pdf",
           "size": 116415,
-          "pdfLinks": [],
-          "htmlFilename": "Article 23 Statement Mothers Out Front.pdf.html"
+          "htmlFilename": "Article 23 Statement Mothers Out Front.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "e91a28b5-3e72-4b99-aed2-e3da98a22b98",
           "title": "Article 23 Statement Trees as a Public Good Network",
           "filename": "Article 23 Statement Trees as a Public Good Network.pdf",
           "size": 5441082,
+          "htmlFilename": "Article 23 Statement Trees as a Public Good Network.pdf.html",
           "pdfLinks": [
-            "mailto:TreesPublicGood@gmail.com",
-            "https://www.fs.usda.gov/nrs/pubs/gtr/gtr_nrs203.pdf",
-            "https://doi.org/10.1038/s41598-023-28629-6",
-            "https://doi.org/10.1371/journal.pone.0249715",
-            "https://mass-eoeea.maps.arcgis.com/apps/webappviewer/index.html?id=1d6f63e7762a48e5930de84ed4849212",
-            "https://treecanopy.us/",
-            "https://youtu.be/4-ync4lXIMU?si=c8NZk_1PCxfn9LZR&t=392",
-            "https://tinyurl.com/YTreesMatter",
-            "https://doi.org/10.1016/j.ufug.2021.127366",
-            "https://www.fs.usda.gov/psw/topics/urban_forestry/products/cufr639mcpherson-JOA-pavingshade.pdf",
-            "https://treeboston.org/tree-equity-maps/",
-            "https://www.treeequityscore.org/stories/keeping-cool",
-            "https://www.mass.gov/info-details/massgis-data-2020-environmental-justice-populations",
-            "https://doi.org/10.1038/s42949-024-00150-3",
-            "http://www.nativetreesociety.org/people/RTLeverett.htm",
-            "https://www.treeib.com/robert-leverett-bio",
-            "https://mytree.itreetools.org/",
-            "http://crossmark.crossref.org/dialog/?doi=10.1038/s42949-024-00150-3&domain=pdf",
-            "http://orcid.org/0000-0002-1077-3774",
-            "http://orcid.org/0000-0002-7194-4397",
-            "http://orcid.org/0000-0002-0636-5380",
-            "mailto:rob_mcdonald@tnc.org",
-            "https://doi.org/10.5061/dryad.zgmsbcckf",
-            "https://www.federalregister.gov/documents/2010/08/24/2010-20808/proposed-urban-area-criteria-for-the-2010-census",
-            "https://doi.org/10.5066/P9KZCM54",
-            "https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-ghcn",
-            "https://doi.org/10.1111/gcb.16667",
-            "http://www.nature.com/reprints",
-            "http://creativecommons.org/licenses/by/4.0/"
-          ],
-          "htmlFilename": "Article 23 Statement Trees as a Public Good Network.pdf.html"
+            {
+              "url": "mailto:TreesPublicGood@gmail.com",
+              "label": "Submitted by Robin L Bergman, Town Meeting Member, Precinct 12."
+            },
+            {
+              "url": "https://www.fs.usda.gov/nrs/pubs/gtr/gtr_nrs203.pdf",
+              "label": "Submitted by Robin L Bergman, Town Meeting Member, Precinct 12."
+            },
+            {
+              "url": "https://doi.org/10.1038/s41598-023-28629-6",
+              "label": "Submitted by Robin L Bergman, Town Meeting Member, Precinct 12."
+            },
+            {
+              "url": "https://doi.org/10.1371/journal.pone.0249715",
+              "label": "Submitted by Robin L Bergman, Town Meeting Member, Precinct 12."
+            },
+            {
+              "url": "https://mass-eoeea.maps.arcgis.com/apps/webappviewer/index.html?id=1d6f63e7762a48e5930de84ed4849212",
+              "label": "related health impacts,\u201d https://doi.org/10.1038/s42949-024-00150-3. A PDF of this article is attached."
+            },
+            {
+              "url": "https://treecanopy.us/",
+              "label": "related health impacts,\u201d https://doi.org/10.1038/s42949-024-00150-3. A PDF of this article is attached."
+            },
+            {
+              "url": "https://youtu.be/4-ync4lXIMU?si=c8NZk_1PCxfn9LZR&t=392",
+              "label": "related health impacts,\u201d https://doi.org/10.1038/s42949-024-00150-3. A PDF of this article is attached."
+            },
+            {
+              "url": "https://tinyurl.com/YTreesMatter",
+              "label": "related health impacts,\u201d https://doi.org/10.1038/s42949-024-00150-3. A PDF of this article is attached."
+            },
+            {
+              "url": "https://doi.org/10.1016/j.ufug.2021.127366",
+              "label": "related health impacts,\u201d https://doi.org/10.1038/s42949-024-00150-3. A PDF of this article is attached."
+            },
+            {
+              "url": "https://www.fs.usda.gov/psw/topics/urban_forestry/products/cufr639mcpherson-JOA-pavingshade.pdf",
+              "label": "related health impacts,\u201d https://doi.org/10.1038/s42949-024-00150-3. A PDF of this article is attached."
+            },
+            {
+              "url": "https://treeboston.org/tree-equity-maps/",
+              "label": "related health impacts,\u201d https://doi.org/10.1038/s42949-024-00150-3. A PDF of this article is attached."
+            },
+            {
+              "url": "https://www.treeequityscore.org/stories/keeping-cool",
+              "label": "related health impacts,\u201d https://doi.org/10.1038/s42949-024-00150-3. A PDF of this article is attached."
+            },
+            {
+              "url": "https://www.mass.gov/info-details/massgis-data-2020-environmental-justice-populations",
+              "label": "related health impacts,\u201d https://doi.org/10.1038/s42949-024-00150-3. A PDF of this article is attached."
+            },
+            {
+              "url": "https://doi.org/10.1038/s42949-024-00150-3",
+              "label": "related health impacts,\u201d https://doi.org/10.1038/s42949-024-00150-3. A PDF of this article is attached."
+            },
+            {
+              "url": "http://www.nativetreesociety.org/people/RTLeverett.htm",
+              "label": "& energy) using the species, dimension (13\" DBH), and location of the tree in relation to each house."
+            },
+            {
+              "url": "https://www.treeib.com/robert-leverett-bio",
+              "label": "& energy) using the species, dimension (13\" DBH), and location of the tree in relation to each house."
+            },
+            {
+              "url": "https://mytree.itreetools.org/",
+              "label": "& energy) using the species, dimension (13\" DBH), and location of the tree in relation to each house."
+            },
+            {
+              "url": "http://crossmark.crossref.org/dialog/?doi=10.1038/s42949-024-00150-3&domain=pdf",
+              "label": "Robin L Bergman, Town Meeting Member, Precinct 12."
+            },
+            {
+              "url": "http://orcid.org/0000-0002-1077-3774",
+              "label": "Robin L Bergman, Town Meeting Member, Precinct 12."
+            },
+            {
+              "url": "http://orcid.org/0000-0002-7194-4397",
+              "label": "Robin L Bergman, Town Meeting Member, Precinct 12."
+            },
+            {
+              "url": "http://orcid.org/0000-0002-0636-5380",
+              "label": "Robin L Bergman, Town Meeting Member, Precinct 12."
+            },
+            {
+              "url": "mailto:rob_mcdonald@tnc.org",
+              "label": "Robin L Bergman, Town Meeting Member, Precinct 12."
+            },
+            {
+              "url": "https://doi.org/10.5061/dryad.zgmsbcckf",
+              "label": "npj Urban Sustainability | (2024) 4:18 13"
+            },
+            {
+              "url": "https://www.federalregister.gov/documents/2010/08/24/2010-20808/proposed-urban-area-criteria-for-the-2010-census",
+              "label": "npj Urban Sustainability | (2024) 4:18 15"
+            },
+            {
+              "url": "https://doi.org/10.5066/P9KZCM54",
+              "label": "npj Urban Sustainability | (2024) 4:18 15"
+            },
+            {
+              "url": "https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-ghcn",
+              "label": "npj Urban Sustainability | (2024) 4:18 15"
+            },
+            {
+              "url": "https://doi.org/10.1111/gcb.16667",
+              "label": "npj Urban Sustainability | (2024) 4:18 15"
+            },
+            {
+              "url": "http://www.nature.com/reprints",
+              "label": "npj Urban Sustainability | (2024) 4:18 16"
+            },
+            {
+              "url": "http://creativecommons.org/licenses/by/4.0/",
+              "label": "npj Urban Sustainability | (2024) 4:18 16"
+            }
+          ]
         }
       ]
     },
@@ -667,18 +817,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118781,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         },
         {
           "historyId": "d099e2b3-49d3-4f44-8724-ddcd8b55520c",
           "title": "Article 24 Chart",
           "filename": "Article 24 Chart.pdf",
           "size": 114517,
-          "pdfLinks": [],
-          "htmlFilename": "Article 24 Chart.pdf.html"
+          "htmlFilename": "Article 24 Chart.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -700,18 +853,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119313,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         },
         {
           "historyId": "0b900b70-91dd-436b-adfa-91c4838f28fc",
           "title": "Article 25 Chart",
           "filename": "Article 25 Chart.pdf",
           "size": 116328,
-          "pdfLinks": [],
-          "htmlFilename": "Article 25 Chart.pdf.html"
+          "htmlFilename": "Article 25 Chart.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -733,18 +889,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119204,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         },
         {
           "historyId": "a783655b-11e2-4e15-a3b7-1e66bca850de",
           "title": "Article 26 Chart",
           "filename": "Article 26 Chart.pdf",
           "size": 113513,
-          "pdfLinks": [],
-          "htmlFilename": "Article 26 Chart.pdf.html"
+          "htmlFilename": "Article 26 Chart.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -766,10 +925,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117348,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -791,10 +953,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 1485052,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -816,10 +981,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 123702,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -841,26 +1009,29 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119848,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         },
         {
           "historyId": "3b865672-82a8-4e42-8c84-d04a8f179778",
           "title": "Article 30 Schlichtman Substitute Motion",
           "filename": "Article 30 Schlichtman Substitute Motion.pdf",
           "size": 57146,
-          "pdfLinks": [],
-          "htmlFilename": "Article 30 Schlichtman Substitute Motion.pdf.html"
+          "htmlFilename": "Article 30 Schlichtman Substitute Motion.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "053ccc81-9dc0-4144-a4d0-9aee3e851af6",
           "title": "Article 30 Schlichtman Statement",
           "filename": "Article 30 Schlichtman Statement.pdf",
           "size": 1853326,
-          "pdfLinks": [],
-          "htmlFilename": "Article 30 Schlichtman Statement.pdf.html"
+          "htmlFilename": "Article 30 Schlichtman Statement.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -882,26 +1053,29 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119757,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         },
         {
           "historyId": "c7e6509c-d8ee-4230-974a-5ed8dee67348",
           "title": "Article 31 Granucci Presentation",
           "filename": "Article 31 Granucci Presentation.pdf",
           "size": 652633,
-          "pdfLinks": [],
-          "htmlFilename": "Article 31 Granucci Presentation.pdf.html"
+          "htmlFilename": "Article 31 Granucci Presentation.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "a953d9e3-ad86-40cc-bf28-47dd81c33783",
           "title": "Article 31 Granucci Statement",
           "filename": "Article 31 Granucci Statement.pdf",
           "size": 391376,
-          "pdfLinks": [],
-          "htmlFilename": "Article 31 Granucci Statement.pdf.html"
+          "htmlFilename": "Article 31 Granucci Statement.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -923,18 +1097,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118318,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         },
         {
           "historyId": "d5369997-9637-473f-a6f0-7b639c36a7fb",
           "title": "Article 32 Presentation",
           "filename": "Article 32 Presentation.pdf",
           "size": 3977541,
-          "pdfLinks": [],
-          "htmlFilename": "Article 32 Presentation.pdf.html"
+          "htmlFilename": "Article 32 Presentation.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -956,10 +1133,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117784,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -981,10 +1161,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117000,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -1006,11 +1189,17 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116703,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
-            "https://www.arlingtonma.gov/home/showdocument?id=77333&t=639111565170004328"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "CDBG Report lists specific items"
+            },
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77333&t=639111565170004328",
+              "label": "CDBG Report lists specific items"
+            }
+          ]
         }
       ]
     },
@@ -1032,18 +1221,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 126007,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         },
         {
           "historyId": "ffe0dd0c-2a1f-4685-b65f-286f4c6e0923",
           "title": "Article 36 Revolving Fund Expenditure Detail",
           "filename": "Article 36 Revolving Fund Expenditure Detail.pdf",
           "size": 48685,
-          "pdfLinks": [],
-          "htmlFilename": "Article 36 Revolving Fund Expenditure Detail.pdf.html"
+          "htmlFilename": "Article 36 Revolving Fund Expenditure Detail.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -1065,10 +1257,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117607,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -1090,26 +1285,29 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117234,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         },
         {
           "historyId": "edf5b43f-a9f1-4ea4-aa81-2de13b2d8278",
           "title": "Article 38 ARB Presentation",
           "filename": "Article 38 ARB Presentation.pdf",
           "size": 164972,
-          "pdfLinks": [],
-          "htmlFilename": "Article 38 ARB Presentation.pdf.html"
+          "htmlFilename": "Article 38 ARB Presentation.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "ec710755-11a8-42a1-bcd5-67b26970690f",
           "title": "Article 38 Draft Site List",
           "filename": "Article 38 Draft Site List.pdf",
           "size": 117831,
-          "pdfLinks": [],
-          "htmlFilename": "Article 38 Draft Site List.pdf.html"
+          "htmlFilename": "Article 38 Draft Site List.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -1131,32 +1329,50 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119583,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         },
         {
           "historyId": "7a56e309-22e5-407e-ab29-b0ad878286e8",
           "title": "Article 39 ARB Presentation",
           "filename": "Article 39 ARB Presentation.pdf",
           "size": 154699,
-          "pdfLinks": [],
-          "htmlFilename": "Article 39 ARB Presentation.pdf.html"
+          "htmlFilename": "Article 39 ARB Presentation.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "4d4a7432-5aeb-4e2e-8565-fcebc09e5298",
           "title": "Article 39 Statement Attorney General on ADUs",
           "filename": "Article 39 Statement Attorney General on ADUs.pdf",
           "size": 436936,
+          "htmlFilename": "Article 39 Statement Attorney General on ADUs.pdf.html",
           "pdfLinks": [
-            "https://www.mass.gov/info-details/accessory-dwelling-unit-adu-faqs/",
-            "https://www.mass.gov/doc/guidance-on-title-5-310-cmr-15000-compliance-for-accessory-dwelling-units/download",
-            "https://www.mass.gov/doc/frequently-asked-questions-faq-related-to-guidance-on-title-5-310-cmr-15000-compliance-for-accessory-dwelling-units/download",
-            "https://www.mass.gov/info-details/massgis-addressing-guidance-for-accessory-dwelling-units-adus",
-            "http://www.mass.gov/ago/munilaw"
-          ],
-          "htmlFilename": "Article 39 Statement Attorney General on ADUs.pdf.html"
+            {
+              "url": "https://www.mass.gov/info-details/accessory-dwelling-unit-adu-faqs/",
+              "label": "complete nullification of the use or development of a Protected Use ADU; (b) impose excessive costs on"
+            },
+            {
+              "url": "https://www.mass.gov/doc/guidance-on-title-5-310-cmr-15000-compliance-for-accessory-dwelling-units/download",
+              "label": "complete nullification of the use or development of a Protected Use ADU; (b) impose excessive costs on"
+            },
+            {
+              "url": "https://www.mass.gov/doc/frequently-asked-questions-faq-related-to-guidance-on-title-5-310-cmr-15000-compliance-for-accessory-dwelling-units/download",
+              "label": "complete nullification of the use or development of a Protected Use ADU; (b) impose excessive costs on"
+            },
+            {
+              "url": "https://www.mass.gov/info-details/massgis-addressing-guidance-for-accessory-dwelling-units-adus",
+              "label": "complete nullification of the use or development of a Protected Use ADU; (b) impose excessive costs on"
+            },
+            {
+              "url": "http://www.mass.gov/ago/munilaw",
+              "label": "http://www.mass.gov/ago/munilaw"
+            }
+          ]
         }
       ]
     },
@@ -1178,18 +1394,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119755,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         },
         {
           "historyId": "0f7cb63c-08e9-45e2-8483-05d36109e86c",
           "title": "Article 40 ARB Presentation",
           "filename": "Article 40 ARB Presentation.pdf",
           "size": 156428,
-          "pdfLinks": [],
-          "htmlFilename": "Article 40 ARB Presentation.pdf.html"
+          "htmlFilename": "Article 40 ARB Presentation.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -1211,10 +1430,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119602,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         }
       ]
     },
@@ -1236,18 +1458,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118208,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         },
         {
           "historyId": "3c04cffb-23d9-49f4-8485-2d34c7376b1b",
           "title": "Article 42 ARB presentation",
           "filename": "Article 42 ARB presentation.pdf",
           "size": 184322,
-          "pdfLinks": [],
-          "htmlFilename": "Article 42 ARB presentation.pdf.html"
+          "htmlFilename": "Article 42 ARB presentation.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -1269,18 +1494,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 280904,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         },
         {
           "historyId": "3224b8f1-37df-4a76-a8c5-4398a8b43263",
           "title": "Article 43 ARB Presentation",
           "filename": "Article 43 ARB Presentation.pdf",
           "size": 449328,
-          "pdfLinks": [],
-          "htmlFilename": "Article 43 ARB Presentation.pdf.html"
+          "htmlFilename": "Article 43 ARB Presentation.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -1302,26 +1530,29 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 148140,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         },
         {
           "historyId": "93bf726b-e197-45ee-9a4a-3c1a732b2861",
           "title": "Article 44 Benson Amendment",
           "filename": "Article 44 Benson Amendment.pdf",
           "size": 95035,
-          "pdfLinks": [],
-          "htmlFilename": "Article 44 Benson Amendment.pdf.html"
+          "htmlFilename": "Article 44 Benson Amendment.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "eb2eae05-06a8-404b-95cb-e4895f9f71d8",
           "title": "Article 44 ARB Presentation",
           "filename": "Article 44 ARB Presentation.pdf",
           "size": 736775,
-          "pdfLinks": [],
-          "htmlFilename": "Article 44 ARB Presentation.pdf.html"
+          "htmlFilename": "Article 44 ARB Presentation.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -1343,18 +1574,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 168798,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         },
         {
           "historyId": "bf9e4358-901e-4095-94b8-7b036651e033",
           "title": "Article 45 ARB Presentation",
           "filename": "Article 45 ARB Presentation.pdf",
           "size": 200326,
-          "pdfLinks": [],
-          "htmlFilename": "Article 45 ARB Presentation.pdf.html"
+          "htmlFilename": "Article 45 ARB Presentation.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -1376,18 +1610,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118875,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         },
         {
           "historyId": "b85434af-41f4-443a-9bd2-5b69a880abfd",
           "title": "Article 46 ARB Presentation",
           "filename": "Article 46 ARB Presentation.pdf",
           "size": 184646,
-          "pdfLinks": [],
-          "htmlFilename": "Article 46 ARB Presentation.pdf.html"
+          "htmlFilename": "Article 46 ARB Presentation.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -1409,26 +1646,29 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118427,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         },
         {
           "historyId": "8a4d0ab5-5a45-4958-8b00-2e21dab7da4f",
           "title": "Article 47 Benson Amendment",
           "filename": "Article 47 Benson Amendment.pdf",
           "size": 90422,
-          "pdfLinks": [],
-          "htmlFilename": "Article 47 Benson Amendment.pdf.html"
+          "htmlFilename": "Article 47 Benson Amendment.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "108b04d7-6ee8-4e8f-b568-8a16b28e1489",
           "title": "Article 47 ARB Presentation",
           "filename": "Article 47 ARB Presentation.pdf",
           "size": 738703,
-          "pdfLinks": [],
-          "htmlFilename": "Article 47 ARB Presentation.pdf.html"
+          "htmlFilename": "Article 47 ARB Presentation.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -1450,18 +1690,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 120170,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         },
         {
           "historyId": "3f55d51a-7716-4426-8cc9-fb4badd9dda2",
           "title": "Article 48 ARB Presentation",
           "filename": "Article 48 ARB Presentation.pdf",
           "size": 165137,
-          "pdfLinks": [],
-          "htmlFilename": "Article 48 ARB Presentation.pdf.html"
+          "htmlFilename": "Article 48 ARB Presentation.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -1483,18 +1726,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 1044890,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         },
         {
           "historyId": "b307f017-52a0-4bab-ae6a-bc287d16ae1a",
           "title": "Article 49 Presentation",
           "filename": "Article 49 Presentation.pdf",
           "size": 72499,
-          "pdfLinks": [],
-          "htmlFilename": "Article 49 Presentation.pdf.html"
+          "htmlFilename": "Article 49 Presentation.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -1516,18 +1762,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 2145288,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         },
         {
           "historyId": "0d82b3f4-c0dc-46d0-a6d5-0fcbaeff492c",
           "title": "Article 50 Statement and Maps - Director of Planning and Community Development",
           "filename": "Article 50 Statement and Maps - Director of Planning and Community Development.pdf",
           "size": 6486562,
-          "pdfLinks": [],
-          "htmlFilename": "Article 50 Statement and Maps - Director of Planning and Community Development.pdf.html"
+          "htmlFilename": "Article 50 Statement and Maps - Director of Planning and Community Development.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -1549,10 +1798,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 122203,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         }
       ]
     },
@@ -1574,18 +1826,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 2603443,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         },
         {
           "historyId": "0ff1c21a-79a1-47e5-a068-392eac58dd0e",
           "title": "Article 52 Statement and Maps - Director of Planning and Community Development",
           "filename": "Article 52 Statement and Maps - Director of Planning and Community Development.pdf",
           "size": 26527405,
-          "pdfLinks": [],
-          "htmlFilename": "Article 52 Statement and Maps - Director of Planning and Community Development.pdf.html"
+          "htmlFilename": "Article 52 Statement and Maps - Director of Planning and Community Development.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -1607,226 +1862,256 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 122426,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         },
         {
           "historyId": "1500e84a-256f-42bd-8c4b-96a7b88d1f40",
           "title": "Article 53 Cullinane Substitute Motion",
           "filename": "Article 53 Cullinane Substitute Motion.pdf",
           "size": 161864,
+          "htmlFilename": "Article 53 Cullinane Substitute Motion.pdf.html",
           "pdfLinks": [
-            "https://youtube.com/clip/Ugkx8LWikYKyEBlVF-KUJmtAhtrUj6P4hu_3?si=akIsX5oR-1Rnacjy"
-          ],
-          "htmlFilename": "Article 53 Cullinane Substitute Motion.pdf.html"
+            {
+              "url": "https://youtube.com/clip/Ugkx8LWikYKyEBlVF-KUJmtAhtrUj6P4hu_3?si=akIsX5oR-1Rnacjy",
+              "label": "Precinct 7"
+            }
+          ]
         },
         {
           "historyId": "bc7ab57e-b188-4237-958d-d24558b0aae7",
           "title": "Article 53 Statement Melleta Marx",
           "filename": "Article 53 Statement Melleta Marx.pdf",
           "size": 56702,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement Melleta Marx.pdf.html"
+          "htmlFilename": "Article 53 Statement Melleta Marx.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "e7136348-6c25-4147-a20c-512b4f2004bf",
           "title": "Article 53 Statement - gross floor area - Cullinane and Slotnick",
           "filename": "Article 53 Statement - gross floor area - Cullinane and Slotnick.pdf",
           "size": 50829,
+          "htmlFilename": "Article 53 Statement - gross floor area - Cullinane and Slotnick.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showpublisheddocument/43413/639033980621230000#page=14"
-          ],
-          "htmlFilename": "Article 53 Statement - gross floor area - Cullinane and Slotnick.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showpublisheddocument/43413/639033980621230000#page=14",
+              "label": "https://www.arlingtonma.gov/home/showpublisheddocument/43413/639033980621230000#page=14"
+            }
+          ]
         },
         {
           "historyId": "128b56ba-58d3-4496-9b95-985d0630a10a",
           "title": "Article 53 Statement and video - bonuses Cullinane and Slotnick",
           "filename": "Article 53 Statement and video - bonuses Cullinane and Slotnick.pdf",
           "size": 36649,
+          "htmlFilename": "Article 53 Statement and video - bonuses Cullinane and Slotnick.pdf.html",
           "pdfLinks": [
-            "https://drive.google.com/file/d/1xBSFCL5bm8uUlqjE3v2J-Vk3RUs5KqJu/view?usp=sharing"
-          ],
-          "htmlFilename": "Article 53 Statement and video - bonuses Cullinane and Slotnick.pdf.html"
+            {
+              "url": "https://drive.google.com/file/d/1xBSFCL5bm8uUlqjE3v2J-Vk3RUs5KqJu/view?usp=sharing",
+              "label": "https://drive.google.com/file/d/1xBSFCL5bm8uUlqjE3v2J-Vk3RUs5KqJu/view?usp=sharing"
+            }
+          ]
         },
         {
           "historyId": "4bc77db6-fb73-44de-8f26-c1ebf2baeb19",
           "title": "Article 53 Statement and video - commercial space Cullinane and Slotnick",
           "filename": "Article 53 Statement and video - commercial space Cullinane and Slotnick.pdf",
           "size": 64258,
+          "htmlFilename": "Article 53 Statement and video - commercial space Cullinane and Slotnick.pdf.html",
           "pdfLinks": [
-            "https://youtube.com/clip/Ugkx8LWikYKyEBlVF-KUJmtAhtrUj6P4hu_3?si=osYcEICkHFkxefWt"
-          ],
-          "htmlFilename": "Article 53 Statement and video - commercial space Cullinane and Slotnick.pdf.html"
+            {
+              "url": "https://youtube.com/clip/Ugkx8LWikYKyEBlVF-KUJmtAhtrUj6P4hu_3?si=osYcEICkHFkxefWt",
+              "label": "https://youtube.com/clip/Ugkx8LWikYKyEBlVF-KUJmtAhtrUj6P4hu_3?si=osYcEICkHFkxefWt"
+            }
+          ]
         },
         {
           "historyId": "bb038ab3-4030-4bd8-b93d-23c20ab9b20d",
           "title": "Article 53 Statement Carla Valentine",
           "filename": "Article 53 Statement Carla Valentine.pdf",
           "size": 87060,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement Carla Valentine.pdf.html"
+          "htmlFilename": "Article 53 Statement Carla Valentine.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "0d9f422e-5fba-469f-88f6-26d7f65d5608",
           "title": "Article 53 Statement Chamber of Commerce",
           "filename": "Article 53 Statement Chamber of Commerce.pdf",
           "size": 126367,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement Chamber of Commerce.pdf.html"
+          "htmlFilename": "Article 53 Statement Chamber of Commerce.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "8c146177-894b-4e7e-8d4b-4212615dffe8",
           "title": "Article 53 Statement to YourArlington Cullinane and Slotnick",
           "filename": "Article 53 Statement to YourArlington Cullinane and Slotnick.pdf",
           "size": 171086,
+          "htmlFilename": "Article 53 Statement to YourArlington Cullinane and Slotnick.pdf.html",
           "pdfLinks": [
-            "https://yourarlington.com/category/commentary/",
-            "https://yourarlington.com/category/views/",
-            "https://yourarlington.com/author/ya-guest-opinion/"
-          ],
-          "htmlFilename": "Article 53 Statement to YourArlington Cullinane and Slotnick.pdf.html"
+            {
+              "url": "https://yourarlington.com/category/commentary/",
+              "label": "of the bylaw."
+            },
+            {
+              "url": "https://yourarlington.com/category/views/",
+              "label": "of the bylaw."
+            },
+            {
+              "url": "https://yourarlington.com/author/ya-guest-opinion/",
+              "label": "of the bylaw."
+            }
+          ]
         },
         {
           "historyId": "0d0b4eac-5fc9-4c23-900a-b2e892c9f769",
           "title": "Article 53 Statement Jordan Weinstein",
           "filename": "Article 53 Statement Jordan Weinstein.pdf",
           "size": 12363,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement Jordan Weinstein.pdf.html"
+          "htmlFilename": "Article 53 Statement Jordan Weinstein.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "e6c395a1-052e-4afc-a662-fd3619062f5d",
           "title": "Article 53 Statement Diane Krause",
           "filename": "Article 53 Statement Diane Krause.pdf",
           "size": 48219,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement Diane Krause.pdf.html"
+          "htmlFilename": "Article 53 Statement Diane Krause.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "a74731e0-faf5-4275-8a3e-2d69a8a0220f",
           "title": "Article 53 Statement Belinda Chu",
           "filename": "Article 53 Statement Belinda Chu.pdf",
           "size": 35814,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement Belinda Chu.pdf.html"
+          "htmlFilename": "Article 53 Statement Belinda Chu.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "df458656-6c55-4e77-99ad-92c9b37eae5b",
           "title": "Article 53 Statement Carol Luddecke",
           "filename": "Article 53 Statement Carol Luddecke.pdf",
           "size": 47038,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement Carol Luddecke.pdf.html"
+          "htmlFilename": "Article 53 Statement Carol Luddecke.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "10cd2cc3-62e6-43c2-bcd6-ad24e8ce4de8",
           "title": "Article 53 Statement Shevawn Hardesty",
           "filename": "Article 53 Statement Shevawn Hardesty.pdf",
           "size": 33345,
+          "htmlFilename": "Article 53 Statement Shevawn Hardesty.pdf.html",
           "pdfLinks": [
-            "mailto:shevawn@comcast.net"
-          ],
-          "htmlFilename": "Article 53 Statement Shevawn Hardesty.pdf.html"
+            {
+              "url": "mailto:shevawn@comcast.net",
+              "label": "Inserted by Beth Melofichek, precinct 9"
+            }
+          ]
         },
         {
           "historyId": "320d30b8-c179-4aab-8396-05b71362b4d7",
           "title": "Article 53 Statement Stafan Wolpert",
           "filename": "Article 53 Statement Stafan Wolpert.pdf",
           "size": 121187,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement Stafan Wolpert.pdf.html"
+          "htmlFilename": "Article 53 Statement Stafan Wolpert.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "ac536994-f494-4690-a601-4c0a22536a04",
           "title": "Article 53 Statement Judith Miller",
           "filename": "Article 53 Statement Judith Miller.pdf",
           "size": 32104,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement Judith Miller.pdf.html"
+          "htmlFilename": "Article 53 Statement Judith Miller.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "455ac13d-ec83-49a8-81d1-a01027866750",
           "title": "Article 53 Statement Gerry Leonard",
           "filename": "Article 53 Statement Gerry Leonard.pdf",
           "size": 50408,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement Gerry Leonard.pdf.html"
+          "htmlFilename": "Article 53 Statement Gerry Leonard.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "05dfe2dc-84c5-4005-ab95-6e2062c2d474",
           "title": "Article 53 Statement Susan Pace",
           "filename": "Article 53 Statement Susan Pace.pdf",
           "size": 33568,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement Susan Pace.pdf.html"
+          "htmlFilename": "Article 53 Statement Susan Pace.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "d6512332-6a8a-47b2-8fb1-06eae4b0ac86",
           "title": "Article 53 Statement Annem Waiy",
           "filename": "Article 53 Statement Annem Waiy.pdf",
           "size": 370674,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement Annem Waiy.pdf.html"
+          "htmlFilename": "Article 53 Statement Annem Waiy.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "249ba114-2e06-49d2-88ac-180009670e49",
           "title": "Article 53 Statement Christian Webb",
           "filename": "Article 53 Statement Christian Webb.pdf",
           "size": 63207,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement Christian Webb.pdf.html"
+          "htmlFilename": "Article 53 Statement Christian Webb.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "725a649d-02b2-4455-917e-be3f26237537",
           "title": "Article 53 Statement Rebecca Peterson",
           "filename": "Article 53 Statement Rebecca Peterson.pdf",
           "size": 26845,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement Rebecca Peterson.pdf.html"
+          "htmlFilename": "Article 53 Statement Rebecca Peterson.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "8491873d-2cbb-4580-ab3a-6a8457450632",
           "title": "Article 53 Statement Claire Odom",
           "filename": "Article 53 Statement Claire Odom.pdf",
           "size": 48867,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement Claire Odom.pdf.html"
+          "htmlFilename": "Article 53 Statement Claire Odom.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "e509221a-bba8-451f-9a9e-fa2a56d61d77",
           "title": "Article 53 Statement Dominic Vecchione",
           "filename": "Article 53 Statement Dominic Vecchione.pdf",
           "size": 516801,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement Dominic Vecchione.pdf.html"
+          "htmlFilename": "Article 53 Statement Dominic Vecchione.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "4ef6fa89-d9b9-45c4-94d7-4b7c6980a17d",
           "title": "Article 53 Statement Douglas Funkhouser",
           "filename": "Article 53 Statement Douglas Funkhouser.pdf",
           "size": 33628,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement Douglas Funkhouser.pdf.html"
+          "htmlFilename": "Article 53 Statement Douglas Funkhouser.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "6fc6cb23-ee36-462e-8dc4-33eb9d387a93",
           "title": "Article 53 Statement to ARB regarding proposed development",
           "filename": "Article 53 Statement to ARB regarding proposed development.pdf",
           "size": 117425,
-          "pdfLinks": [],
-          "htmlFilename": "Article 53 Statement to ARB regarding proposed development.pdf.html"
+          "htmlFilename": "Article 53 Statement to ARB regarding proposed development.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "fa36b63d-aff9-4fa9-a916-325bee2d378c",
           "title": "Article 53 Statement - availability of commercial space",
           "filename": "Article 53 Statement - availability of commercial space.pdf",
           "size": 114522,
+          "htmlFilename": "Article 53 Statement - availability of commercial space.pdf.html",
           "pdfLinks": [
-            "https://youtu.be/HWIOtWojpGY?si=ocDMjZXqvZ8uGF1J&t=7356"
-          ],
-          "htmlFilename": "Article 53 Statement - availability of commercial space.pdf.html"
+            {
+              "url": "https://youtu.be/HWIOtWojpGY?si=ocDMjZXqvZ8uGF1J&t=7356",
+              "label": "trending right now, and childcare."
+            }
+          ]
         }
       ]
     },
@@ -1848,41 +2133,62 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118387,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         },
         {
           "historyId": "e102be05-dded-407a-8c53-d339310456e3",
           "title": "Article 54 Monaghan Substitute Motion",
           "filename": "Article 54 Monaghan Substitute Motion.pdf",
           "size": 114234,
-          "pdfLinks": [],
-          "htmlFilename": "Article 54 Monaghan Substitute Motion.pdf.html"
+          "htmlFilename": "Article 54 Monaghan Substitute Motion.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "fa822e14-1972-42ba-88ea-4fb6504d2b86",
           "title": "Article 54 Statement Caitlin Monaghan",
           "filename": "Article 54 Statement Caitlin Monaghan.pdf",
           "size": 830074,
+          "htmlFilename": "Article 54 Statement Caitlin Monaghan.pdf.html",
           "pdfLinks": [
-            "https://www.mass.gov/doc/playground-safety-0/download",
-            "https://www.arlingtonma.gov/home/showpublisheddocument/56715/637577230611600000",
-            "https://www.miltonma.gov/286/Fencing-Regulations",
-            "https://ecode360.com/42151727#42151708",
-            "https://www.stoneham-ma.gov/DocumentCenter/View/1225/Ch15-Zoning-Part-3",
-            "https://www.ashlandmass.com/DocumentCenter/View/286/Ashland-Zoning-Bylaw-Copy-May-13-2015-PDF"
-          ],
-          "htmlFilename": "Article 54 Statement Caitlin Monaghan.pdf.html"
+            {
+              "url": "https://www.mass.gov/doc/playground-safety-0/download",
+              "label": "\u2022 Concern about increasing bylaw complexity"
+            },
+            {
+              "url": "https://www.arlingtonma.gov/home/showpublisheddocument/56715/637577230611600000",
+              "label": "\u2022 Concern about increasing bylaw complexity"
+            },
+            {
+              "url": "https://www.miltonma.gov/286/Fencing-Regulations",
+              "label": "https://www.miltonma.gov/286/Fencing-Regulations"
+            },
+            {
+              "url": "https://ecode360.com/42151727#42151708",
+              "label": "https://ecode360.com/42151727#42151708"
+            },
+            {
+              "url": "https://www.stoneham-ma.gov/DocumentCenter/View/1225/Ch15-Zoning-Part-3",
+              "label": "https://www.stoneham-ma.gov/DocumentCenter/View/1225/Ch15-Zoning-Part-3"
+            },
+            {
+              "url": "https://www.ashlandmass.com/DocumentCenter/View/286/Ashland-Zoning-Bylaw-Copy-May-13-2015-PDF",
+              "label": "https://www.ashlandmass.com/DocumentCenter/View/286/Ashland-Zoning-Bylaw-Copy-May-13-2015-PDF"
+            }
+          ]
         },
         {
           "historyId": "18b7e0de-2178-426c-8f24-7d79e3006e97",
           "title": "Article 54 Monaghan Presentation",
           "filename": "Article 54 Monaghan Presentation.pdf",
           "size": 3057856,
-          "pdfLinks": [],
-          "htmlFilename": "Article 54 Monaghan Presentation.pdf.html"
+          "htmlFilename": "Article 54 Monaghan Presentation.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -1904,34 +2210,37 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119381,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         },
         {
           "historyId": "6877587a-8a82-45db-9437-9f13d2e38ae7",
           "title": "Article 55 Hollman Substitute Motion",
           "filename": "Article 55 Hollman Substitute Motion.pdf",
           "size": 76740,
-          "pdfLinks": [],
-          "htmlFilename": "Article 55 Hollman Substitute Motion.pdf.html"
+          "htmlFilename": "Article 55 Hollman Substitute Motion.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "83ec3676-770f-4c51-a7a4-079a7fa207e2",
           "title": "Article 55 Statement Melleta Marx",
           "filename": "Article 55 Statement Melleta Marx.pdf",
           "size": 41625,
-          "pdfLinks": [],
-          "htmlFilename": "Article 55 Statement Melleta Marx.pdf.html"
+          "htmlFilename": "Article 55 Statement Melleta Marx.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "a9dad992-97e3-45b0-929b-e8753268ad73",
           "title": "Article 55 Statement Joanne Cullinane",
           "filename": "Article 55 Statement Joanne Cullinane.pdf",
           "size": 87618,
-          "pdfLinks": [],
-          "htmlFilename": "Article 55 Statement Joanne Cullinane.pdf.html"
+          "htmlFilename": "Article 55 Statement Joanne Cullinane.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -1953,10 +2262,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117631,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         }
       ]
     },
@@ -1978,10 +2290,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118387,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         }
       ]
     },
@@ -2003,10 +2318,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116822,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687",
+              "label": "Redevelopment Board Report"
+            }
+          ]
         }
       ]
     },
@@ -2028,10 +2346,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117830,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2053,18 +2374,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118701,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         },
         {
           "historyId": "52bb67ff-44cf-4a5f-85d7-783368a3bde1",
           "title": "Article 60 FY27 Parking Fund Budget",
           "filename": "Article 60 FY27 Parking Fund Budget.pdf",
           "size": 125840,
-          "pdfLinks": [],
-          "htmlFilename": "Article 60 FY27 Parking Fund Budget.pdf.html"
+          "htmlFilename": "Article 60 FY27 Parking Fund Budget.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -2086,10 +2410,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119034,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2111,10 +2438,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 886028,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2136,10 +2466,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116102,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2161,40 +2494,58 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117979,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
-            "https://www.arlingtonma.gov/home/showdocument?id=77391&t=639117711986467985"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Appendix B"
+            },
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77391&t=639117711986467985",
+              "label": "Appendix B"
+            }
+          ]
         },
         {
           "historyId": "3b8acfa3-4c17-4ca1-85fd-a394abe95278",
           "title": "Appendix B FY27 Budget",
           "filename": "Appendix B FY27 Budget.pdf",
           "size": 184347,
-          "pdfLinks": [],
-          "htmlFilename": "Appendix B FY27 Budget.pdf.html"
+          "htmlFilename": "Appendix B FY27 Budget.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "f2876d52-7ccf-421a-be61-d0442c0c3f01",
           "title": "Article 64 School Budget Presentation",
           "filename": "Article 64 School Budget Presentation.pdf",
           "size": 4537912,
-          "pdfLinks": [],
-          "htmlFilename": "Article 64 School Budget Presentation.pdf.html"
+          "htmlFilename": "Article 64 School Budget Presentation.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "db775e2f-298a-46e7-b601-b1d0c8a1a053",
           "title": "FY27 APS Budget Report",
           "filename": "FY27 APS Budget Report.pdf",
           "size": 2876551,
+          "htmlFilename": "FY27 APS Budget Report.pdf.html",
           "pdfLinks": [
-            "https://www.bestbuddies.org/",
-            "https://www.labbb.com/",
-            "https://docs.google.com/document/d/1moLqRC3oyvzeIPieYsOC9YiQ7pMfMi7kPFFNuwfCD5E/edit?usp=sharing",
-            "https://drive.google.com/file/d/1u8Ok5UukyWxlcBhY_R_kLImoJNcreWAO/view?usp=sharing"
-          ],
-          "htmlFilename": "FY27 APS Budget Report.pdf.html"
+            {
+              "url": "https://www.bestbuddies.org/",
+              "label": "https://www.bestbuddies.org/"
+            },
+            {
+              "url": "https://www.labbb.com/",
+              "label": "https://www.labbb.com/"
+            },
+            {
+              "url": "https://docs.google.com/document/d/1moLqRC3oyvzeIPieYsOC9YiQ7pMfMi7kPFFNuwfCD5E/edit?usp=sharing",
+              "label": "https://docs.google.com/document/d/1moLqRC3oyvzeIPieYsOC9YiQ7pMfMi7kPFFNuwfCD5E/edit?usp=sharing"
+            },
+            {
+              "url": "https://drive.google.com/file/d/1u8Ok5UukyWxlcBhY_R_kLImoJNcreWAO/view?usp=sharing",
+              "label": "https://drive.google.com/file/d/1u8Ok5UukyWxlcBhY_R_kLImoJNcreWAO/view?usp=sharing"
+            }
+          ]
         }
       ]
     },
@@ -2216,11 +2567,17 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 139966,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77373&t=639116718322499426",
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77373&t=639116718322499426",
+              "label": "Capital Planning Committee Report"
+            },
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2242,19 +2599,25 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118517,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77373&t=639116718322499426",
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77373&t=639116718322499426",
+              "label": "Finance Committee Report"
+            },
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         },
         {
           "historyId": "be31ee0c-4e90-4fa0-bcb0-3fbd33399606",
           "title": "Article 66 Ottoson Study Presentation",
           "filename": "Article 66 Ottoson Study Presentation.pdf",
           "size": 752217,
-          "pdfLinks": [],
-          "htmlFilename": "Article 66 Ottoson Study Presentation.pdf.html"
+          "htmlFilename": "Article 66 Ottoson Study Presentation.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -2276,19 +2639,25 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119608,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77373&t=639116718322499426",
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77373&t=639116718322499426",
+              "label": "Finance Committee Report"
+            },
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         },
         {
           "historyId": "3dde36a3-558e-4f65-8db9-5bfd2ff28295",
           "title": "Article 67 Hardy Study Presentation",
           "filename": "Article 67 Hardy Study Presentation.pdf",
           "size": 320803,
-          "pdfLinks": [],
-          "htmlFilename": "Article 67 Hardy Study Presentation.pdf.html"
+          "htmlFilename": "Article 67 Hardy Study Presentation.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -2310,10 +2679,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116101,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2335,8 +2707,8 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 23291,
-          "pdfLinks": [],
-          "htmlFilename": "View full text of Article.pdf.html"
+          "htmlFilename": "View full text of Article.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -2358,10 +2730,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117441,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2383,10 +2758,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 688930,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2408,18 +2786,21 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116507,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         },
         {
           "historyId": "8c121165-1bb1-496d-b100-68c0fbc8edff",
           "title": "Article 72 Minuteman Presentation",
           "filename": "Article 72 Minuteman Presentation.pdf",
           "size": 8583668,
-          "pdfLinks": [],
-          "htmlFilename": "Article 72 Minuteman Presentation.pdf.html"
+          "htmlFilename": "Article 72 Minuteman Presentation.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -2441,10 +2822,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 692032,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2466,10 +2850,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117324,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2491,10 +2878,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117895,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2516,10 +2906,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117050,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2541,11 +2934,17 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 121922,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
-            "https://www.arlingtonma.gov/home/showdocument?id=77386&t=639117065806766096"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Community Preservation Act Committee Report"
+            },
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77386&t=639117065806766096",
+              "label": "Community Preservation Act Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2567,10 +2966,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116307,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2592,11 +2994,17 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119724,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
-            "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Select Board Report"
+            },
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804",
+              "label": "Select Board Report"
+            }
+          ]
         }
       ]
     },
@@ -2618,10 +3026,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116298,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2643,10 +3054,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118151,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2668,10 +3082,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116064,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2693,10 +3110,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 689189,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2718,11 +3138,17 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116672,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
-            "https://www.arlingtonma.gov/home/showdocument?id=77562&t=639135809486122808"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Supplemental Report May 5"
+            },
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77562&t=639135809486122808",
+              "label": "Finance Committee Supplemental Report May 5"
+            }
+          ]
         }
       ]
     },
@@ -2744,10 +3170,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116360,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2769,10 +3198,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116344,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2794,10 +3226,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116521,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2814,10 +3249,13 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116484,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944",
+              "label": "Finance Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2834,11 +3272,17 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119625,
+          "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
-            "https://www.arlingtonma.gov/home/showpublisheddocument/73849/638811829568300000",
-            "https://www.arlingtonma.gov/home/showdocument?id=77349&t=639111646415668891"
-          ],
-          "htmlFilename": "View full text of Article.pdf.html"
+            {
+              "url": "https://www.arlingtonma.gov/home/showpublisheddocument/73849/638811829568300000",
+              "label": "829568300000"
+            },
+            {
+              "url": "https://www.arlingtonma.gov/home/showdocument?id=77349&t=639111646415668891",
+              "label": "Town Meeting Procedures Committee Report"
+            }
+          ]
         }
       ]
     },
@@ -2855,8 +3299,8 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 115701,
-          "pdfLinks": [],
-          "htmlFilename": "View full text of Article.pdf.html"
+          "htmlFilename": "View full text of Article.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -2873,16 +3317,16 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 115702,
-          "pdfLinks": [],
-          "htmlFilename": "View full text of Article.pdf.html"
+          "htmlFilename": "View full text of Article.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "f15670a2-5af7-4b8c-9791-1373921058a1",
           "title": "Article 91 Dennis Main Motion",
           "filename": "Article 91 Dennis Main Motion.pdf",
           "size": 91117,
-          "pdfLinks": [],
-          "htmlFilename": "Article 91 Dennis Main Motion.pdf.html"
+          "htmlFilename": "Article 91 Dennis Main Motion.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -2899,26 +3343,29 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116099,
-          "pdfLinks": [],
-          "htmlFilename": "View full text of Article.pdf.html"
+          "htmlFilename": "View full text of Article.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "3487a6de-1cf7-4491-954a-86bf57dcfbce",
           "title": "Article 92 Hanlon Main Motion",
           "filename": "Article 92 Hanlon Main Motion.pdf",
           "size": 160111,
-          "pdfLinks": [],
-          "htmlFilename": "Article 92 Hanlon Main Motion.pdf.html"
+          "htmlFilename": "Article 92 Hanlon Main Motion.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "430e2408-a15d-4b9e-9d4c-1246dcfc2b53",
           "title": "Article 92 Clean Energy Future Committee Statement",
           "filename": "Article 92 Clean Energy Future Committee Statement.pdf",
           "size": 271965,
+          "htmlFilename": "Article 92 Clean Energy Future Committee Statement.pdf.html",
           "pdfLinks": [
-            "https://www.mass.gov/news/ag-campbell-applauds-changes-to-gsep-program-that-will-save-ratepayers-money"
-          ],
-          "htmlFilename": "Article 92 Clean Energy Future Committee Statement.pdf.html"
+            {
+              "url": "https://www.mass.gov/news/ag-campbell-applauds-changes-to-gsep-program-that-will-save-ratepayers-money",
+              "label": "h\ue7a9ps://www.mass.gov/news/ag-campbell-applauds-changes-to-gsep-program-that-will-save-ratepayers-money"
+            }
+          ]
         }
       ]
     },
@@ -2935,24 +3382,24 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 115863,
-          "pdfLinks": [],
-          "htmlFilename": "View full text of Article.pdf.html"
+          "htmlFilename": "View full text of Article.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "3be52199-3a5c-4d79-a69b-ddd1e97d7115",
           "title": "Article 93 Hanson Main Motion",
           "filename": "Article 93 Hanson Main Motion.pdf",
           "size": 145920,
-          "pdfLinks": [],
-          "htmlFilename": "Article 93 Hanson Main Motion.pdf.html"
+          "htmlFilename": "Article 93 Hanson Main Motion.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "d98608b6-fafb-4442-b555-d9a527cecfec",
           "title": "Article 93 Human Rights Commission Statement",
           "filename": "Article 93 Human Rights Commission Statement.pdf",
           "size": 87245,
-          "pdfLinks": [],
-          "htmlFilename": "Article 93 Human Rights Commission Statement.pdf.html"
+          "htmlFilename": "Article 93 Human Rights Commission Statement.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -2969,40 +3416,40 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 121787,
-          "pdfLinks": [],
-          "htmlFilename": "View full text of Article.pdf.html"
+          "htmlFilename": "View full text of Article.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "720cde91-e2c1-4aa7-b728-4c45cfab2ba6",
           "title": "Article 94 Polk Main Motion",
           "filename": "Article 94 Polk Main Motion.pdf",
           "size": 94583,
-          "pdfLinks": [],
-          "htmlFilename": "Article 94 Polk Main Motion.pdf.html"
+          "htmlFilename": "Article 94 Polk Main Motion.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "0d88634d-fc9f-4abf-bc56-ddee6cb74a6a",
           "title": "Article 94 Polk Presentation",
           "filename": "Article 94 Polk Presentation.pdf",
           "size": 1886064,
-          "pdfLinks": [],
-          "htmlFilename": "Article 94 Polk Presentation.pdf.html"
+          "htmlFilename": "Article 94 Polk Presentation.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "03d7497e-67a7-413b-b19a-7c80049a1350",
           "title": "Article 94 Human Rights Commission Statement",
           "filename": "Article 94 Human Rights Commission Statement.pdf",
           "size": 87257,
-          "pdfLinks": [],
-          "htmlFilename": "Article 94 Human Rights Commission Statement.pdf.html"
+          "htmlFilename": "Article 94 Human Rights Commission Statement.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "a3c7f96c-95b8-44f4-b800-4f51eb0b7c35",
           "title": "Article 94 Chief Flaherty Statement",
           "filename": "Article 94 Chief Flaherty Statement.pdf",
           "size": 52449,
-          "pdfLinks": [],
-          "htmlFilename": "Article 94 Chief Flaherty Statement.pdf.html"
+          "htmlFilename": "Article 94 Chief Flaherty Statement.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -3019,8 +3466,8 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 115663,
-          "pdfLinks": [],
-          "htmlFilename": "View full text of Article.pdf.html"
+          "htmlFilename": "View full text of Article.pdf.html",
+          "pdfLinks": []
         }
       ]
     },
@@ -3037,16 +3484,16 @@
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 115819,
-          "pdfLinks": [],
-          "htmlFilename": "View full text of Article.pdf.html"
+          "htmlFilename": "View full text of Article.pdf.html",
+          "pdfLinks": []
         },
         {
           "historyId": "61ebc481-ee04-4d46-b12d-bec4732509a8",
           "title": "Article 96 Chiarito Main Motion",
           "filename": "Article 96 Chiarito Main Motion.pdf",
           "size": 49077,
-          "pdfLinks": [],
-          "htmlFilename": "Article 96 Chiarito Main Motion.pdf.html"
+          "htmlFilename": "Article 96 Chiarito Main Motion.pdf.html",
+          "pdfLinks": []
         }
       ]
     }
