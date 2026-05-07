@@ -69,18 +69,17 @@
   line-height: 1.4;
   padding-top: 0.25rem !important;
   padding-bottom: 0.25rem !important;
-  padding-left: 0.7rem !important;
+  padding-left: 0 !important;
   color: var(--md-default-fg-color--light);
 }
 
 /* Level-2 leaves (URI links beneath an attachment): deeper indent than
-   their attachment parent — about 2× the level-1 padding so the
-   visual hierarchy is unmistakable. */
+   their attachment parent — possibly to counteract some default Material indent */
 .md-nav__item--nested
   .md-nav__item--nested
   .md-nav__item:not(.md-nav__item--nested)
   > .md-nav__link {
-  padding-left: 1.4rem !important;
+  padding-left: 0.2 rem !important;
 }
 
 /* Document icon (file-document-outline) for internal pages — Summary,
