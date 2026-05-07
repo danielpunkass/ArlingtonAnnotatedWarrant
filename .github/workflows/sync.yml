@@ -1,19 +1,25 @@
-name: Sync Annotated Warrant
+name: Sync and deploy
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes
-  workflow_dispatch:          # manual trigger from the Actions tab
+    - cron: "*/30 * * * *"   # every 30 minutes; UTC, best-effort
+  workflow_dispatch:
+  push:
+    branches: [main]
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
+# Serialize: queue overlapping runs rather than racing two pushes or two
+# Pages deployments.
 concurrency:
-  group: sync
+  group: sync-and-deploy
   cancel-in-progress: false
 
 jobs:
-  sync:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -22,12 +28,15 @@ jobs:
         with:
           python-version: "3.12"
 
+      # Pull from primegov on schedule/manual. Skip on push events: the push
+      # already captured any source-content change, and re-running sync would
+      # try to push a noisy duplicate commit.
       - name: Run sync
+        if: github.event_name != 'push'
         run: python3 SyncAnnotatedWarrant.py
 
-      - name: Commit, push, and dispatch site rebuild
-        env:
-          SITE_DISPATCH_TOKEN: ${{ secrets.SITE_DISPATCH_TOKEN }}
+      - name: Commit if sync changed anything
+        if: github.event_name != 'push'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -35,17 +44,38 @@ jobs:
             git add -A
             git commit -m "Sync Annotated Warrant ($(date -u +%Y-%m-%dT%H:%MZ))"
             git push
-            if [[ -n "${SITE_DISPATCH_TOKEN}" ]]; then
-              curl -fsSL -X POST \
-                -H "Authorization: Bearer ${SITE_DISPATCH_TOKEN}" \
-                -H "Accept: application/vnd.github+json" \
-                -H "X-GitHub-Api-Version: 2022-11-28" \
-                https://api.github.com/repos/danielpunkass/ArlingtonAnnotatedWarrant-Site/dispatches \
-                -d '{"event_type":"warrant-sync-completed"}'
-              echo "Dispatched site rebuild."
-            else
-              echo "SITE_DISPATCH_TOKEN not set; skipping site rebuild dispatch."
-            fi
           else
             echo "No changes."
           fi
+
+      # Stage just what we want shipped to the site into _site_build/, since
+      # MkDocs forbids docs_dir from being the same dir as mkdocs.yml.
+      # INDEX.md becomes index.md (MkDocs convention).
+      - name: Stage content for build
+        run: |
+          rm -rf _site_build
+          mkdir -p _site_build
+          cp -R articles _site_build/
+          cp INDEX.md _site_build/index.md
+          cp index.json _site_build/
+          cp CNAME _site_build/
+
+      - name: Install MkDocs and plugins
+        run: pip install mkdocs-material mkdocs-awesome-pages-plugin
+
+      - name: Build site
+        run: mkdocs build --strict
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

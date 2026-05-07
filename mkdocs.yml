@@ -1,0 +1,68 @@
+site_name: Arlington Annotated Warrant
+site_description: >-
+  Searchable mirror of the Arlington Town Meeting Annotated Warrant —
+  per-article descriptions, sponsors, and supporting attachments.
+site_url: https://townmeeting.app/
+repo_url: https://github.com/danielpunkass/ArlingtonAnnotatedWarrant
+repo_name: ArlingtonAnnotatedWarrant
+edit_uri: ""
+
+# `_site_build/` is a staging directory the deploy workflow populates with
+# just the files we want shipped (articles, index.md, index.json, CNAME).
+# This keeps build inputs clean of repo-meta files (README, CLAUDE.md, the
+# sync script, .github, etc.) without needing exhaustive exclude rules,
+# and lets MkDocs satisfy its rule that docs_dir not contain the config.
+docs_dir: _site_build
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.view
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  # awesome-pages reads `.pages` files in each article directory to set
+  # sidebar section titles ("Article 2: STATE OF THE TOWN ADDRESS") and
+  # child ordering. Without it the sidebar would just show "Article-02".
+  - awesome-pages
+
+markdown_extensions:
+  - tables
+  - admonition
+  - toc:
+      permalink: true
+  - attr_list      # for {target="_blank"} on PDF "open in new tab" links
+  - md_in_html     # so the per-attachment iframe embeds render correctly
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/danielpunkass/ArlingtonAnnotatedWarrant
+  generator: false

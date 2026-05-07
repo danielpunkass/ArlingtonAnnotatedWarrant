@@ -5,3 +5,16 @@
 # index.json captures the structured data; the HTML is large and noisy.
 # Remove this line if you want versioned snapshots of the upstream page.
 source.html
+
+# MkDocs build output.
+site/
+
+# Staging directory the deploy workflow populates with site-relevant files
+# (articles, index.md derived from INDEX.md, index.json, CNAME) before
+# running `mkdocs build`. Never committed.
+_site_build/
+
+# Python cruft.
+__pycache__/
+*.pyc
+.venv/
