@@ -25,7 +25,9 @@ jobs:
       - name: Run sync
         run: python3 SyncAnnotatedWarrant.py
 
-      - name: Commit and push if changed
+      - name: Commit, push, and dispatch site rebuild
+        env:
+          SITE_DISPATCH_TOKEN: ${{ secrets.SITE_DISPATCH_TOKEN }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -33,6 +35,17 @@ jobs:
             git add -A
             git commit -m "Sync Annotated Warrant ($(date -u +%Y-%m-%dT%H:%MZ))"
             git push
+            if [[ -n "${SITE_DISPATCH_TOKEN}" ]]; then
+              curl -fsSL -X POST \
+                -H "Authorization: Bearer ${SITE_DISPATCH_TOKEN}" \
+                -H "Accept: application/vnd.github+json" \
+                -H "X-GitHub-Api-Version: 2022-11-28" \
+                https://api.github.com/repos/danielpunkass/ArlingtonAnnotatedWarrant-Site/dispatches \
+                -d '{"event_type":"warrant-sync-completed"}'
+              echo "Dispatched site rebuild."
+            else
+              echo "SITE_DISPATCH_TOKEN not set; skipping site rebuild dispatch."
+            fi
           else
             echo "No changes."
           fi
