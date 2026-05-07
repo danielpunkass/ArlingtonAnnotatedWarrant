@@ -15,8 +15,10 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
 ## Attachments
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
+  - Links in this PDF:
+    - <https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944>
 - [Article 72 Minuteman Presentation](./Article%2072%20Minuteman%20Presentation.pdf)
 
 ---
-*Source item id:* `749`  
+*Source item id:* `749`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

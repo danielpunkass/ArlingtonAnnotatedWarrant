@@ -15,10 +15,12 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 ## Attachments
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
+  - Links in this PDF:
+    - <https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687>
 - [Article 55 Hollman Substitute Motion](./Article%2055%20Hollman%20Substitute%20Motion.pdf)
 - [Article 55 Statement Melleta Marx](./Article%2055%20Statement%20Melleta%20Marx.pdf)
 - [Article 55 Statement Joanne Cullinane](./Article%2055%20Statement%20Joanne%20Cullinane.pdf)
 
 ---
-*Source item id:* `731`  
+*Source item id:* `731`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

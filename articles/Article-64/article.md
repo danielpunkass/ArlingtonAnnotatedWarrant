@@ -15,10 +15,18 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
 ## Attachments
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
+  - Links in this PDF:
+    - <https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944>
+    - <https://www.arlingtonma.gov/home/showdocument?id=77391&t=639117711986467985>
 - [Appendix B FY27 Budget](./Appendix%20B%20FY27%20Budget.pdf)
 - [Article 64 School Budget Presentation](./Article%2064%20School%20Budget%20Presentation.pdf)
 - [FY27 APS Budget Report](./FY27%20APS%20Budget%20Report.pdf)
+  - Links in this PDF:
+    - <https://www.bestbuddies.org/>
+    - <https://www.labbb.com/>
+    - <https://docs.google.com/document/d/1moLqRC3oyvzeIPieYsOC9YiQ7pMfMi7kPFFNuwfCD5E/edit?usp=sharing>
+    - <https://drive.google.com/file/d/1u8Ok5UukyWxlcBhY_R_kLImoJNcreWAO/view?usp=sharing>
 
 ---
-*Source item id:* `741`  
+*Source item id:* `741`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

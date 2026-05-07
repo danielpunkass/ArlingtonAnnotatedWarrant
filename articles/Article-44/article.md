@@ -15,9 +15,11 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 ## Attachments
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
+  - Links in this PDF:
+    - <https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687>
 - [Article 44 Benson Amendment](./Article%2044%20Benson%20Amendment.pdf)
 - [Article 44 ARB Presentation](./Article%2044%20ARB%20Presentation.pdf)
 
 ---
-*Source item id:* `720`  
+*Source item id:* `720`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

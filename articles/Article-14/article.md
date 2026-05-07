@@ -15,8 +15,10 @@ Select Board 2026 Article Hearings - right click to view in new tab
 ## Attachments
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
+  - Links in this PDF:
+    - <https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804>
 - [Article 14 Moore Presentation](./Article%2014%20Moore%20Presentation.pdf)
 
 ---
-*Source item id:* `673`  
+*Source item id:* `673`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

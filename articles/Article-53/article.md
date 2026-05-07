@@ -15,19 +15,35 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 ## Attachments
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
+  - Links in this PDF:
+    - <https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687>
 - [Article 53 Cullinane Substitute Motion](./Article%2053%20Cullinane%20Substitute%20Motion.pdf)
+  - Links in this PDF:
+    - <https://youtube.com/clip/Ugkx8LWikYKyEBlVF-KUJmtAhtrUj6P4hu_3?si=akIsX5oR-1Rnacjy>
 - [Article 53 Statement Melleta Marx](./Article%2053%20Statement%20Melleta%20Marx.pdf)
 - [Article 53 Statement - gross floor area - Cullinane and Slotnick](./Article%2053%20Statement%20-%20gross%20floor%20area%20-%20Cullinane%20and%20Slotnick.pdf)
+  - Links in this PDF:
+    - <https://www.arlingtonma.gov/home/showpublisheddocument/43413/639033980621230000#page=14>
 - [Article 53 Statement and video - bonuses Cullinane and Slotnick](./Article%2053%20Statement%20and%20video%20-%20bonuses%20Cullinane%20and%20Slotnick.pdf)
+  - Links in this PDF:
+    - <https://drive.google.com/file/d/1xBSFCL5bm8uUlqjE3v2J-Vk3RUs5KqJu/view?usp=sharing>
 - [Article 53 Statement and video - commercial space Cullinane and Slotnick](./Article%2053%20Statement%20and%20video%20-%20commercial%20space%20Cullinane%20and%20Slotnick.pdf)
+  - Links in this PDF:
+    - <https://youtube.com/clip/Ugkx8LWikYKyEBlVF-KUJmtAhtrUj6P4hu_3?si=osYcEICkHFkxefWt>
 - [Article 53 Statement Carla Valentine](./Article%2053%20Statement%20Carla%20Valentine.pdf)
 - [Article 53 Statement Chamber of Commerce](./Article%2053%20Statement%20Chamber%20of%20Commerce.pdf)
 - [Article 53 Statement to YourArlington Cullinane and Slotnick](./Article%2053%20Statement%20to%20YourArlington%20Cullinane%20and%20Slotnick.pdf)
+  - Links in this PDF:
+    - <https://yourarlington.com/category/commentary/>
+    - <https://yourarlington.com/category/views/>
+    - <https://yourarlington.com/author/ya-guest-opinion/>
 - [Article 53 Statement Jordan Weinstein](./Article%2053%20Statement%20Jordan%20Weinstein.pdf)
 - [Article 53 Statement Diane Krause](./Article%2053%20Statement%20Diane%20Krause.pdf)
 - [Article 53 Statement Belinda Chu](./Article%2053%20Statement%20Belinda%20Chu.pdf)
 - [Article 53 Statement Carol Luddecke](./Article%2053%20Statement%20Carol%20Luddecke.pdf)
 - [Article 53 Statement Shevawn Hardesty](./Article%2053%20Statement%20Shevawn%20Hardesty.pdf)
+  - Links in this PDF:
+    - <mailto:shevawn@comcast.net>
 - [Article 53 Statement Stafan Wolpert](./Article%2053%20Statement%20Stafan%20Wolpert.pdf)
 - [Article 53 Statement Judith Miller](./Article%2053%20Statement%20Judith%20Miller.pdf)
 - [Article 53 Statement Gerry Leonard](./Article%2053%20Statement%20Gerry%20Leonard.pdf)
@@ -40,7 +56,9 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 - [Article 53 Statement Douglas Funkhouser](./Article%2053%20Statement%20Douglas%20Funkhouser.pdf)
 - [Article 53 Statement to ARB regarding proposed development](./Article%2053%20Statement%20to%20ARB%20regarding%20proposed%20development.pdf)
 - [Article 53 Statement - availability of commercial space](./Article%2053%20Statement%20-%20availability%20of%20commercial%20space.pdf)
+  - Links in this PDF:
+    - <https://youtu.be/HWIOtWojpGY?si=ocDMjZXqvZ8uGF1J&t=7356>
 
 ---
-*Source item id:* `729`  
+*Source item id:* `729`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

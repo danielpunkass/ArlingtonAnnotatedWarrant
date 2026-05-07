@@ -24,6 +24,7 @@ import re
 import sys
 import urllib.parse
 import urllib.request
+import zlib
 
 MEETING_TEMPLATE_ID = 1659
 SOURCE_URL = f"https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId={MEETING_TEMPLATE_ID}"
@@ -50,6 +51,92 @@ def safe_filename(name):
     name = name.replace("/", "-").replace("\\", "-")
     name = re.sub(r"[\x00-\x1f]", "", name)
     return name.strip().strip(".") or "untitled"
+
+
+_PDF_URI_LITERAL_RE = re.compile(rb"/URI\s*\((?P<s>(?:\\.|[^)\\])*)\)", re.DOTALL)
+_PDF_URI_HEX_RE = re.compile(rb"/URI\s*<(?P<h>[0-9a-fA-F\s]+)>")
+_PDF_STREAM_RE = re.compile(rb"stream\r?\n(.*?)\r?\nendstream", re.DOTALL)
+
+
+def _decode_pdf_literal(b):
+    out = bytearray()
+    i, n = 0, len(b)
+    simple = {ord("n"): 0x0A, ord("r"): 0x0D, ord("t"): 0x09,
+              ord("b"): 0x08, ord("f"): 0x0C}
+    while i < n:
+        c = b[i]
+        if c == 0x5C and i + 1 < n:  # backslash
+            nxt = b[i + 1]
+            if nxt in simple:
+                out.append(simple[nxt]); i += 2; continue
+            if nxt in (0x28, 0x29, 0x5C):  # ( ) \
+                out.append(nxt); i += 2; continue
+            if 0x30 <= nxt <= 0x37:  # octal escape, 1-3 digits
+                j = i + 1
+                while j < n and j - i - 1 < 3 and 0x30 <= b[j] <= 0x37:
+                    j += 1
+                out.append(int(bytes(b[i + 1:j]), 8) & 0xFF)
+                i = j; continue
+            if nxt in (0x0A, 0x0D):  # line continuation
+                i += 2; continue
+            i += 1; continue
+        out.append(c); i += 1
+    return bytes(out)
+
+
+def extract_pdf_uris(pdf_path):
+    """Return ordered, de-duplicated /URI link annotations from a PDF.
+
+    Walks raw bytes plus zlib-decompressed stream contents, looking for /URI
+    literal and hex strings. Catches the common case (link annotations in
+    Flate-compressed object streams, PDF 1.5+) without pulling in a PDF
+    library — the repo's "stdlib only" convention. Encrypted PDFs and the
+    rare non-Flate-compressed object streams are silently skipped.
+    """
+    try:
+        with open(pdf_path, "rb") as fh:
+            data = fh.read()
+    except OSError:
+        return []
+
+    haystack = bytearray(data)
+    for m in _PDF_STREAM_RE.finditer(data):
+        try:
+            haystack += b"\n" + zlib.decompress(m.group(1))
+        except zlib.error:
+            pass
+    blob = bytes(haystack)
+
+    seen = set()
+    uris = []
+
+    def add(s):
+        s = s.strip()
+        if s and s not in seen:
+            seen.add(s)
+            uris.append(s)
+
+    for m in _PDF_URI_LITERAL_RE.finditer(blob):
+        decoded = _decode_pdf_literal(m.group("s"))
+        try:
+            add(decoded.decode("utf-8"))
+        except UnicodeDecodeError:
+            add(decoded.decode("latin-1", "replace"))
+
+    for m in _PDF_URI_HEX_RE.finditer(blob):
+        hx = bytes(c for c in m.group("h") if c not in b" \t\r\n")
+        if len(hx) % 2:
+            hx += b"0"
+        try:
+            decoded = bytes.fromhex(hx.decode())
+        except ValueError:
+            continue
+        try:
+            add(decoded.decode("utf-8"))
+        except UnicodeDecodeError:
+            add(decoded.decode("latin-1", "replace"))
+
+    return [u for u in uris if u.lower().startswith(("http://", "https://", "mailto:"))]
 
 
 def parse_articles(html_text):
@@ -189,6 +276,11 @@ def write_article_md(article_dir, article):
                 lines.append(f"- [{att['title']}](./{urllib.parse.quote(local)})")
             else:
                 lines.append(f"- {att['title']} (not yet downloaded)")
+            pdf_links = att.get("pdfLinks") or []
+            if pdf_links:
+                lines.append("  - Links in this PDF:")
+                for url in pdf_links:
+                    lines.append(f"    - <{url}>")
         lines.append("")
     lines += [
         "---",
@@ -324,6 +416,13 @@ def sync():
                 target_filename = final_name
                 print(f"  Article {article['articleNumber']:>2}: downloaded {final_name} ({size} bytes)")
             kept_filenames.add(target_filename)
+
+            if old and old.get("filename") == target_filename and "pdfLinks" in old:
+                att["pdfLinks"] = list(old["pdfLinks"])
+            elif target_filename.lower().endswith(".pdf"):
+                att["pdfLinks"] = extract_pdf_uris(os.path.join(adir, target_filename))
+            else:
+                att["pdfLinks"] = []
 
         for entry in os.listdir(adir):
             if entry == "article.md":

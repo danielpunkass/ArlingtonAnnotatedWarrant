@@ -15,8 +15,12 @@ Select Board 2026 Article Hearings - right click to view in new tab
 ## Attachments
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
+  - Links in this PDF:
+    - <https://www.arlingtonma.gov/home/showdocument?id=77397&t=639117766564942804>
 - [Article 13 Notes on Town Meeting Time 4th Edition](./Article%2013%20Notes%20on%20Town%20Meeting%20Time%204th%20Edition.pdf)
+  - Links in this PDF:
+    - <https://massmoderators.org/tmt4/>
 
 ---
-*Source item id:* `672`  
+*Source item id:* `672`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

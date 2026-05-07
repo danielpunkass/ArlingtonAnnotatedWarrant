@@ -15,8 +15,10 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 ## Attachments
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
+  - Links in this PDF:
+    - <https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687>
 - [Article 52 Statement and Maps - Director of Planning and Community Development](./Article%2052%20Statement%20and%20Maps%20-%20Director%20of%20Planning%20and%20Community%20Development.pdf)
 
 ---
-*Source item id:* `728`  
+*Source item id:* `728`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

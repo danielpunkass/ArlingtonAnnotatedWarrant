@@ -15,8 +15,10 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
 ## Attachments
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
+  - Links in this PDF:
+    - <https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944>
 - [Article 60 FY27 Parking Fund Budget](./Article%2060%20FY27%20Parking%20Fund%20Budget.pdf)
 
 ---
-*Source item id:* `737`  
+*Source item id:* `737`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

@@ -15,8 +15,11 @@ Finance Committee 2026 Article Hearings - right click to view in new tab
 ## Attachments
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
+  - Links in this PDF:
+    - <https://www.arlingtonma.gov/home/showdocument?id=77373&t=639116718322499426>
+    - <https://www.arlingtonma.gov/home/showdocument?id=77367&t=639114064118718944>
 - [Article 67 Hardy Study Presentation](./Article%2067%20Hardy%20Study%20Presentation.pdf)
 
 ---
-*Source item id:* `744`  
+*Source item id:* `744`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

@@ -15,9 +15,11 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 ## Attachments
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
+  - Links in this PDF:
+    - <https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687>
 - [Article 38 ARB Presentation](./Article%2038%20ARB%20Presentation.pdf)
 - [Article 38 Draft Site List](./Article%2038%20Draft%20Site%20List.pdf)
 
 ---
-*Source item id:* `714`  
+*Source item id:* `714`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

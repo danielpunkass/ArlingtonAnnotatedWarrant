@@ -15,9 +15,17 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 ## Attachments
 
 - [View full text of Article](./View%20full%20text%20of%20Article.pdf)
+  - Links in this PDF:
+    - <https://www.arlingtonma.gov/home/showdocument?id=77384&t=639117060029794687>
 - [Article 39 ARB Presentation](./Article%2039%20ARB%20Presentation.pdf)
 - [Article 39 Statement Attorney General on ADUs](./Article%2039%20Statement%20Attorney%20General%20on%20ADUs.pdf)
+  - Links in this PDF:
+    - <https://www.mass.gov/info-details/accessory-dwelling-unit-adu-faqs/>
+    - <https://www.mass.gov/doc/guidance-on-title-5-310-cmr-15000-compliance-for-accessory-dwelling-units/download>
+    - <https://www.mass.gov/doc/frequently-asked-questions-faq-related-to-guidance-on-title-5-310-cmr-15000-compliance-for-accessory-dwelling-units/download>
+    - <https://www.mass.gov/info-details/massgis-addressing-guidance-for-accessory-dwelling-units-adus>
+    - <http://www.mass.gov/ago/munilaw>
 
 ---
-*Source item id:* `715`  
+*Source item id:* `715`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>
