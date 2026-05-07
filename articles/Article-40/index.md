@@ -8,10 +8,15 @@ To see if the Town will vote to amend Section 1.5, Amendment, of the Zoning Byla
 
 Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
+## Resources
+
+- [Full Text](full-text.md)
+- [Article 40 ARB Presentation](article-40-arb-presentation.md)
+
 ## External Links
 
 - [Redevelopment Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77027&t=639071723292646384)
 
 ---
-*Source item id:* `716`  
+*Source item id:* `716`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

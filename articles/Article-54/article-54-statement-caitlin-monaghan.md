@@ -1,8 +1,8 @@
 # Article 54 Statement Caitlin Monaghan
 
-<iframe src="./Article%2054%20Statement%20Caitlin%20Monaghan.pdf" style="width:100%; height:80vh; border:0;" title="Article 54 Statement Caitlin Monaghan"></iframe>
+<iframe src="../Article%2054%20Statement%20Caitlin%20Monaghan.pdf" style="width:100%; height:80vh; border:0;" title="Article 54 Statement Caitlin Monaghan"></iframe>
 
-[Open PDF in new tab](./Article%2054%20Statement%20Caitlin%20Monaghan.pdf){target="_blank" rel="noopener"}
+[Open PDF in new tab](Article%2054%20Statement%20Caitlin%20Monaghan.pdf){target="_blank" rel="noopener"}
 
 ## Links in this PDF
 

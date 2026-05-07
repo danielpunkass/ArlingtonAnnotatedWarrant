@@ -56,6 +56,7 @@ jobs:
           rm -rf _site_build
           mkdir -p _site_build
           cp -R articles _site_build/
+          cp -R stylesheets _site_build/
           cp INDEX.md _site_build/index.md
           cp index.json _site_build/
           cp CNAME _site_build/

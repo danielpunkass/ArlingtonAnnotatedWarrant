@@ -8,10 +8,14 @@ To see if the Town will vote to amend Section 5.8.4 E (1) Development Standards 
 
 Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
+## Resources
+
+- [Full Text](full-text.md)
+
 ## External Links
 
 - [Redevelopment Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77027&t=639071723292646384)
 
 ---
-*Source item id:* `733`  
+*Source item id:* `733`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

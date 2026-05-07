@@ -1,8 +1,8 @@
 # FY27 APS Budget Report
 
-<iframe src="./FY27%20APS%20Budget%20Report.pdf" style="width:100%; height:80vh; border:0;" title="FY27 APS Budget Report"></iframe>
+<iframe src="../FY27%20APS%20Budget%20Report.pdf" style="width:100%; height:80vh; border:0;" title="FY27 APS Budget Report"></iframe>
 
-[Open PDF in new tab](./FY27%20APS%20Budget%20Report.pdf){target="_blank" rel="noopener"}
+[Open PDF in new tab](FY27%20APS%20Budget%20Report.pdf){target="_blank" rel="noopener"}
 
 ## Links in this PDF
 

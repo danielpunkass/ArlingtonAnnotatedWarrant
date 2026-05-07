@@ -6,6 +6,10 @@
 
 To hear the Chair of the Select Board review important events in the past year in Arlington and preview expectations for next year.
 
+## Resources
+
+- [Full Text](full-text.md)
+
 ---
-*Source item id:* `647`  
+*Source item id:* `647`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

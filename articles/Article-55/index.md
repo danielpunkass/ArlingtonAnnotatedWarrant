@@ -8,10 +8,17 @@ To see if the Town will vote to amend Section 5.8.4.E(2) Bonuses of the Zoning B
 
 Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
+## Resources
+
+- [Full Text](full-text.md)
+- [Article 55 Hollman Substitute Motion](article-55-hollman-substitute-motion.md)
+- [Article 55 Statement Melleta Marx](article-55-statement-melleta-marx.md)
+- [Article 55 Statement Joanne Cullinane](article-55-statement-joanne-cullinane.md)
+
 ## External Links
 
 - [Redevelopment Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77027&t=639071723292646384)
 
 ---
-*Source item id:* `731`  
+*Source item id:* `731`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

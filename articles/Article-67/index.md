@@ -8,10 +8,15 @@ To see if the Town of Arlington will vote to appropriate, borrow, or transfer fr
 
 Finance Committee 2026 Article Hearings - right click to view in new tab
 
+## Resources
+
+- [Full Text](full-text.md)
+- [Article 67 Hardy Study Presentation](article-67-hardy-study-presentation.md)
+
 ## External Links
 
 - [Finance Committee 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77049&t=639075362950641137)
 
 ---
-*Source item id:* `744`  
+*Source item id:* `744`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

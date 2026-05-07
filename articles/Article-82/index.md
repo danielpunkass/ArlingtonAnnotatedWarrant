@@ -8,10 +8,14 @@ To see if the Town will vote to accept any local option taxes or other revenue r
 
 Finance Committee 2026 Article Hearings - right click to view in new tab
 
+## Resources
+
+- [Full Text](full-text.md)
+
 ## External Links
 
 - [Finance Committee 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77049&t=639075362950641137)
 
 ---
-*Source item id:* `760`  
+*Source item id:* `760`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

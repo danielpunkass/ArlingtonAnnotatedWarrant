@@ -8,10 +8,15 @@ To see if the Town will vote to adopt changes to the Arlington Zoning Map that w
 
 Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
+## Resources
+
+- [Full Text](full-text.md)
+- [Article 50 Statement and Maps - Director of Planning and Community Development](article-50-statement-and-maps---director-of-planning-and-community-development.md)
+
 ## External Links
 
 - [Redevelopment Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77027&t=639071723292646384)
 
 ---
-*Source item id:* `726`  
+*Source item id:* `726`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

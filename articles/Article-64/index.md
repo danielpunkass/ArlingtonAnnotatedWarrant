@@ -8,10 +8,17 @@ To see if the Town will vote to make appropriations to defray Town obligations, 
 
 Finance Committee 2026 Article Hearings - right click to view in new tab
 
+## Resources
+
+- [Full Text](full-text.md)
+- [Appendix B FY27 Budget](appendix-b-fy27-budget.md)
+- [Article 64 School Budget Presentation](article-64-school-budget-presentation.md)
+- [FY27 APS Budget Report](fy27-aps-budget-report.md)
+
 ## External Links
 
 - [Finance Committee 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77049&t=639075362950641137)
 
 ---
-*Source item id:* `741`  
+*Source item id:* `741`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

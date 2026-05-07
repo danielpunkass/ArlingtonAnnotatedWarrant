@@ -6,6 +6,10 @@
 
 To choose and appoint all the usual Town Officers not hereinbefore mentioned, in such a manner as the Town may determine; or take any action related thereto.
 
+## Resources
+
+- [Full Text](full-text.md)
+
 ---
-*Source item id:* `652`  
+*Source item id:* `652`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

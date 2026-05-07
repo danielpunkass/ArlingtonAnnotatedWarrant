@@ -6,6 +6,10 @@
 
 To see if the Town will vote to formally condemn violations of local zoning law and inhuman treatment of detainees; or take any action related thereto.
 
+## Resources
+
+- [Full Text](full-text.md)
+
 ---
-*Source item id:* `776`  
+*Source item id:* `776`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

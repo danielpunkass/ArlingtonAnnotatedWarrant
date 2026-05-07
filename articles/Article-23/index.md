@@ -8,10 +8,18 @@ To see if the Town will vote to amend Title V, Article 16 of the Town Bylaws (th
 
 Select Board 2026 Article Hearings - right click to view in new tab
 
+## Resources
+
+- [Full Text](full-text.md)
+- [Article 23 Cutraro Substitute Motion](article-23-cutraro-substitute-motion.md)
+- [Article 23 Statement Save Arlington Wildlife](article-23-statement-save-arlington-wildlife.md)
+- [Article 23 Statement Mothers Out Front](article-23-statement-mothers-out-front.md)
+- [Article 23 Statement Trees as a Public Good Network](article-23-statement-trees-as-a-public-good-network.md)
+
 ## External Links
 
 - [Select Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77025&t=639071722566826263)
 
 ---
-*Source item id:* `699`  
+*Source item id:* `699`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

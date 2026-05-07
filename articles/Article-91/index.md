@@ -6,6 +6,11 @@
 
 To see if the Town will vote to endorse state legislation to establish a single-payer system of universal health care (“Medicare for All”) in Massachusetts; or take any action related thereto.
 
+## Resources
+
+- [Full Text](full-text.md)
+- [Article 91 Dennis Main Motion](article-91-dennis-main-motion.md)
+
 ---
-*Source item id:* `772`  
+*Source item id:* `772`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

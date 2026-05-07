@@ -8,10 +8,15 @@ To see if the Town will vote to endorse the Parking Benefit District operating a
 
 Finance Committee 2026 Article Hearings - right click to view in new tab
 
+## Resources
+
+- [Full Text](full-text.md)
+- [Article 60 FY27 Parking Fund Budget](article-60-fy27-parking-fund-budget.md)
+
 ## External Links
 
 - [Finance Committee 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77049&t=639075362950641137)
 
 ---
-*Source item id:* `737`  
+*Source item id:* `737`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

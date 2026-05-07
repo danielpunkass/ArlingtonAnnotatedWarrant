@@ -8,10 +8,16 @@ To see if the Town will vote to amend Section 2, Definitions, and Section 5.3.20
 
 Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
+## Resources
+
+- [Full Text](full-text.md)
+- [Article 47 Benson Amendment](article-47-benson-amendment.md)
+- [Article 47 ARB Presentation](article-47-arb-presentation.md)
+
 ## External Links
 
 - [Redevelopment Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77027&t=639071723292646384)
 
 ---
-*Source item id:* `723`  
+*Source item id:* `723`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

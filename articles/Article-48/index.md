@@ -8,10 +8,15 @@ To see if the Town will vote to amend Section 6.1.10.A.(1) and (2), Location of 
 
 Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
+## Resources
+
+- [Full Text](full-text.md)
+- [Article 48 ARB Presentation](article-48-arb-presentation.md)
+
 ## External Links
 
 - [Redevelopment Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77027&t=639071723292646384)
 
 ---
-*Source item id:* `724`  
+*Source item id:* `724`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

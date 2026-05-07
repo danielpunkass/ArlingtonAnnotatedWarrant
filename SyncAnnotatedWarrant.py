@@ -273,13 +273,23 @@ def slugify_attachment(att):
     return slug, title or "Attachment"
 
 
-def write_article_summary(article_dir, article):
-    """Write the article's index.md (Summary page: description, sponsor, links)."""
+def write_article_summary(article_dir, article, att_pages):
+    """Write the article's index.md (Summary page: description, sponsor, links).
+
+    `att_pages` is the same list `attachment_pages_for` produced — used to
+    mirror the sidebar attachment list inline as a "Resources" section so
+    they're discoverable from the summary view.
+    """
     lines = [f"# Article {article['articleNumber']}: {article['title']}", ""]
     if article["sponsor"]:
         lines += [f"**Sponsor:** {article['sponsor']}", ""]
     if article["description"]:
         lines += ["## Description", "", article["description"], ""]
+    if att_pages:
+        lines += ["## Resources", ""]
+        for slug, name, _ in att_pages:
+            lines.append(f"- [{name}]({slug}.md)")
+        lines.append("")
     if article["externalLinks"]:
         lines += ["## External Links", ""]
         for link in article["externalLinks"]:
@@ -308,18 +318,27 @@ def write_attachment_page(article_dir, slug, display_name, att):
     encoded = urllib.parse.quote(filename)
     is_pdf = filename.lower().endswith(".pdf")
 
+    # Path scheme below is intentionally asymmetric:
+    #   - The <iframe src> is raw HTML; MkDocs doesn't rewrite it, so it must
+    #     match the *served* URL. With use_directory_urls (default), this page
+    #     is at .../<slug>/, and the PDF lives one level up — hence `../`.
+    #   - The markdown [link](...) IS rewritten by MkDocs's link resolver,
+    #     which evaluates relative paths against the *source* location
+    #     (articles/Article-N/<slug>.md). The bare filename resolves to the
+    #     PDF sitting alongside the source, and MkDocs rewrites the href to
+    #     the correct output URL — and validates it during build.
     lines = [f"# {display_name}", ""]
     if is_pdf:
         title_attr = html.escape(display_name, quote=True)
         lines += [
-            f'<iframe src="./{encoded}" style="width:100%; height:80vh; border:0;" '
+            f'<iframe src="../{encoded}" style="width:100%; height:80vh; border:0;" '
             f'title="{title_attr}"></iframe>',
             "",
-            f'[Open PDF in new tab](./{encoded}){{target="_blank" rel="noopener"}}',
+            f'[Open PDF in new tab]({encoded}){{target="_blank" rel="noopener"}}',
             "",
         ]
     else:
-        lines += [f"[Download attachment](./{encoded})", ""]
+        lines += [f"[Download attachment]({encoded})", ""]
     pdf_links = att.get("pdfLinks") or []
     if pdf_links:
         lines += ["## Links in this PDF", ""]
@@ -511,7 +530,7 @@ def sync():
         # page per attachment (which embeds the PDF in an iframe), and a
         # .pages file declaring sidebar title + child order.
         att_pages = attachment_pages_for(article)
-        write_article_summary(adir, article)
+        write_article_summary(adir, article, att_pages)
         for slug, name, att in att_pages:
             write_attachment_page(adir, slug, name, att)
         write_pages_file(adir, article, [(s, n) for s, n, _ in att_pages])

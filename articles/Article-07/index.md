@@ -8,10 +8,14 @@ To see if the Town will vote to amend Title II, Article 8 of the Town Bylaws to 
 
 Select Board 2026 Article Hearings - right click to view in new tab
 
+## Resources
+
+- [Full Text](full-text.md)
+
 ## External Links
 
 - [Select Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77025&t=639071722566826263)
 
 ---
-*Source item id:* `651`  
+*Source item id:* `651`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

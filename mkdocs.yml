@@ -51,6 +51,9 @@ plugins:
   # child ordering. Without it the sidebar would just show "Article-02".
   - awesome-pages
 
+extra_css:
+  - stylesheets/extra.css
+
 markdown_extensions:
   - tables
   - admonition

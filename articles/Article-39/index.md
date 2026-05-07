@@ -8,10 +8,16 @@ To see if the Town will vote to amend Section 5.9.2.B.(1)(e)(iii), Accessory Dwe
 
 Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
+## Resources
+
+- [Full Text](full-text.md)
+- [Article 39 ARB Presentation](article-39-arb-presentation.md)
+- [Article 39 Statement Attorney General on ADUs](article-39-statement-attorney-general-on-adus.md)
+
 ## External Links
 
 - [Redevelopment Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77027&t=639071723292646384)
 
 ---
-*Source item id:* `715`  
+*Source item id:* `715`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

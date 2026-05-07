@@ -8,10 +8,15 @@ To see if the Town will vote to amend Title I, Article 22 of the Town Bylaws by 
 
 Select Board 2026 Article Hearings - right click to view in new tab
 
+## Resources
+
+- [Full Text](full-text.md)
+- [Article 25 Chart](article-25-chart.md)
+
 ## External Links
 
 - [Select Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77025&t=639071722566826263)
 
 ---
-*Source item id:* `701`  
+*Source item id:* `701`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

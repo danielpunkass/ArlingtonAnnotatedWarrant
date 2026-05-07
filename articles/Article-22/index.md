@@ -8,10 +8,16 @@ To see if the Town will vote to amend Title IV, Article 1, which in part protect
 
 Select Board 2026 Article Hearings - right click to view in new tab
 
+## Resources
+
+- [Full Text](full-text.md)
+- [Article 22 Crowder Amendment](article-22-crowder-amendment.md)
+- [Article 22 Crowder Presentation](article-22-crowder-presentation.md)
+
 ## External Links
 
 - [Select Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77025&t=639071722566826263)
 
 ---
-*Source item id:* `698`  
+*Source item id:* `698`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

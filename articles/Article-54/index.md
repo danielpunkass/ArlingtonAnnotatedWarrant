@@ -8,10 +8,17 @@ To see if the Town will vote to amend Section 5.3.12(A) of the Town's Zoning Byl
 
 Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
+## Resources
+
+- [Full Text](full-text.md)
+- [Article 54 Monaghan Substitute Motion](article-54-monaghan-substitute-motion.md)
+- [Article 54 Statement Caitlin Monaghan](article-54-statement-caitlin-monaghan.md)
+- [Article 54 Monaghan Presentation](article-54-monaghan-presentation.md)
+
 ## External Links
 
 - [Redevelopment Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77027&t=639071723292646384)
 
 ---
-*Source item id:* `730`  
+*Source item id:* `730`
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>
