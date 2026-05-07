@@ -257,7 +257,24 @@ def article_dirname(article):
     return f"Article-{article['articleNumber']:02d}" if article["articleNumber"] else f"Item-{article['itemId']}"
 
 
-def write_article_md(article_dir, article):
+def slugify_attachment(att):
+    """Map an attachment to (page slug, sidebar/page display name).
+
+    The standard "View full text of Article" PDF gets a fixed short slug and
+    the friendlier label "Full Text"; other attachments use a sanitized
+    version of their title.
+    """
+    title = (att.get("title") or "").strip()
+    if title.lower() == "view full text of article":
+        return "full-text", "Full Text"
+    slug = re.sub(r"\s+", "-", title)
+    slug = re.sub(r"[^A-Za-z0-9._-]", "", slug)
+    slug = slug.strip("-_.").lower() or "attachment"
+    return slug, title or "Attachment"
+
+
+def write_article_summary(article_dir, article):
+    """Write the article's index.md (Summary page: description, sponsor, links)."""
     lines = [f"# Article {article['articleNumber']}: {article['title']}", ""]
     if article["sponsor"]:
         lines += [f"**Sponsor:** {article['sponsor']}", ""]
@@ -268,28 +285,94 @@ def write_article_md(article_dir, article):
         for link in article["externalLinks"]:
             lines.append(f"- [{link['label']}]({link['url']})")
         lines.append("")
-    if article["attachments"]:
-        lines += ["## Attachments", ""]
-        for att in article["attachments"]:
-            local = att.get("filename")
-            if local:
-                lines.append(f"- [{att['title']}](./{urllib.parse.quote(local)})")
-            else:
-                lines.append(f"- {att['title']} (not yet downloaded)")
-            pdf_links = att.get("pdfLinks") or []
-            if pdf_links:
-                lines.append("  - Links in this PDF:")
-                for url in pdf_links:
-                    lines.append(f"    - <{url}>")
-        lines.append("")
     lines += [
         "---",
         f"*Source item id:* `{article['itemId']}`  ",
         f"*Source:* <{SOURCE_URL}>",
         "",
     ]
-    with open(os.path.join(article_dir, "article.md"), "w") as fh:
+    with open(os.path.join(article_dir, "index.md"), "w") as fh:
         fh.write("\n".join(lines))
+
+
+def write_attachment_page(article_dir, slug, display_name, att):
+    """Write a per-attachment page that embeds the PDF in an iframe.
+
+    Requires the `md_in_html` and `attr_list` markdown extensions on the
+    site side (the iframe and `{target="_blank"}` annotation otherwise pass
+    through as raw text).
+    """
+    filename = att.get("filename")
+    if not filename:
+        return
+    encoded = urllib.parse.quote(filename)
+    is_pdf = filename.lower().endswith(".pdf")
+
+    lines = [f"# {display_name}", ""]
+    if is_pdf:
+        title_attr = html.escape(display_name, quote=True)
+        lines += [
+            f'<iframe src="./{encoded}" style="width:100%; height:80vh; border:0;" '
+            f'title="{title_attr}"></iframe>',
+            "",
+            f'[Open PDF in new tab](./{encoded}){{target="_blank" rel="noopener"}}',
+            "",
+        ]
+    else:
+        lines += [f"[Download attachment](./{encoded})", ""]
+    pdf_links = att.get("pdfLinks") or []
+    if pdf_links:
+        lines += ["## Links in this PDF", ""]
+        for url in pdf_links:
+            lines.append(f"- <{url}>")
+        lines.append("")
+    with open(os.path.join(article_dir, f"{slug}.md"), "w") as fh:
+        fh.write("\n".join(lines))
+
+
+def write_pages_file(article_dir, article, nav_entries):
+    """Write a `.pages` file for the awesome-pages MkDocs plugin.
+
+    Sets the section title to the full article heading (so the sidebar shows
+    "Article 2: STATE OF THE TOWN ADDRESS" instead of just "Article-02") and
+    declares the order of child pages: Summary, then attachments.
+    """
+    section_title = f"Article {article['articleNumber']}: {article['title']}"
+    lines = [
+        f"title: {json.dumps(section_title)}",
+        "nav:",
+        "  - Summary: index.md",
+    ]
+    for slug, name in nav_entries:
+        lines.append(f"  - {json.dumps(name)}: {slug}.md")
+    with open(os.path.join(article_dir, ".pages"), "w") as fh:
+        fh.write("\n".join(lines) + "\n")
+
+
+def attachment_pages_for(article):
+    """Return [(slug, display_name, att), ...] in sidebar order.
+
+    Full Text always comes first when present; remaining attachments keep the
+    order they appear in the warrant. Slug collisions within an article get
+    `-2`, `-3`, ... suffixes.
+    """
+    pages = []
+    used = set()
+    for att in article["attachments"]:
+        if not att.get("filename"):
+            continue
+        slug, name = slugify_attachment(att)
+        base = slug
+        n = 2
+        while slug in used:
+            slug = f"{base}-{n}"
+            n += 1
+        used.add(slug)
+        pages.append((slug, name, att))
+    ft_idx = next((i for i, p in enumerate(pages) if p[0] == "full-text"), None)
+    if ft_idx is not None and ft_idx != 0:
+        pages.insert(0, pages.pop(ft_idx))
+    return pages
 
 
 def write_index_md(archive_dir, articles, synced_at):
@@ -308,7 +391,7 @@ def write_index_md(archive_dir, articles, synced_at):
         sponsor = (a["sponsor"] or "").replace("Inserted at the request of ", "")
         title = a["title"].replace("|", "\\|")
         sponsor = sponsor.replace("|", "\\|")
-        dir_link = f"./{ARTICLES_SUBDIR}/{article_dirname(a)}/article.md"
+        dir_link = f"./{ARTICLES_SUBDIR}/{article_dirname(a)}/index.md"
         lines.append(
             f"| {a['articleNumber']} | [{title}]({urllib.parse.quote(dir_link, safe='/.:')}) | {sponsor} | {len(a['attachments'])} |"
         )
@@ -424,17 +507,26 @@ def sync():
             else:
                 att["pdfLinks"] = []
 
+        # Generate the per-article page set: index.md (Summary), one wrapper
+        # page per attachment (which embeds the PDF in an iframe), and a
+        # .pages file declaring sidebar title + child order.
+        att_pages = attachment_pages_for(article)
+        write_article_summary(adir, article)
+        for slug, name, att in att_pages:
+            write_attachment_page(adir, slug, name, att)
+        write_pages_file(adir, article, [(s, n) for s, n, _ in att_pages])
+
+        # Remove anything we didn't just generate or download.
+        preserved = set(kept_filenames)
+        preserved.update({"index.md", ".pages"})
+        preserved.update(f"{s}.md" for s, _, _ in att_pages)
         for entry in os.listdir(adir):
-            if entry == "article.md":
-                continue
             if entry.startswith(".pending-"):
                 os.remove(os.path.join(adir, entry))
                 continue
-            if entry not in kept_filenames:
+            if entry not in preserved:
                 os.remove(os.path.join(adir, entry))
                 print(f"  Article {article['articleNumber']:>2}: removed stale {entry}")
-
-        write_article_md(adir, article)
 
     for entry in os.listdir(articles_dir):
         full = os.path.join(articles_dir, entry)

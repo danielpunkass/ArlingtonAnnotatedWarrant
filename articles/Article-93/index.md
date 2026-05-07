@@ -1,0 +1,11 @@
+# Article 93: RESOLUTION / DESIGNATING ARLINGTON A 4TH AMENDMENT WORKPLACE COMMUNITY
+
+**Sponsor:** Inserted at the request of Linda Hanson and Elizabeth Dray and ten registered voters
+
+## Description
+
+To see if the Town will vote to support the designation of Arlington as a 4th Amendment Workplace Community and thus support efforts that inform and educate the Town of Arlington staff, as well as workplaces and agencies in the town of Arlington, about the 4th amendment rights of employers. Employees and patrons; or take any action related there.
+
+---
+*Source item id:* `774`  
+*Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

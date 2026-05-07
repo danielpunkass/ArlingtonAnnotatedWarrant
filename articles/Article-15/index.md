@@ -1,0 +1,17 @@
+# Article 15: BYLAW AMENDMENT / ADOPTION OF EQUITY BYLAW PURSUANT TO MASSACHUSETTS CANNABIS CONTROL COMMISSION REGULATIONS
+
+**Sponsor:** Inserted at the request of the Town Manager
+
+## Description
+
+To see if the Town will vote to amend Title I of the Town Bylaws to adopt a Municipal Equity Bylaw pursuant to regulations promulgated by the Massachusetts Cannabis Control Commission; or take any action related thereto.
+
+Select Board 2026 Article Hearings - right click to view in new tab
+
+## External Links
+
+- [Select Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77025&t=639071722566826263)
+
+---
+*Source item id:* `674`  
+*Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>
