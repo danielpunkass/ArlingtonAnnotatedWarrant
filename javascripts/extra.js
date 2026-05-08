@@ -90,6 +90,15 @@
       for (var i = 0; i < links.length; i++) {
         var href = links[i].getAttribute("href") || "";
         var m = href.match(re);
+        // Tag every article landing-page link (regardless of
+        // disposition) so CSS can suppress the document icon that
+        // would otherwise apply to articles inside the Disposed /
+        // Tabled+Postponed groups.
+        if (m) {
+          links[i].setAttribute("data-article-level", "1");
+        } else if (links[i].hasAttribute("data-article-level")) {
+          links[i].removeAttribute("data-article-level");
+        }
         var entry = m ? map[parseInt(m[1], 10)] : null;
         if (entry) {
           links[i].setAttribute("data-disposition-type", entry.type);

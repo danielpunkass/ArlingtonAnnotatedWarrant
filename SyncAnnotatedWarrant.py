@@ -724,21 +724,29 @@ def attachment_pages_for(article):
 def write_root_pages(archive_dir, articles):
     """Write the root `.pages` for awesome-pages.
 
-    Lists Index first, then any disposed articles tucked under a
-    "Disposed Articles" group, then every still-pending article at the
-    top level. The grouping keeps already-debated articles out of the
-    main sidebar while still being one click away.
+    Sidebar order:
+      Index → "Disposed Articles" group → "Tabled and Postponed
+      Articles" group → still-pending articles at the top level. Both
+      grouped sections are only emitted when non-empty. Tabled /
+      postponed articles are not "disposed" — Town Meeting will return
+      to them — but they're not actively pending either, so they get
+      their own collapsed group.
 
     awesome-pages' `... | <glob>` filter only operates at the current
     directory level, so we enumerate the subdirs ourselves.
     """
     disposed = [a for a in articles if a.get("status") == "disposed"]
-    pending = [a for a in articles if a.get("status") != "disposed"]
+    deferred = [a for a in articles if a.get("status") == "pending" and a.get("disposition")]
+    pending = [a for a in articles if a.get("status") == "pending" and not a.get("disposition")]
 
     lines = ["nav:", "  - Index: index.md"]
     if disposed:
         lines.append("  - Disposed Articles:")
         for a in disposed:
+            lines.append(f"    - {ARTICLES_SUBDIR}/{article_dirname(a)}")
+    if deferred:
+        lines.append("  - Tabled and Postponed Articles:")
+        for a in deferred:
             lines.append(f"    - {ARTICLES_SUBDIR}/{article_dirname(a)}")
     for a in pending:
         lines.append(f"  - {ARTICLES_SUBDIR}/{article_dirname(a)}")
