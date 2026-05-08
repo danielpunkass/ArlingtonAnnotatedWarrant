@@ -1,5 +1,7 @@
 # Article 46: ZONING BYLAW AMENDMENT / ANIMAL DAYCARE USES
 
+!!! warning "Tabled"
+
 _Inserted at the request of the Redevelopment Board_
 
 ## Description

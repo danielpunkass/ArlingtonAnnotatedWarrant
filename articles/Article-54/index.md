@@ -1,5 +1,7 @@
 # Article 54: ZONING BYLAW AMENDMENT / TRAFFIC VISIBILITY
 
+!!! warning "Tabled"
+
 _Inserted at the request of Caitlin Monaghan and ten registered voters_
 
 ## Description

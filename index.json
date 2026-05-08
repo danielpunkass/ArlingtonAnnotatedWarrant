@@ -21,7 +21,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 648,
@@ -40,7 +47,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 652,
@@ -59,7 +73,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 653,
@@ -78,7 +99,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 649,
@@ -107,7 +135,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "n/a",
+        "label": "No Action",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 651,
@@ -136,7 +171,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 655,
@@ -165,7 +207,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "n/a",
+        "label": "No Action",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 665,
@@ -194,7 +243,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "n/a",
+        "label": "No Action",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 667,
@@ -231,7 +287,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "p",
+        "label": "Postponed",
+        "date": "May 13, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 669,
@@ -260,7 +323,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 671,
@@ -289,7 +359,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 672,
@@ -331,7 +408,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 673,
@@ -368,7 +452,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 674,
@@ -397,7 +488,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "n/a",
+        "label": "No Action",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 675,
@@ -442,7 +540,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 29, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 693,
@@ -475,7 +580,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 694,
@@ -504,7 +616,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "n/a",
+        "label": "No Action",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 695,
@@ -533,7 +652,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 29, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 696,
@@ -562,7 +688,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 697,
@@ -591,7 +724,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "p",
+        "label": "Postponed",
+        "date": "May 13, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 698,
@@ -636,7 +776,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 29, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 699,
@@ -819,7 +966,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "n/a",
+        "label": "No Action",
+        "date": "April 29, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 700,
@@ -856,7 +1010,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 29, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 701,
@@ -893,7 +1054,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 29, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 702,
@@ -930,7 +1098,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 29, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 703,
@@ -959,7 +1134,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "n/a",
+        "label": "No Action",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 704,
@@ -988,7 +1170,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 29, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 705,
@@ -1017,7 +1206,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 29, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 706,
@@ -1062,7 +1258,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "p",
+        "label": "Postponed",
+        "date": "May 13, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 707,
@@ -1107,7 +1310,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "May 4, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 708,
@@ -1144,7 +1354,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "May 4, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 709,
@@ -1173,7 +1390,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "n/a",
+        "label": "No Action",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 710,
@@ -1202,7 +1426,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 711,
@@ -1235,7 +1466,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "May 4, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 712,
@@ -1272,7 +1510,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "May 4, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 713,
@@ -1301,7 +1546,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "n/a",
+        "label": "No Action",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 714,
@@ -1346,7 +1598,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "May 4, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 715,
@@ -1412,7 +1671,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "May 4, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 716,
@@ -1449,7 +1715,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "May 4, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 717,
@@ -1478,7 +1751,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 718,
@@ -1515,7 +1795,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "May 4, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 719,
@@ -1552,7 +1839,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "May 4, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 720,
@@ -1597,7 +1891,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 721,
@@ -1634,7 +1935,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 722,
@@ -1671,7 +1979,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 723,
@@ -1716,7 +2031,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 724,
@@ -1753,7 +2075,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 725,
@@ -1790,7 +2119,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 726,
@@ -1827,7 +2163,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 727,
@@ -1856,7 +2199,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 728,
@@ -1893,7 +2243,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 729,
@@ -2178,7 +2535,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 730,
@@ -2256,7 +2620,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 731,
@@ -2317,7 +2688,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 732,
@@ -2346,7 +2724,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "n/a",
+        "label": "No Action",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 733,
@@ -2375,7 +2760,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "n/a",
+        "label": "No Action",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 734,
@@ -2404,7 +2796,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "n/a",
+        "label": "No Action",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 736,
@@ -2433,7 +2832,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 737,
@@ -2470,7 +2876,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 738,
@@ -2499,7 +2912,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 739,
@@ -2528,7 +2948,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 740,
@@ -2557,7 +2984,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "pending",
+      "disposition": {
+        "code": "t",
+        "label": "Tabled",
+        "date": null,
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 741,
@@ -2639,7 +3073,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "May 6, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 742,
@@ -2672,7 +3113,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "May 6, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 743,
@@ -2783,7 +3231,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "n/a",
+        "label": "No Action",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 746,
@@ -2836,7 +3291,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 748,
@@ -2865,7 +3327,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 749,
@@ -2931,7 +3400,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 751,
@@ -2960,7 +3436,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 752,
@@ -2989,7 +3472,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 753,
@@ -3080,7 +3570,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 757,
@@ -3171,7 +3668,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 760,
@@ -3200,7 +3704,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "n/a",
+        "label": "No Action",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 761,
@@ -3229,7 +3740,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 762,
@@ -3291,7 +3809,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 764,
@@ -3320,7 +3845,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 765,
@@ -3373,7 +3905,14 @@
           ]
         }
       ],
-      "status": "disposed"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "April 27, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 770,

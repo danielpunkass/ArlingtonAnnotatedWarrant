@@ -1,5 +1,7 @@
 # Article 60: ENDORSEMENT OF PARKING BENEFIT DISTRICT EXPENDITURES
 
+!!! warning "Tabled"
+
 _Inserted at the request of the Town Manager_
 
 ## Description

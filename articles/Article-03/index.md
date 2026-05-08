@@ -1,5 +1,7 @@
 # Article 3: REPORTS OF COMMITTEES
 
+!!! warning "Tabled"
+
 _Inserted at the request of the Moderator_
 
 ## Description

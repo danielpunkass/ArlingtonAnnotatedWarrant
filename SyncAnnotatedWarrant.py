@@ -66,19 +66,84 @@ def safe_filename(name):
     return name.strip().strip(".") or "untitled"
 
 
-def fetch_article_statuses():
-    """Return {articleNumber: "disposed" | "pending"} from the Moderator's
-    live progress tracker.
+STATUS_LABELS = {
+    "y": "Passed",
+    "n": "Failed",
+    "w": "Withdrawn",
+    "t": "Tabled",
+    "p": "Postponed",
+    "n/a": "No Action",
+    "r/c": "Referred to Committee",
+}
 
-    The sheet's status column uses single-letter codes (`y` passed, `n`
-    failed, `w` withdrawn, `t` tabled, `p` postponed, `n/a` no action,
-    `r/c` referred to committee) for disposed articles, and `-` (or empty)
-    for articles not yet taken up. Anything but `-`/empty counts as
-    disposed.
+# Status codes that finalize the article at this Town Meeting. Tabled
+# and postponed articles get a status code and a date too, but they are
+# still open — Town Meeting will return to them — so they stay in the
+# pending sidebar group. The provisional disposition note ("Tabled on
+# April 27, 2026.") is still shown on the article's summary page either
+# way, since that's the most recent factual outcome.
+TERMINAL_STATUS_CODES = {"y", "n", "w", "n/a", "r/c"}
 
-    Network or parse failures return an empty dict — callers should treat
-    a missing entry as "pending" so the build continues to work even when
-    the sheet is unreachable.
+# Admonition flavor (Material for MkDocs styles each with its own
+# accent color and icon) per status code. The grouping is rough but
+# legible at a glance:
+#   success (green) — article passed
+#   failure (red)   — article failed
+#   warning (amber) — provisional outcome the meeting will revisit
+#   info (blue)     — article handed off to a committee for follow-up
+#   note (gray)     — neutral terminal outcomes (withdrawn, no action)
+ADMONITION_TYPE_BY_CODE = {
+    "y": "success",
+    "n": "failure",
+    "w": "note",
+    "t": "warning",
+    "p": "warning",
+    "n/a": "note",
+    "r/c": "info",
+}
+
+_MONTHS = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December",
+]
+
+
+def humanize_date(value, year=None):
+    """`4/27` → `April 27, 2026`. Year defaults to the current calendar
+    year (Town Meeting doesn't span years, so the sync year is correct).
+    Returns None for empty/`-`, raw input on unrecognized format."""
+    if not value or value == "-":
+        return None
+    m = re.match(r"^\s*(\d{1,2})/(\d{1,2})\s*$", value)
+    if not m:
+        return value
+    month_idx = int(m.group(1)) - 1
+    if not 0 <= month_idx < 12:
+        return value
+    if year is None:
+        year = datetime.datetime.now().year
+    return f"{_MONTHS[month_idx]} {int(m.group(2))}, {year}"
+
+
+def _vote_int(s):
+    """Parse a vote-count cell. Returns None for empty (voice/acclamation)."""
+    s = (s or "").strip()
+    if not s.isdigit():
+        return None
+    return int(s)
+
+
+def fetch_article_progress():
+    """Return {articleNumber: {"status": "disposed"|"pending", "code": ..., "label": ...,
+    "date": ..., "yesVotes": ..., "noVotes": ...}} from the Moderator's live tracker.
+
+    The sheet's columns (post the article-number/title pair) are: required
+    vote threshold, status code, disposition date, a cross-reference column,
+    yes votes, no votes, total, abstain, percentage, scheduled date — the
+    fields we surface are status / date / yes / no.
+
+    Network or parse failures return an empty dict so the build continues
+    even when the sheet is unreachable; missing entries default to pending.
     """
     try:
         body, _ = fetch(PROGRESS_PUBHTML_URL)
@@ -87,7 +152,7 @@ def fetch_article_statuses():
         print(f"WARNING: could not fetch progress sheet: {exc}", file=sys.stderr)
         return {}
 
-    statuses = {}
+    progress = {}
     for row in re.findall(r"<tr[^>]*>(.*?)</tr>", text, re.DOTALL):
         cells = [strip_tags(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.DOTALL)]
         if len(cells) < 4:
@@ -97,8 +162,23 @@ def fetch_article_statuses():
             continue
         n = int(num_str)
         code = cells[3].strip()
-        statuses[n] = "disposed" if (code and code != "-") else "pending"
-    return statuses
+        has_outcome = bool(code and code != "-")
+        # `status` drives sidebar grouping: only terminal codes get
+        # tucked under "Disposed Articles". Tabled/postponed articles
+        # carry a `disposition` (so the summary page can show "Tabled
+        # on April 27, 2026.") but stay in the pending group.
+        is_terminal = has_outcome and code.lower() in TERMINAL_STATUS_CODES
+        entry = {"status": "disposed" if is_terminal else "pending"}
+        if has_outcome:
+            entry["disposition"] = {
+                "code": code,
+                "label": STATUS_LABELS.get(code.lower(), code),
+                "date": humanize_date(cells[4]) if len(cells) > 4 else None,
+                "yesVotes": _vote_int(cells[6]) if len(cells) > 6 else None,
+                "noVotes": _vote_int(cells[7]) if len(cells) > 7 else None,
+            }
+        progress[n] = entry
+    return progress
 
 
 _PDF_URI_LITERAL_RE = re.compile(rb"/URI\s*\((?P<s>(?:\\.|[^)\\])*)\)", re.DOTALL)
@@ -469,6 +549,20 @@ def write_article_summary(article_dir, article, att_pages):
     they're discoverable from the summary view.
     """
     lines = [f"# Article {article['articleNumber']}: {article['title']}", ""]
+    disp = article.get("disposition")
+    if disp:
+        # Render the outcome as a title-only admonition under the
+        # heading: "!!! success \"Passed on April 27, 2026\"". The
+        # admonition flavor (success/failure/warning/...) color-codes
+        # the outcome at a glance. Vote tallies are kept in index.json
+        # for downstream consumers but not rendered yet.
+        label = disp.get("label") or "Disposed"
+        date = disp.get("date")
+        sentence = f"{label} on {date}" if date else label
+        adm_type = ADMONITION_TYPE_BY_CODE.get(
+            (disp.get("code") or "").lower(), "note"
+        )
+        lines += [f'!!! {adm_type} "{sentence}"', ""]
     if article["requester"]:
         lines += [f"_{article['requester']}_", ""]
     if article["description"]:
@@ -774,10 +868,15 @@ def sync():
     # Tag each article as disposed/pending using the Moderator's live
     # progress tracker. Missing entries (or sheet-fetch failure) default
     # to "pending" — better to clutter the sidebar than to hide an
-    # article that hasn't actually been disposed of.
-    statuses = fetch_article_statuses()
+    # article that hasn't actually been disposed of. Disposed articles
+    # also get a `disposition` dict (code/label/date/votes) which the
+    # per-article summary page surfaces near the title.
+    progress = fetch_article_progress()
     for a in articles:
-        a["status"] = statuses.get(a["articleNumber"], "pending")
+        entry = progress.get(a["articleNumber"], {"status": "pending"})
+        a["status"] = entry["status"]
+        if entry.get("disposition"):
+            a["disposition"] = entry["disposition"]
     disposed_count = sum(1 for a in articles if a["status"] == "disposed")
     print(f"  {disposed_count} disposed, {len(articles) - disposed_count} pending")
 

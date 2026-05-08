@@ -1,5 +1,7 @@
 # Article 10: BYLAW AMENDMENT / WETLANDS PROTECTION
 
+!!! warning "Postponed on May 13, 2026"
+
 _Inserted at the request of the Conservation Commission_
 
 ## Description

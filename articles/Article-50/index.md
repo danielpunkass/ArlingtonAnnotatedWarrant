@@ -1,5 +1,7 @@
 # Article 50: ZONING BYLAW AMENDMENT / AMENDMENT TO ARLINGTON ZONING MAP
 
+!!! warning "Tabled"
+
 _Inserted at the request of Mary Winstanley and ten registered voters_
 
 ## Description

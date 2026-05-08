@@ -1,5 +1,7 @@
 # Article 45: ZONING BYLAW AMENDMENT / PORTABLE AND TEMPORARY SIGNS
 
+!!! warning "Tabled"
+
 _Inserted at the request of the Redevelopment Board_
 
 ## Description
