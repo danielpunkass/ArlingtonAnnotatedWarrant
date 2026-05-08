@@ -1,7 +1,32 @@
 # Annotated Warrant — Index
 
-Source: [Official 2026 Annotated Town Warrant](https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659)  
-<small>Last synced on Thursday, May 7 at 6:40PM</small>.
+Source: [Official 2026 Annotated Town Warrant](https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659)
+<small>Last synced on Thursday, May 7 at 8:06PM</small>.
+
+| # | Title | Requested By | Attachments |
+| ---: | --- | --- | ---: |
+| 66 | [CAPITAL BUDGET / OTTOSON MIDDLE SCHOOL FEASIBILITY STUDY](./articles/Article-66/index.md) | Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee | 2 |
+| 67 | [CAPITAL BUDGET / HARDY SCHOOL FEASIBILITY STUDY AND SCHEMATIC DESIGN](./articles/Article-67/index.md) | Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee | 2 |
+| 69 | [APPROPRIATION / TRANSPORTATION INFRASTRUCTURE FUND](./articles/Article-69/index.md) | Town Manager | 1 |
+| 72 | [APPROPRIATION / MINUTEMAN REGIONAL VOCATIONAL TECHNICAL HIGH SCHOOL AND OUT OF DISTRICT VOCATIONAL PLACEMENTS](./articles/Article-72/index.md) | Minuteman Regional Vocational School District Committee | 2 |
+| 76 | [APPROPRIATION / WATER BODIES FUND](./articles/Article-76/index.md) | Envision Arlington Standing Committee and its Spy Pond and Reservoir Task Groups, and the Arlington Conservation Commission | 1 |
+| 77 | [APPROPRIATION / COMMUNITY PRESERVATION FUND](./articles/Article-77/index.md) | Community Preservation Act Committee | 1 |
+| 79 | [APPROPRIATION / PRIVATE WAY REPAIRS REVOLVING FUNDS](./articles/Article-79/index.md) | Town Manager | 1 |
+| 80 | [APPROPRIATION / 51A GROVE STREET BUILDING REPAIRS](./articles/Article-80/index.md) | Town Manager | 1 |
+| 84 | [TRANSFER OF FUNDS / CEMETERY](./articles/Article-84/index.md) | Finance Committee | 1 |
+| 87 | [USE OF FREE CASH](./articles/Article-87/index.md) | Finance Committee | 1 |
+| 89 | [RESOLUTION / HYBRID TOWN MEETING](./articles/Article-89/index.md) | Alexander Bagnall and ten registered voters | 1 |
+| 90 | [RESOLUTION / COMPREHENSIVE PLAN ENDORSEMENT](./articles/Article-90/index.md) | Department of Planning and Community Development | 1 |
+| 91 | [RESOLUTION / MEDICARE FOR ALL](./articles/Article-91/index.md) | Greg Dennis and ten registered voters | 2 |
+| 92 | [RESOLUTION / TRANSITIONING TO CLEAN HEAT IN MASSACHUSETTS](./articles/Article-92/index.md) | Patrick Hanlon and ten registered voters | 3 |
+| 93 | [RESOLUTION / DESIGNATING ARLINGTON A 4TH AMENDMENT WORKPLACE COMMUNITY](./articles/Article-93/index.md) | Linda Hanson and Elizabeth Dray and ten registered voters | 3 |
+| 94 | [RESOLUTION / AUTOMATIC LICENSE PLATE RECOGNITION SAFEGUARDS AND DRIVER PRIVACY](./articles/Article-94/index.md) | Samuel Polk and ten registered voters | 5 |
+| 95 | [RESOLUTION / CONCERNING ICE FACILITY](./articles/Article-95/index.md) | Guillermo Hamlin and ten registered voters | 1 |
+| 96 | [RESOLUTION / PROHIBIT FIRST GENERATION ANTICOAGULANT RODENTICIDES AND BROMETHALIN](./articles/Article-96/index.md) | Suzanne Chiarito and ten registered voters | 2 |
+
+## Disposed Articles
+
+Articles already debated and acted upon ([source](https://docs.google.com/spreadsheets/d/e/2PACX-1vSKCsU9snM1MNvj0X7eOc6EErCssVC8Z0fOGvBuIoFMvj-6CUXfiReMZygMgt5MHmtVJUwkntpvQmxf/pubhtml/sheet?headers=false&gid=632365380)).
 
 | # | Title | Requested By | Attachments |
 | ---: | --- | --- | ---: |
@@ -69,34 +94,16 @@ Source: [Official 2026 Annotated Town Warrant](https://arlingtonma.primegov.com/
 | 63 | [AMENDMENTS TO FY26 BUDGETS](./articles/Article-63/index.md) | Town Manager | 1 |
 | 64 | [APPROPRIATION / TOWN BUDGETS](./articles/Article-64/index.md) | Town Manager | 5 |
 | 65 | [CAPITAL BUDGET](./articles/Article-65/index.md) | Select Board, and at the request of the Town Manager and the Capital Planning Committee | 1 |
-| 66 | [CAPITAL BUDGET / OTTOSON MIDDLE SCHOOL FEASIBILITY STUDY](./articles/Article-66/index.md) | Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee | 2 |
-| 67 | [CAPITAL BUDGET / HARDY SCHOOL FEASIBILITY STUDY AND SCHEMATIC DESIGN](./articles/Article-67/index.md) | Select Board, and at the request of the Town Manager, the School Committee and the Capital Planning Committee | 2 |
 | 68 | [RESCIND PRIOR BORROWING AUTHORIZATIONS](./articles/Article-68/index.md) | Town Treasurer | 1 |
-| 69 | [APPROPRIATION / TRANSPORTATION INFRASTRUCTURE FUND](./articles/Article-69/index.md) | Town Manager | 1 |
 | 70 | [APPROPRIATION / FINANCING OF CONSTRUCTION OR RECONSTRUCTION OF SEWERS AND SEWERAGE FACILITIES](./articles/Article-70/index.md) | Town Manager and the Director of Public Works | 1 |
 | 71 | [APPROPRIATION / FINANCING OF CONSTRUCTION OR RECONSTRUCTION OF WATER MAINS AND WATER FACILITIES](./articles/Article-71/index.md) | Town Manager and the Director of Public Works | 1 |
-| 72 | [APPROPRIATION / MINUTEMAN REGIONAL VOCATIONAL TECHNICAL HIGH SCHOOL AND OUT OF DISTRICT VOCATIONAL PLACEMENTS](./articles/Article-72/index.md) | Minuteman Regional Vocational School District Committee | 2 |
 | 73 | [APPROPRIATION / COMMITTEES AND COMMISSIONS](./articles/Article-73/index.md) | Town Manager | 1 |
 | 74 | [APPROPRIATION / TOWN CELEBRATIONS AND EVENTS](./articles/Article-74/index.md) | Town Manager | 1 |
 | 75 | [APPROPRIATION / MISCELLANEOUS](./articles/Article-75/index.md) | Town Manager | 1 |
-| 76 | [APPROPRIATION / WATER BODIES FUND](./articles/Article-76/index.md) | Envision Arlington Standing Committee and its Spy Pond and Reservoir Task Groups, and the Arlington Conservation Commission | 1 |
-| 77 | [APPROPRIATION / COMMUNITY PRESERVATION FUND](./articles/Article-77/index.md) | Community Preservation Act Committee | 1 |
 | 78 | [APPROPRIATION / HARRY BARBER COMMUNITY SERVICE PROGRAM](./articles/Article-78/index.md) | Council on Aging | 1 |
-| 79 | [APPROPRIATION / PRIVATE WAY REPAIRS REVOLVING FUNDS](./articles/Article-79/index.md) | Town Manager | 1 |
-| 80 | [APPROPRIATION / 51A GROVE STREET BUILDING REPAIRS](./articles/Article-80/index.md) | Town Manager | 1 |
 | 81 | [APPROPRIATION / PENSION ADJUSTMENT FOR FORMER TWENTY- FIVE YEAR / ACCIDENTAL DISABILITY EMPLOYEES](./articles/Article-81/index.md) | Contributory Retirement Board | 1 |
 | 82 | [LOCAL OPTION TAXES](./articles/Article-82/index.md) | of the Finance Committee | 1 |
 | 83 | [APPROPRIATION / OTHER POST EMPLOYMENT BENEFITS (OPEB) TRUST FUND](./articles/Article-83/index.md) | Finance Committee | 1 |
-| 84 | [TRANSFER OF FUNDS / CEMETERY](./articles/Article-84/index.md) | Finance Committee | 1 |
 | 85 | [APPROPRIATION / OVERLAY RESERVE](./articles/Article-85/index.md) | Finance Committee | 1 |
 | 86 | [APPROPRIATION / LONG TERM STABILIZATION FUND](./articles/Article-86/index.md) | Finance Committee | 1 |
-| 87 | [USE OF FREE CASH](./articles/Article-87/index.md) | Finance Committee | 1 |
 | 88 | [APPROPRIATION / FISCAL STABILITY STABILIZATION FUND](./articles/Article-88/index.md) | Finance Committee | 1 |
-| 89 | [RESOLUTION / HYBRID TOWN MEETING](./articles/Article-89/index.md) | Alexander Bagnall and ten registered voters | 1 |
-| 90 | [RESOLUTION / COMPREHENSIVE PLAN ENDORSEMENT](./articles/Article-90/index.md) | Department of Planning and Community Development | 1 |
-| 91 | [RESOLUTION / MEDICARE FOR ALL](./articles/Article-91/index.md) | Greg Dennis and ten registered voters | 2 |
-| 92 | [RESOLUTION / TRANSITIONING TO CLEAN HEAT IN MASSACHUSETTS](./articles/Article-92/index.md) | Patrick Hanlon and ten registered voters | 3 |
-| 93 | [RESOLUTION / DESIGNATING ARLINGTON A 4TH AMENDMENT WORKPLACE COMMUNITY](./articles/Article-93/index.md) | Linda Hanson and Elizabeth Dray and ten registered voters | 3 |
-| 94 | [RESOLUTION / AUTOMATIC LICENSE PLATE RECOGNITION SAFEGUARDS AND DRIVER PRIVACY](./articles/Article-94/index.md) | Samuel Polk and ten registered voters | 5 |
-| 95 | [RESOLUTION / CONCERNING ICE FACILITY](./articles/Article-95/index.md) | Guillermo Hamlin and ten registered voters | 1 |
-| 96 | [RESOLUTION / PROHIBIT FIRST GENERATION ANTICOAGULANT RODENTICIDES AND BROMETHALIN](./articles/Article-96/index.md) | Suzanne Chiarito and ten registered voters | 2 |

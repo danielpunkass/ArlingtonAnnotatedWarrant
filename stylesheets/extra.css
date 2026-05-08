@@ -6,6 +6,15 @@
   display: none !important;
 }
 
+/* Label-only nav groups (like "Disposed Articles" — a section with
+   no backing index page) don't go through .md-nav__container, so
+   the rule above misses them. Their toggle label is still rendered
+   with a trailing chevron; hide just the icon while leaving the
+   label itself in place as a clickable section header. */
+.md-nav__item--nested > .md-nav__link[for] > .md-nav__icon {
+  display: none !important;
+}
+
 /* Mobile: render the primary nav as an in-place tree instead of
    Material's default drill-down behavior. Drill-down replaces the
    visible nav with each child level (with a back button), forcing

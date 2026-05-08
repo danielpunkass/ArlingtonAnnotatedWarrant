@@ -15,11 +15,9 @@ The Annotated Warrant is a *living* document on primegov: articles, descriptions
 python3 SyncAnnotatedWarrant.py
 
 # Local site preview (requires `pip install mkdocs-material mkdocs-awesome-pages-plugin`
-# in a virtualenv, plus the equivalent of the workflow's "Stage content for build"
-# step to populate _site_build/ — copy `articles/.` and `stylesheets/`/`javascripts/`,
-# `sed`-strip the `articles/` prefix from `.pages` and `INDEX.md`, drop `index.json`
-# and `CNAME` in)
-mkdocs serve
+# in a virtualenv). stage-local.sh mirrors the workflow's "Stage content for build"
+# step into _site_build/, which is what mkdocs.yml's docs_dir points at.
+./stage-local.sh && mkdocs serve
 ```
 
 The sync needs Python 3.9+ (for `zoneinfo`) and either a local `pdf2htmlEX` binary or Docker on PATH so it can shell out to the official pdf2htmlEX image. If neither is available the script keeps working — attachment pages just fall back to an iframe view of the PDF rather than the inlined HTML render.
@@ -41,6 +39,8 @@ The sync needs Python 3.9+ (for `zoneinfo`) and either a local `pdf2htmlEX` bina
 **Inlining model.** The pdf2htmlEX-generated HTML is parsed by `extract_html_body` to pull out its `<style>` block and inner `<body>`, which are then spliced into the attachment's markdown page as raw HTML. Because the rendered text becomes part of the host document, browser Cmd+F finds matches in the visible page and MkDocs Material's site-wide search indexes attachment content. `extra.css` overrides pdf2htmlEX's `#page-container` (which would otherwise position-absolute-cover the viewport) and hides its in-PDF outline sidebar.
 
 **Sidebar topology.** Articles flatten to top-level nav entries — no "Articles" wrapper section. Awesome-pages can only resolve nav references at the current directory level, so the workflow staging step copies `articles/.` to the build root and `sed`-strips the `articles/` prefix from `.pages` and `INDEX.md` so the plugin sees article dirs as direct children of root. The source repo keeps the `articles/` structure for github.com browsing. `extra.css` adds icons (file-document for internal pages, chain-link for external `[href^=http]` URIs); `extra.js` runs on Material's `document$` observable to add `target="_blank"` to external nav entries.
+
+**Disposed/pending classification.** Each article carries a `status` field (`"disposed"` or `"pending"`) sourced from the Moderator's live progress tracker (Google Sheet at `PROGRESS_PUBHTML_URL`). An article is disposed when its sheet status code is set and not `-` (codes: `y` passed, `n` failed, `w` withdrawn, `t` tabled, `p` postponed, `n/a` no action, `r/c` referred to committee). Disposed articles get tucked under a "Disposed Articles" group between Index and the pending articles in the sidebar — and into a separate table at the bottom of `INDEX.md` — so only still-to-be-debated articles clutter the main nav. Sheet-fetch failure is non-fatal: every article defaults to "pending" so nothing gets hidden by accident.
 
 **No-op suppression.** The script reads the prior `index.json` before writing; if everything except `lastSynced` would be identical, it reuses the prior timestamp. This means a sync run with no upstream changes leaves the working tree clean, and the workflow's `git status --porcelain` check naturally short-circuits the commit. Don't reintroduce an unconditional timestamp bump — it would generate a commit every 30 minutes even when nothing changed.
 

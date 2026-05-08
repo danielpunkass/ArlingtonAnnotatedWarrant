@@ -33,6 +33,16 @@ MEETING_TEMPLATE_ID = 1659
 SOURCE_URL = f"https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId={MEETING_TEMPLATE_ID}"
 ATTACHMENT_URL = "https://arlingtonma.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId={historyId}"
 
+# The Moderator's live progress tracker (published HTML view of a Google
+# Sheet). Used to classify each article as "disposed" or "pending" so that
+# disposed articles can be tucked under a collapsed sidebar group, leaving
+# only the still-to-be-debated articles cluttering the main nav.
+PROGRESS_PUBHTML_URL = (
+    "https://docs.google.com/spreadsheets/d/e/"
+    "2PACX-1vSKCsU9snM1MNvj0X7eOc6EErCssVC8Z0fOGvBuIoFMvj-6CUXfiReMZygMgt5MHmtVJUwkntpvQmxf"
+    "/pubhtml/sheet?headers=false&gid=632365380"
+)
+
 ARCHIVE_DIR = "."
 ARTICLES_SUBDIR = "articles"
 
@@ -54,6 +64,41 @@ def safe_filename(name):
     name = name.replace("/", "-").replace("\\", "-")
     name = re.sub(r"[\x00-\x1f]", "", name)
     return name.strip().strip(".") or "untitled"
+
+
+def fetch_article_statuses():
+    """Return {articleNumber: "disposed" | "pending"} from the Moderator's
+    live progress tracker.
+
+    The sheet's status column uses single-letter codes (`y` passed, `n`
+    failed, `w` withdrawn, `t` tabled, `p` postponed, `n/a` no action,
+    `r/c` referred to committee) for disposed articles, and `-` (or empty)
+    for articles not yet taken up. Anything but `-`/empty counts as
+    disposed.
+
+    Network or parse failures return an empty dict — callers should treat
+    a missing entry as "pending" so the build continues to work even when
+    the sheet is unreachable.
+    """
+    try:
+        body, _ = fetch(PROGRESS_PUBHTML_URL)
+        text = body.decode("utf-8", errors="replace")
+    except Exception as exc:  # noqa: BLE001 — network/IO failure is non-fatal
+        print(f"WARNING: could not fetch progress sheet: {exc}", file=sys.stderr)
+        return {}
+
+    statuses = {}
+    for row in re.findall(r"<tr[^>]*>(.*?)</tr>", text, re.DOTALL):
+        cells = [strip_tags(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.DOTALL)]
+        if len(cells) < 4:
+            continue
+        num_str = cells[0]
+        if not num_str.isdigit():
+            continue
+        n = int(num_str)
+        code = cells[3].strip()
+        statuses[n] = "disposed" if (code and code != "-") else "pending"
+    return statuses
 
 
 _PDF_URI_LITERAL_RE = re.compile(rb"/URI\s*\((?P<s>(?:\\.|[^)\\])*)\)", re.DOTALL)
@@ -585,14 +630,23 @@ def attachment_pages_for(article):
 def write_root_pages(archive_dir, articles):
     """Write the root `.pages` for awesome-pages.
 
-    Lists Index first, then every article subdirectory explicitly so the
-    articles render at the top level of the sidebar (rather than nested
-    inside an "articles" wrapper section). awesome-pages' `... | <glob>`
-    filter only operates at the current directory level, so we have to
-    enumerate the subdirs ourselves.
+    Lists Index first, then any disposed articles tucked under a
+    "Disposed Articles" group, then every still-pending article at the
+    top level. The grouping keeps already-debated articles out of the
+    main sidebar while still being one click away.
+
+    awesome-pages' `... | <glob>` filter only operates at the current
+    directory level, so we enumerate the subdirs ourselves.
     """
+    disposed = [a for a in articles if a.get("status") == "disposed"]
+    pending = [a for a in articles if a.get("status") != "disposed"]
+
     lines = ["nav:", "  - Index: index.md"]
-    for a in articles:
+    if disposed:
+        lines.append("  - Disposed Articles:")
+        for a in disposed:
+            lines.append(f"    - {ARTICLES_SUBDIR}/{article_dirname(a)}")
+    for a in pending:
         lines.append(f"  - {ARTICLES_SUBDIR}/{article_dirname(a)}")
     with open(os.path.join(archive_dir, ".pages"), "w") as fh:
         fh.write("\n".join(lines) + "\n")
@@ -610,6 +664,24 @@ def write_index_md(archive_dir, articles, synced_at):
     except ValueError:
         synced_human = synced_at
 
+    def render_row(a):
+        # "Inserted at the request of the Moderator" → "Moderator". The
+        # leading "the " is stripped because it's grammatical filler in the
+        # full phrase ("at the request of THE Moderator") — once that
+        # context is gone, "the Moderator" reads oddly as a column entry.
+        requester = (a["requester"] or "").replace("Inserted at the request of ", "")
+        requester = re.sub(r"^the\s+", "", requester, flags=re.IGNORECASE)
+        title = a["title"].replace("|", "\\|")
+        requester = requester.replace("|", "\\|")
+        dir_link = f"./{ARTICLES_SUBDIR}/{article_dirname(a)}/index.md"
+        return (
+            f"| {a['articleNumber']} | [{title}]({urllib.parse.quote(dir_link, safe='/.:')}) "
+            f"| {requester} | {len(a['attachments'])} |"
+        )
+
+    pending = [a for a in articles if a.get("status") != "disposed"]
+    disposed = [a for a in articles if a.get("status") == "disposed"]
+
     lines = [
         "# Annotated Warrant — Index",
         "",
@@ -622,19 +694,21 @@ def write_index_md(archive_dir, articles, synced_at):
         "| # | Title | Requested By | Attachments |",
         "| ---: | --- | --- | ---: |",
     ]
-    for a in articles:
-        # "Inserted at the request of the Moderator" → "Moderator". The
-        # leading "the " is stripped because it's grammatical filler in the
-        # full phrase ("at the request of THE Moderator") — once that
-        # context is gone, "the Moderator" reads oddly as a column entry.
-        requester = (a["requester"] or "").replace("Inserted at the request of ", "")
-        requester = re.sub(r"^the\s+", "", requester, flags=re.IGNORECASE)
-        title = a["title"].replace("|", "\\|")
-        requester = requester.replace("|", "\\|")
-        dir_link = f"./{ARTICLES_SUBDIR}/{article_dirname(a)}/index.md"
-        lines.append(
-            f"| {a['articleNumber']} | [{title}]({urllib.parse.quote(dir_link, safe='/.:')}) | {requester} | {len(a['attachments'])} |"
-        )
+    for a in pending:
+        lines.append(render_row(a))
+    if disposed:
+        lines += [
+            "",
+            "## Disposed Articles",
+            "",
+            f"Articles already debated and acted upon "
+            f"([source]({PROGRESS_PUBHTML_URL})).",
+            "",
+            "| # | Title | Requested By | Attachments |",
+            "| ---: | --- | --- | ---: |",
+        ]
+        for a in disposed:
+            lines.append(render_row(a))
     lines.append("")
     with open(os.path.join(archive_dir, "INDEX.md"), "w") as fh:
         fh.write("\n".join(lines))
@@ -696,6 +770,16 @@ def sync():
 
     articles = parse_articles(page_text)
     print(f"Parsed {len(articles)} articles")
+
+    # Tag each article as disposed/pending using the Moderator's live
+    # progress tracker. Missing entries (or sheet-fetch failure) default
+    # to "pending" — better to clutter the sidebar than to hide an
+    # article that hasn't actually been disposed of.
+    statuses = fetch_article_statuses()
+    for a in articles:
+        a["status"] = statuses.get(a["articleNumber"], "pending")
+    disposed_count = sum(1 for a in articles if a["status"] == "disposed")
+    print(f"  {disposed_count} disposed, {len(articles) - disposed_count} pending")
 
     manifest_path = os.path.join(archive_dir, "index.json")
     existing = {}
