@@ -1,7 +1,7 @@
 # Annotated Warrant — Index
 
 Source: [Official 2026 Annotated Town Warrant](https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659)  
-<small>Last synced on Thursday, May 7 at 6:40PM</small>.
+<small>Last synced on Friday, May 8 at 2:14PM</small>.
 
 | # | Title | Requested By | Attachments |
 | ---: | --- | --- | ---: |
@@ -55,10 +55,10 @@ Source: [Official 2026 Annotated Town Warrant](https://arlingtonma.primegov.com/
 | 49 | [ZONING BYLAW AMENDMENT / HOME OCCUPATIONS](./articles/Article-49/index.md) | James Fleming and Andrew Greenspon and ten registered voters | 2 |
 | 50 | [ZONING BYLAW AMENDMENT / AMENDMENT TO ARLINGTON ZONING MAP](./articles/Article-50/index.md) | Mary Winstanley and ten registered voters | 2 |
 | 51 | [ZONING BYLAW AMENDMENT / AMENDMENT TO ZONING BYLAW TABLE OF DIMENSIONAL AND DENSITY REGULATIONS](./articles/Article-51/index.md) | Mary Winstanley and ten registered voters | 1 |
-| 52 | [ZONING BYLAW AMENDMENT / REZONING OF CERTAIN PARCELS FROM R-1 TO R-2](./articles/Article-52/index.md) | Stephen McKenna and ten registered voters | 2 |
-| 53 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-53/index.md) | Joanne Cullinane and Larry Slotnick and ten registered voters | 27 |
+| 52 | [ZONING BYLAW AMENDMENT / REZONING OF CERTAIN PARCELS FROM R-1 TO R-2](./articles/Article-52/index.md) | Stephen McKenna and ten registered voters | 3 |
+| 53 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-53/index.md) | Joanne Cullinane and Larry Slotnick and ten registered voters | 11 |
 | 54 | [ZONING BYLAW AMENDMENT / TRAFFIC VISIBILITY](./articles/Article-54/index.md) | Caitlin Monaghan and ten registered voters | 4 |
-| 55 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-55/index.md) | Aram Hollman and ten registered voters | 5 |
+| 55 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-55/index.md) | Aram Hollman and ten registered voters | 6 |
 | 56 | [ZONING BYLAW AMENDMENT / DEVELOPMENT STANDARDS – OFF STREET PARKING AND BICYCLE PARKING](./articles/Article-56/index.md) | Neal Mongold and ten registered voters | 1 |
 | 57 | [ZONING BYLAW AMENDMENT / DEVELOPMENT STANDARDS-- BONUSES](./articles/Article-57/index.md) | Neal Mongold and ten registered voters | 1 |
 | 58 | [ZONING BYLAW AMENDMENT / FRONTAGE (FAÇADE) BUILD-OUT RATIO FOR SINGLE FAMILY DWELLINGS](./articles/Article-58/index.md) | Jennifer Cutraro and Fusun Yaman-Sirin and ten registered voters | 1 |

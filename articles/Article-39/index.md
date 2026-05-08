@@ -13,8 +13,8 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 ## Resources
 
 - [Full Text](full-text/index.md)
-- [Article 39 ARB Presentation](article-39-arb-presentation/index.md)
 - [Article 39 Statement Attorney General on ADUs](article-39-statement-attorney-general-on-adus/index.md)
+- [Article 39 ARB Presentation](article-39-arb-presentation/index.md)
 
 ## External Links
 

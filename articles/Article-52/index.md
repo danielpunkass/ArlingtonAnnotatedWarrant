@@ -14,6 +14,7 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 
 - [Full Text](full-text/index.md)
 - [Article 52 Statement and Maps - Director of Planning and Community Development](article-52-statement-and-maps---director-of-planning-and-community-development/index.md)
+- [Article 52 Presentation](article-52-presentation/index.md)
 
 ## External Links
 
