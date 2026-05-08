@@ -781,9 +781,10 @@ def write_index_md(archive_dir, articles, synced_at):
             f"| {requester} | {len(a['attachments'])} |"
         )
 
-    pending = [a for a in articles if a.get("status") != "disposed"]
-    disposed = [a for a in articles if a.get("status") == "disposed"]
-
+    # The Index is a single overview of every article regardless of
+    # state — disposed/tabled/postponed/pending all share one table.
+    # The sidebar handles the disposition-based grouping; here we just
+    # want the full list in article order.
     lines = [
         "# Annotated Warrant — Index",
         "",
@@ -796,21 +797,8 @@ def write_index_md(archive_dir, articles, synced_at):
         "| # | Title | Requested By | Attachments |",
         "| ---: | --- | --- | ---: |",
     ]
-    for a in pending:
+    for a in articles:
         lines.append(render_row(a))
-    if disposed:
-        lines += [
-            "",
-            "## Disposed Articles",
-            "",
-            f"Articles already debated and acted upon "
-            f"([source]({PROGRESS_PUBHTML_URL})).",
-            "",
-            "| # | Title | Requested By | Attachments |",
-            "| ---: | --- | --- | ---: |",
-        ]
-        for a in disposed:
-            lines.append(render_row(a))
     lines.append("")
     with open(os.path.join(archive_dir, "INDEX.md"), "w") as fh:
         fh.write("\n".join(lines))
