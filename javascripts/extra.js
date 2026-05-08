@@ -36,6 +36,79 @@
     }
   }
 
+  /* Disposition icons in the sidebar.
+   *
+   * Each article in index.json may carry a `disposition` block with
+   * a status code. Map the code to the same admonition flavor the
+   * summary page uses, and tag the article's nav link with
+   * `data-disposition-type`; extra.css renders the color-coded icon
+   * on the right edge.
+   *
+   * Data is fetched once and cached. The DOM walk re-runs on every
+   * navigation.instant tick because Material rebuilds nav markup;
+   * absent the data attribute, no icon shows. */
+  var ADMONITION_TYPE_BY_CODE = {
+    y: "success",
+    n: "failure",
+    t: "warning",
+    p: "warning",
+    "r/c": "info",
+    w: "note",
+    "n/a": "note",
+  };
+  var dispositionsPromise = null;
+  function loadDispositions() {
+    if (dispositionsPromise) return dispositionsPromise;
+    dispositionsPromise = fetch("/index.json")
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (data) {
+        var map = {};
+        if (!data || !data.articles) return map;
+        for (var i = 0; i < data.articles.length; i++) {
+          var a = data.articles[i];
+          var d = a && a.disposition;
+          if (!d || !d.code) continue;
+          var t = ADMONITION_TYPE_BY_CODE[String(d.code).toLowerCase()];
+          if (!t) continue;
+          // Match the summary page's admonition title verbatim:
+          // "<Label> on <Date>" if a date is on record, else just the
+          // label. Tooltip and visible heading stay in sync.
+          var label = d.label || "Disposed";
+          var sentence = d.date ? label + " on " + d.date : label;
+          map[a.articleNumber] = { type: t, title: sentence };
+        }
+        return map;
+      })
+      .catch(function () { return {}; });
+    return dispositionsPromise;
+  }
+
+  function annotateDispositionLinks() {
+    loadDispositions().then(function (map) {
+      var links = document.querySelectorAll(".md-nav__link[href]");
+      var re = /(?:^|\/)Article-(\d+)\/?$/;
+      for (var i = 0; i < links.length; i++) {
+        var href = links[i].getAttribute("href") || "";
+        var m = href.match(re);
+        var entry = m ? map[parseInt(m[1], 10)] : null;
+        if (entry) {
+          links[i].setAttribute("data-disposition-type", entry.type);
+          links[i].setAttribute("title", entry.title);
+        } else {
+          if (links[i].hasAttribute("data-disposition-type")) {
+            links[i].removeAttribute("data-disposition-type");
+          }
+          // Don't strip arbitrary `title` attributes set elsewhere —
+          // only clear the one we manage. Material doesn't set title
+          // on these links so a stale title here would be ours.
+          if (links[i].hasAttribute("title")) {
+            links[i].removeAttribute("title");
+          }
+        }
+      }
+    });
+  }
+
   /* Click-to-toggle on section labels.
    *
    * The chevron-toggle <label> is hidden via extra.css (we use
@@ -144,6 +217,7 @@
   if (typeof document$ !== "undefined" && document$.subscribe) {
     document$.subscribe(function () {
       annotateExternalNavLinks();
+      annotateDispositionLinks();
       restoreNavScroll();
       fitPdfRendersToWidth();
     });
@@ -151,10 +225,12 @@
     if (document.readyState === "loading") {
       document.addEventListener("DOMContentLoaded", function () {
         annotateExternalNavLinks();
+        annotateDispositionLinks();
         fitPdfRendersToWidth();
       });
     } else {
       annotateExternalNavLinks();
+      annotateDispositionLinks();
       fitPdfRendersToWidth();
     }
   }
