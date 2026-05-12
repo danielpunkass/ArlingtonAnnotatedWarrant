@@ -13,6 +13,8 @@ Select Board 2026 Article Hearings - right click to view in new tab
 ## Resources
 
 - [Full Text](full-text/index.md)
+- [Article 10 White Substitute Motion](article-10-white-substitute-motion/index.md)
+- [Article 10 David Morgan Memo](article-10-david-morgan-memo/index.md)
 - [Article 10 Benson Amendment](article-10-benson-amendment/index.md)
 
 ## External Links

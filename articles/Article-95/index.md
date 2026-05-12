@@ -9,6 +9,7 @@ To see if the Town will vote to formally condemn violations of local zoning law 
 ## Resources
 
 - [Full Text](full-text/index.md)
+- [Article 95 Hamlin Main Motion](article-95-hamlin-main-motion/index.md)
 
 ---
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>

@@ -1,7 +1,7 @@
 # Annotated Warrant — Index
 
 Source: [Official 2026 Annotated Town Warrant](https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659)  
-<small>Last synced on Monday, May 11 at 11:38PM</small>.
+<small>Last synced on Tuesday, May 12 at 5:56PM</small>.
 
 | # | Title | Requested By | Attachments |
 | ---: | --- | --- | ---: |
@@ -13,7 +13,7 @@ Source: [Official 2026 Annotated Town Warrant](https://arlingtonma.primegov.com/
 | 7 | [BYLAW AMENDMENT / ARLINGTON COMMISSION FOR ARTS AND CULTURE ADMINISTRATIVE UPDATES](./articles/Article-07/index.md) | Arlington Commission for Arts and Culture and the Department of Planning and Community Development | 1 |
 | 8 | [BYLAW AMENDMENT / REGULATION OF OUTDOOR LIGHTING](./articles/Article-08/index.md) | Department of Planning and Community Development | 1 |
 | 9 | [BYLAW AMENDMENT / NATIVE PLANTING ON PUBLIC LANDS](./articles/Article-09/index.md) | Department of Planning and Community Development | 1 |
-| 10 | [BYLAW AMENDMENT / WETLANDS PROTECTION](./articles/Article-10/index.md) | Conservation Commission | 2 |
+| 10 | [BYLAW AMENDMENT / WETLANDS PROTECTION](./articles/Article-10/index.md) | Conservation Commission | 4 |
 | 11 | [BYLAW AMENDMENT / WETLANDS BYLAW ENFORCEMENT](./articles/Article-11/index.md) | Conservation Commission | 1 |
 | 12 | [BYLAW AMENDMENT / TOWN MEETING PROCEDURES COMMITTEE ROLLING MEMBERSHIP APPOINTMENTS](./articles/Article-12/index.md) | Town Meeting Procedures Committee | 1 |
 | 13 | [BYLAW AMENDMENT / ADOPTION OF UPDATED VERSION OF TOWN MEETING TIME](./articles/Article-13/index.md) | Town Meeting Procedures Committee | 2 |
@@ -24,7 +24,7 @@ Source: [Official 2026 Annotated Town Warrant](https://arlingtonma.primegov.com/
 | 18 | [BYLAW AMENDMENT / REGULATION OF LEAD PIPE IN RESIDENTIAL AND COMMERCIAL HOUSING](./articles/Article-18/index.md) | Director of Public Works | 1 |
 | 19 | [BYLAW AMENDMENT / ADDITION OF CERTAIN DELINQUENT MUNICIPAL FEES/FINES TO BE A LIEN ON REAL ESTATE TAX ACCOUNT](./articles/Article-19/index.md) | Town Manager | 1 |
 | 20 | [BYLAW AMENDMENT / CANINE CONTROL](./articles/Article-20/index.md) | Town Clerk | 1 |
-| 21 | [BYLAW AMENDMENT / HOME EQUITY THEFT BAN](./articles/Article-21/index.md) | Guillermo Hamlin and ten registered voters | 1 |
+| 21 | [BYLAW AMENDMENT / HOME EQUITY THEFT BAN](./articles/Article-21/index.md) | Guillermo Hamlin and ten registered voters | 2 |
 | 22 | [BYLAW AMENDMENT / USE OF AREAS UNDER CONTROL OF PARK DEPARTMENT](./articles/Article-22/index.md) | Elaine Crowder and ten registered voters | 3 |
 | 23 | [BYLAW AMENDMENT / TREE PRESERVATION AND PROTECTION](./articles/Article-23/index.md) | Jennifer Cutraro and Robin Bergman and ten registered voters | 5 |
 | 24 | [BYLAW AMENDMENT / 17 IRVING STREET REVOLVING FUND](./articles/Article-24/index.md) | Town Manager | 2 |
@@ -56,7 +56,7 @@ Source: [Official 2026 Annotated Town Warrant](https://arlingtonma.primegov.com/
 | 50 | [ZONING BYLAW AMENDMENT / AMENDMENT TO ARLINGTON ZONING MAP](./articles/Article-50/index.md) | Mary Winstanley and ten registered voters | 2 |
 | 51 | [ZONING BYLAW AMENDMENT / AMENDMENT TO ZONING BYLAW TABLE OF DIMENSIONAL AND DENSITY REGULATIONS](./articles/Article-51/index.md) | Mary Winstanley and ten registered voters | 1 |
 | 52 | [ZONING BYLAW AMENDMENT / REZONING OF CERTAIN PARCELS FROM R-1 TO R-2](./articles/Article-52/index.md) | Stephen McKenna and ten registered voters | 3 |
-| 53 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-53/index.md) | Joanne Cullinane and Larry Slotnick and ten registered voters | 15 |
+| 53 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-53/index.md) | Joanne Cullinane and Larry Slotnick and ten registered voters | 16 |
 | 54 | [ZONING BYLAW AMENDMENT / TRAFFIC VISIBILITY](./articles/Article-54/index.md) | Caitlin Monaghan and ten registered voters | 4 |
 | 55 | [ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT](./articles/Article-55/index.md) | Aram Hollman and ten registered voters | 6 |
 | 56 | [ZONING BYLAW AMENDMENT / DEVELOPMENT STANDARDS – OFF STREET PARKING AND BICYCLE PARKING](./articles/Article-56/index.md) | Neal Mongold and ten registered voters | 1 |
@@ -98,5 +98,5 @@ Source: [Official 2026 Annotated Town Warrant](https://arlingtonma.primegov.com/
 | 92 | [RESOLUTION / TRANSITIONING TO CLEAN HEAT IN MASSACHUSETTS](./articles/Article-92/index.md) | Patrick Hanlon and ten registered voters | 3 |
 | 93 | [RESOLUTION / DESIGNATING ARLINGTON A 4TH AMENDMENT WORKPLACE COMMUNITY](./articles/Article-93/index.md) | Linda Hanson and Elizabeth Dray and ten registered voters | 3 |
 | 94 | [RESOLUTION / AUTOMATIC LICENSE PLATE RECOGNITION SAFEGUARDS AND DRIVER PRIVACY](./articles/Article-94/index.md) | Samuel Polk and ten registered voters | 5 |
-| 95 | [RESOLUTION / CONCERNING ICE FACILITY](./articles/Article-95/index.md) | Guillermo Hamlin and ten registered voters | 1 |
+| 95 | [RESOLUTION / CONCERNING ICE FACILITY](./articles/Article-95/index.md) | Guillermo Hamlin and ten registered voters | 2 |
 | 96 | [RESOLUTION / PROHIBIT FIRST GENERATION ANTICOAGULANT RODENTICIDES AND BROMETHALIN](./articles/Article-96/index.md) | Suzanne Chiarito and ten registered voters | 2 |

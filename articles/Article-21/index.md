@@ -13,6 +13,7 @@ Select Board 2026 Article Hearings - right click to view in new tab
 ## Resources
 
 - [Full Text](full-text/index.md)
+- [Article 21 Hamlin Substitute Motion](article-21-hamlin-substitute-motion/index.md)
 
 ## External Links
 

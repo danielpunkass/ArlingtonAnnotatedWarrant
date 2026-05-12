@@ -25,6 +25,7 @@ Redevelopment Board 2026 Article Hearings - right click to view in new tab
 - [Article 53 Claire Odom Materials](article-53-claire-odom-materials/index.md)
 - [Article 53 Stephen Revilak Materials](article-53-stephen-revilak-materials/index.md)
 - [Article 53 Ratnakar Vellanki Materials](article-53-ratnakar-vellanki-materials/index.md)
+- [Article 53 Andrew Fischer Materials](article-53-andrew-fischer-materials/index.md)
 
 ## External Links
 
