@@ -271,6 +271,14 @@
   max-width: 100%;
   overflow-x: auto;
   margin: 1em 0;
+  /* pdf2htmlEX renders each text span with font-size:1px and a CSS
+     transform that scales it to the real size. iOS Safari's text
+     autosizer sees the 1px font and boosts it independently of the
+     transform — text gets bigger while its absolute position stays
+     put, so neighboring columns smoosh into each other. Pinning the
+     adjustment to 100% disables the boost on this subtree. */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 .pdf-rendered #page-container {
