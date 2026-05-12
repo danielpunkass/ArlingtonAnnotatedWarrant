@@ -245,6 +245,18 @@
   max-width: none;
 }
 
+/* And on those same pages, suppress the right-edge TOC sidebar so
+   the PDF render gets the whole column. A full-text page is just
+   the inlined PDF + an "Open in new window" link, so the TOC would
+   only ever list one or two headings — not worth giving up ~25% of
+   the iPad-portrait viewport (where the layout still includes the
+   secondary sidebar). Material sets the sidebar's layout with
+   !important inside its tablet/desktop media queries, so we need
+   !important here too. */
+.md-main__inner:has(.pdf-rendered) .md-sidebar--secondary {
+  display: none !important;
+}
+
 /* pdf2htmlEX-rendered PDF content. The generator outputs a viewport-
    filling page-container (position: absolute over the whole window) and
    a stacked set of fixed-size .pf page divs inside. Without overrides,
