@@ -1051,5 +1051,95 @@ def sync():
     print(f"Archive root: {archive_dir}")
 
 
+def sync_progress_only():
+    """Refresh article dispositions from the Moderator's progress sheet.
+
+    Fast-path mode for the live-meeting cadence: skip the primegov fetch,
+    skip every PDF download and pdf2htmlEX run, and only update fields
+    sourced from the progress tracker (status, disposition). Per-article
+    summary pages get re-rendered because the disposition admonition
+    lives there, and the root INDEX.md + .pages are regenerated because
+    articles move between the disposed / deferred / pending groups as
+    outcomes change.
+
+    Requires a prior full sync — bails if index.json is absent, since
+    the manifest is the article list source of truth in this mode.
+    """
+    project_root = os.path.dirname(os.path.abspath(__file__))
+    archive_dir = os.path.join(project_root, ARCHIVE_DIR)
+    articles_dir = os.path.join(archive_dir, ARTICLES_SUBDIR)
+    manifest_path = os.path.join(archive_dir, "index.json")
+
+    if not os.path.exists(manifest_path):
+        print("ERROR: index.json not found; run a full sync first.", file=sys.stderr)
+        sys.exit(1)
+    with open(manifest_path) as fh:
+        prior = json.load(fh)
+    articles = prior.get("articles", [])
+    print(f"Loaded {len(articles)} articles from index.json")
+
+    progress = fetch_article_progress()
+    for a in articles:
+        entry = progress.get(a["articleNumber"], {"status": "pending"})
+        a["status"] = entry["status"]
+        if entry.get("disposition"):
+            a["disposition"] = entry["disposition"]
+        else:
+            # An article can move back to pending if the sheet entry
+            # is cleared. Full sync starts from a fresh dict so it
+            # naturally drops the key; progress-only mode has to do
+            # it explicitly because articles came from the manifest.
+            a.pop("disposition", None)
+    disposed_count = sum(1 for a in articles if a["status"] == "disposed")
+    print(f"  {disposed_count} disposed, {len(articles) - disposed_count} pending")
+
+    for article in articles:
+        adir = os.path.join(articles_dir, article_dirname(article))
+        if not os.path.isdir(adir):
+            continue
+        att_pages = attachment_pages_for(article)
+        write_article_summary(adir, article, att_pages)
+
+    synced_at = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
+    manifest = {
+        "source": SOURCE_URL,
+        "meetingTemplateId": MEETING_TEMPLATE_ID,
+        "lastSynced": synced_at,
+        "articleCount": len(articles),
+        "articles": articles,
+    }
+    # Same no-op suppression as the full sync: don't bump the timestamp
+    # if nothing else changed. Keeps the working tree clean on uneventful
+    # runs so the workflow's `git status --porcelain` check short-circuits.
+    prior_ts = prior.get("lastSynced")
+    if prior_ts and {k: v for k, v in prior.items() if k != "lastSynced"} == \
+                   {k: v for k, v in manifest.items() if k != "lastSynced"}:
+        manifest["lastSynced"] = prior_ts
+        synced_at = prior_ts
+
+    with open(manifest_path, "w") as fh:
+        json.dump(manifest, fh, indent=2)
+        fh.write("\n")
+
+    write_index_md(archive_dir, articles, synced_at)
+    write_root_pages(archive_dir, articles)
+    print(f"\nWrote manifest to {manifest_path}")
+
+
 if __name__ == "__main__":
-    sync()
+    import argparse
+    parser = argparse.ArgumentParser(
+        description="Sync the Arlington Town Meeting Annotated Warrant."
+    )
+    parser.add_argument(
+        "--progress-only",
+        action="store_true",
+        help="Refresh only article dispositions from the progress sheet, "
+             "skipping primegov fetch and PDF conversion. Requires a prior "
+             "full sync.",
+    )
+    args = parser.parse_args()
+    if args.progress_only:
+        sync_progress_only()
+    else:
+        sync()

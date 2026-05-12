@@ -1,0 +1,49 @@
+name: Sync progress
+
+# Fast-cadence companion to "Sync and deploy". Refreshes only article
+# dispositions from the Moderator's live progress sheet so the site
+# reflects vote outcomes within minutes during an active meeting,
+# without paying for the full primegov scrape + pdf2htmlEX conversion.
+#
+# A push from this workflow re-triggers "Sync and deploy" (which has
+# `on: push: branches: [main]`), so we don't build or deploy here —
+# the existing workflow handles that. Both workflows share the same
+# concurrency group so they queue rather than racing two pushes to
+# main.
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # every 5 minutes; UTC, best-effort
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  sync-progress:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Refresh article statuses from progress sheet
+        run: python3 SyncAnnotatedWarrant.py --progress-only
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add -A
+            git commit -m "Refresh article statuses ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          else
+            echo "No changes."
+          fi
