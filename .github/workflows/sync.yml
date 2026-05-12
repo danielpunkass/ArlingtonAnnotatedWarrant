@@ -28,6 +28,24 @@ jobs:
         with:
           python-version: "3.12"
 
+      # Restore pdf2htmlEX renders (`*.pdf.html`) and per-attachment
+      # markdown (`articles/*/*/index.md`) from cache. Both are
+      # gitignored — they're regenerated build artifacts, big and
+      # non-deterministic, but stable per source PDF. The cache means
+      # pdf2htmlEX only runs for attachments whose `historyId` has
+      # actually changed (the script already skip-checks that), and
+      # the build always has per-attachment markdown to link to even
+      # on push-triggered runs. Single static key: the sync script
+      # handles per-file invalidation internally via historyId, so we
+      # don't need cache-key rotation.
+      - name: Restore pdf build artifacts
+        uses: actions/cache@v4
+        with:
+          path: |
+            articles/*/*.pdf.html
+            articles/*/*/index.md
+          key: pdf-build-artifacts-v1
+
       # pdf2htmlEX renders each PDF attachment as a self-contained HTML
       # file (fonts/CSS/images embedded). The sync inlines those into
       # MkDocs pages so browser Cmd+F and the site's search index both

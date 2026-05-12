@@ -41,6 +41,18 @@ jobs:
         with:
           python-version: "3.12"
 
+      # Same cache as sync.yml's full-sync job — see that file for the
+      # rationale. Critical here because --progress-only never runs
+      # pdf2htmlEX, so on cache miss the per-attachment pages fall
+      # back to an iframe view until the next scheduled full sync.
+      - name: Restore pdf build artifacts
+        uses: actions/cache@v4
+        with:
+          path: |
+            articles/*/*.pdf.html
+            articles/*/*/index.md
+          key: pdf-build-artifacts-v1
+
       - name: Refresh article statuses from progress sheet
         run: python3 SyncAnnotatedWarrant.py --progress-only
 

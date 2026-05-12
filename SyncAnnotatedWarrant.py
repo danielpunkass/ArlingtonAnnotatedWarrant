@@ -1099,6 +1099,14 @@ def sync_progress_only():
             continue
         att_pages = attachment_pages_for(article)
         write_article_summary(adir, article, att_pages)
+        # Per-attachment markdown pages are gitignored (regenerated build
+        # artifacts), so a fresh CI checkout has none. The workflow caches
+        # the pdf2htmlEX HTML between runs; here we splice it back into
+        # the markdown wrapper. On cache miss for a particular PDF,
+        # write_attachment_page falls back to an iframe view — degraded
+        # but functional until the next full sync repaves it.
+        for slug, name, att in att_pages:
+            write_attachment_page(adir, slug, name, att)
 
     synced_at = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
     manifest = {
