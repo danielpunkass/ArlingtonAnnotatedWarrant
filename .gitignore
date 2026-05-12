@@ -15,6 +15,15 @@ site/
 # limit; CI regenerates them from the source PDFs on each sync run.
 articles/**/*.pdf.html
 
+# Per-attachment markdown pages (articles/Article-N/<slug>/index.md).
+# These are pure build artifacts: the sync script splices the inlined
+# pdf2htmlEX HTML/CSS (with embedded WOFF fonts) into them, and that
+# output is non-deterministic — committing them produced multi-MB diffs
+# on every sync even when nothing upstream changed. The articles/.pages
+# files (sidebar nav) and article-level index.md (Summary) are still
+# tracked; only the per-attachment leaves are regenerated at build time.
+articles/*/*/index.md
+
 # Staging directory the deploy workflow populates with site-relevant files
 # (articles, index.md derived from INDEX.md, index.json, CNAME) before
 # running `mkdocs build`. Never committed.
