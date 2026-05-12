@@ -1891,11 +1891,11 @@
           "pdfLinks": []
         }
       ],
-      "status": "pending",
+      "status": "disposed",
       "disposition": {
-        "code": "t",
-        "label": "Tabled",
-        "date": null,
+        "code": "y",
+        "label": "Passed",
+        "date": "May 11, 2026",
         "yesVotes": null,
         "noVotes": null
       }
@@ -1935,11 +1935,11 @@
           "pdfLinks": []
         }
       ],
-      "status": "pending",
+      "status": "disposed",
       "disposition": {
-        "code": "t",
-        "label": "Tabled",
-        "date": null,
+        "code": "n",
+        "label": "Failed",
+        "date": "May 11, 2026",
         "yesVotes": null,
         "noVotes": null
       }
@@ -1979,14 +1979,7 @@
           "pdfLinks": []
         }
       ],
-      "status": "pending",
-      "disposition": {
-        "code": "t",
-        "label": "Tabled",
-        "date": null,
-        "yesVotes": null,
-        "noVotes": null
-      }
+      "status": "pending"
     },
     {
       "itemId": 723,
@@ -2031,14 +2024,7 @@
           "pdfLinks": []
         }
       ],
-      "status": "pending",
-      "disposition": {
-        "code": "t",
-        "label": "Tabled",
-        "date": null,
-        "yesVotes": null,
-        "noVotes": null
-      }
+      "status": "pending"
     },
     {
       "itemId": 724,
@@ -2075,14 +2061,7 @@
           "pdfLinks": []
         }
       ],
-      "status": "pending",
-      "disposition": {
-        "code": "t",
-        "label": "Tabled",
-        "date": null,
-        "yesVotes": null,
-        "noVotes": null
-      }
+      "status": "pending"
     },
     {
       "itemId": 725,
@@ -2119,14 +2098,7 @@
           "pdfLinks": []
         }
       ],
-      "status": "pending",
-      "disposition": {
-        "code": "t",
-        "label": "Tabled",
-        "date": null,
-        "yesVotes": null,
-        "noVotes": null
-      }
+      "status": "pending"
     },
     {
       "itemId": 726,
@@ -2163,14 +2135,7 @@
           "pdfLinks": []
         }
       ],
-      "status": "pending",
-      "disposition": {
-        "code": "t",
-        "label": "Tabled",
-        "date": null,
-        "yesVotes": null,
-        "noVotes": null
-      }
+      "status": "pending"
     },
     {
       "itemId": 727,
@@ -2199,14 +2164,7 @@
           ]
         }
       ],
-      "status": "pending",
-      "disposition": {
-        "code": "t",
-        "label": "Tabled",
-        "date": null,
-        "yesVotes": null,
-        "noVotes": null
-      }
+      "status": "pending"
     },
     {
       "itemId": 728,
@@ -2251,14 +2209,7 @@
           "pdfLinks": []
         }
       ],
-      "status": "pending",
-      "disposition": {
-        "code": "t",
-        "label": "Tabled",
-        "date": null,
-        "yesVotes": null,
-        "noVotes": null
-      }
+      "status": "pending"
     },
     {
       "itemId": 729,
@@ -2493,14 +2444,7 @@
           ]
         }
       ],
-      "status": "pending",
-      "disposition": {
-        "code": "t",
-        "label": "Tabled",
-        "date": null,
-        "yesVotes": null,
-        "noVotes": null
-      }
+      "status": "pending"
     },
     {
       "itemId": 730,
@@ -2578,14 +2522,7 @@
           "pdfLinks": []
         }
       ],
-      "status": "pending",
-      "disposition": {
-        "code": "t",
-        "label": "Tabled",
-        "date": null,
-        "yesVotes": null,
-        "noVotes": null
-      }
+      "status": "pending"
     },
     {
       "itemId": 731,
@@ -2654,14 +2591,7 @@
           "pdfLinks": []
         }
       ],
-      "status": "pending",
-      "disposition": {
-        "code": "t",
-        "label": "Tabled",
-        "date": null,
-        "yesVotes": null,
-        "noVotes": null
-      }
+      "status": "pending"
     },
     {
       "itemId": 732,
@@ -2798,14 +2728,7 @@
           ]
         }
       ],
-      "status": "pending",
-      "disposition": {
-        "code": "t",
-        "label": "Tabled",
-        "date": null,
-        "yesVotes": null,
-        "noVotes": null
-      }
+      "status": "pending"
     },
     {
       "itemId": 737,
@@ -2842,14 +2765,7 @@
           "pdfLinks": []
         }
       ],
-      "status": "pending",
-      "disposition": {
-        "code": "t",
-        "label": "Tabled",
-        "date": null,
-        "yesVotes": null,
-        "noVotes": null
-      }
+      "status": "pending"
     },
     {
       "itemId": 738,
@@ -2878,14 +2794,7 @@
           ]
         }
       ],
-      "status": "pending",
-      "disposition": {
-        "code": "t",
-        "label": "Tabled",
-        "date": null,
-        "yesVotes": null,
-        "noVotes": null
-      }
+      "status": "pending"
     },
     {
       "itemId": 739,
@@ -2914,14 +2823,7 @@
           ]
         }
       ],
-      "status": "pending",
-      "disposition": {
-        "code": "t",
-        "label": "Tabled",
-        "date": null,
-        "yesVotes": null,
-        "noVotes": null
-      }
+      "status": "pending"
     },
     {
       "itemId": 740,
@@ -2950,14 +2852,7 @@
           ]
         }
       ],
-      "status": "pending",
-      "disposition": {
-        "code": "t",
-        "label": "Tabled",
-        "date": null,
-        "yesVotes": null,
-        "noVotes": null
-      }
+      "status": "pending"
     },
     {
       "itemId": 741,
@@ -3127,7 +3022,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "pending"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "May 11, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 744,
@@ -3168,7 +3070,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "pending"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "May 11, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 745,
@@ -3337,7 +3246,14 @@
           "pdfLinks": []
         }
       ],
-      "status": "pending"
+      "status": "disposed",
+      "disposition": {
+        "code": "y",
+        "label": "Passed",
+        "date": "May 11, 2026",
+        "yesVotes": null,
+        "noVotes": null
+      }
     },
     {
       "itemId": 750,

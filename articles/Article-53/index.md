@@ -1,7 +1,5 @@
 # Article 53: ZONING BYLAW AMENDMENT / ADMINISTRATIVE CLARIFICATION TO BONUS PROVISIONS FOR MULTI-FAMILY DEVELOPMENT
 
-!!! warning "Tabled"
-
 _Inserted at the request of Joanne Cullinane and Larry Slotnick and ten registered voters_
 
 ## Description

@@ -1,6 +1,6 @@
 # Article 45: ZONING BYLAW AMENDMENT / PORTABLE AND TEMPORARY SIGNS
 
-!!! warning "Tabled"
+!!! failure "Failed on May 11, 2026"
 
 _Inserted at the request of the Redevelopment Board_
 

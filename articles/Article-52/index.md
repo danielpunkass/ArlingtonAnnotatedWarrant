@@ -1,7 +1,5 @@
 # Article 52: ZONING BYLAW AMENDMENT / REZONING OF CERTAIN PARCELS FROM R-1 TO R-2
 
-!!! warning "Tabled"
-
 _Inserted at the request of Stephen McKenna and ten registered voters_
 
 ## Description

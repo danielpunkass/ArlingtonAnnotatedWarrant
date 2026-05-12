@@ -1,7 +1,5 @@
 # Article 61: POSITIONS RECLASSIFICATION
 
-!!! warning "Tabled"
-
 _Inserted at the request of the Director of Human Resources_
 
 ## Description

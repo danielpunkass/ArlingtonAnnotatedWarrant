@@ -1,7 +1,5 @@
 # Article 48: ZONING BYLAW AMENDMENT / RESIDENTIAL PARKING
 
-!!! warning "Tabled"
-
 _Inserted at the request of the Redevelopment Board_
 
 ## Description

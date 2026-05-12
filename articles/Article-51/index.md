@@ -1,7 +1,5 @@
 # Article 51: ZONING BYLAW AMENDMENT / AMENDMENT TO ZONING BYLAW TABLE OF DIMENSIONAL AND DENSITY REGULATIONS
 
-!!! warning "Tabled"
-
 _Inserted at the request of Mary Winstanley and ten registered voters_
 
 ## Description

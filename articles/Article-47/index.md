@@ -1,7 +1,5 @@
 # Article 47: ZONING BYLAW AMENDMENT / DEFINITION OF BUILDING HEIGHT
 
-!!! warning "Tabled"
-
 _Inserted at the request of the Redevelopment Board_
 
 ## Description

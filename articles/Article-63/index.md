@@ -1,7 +1,5 @@
 # Article 63: AMENDMENTS TO FY26 BUDGETS
 
-!!! warning "Tabled"
-
 _Inserted at the request of the Town Manager_
 
 ## Description

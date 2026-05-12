@@ -1,7 +1,5 @@
 # Article 59: APPROPRIATION / PEG ACCESS BUDGET
 
-!!! warning "Tabled"
-
 _Inserted at the request of the Town Manager_
 
 ## Description

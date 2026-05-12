@@ -1,7 +1,5 @@
 # Article 62: COLLECTIVE BARGAINING
 
-!!! warning "Tabled"
-
 _Inserted at the request of the Town Manager_
 
 ## Description
