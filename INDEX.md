@@ -1,7 +1,7 @@
 # Annotated Warrant — Index
 
 Source: [Official 2026 Annotated Town Warrant](https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659)  
-<small>Last synced on Monday, May 11 at 5:21PM</small>.
+<small>Last synced on Monday, May 11 at 10:08PM</small>.
 
 | # | Title | Requested By | Attachments |
 | ---: | --- | --- | ---: |
