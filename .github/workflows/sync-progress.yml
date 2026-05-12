@@ -5,11 +5,13 @@ name: Sync progress
 # reflects vote outcomes within minutes during an active meeting,
 # without paying for the full primegov scrape + pdf2htmlEX conversion.
 #
-# A push from this workflow re-triggers "Sync and deploy" (which has
-# `on: push: branches: [main]`), so we don't build or deploy here —
-# the existing workflow handles that. Both workflows share the same
-# concurrency group so they queue rather than racing two pushes to
-# main.
+# Self-contained build + deploy: a push made with the default
+# GITHUB_TOKEN does NOT trigger other workflows (GitHub's
+# anti-recursion safeguard), so we can't rely on sync.yml's `on:
+# push` to rebuild for us. The build/deploy steps below are
+# intentionally a near-duplicate of the tail of sync.yml — keep
+# them in sync if either side changes. We only run them when the
+# progress sync actually produced changes; no-op ticks stay cheap.
 
 on:
   schedule:
@@ -18,14 +20,20 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
+# Shared with sync.yml so the two workflows queue rather than racing
+# two pushes or two Pages deployments.
 concurrency:
   group: sync-and-deploy
   cancel-in-progress: false
 
 jobs:
-  sync-progress:
+  build:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.changes.outputs.changed }}
     steps:
       - uses: actions/checkout@v6
 
@@ -36,14 +44,68 @@ jobs:
       - name: Refresh article statuses from progress sheet
         run: python3 SyncAnnotatedWarrant.py --progress-only
 
-      - name: Commit if anything changed
+      - name: Detect changes
+        id: changes
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes; build/deploy skipped."
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git add -A
-            git commit -m "Refresh article statuses ($(date -u +%Y-%m-%dT%H:%MZ))"
-            git push
-          else
-            echo "No changes."
-          fi
+          git add -A
+          git commit -m "Refresh article statuses ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git push
+
+      - name: Stage content for build
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          rm -rf _site_build
+          mkdir -p _site_build
+          cp -R articles/. _site_build/
+          cp -R stylesheets _site_build/
+          cp -R javascripts _site_build/
+          sed 's|articles/||g' .pages > _site_build/.pages
+          sed 's|articles/||g' INDEX.md > _site_build/index.md
+          cp index.json _site_build/
+          cp CNAME _site_build/
+
+      - name: Install MkDocs and plugins
+        if: steps.changes.outputs.changed == 'true'
+        run: pip install mkdocs-material mkdocs-awesome-pages-plugin
+
+      - name: Build site
+        if: steps.changes.outputs.changed == 'true'
+        run: mkdocs build --strict
+
+      - name: Cache-bust asset references
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          CSS_HASH=$(sha1sum _site_build/stylesheets/extra.css | cut -c1-8)
+          JS_HASH=$(sha1sum _site_build/javascripts/extra.js | cut -c1-8)
+          find site -name '*.html' -type f -exec sed -i \
+            -e "s|href=\"\([^\"]*\)stylesheets/extra\.css\"|href=\"\1stylesheets/extra.css?v=$CSS_HASH\"|g" \
+            -e "s|src=\"\([^\"]*\)javascripts/extra\.js\"|src=\"\1javascripts/extra.js?v=$JS_HASH\"|g" \
+            {} +
+
+      - uses: actions/upload-pages-artifact@v5
+        if: steps.changes.outputs.changed == 'true'
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
