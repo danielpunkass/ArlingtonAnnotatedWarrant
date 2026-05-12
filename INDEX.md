@@ -85,7 +85,7 @@ Source: [Official 2026 Annotated Town Warrant](https://arlingtonma.primegov.com/
 | 79 | [APPROPRIATION / PRIVATE WAY REPAIRS REVOLVING FUNDS](./articles/Article-79/index.md) | Town Manager | 1 |
 | 80 | [APPROPRIATION / 51A GROVE STREET BUILDING REPAIRS](./articles/Article-80/index.md) | Town Manager | 1 |
 | 81 | [APPROPRIATION / PENSION ADJUSTMENT FOR FORMER TWENTY- FIVE YEAR / ACCIDENTAL DISABILITY EMPLOYEES](./articles/Article-81/index.md) | Contributory Retirement Board | 1 |
-| 82 | [LOCAL OPTION TAXES](./articles/Article-82/index.md) | of the Finance Committee | 1 |
+| 82 | [LOCAL OPTION TAXES](./articles/Article-82/index.md) | Finance Committee | 1 |
 | 83 | [APPROPRIATION / OTHER POST EMPLOYMENT BENEFITS (OPEB) TRUST FUND](./articles/Article-83/index.md) | Finance Committee | 1 |
 | 84 | [TRANSFER OF FUNDS / CEMETERY](./articles/Article-84/index.md) | Finance Committee | 1 |
 | 85 | [APPROPRIATION / OVERLAY RESERVE](./articles/Article-85/index.md) | Finance Committee | 1 |
