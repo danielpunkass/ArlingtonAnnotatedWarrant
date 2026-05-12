@@ -84,6 +84,22 @@ jobs:
       - name: Build site
         run: mkdocs build --strict
 
+      # Cache-bust references to our extra.css / extra.js by appending
+      # `?v=<short content hash>` in every generated HTML page. The hash
+      # changes only when the underlying asset changes, so users see a
+      # new URL (and bypass cached copies) on any real update while
+      # unchanged assets continue to be cached normally. Restricting
+      # to href="..."/src="..." attributes avoids touching matching
+      # filenames that might appear elsewhere in page text.
+      - name: Cache-bust asset references
+        run: |
+          CSS_HASH=$(sha1sum _site_build/stylesheets/extra.css | cut -c1-8)
+          JS_HASH=$(sha1sum _site_build/javascripts/extra.js | cut -c1-8)
+          find site -name '*.html' -type f -exec sed -i \
+            -e "s|href=\"\([^\"]*\)stylesheets/extra\.css\"|href=\"\1stylesheets/extra.css?v=$CSS_HASH\"|g" \
+            -e "s|src=\"\([^\"]*\)javascripts/extra\.js\"|src=\"\1javascripts/extra.js?v=$JS_HASH\"|g" \
+            {} +
+
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site
