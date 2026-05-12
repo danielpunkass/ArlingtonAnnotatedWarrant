@@ -767,9 +767,9 @@ def write_index_md(archive_dir, articles, synced_at):
         synced_human = synced_at
 
     def render_row(a):
-    	# Special case known or expectedly common typos
-    	requester = (a["requester"] or "").replace("of of", "of")
-		requester = (a["requester"] or "").replace("the the", "the")
+        # Special case known or expectedly common typos
+        requester = (a["requester"] or "").replace("of of", "of")
+        requester = (a["requester"] or "").replace("the the", "the")
         # "Inserted at the request of the Moderator" → "Moderator". The
         # leading "the " is stripped because it's grammatical filler in the
         # full phrase ("at the request of THE Moderator") — once that
