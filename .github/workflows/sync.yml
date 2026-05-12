@@ -36,11 +36,12 @@ jobs:
       - name: Pre-pull pdf2htmlEX Docker image
         run: docker pull pdf2htmlex/pdf2htmlex:0.18.8.rc2-master-20200820-ubuntu-20.04-x86_64
 
-      # Pull from primegov on schedule/manual. Skip on push events: the push
-      # already captured any source-content change, and re-running sync would
-      # try to push a noisy duplicate commit.
+      # Always run sync. Even on push events the working tree needs the
+      # per-attachment `index.md` files (gitignored since they're pure
+      # build artifacts) populated before `mkdocs build`, and only the
+      # sync script produces them. We still skip the commit step on push
+      # so we don't pile a bot commit on top of the human one.
       - name: Run sync
-        if: github.event_name != 'push'
         run: python3 SyncAnnotatedWarrant.py
 
       - name: Commit if sync changed anything
