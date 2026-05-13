@@ -715,16 +715,141 @@ def attachment_pages_for(article):
     return pages
 
 
+RECENT_UPDATES_DIR = "recent-updates"
+
+
+def compute_change_events(prior, new):
+    """Diff the prior manifest's articles against the new manifest's,
+    returning a list of event records describing what changed.
+
+    Event types:
+      - status_change:    an article's disposition code or date changed
+      - new_attachment:   an attachment filename appeared on an article
+      - replaced_attachment: same filename, different historyId
+      - removed_attachment: filename gone from the article's list
+      - new_article / removed_article: at the article level
+
+    Events are emitted in (article number, event order) order so the
+    rendered .md reads top-to-bottom by article.
+    """
+    events = []
+    old = {a["articleNumber"]: a for a in prior.get("articles", []) if a.get("articleNumber")}
+    cur = {a["articleNumber"]: a for a in new.get("articles", []) if a.get("articleNumber")}
+
+    for num in sorted(set(cur) | set(old)):
+        old_art = old.get(num)
+        new_art = cur.get(num)
+        if old_art is None:
+            events.append({
+                "type": "new_article",
+                "article": num,
+                "title": new_art.get("title") or "",
+            })
+            continue
+        if new_art is None:
+            events.append({"type": "removed_article", "article": num})
+            continue
+
+        old_d = old_art.get("disposition") or {}
+        new_d = new_art.get("disposition") or {}
+        if old_d.get("code") != new_d.get("code") or old_d.get("date") != new_d.get("date"):
+            events.append({
+                "type": "status_change",
+                "article": num,
+                "fromCode": old_d.get("code"),
+                "toCode": new_d.get("code"),
+                "fromLabel": old_d.get("label"),
+                "toLabel": new_d.get("label"),
+                "date": new_d.get("date"),
+            })
+
+        old_atts = {a.get("filename"): a for a in old_art.get("attachments", []) if a.get("filename")}
+        new_atts = {a.get("filename"): a for a in new_art.get("attachments", []) if a.get("filename")}
+        for fn in sorted(set(new_atts) - set(old_atts)):
+            events.append({"type": "new_attachment", "article": num, "filename": fn})
+        for fn in sorted(set(new_atts) & set(old_atts)):
+            if new_atts[fn].get("historyId") != old_atts[fn].get("historyId"):
+                events.append({"type": "replaced_attachment", "article": num, "filename": fn})
+        for fn in sorted(set(old_atts) - set(new_atts)):
+            events.append({"type": "removed_attachment", "article": num, "filename": fn})
+
+    return events
+
+
+def _event_line(event):
+    """Render one change event as a markdown list item.
+
+    Article links point at `../Article-NN/` — relative from the
+    Recent Updates page's URL, which lives at the same depth.
+    """
+    n = event["article"]
+    art_link = f"[Article {n}](../Article-{n:02d}/)"
+    t = event["type"]
+    if t == "status_change":
+        old_label = event.get("fromLabel") or "Pending"
+        new_label = event.get("toLabel") or "Pending"
+        date = event.get("date")
+        date_str = f" ({date})" if date else ""
+        return f"- {art_link}: {old_label} → **{new_label}**{date_str}"
+    if t == "new_attachment":
+        return f"- {art_link}: new attachment _{event['filename']}_"
+    if t == "replaced_attachment":
+        return f"- {art_link}: document replaced — _{event['filename']}_"
+    if t == "removed_attachment":
+        return f"- {art_link}: attachment removed — _{event['filename']}_"
+    if t == "new_article":
+        title = event.get("title") or ""
+        suffix = f" — {title}" if title else ""
+        return f"- {art_link}: new article{suffix}"
+    if t == "removed_article":
+        return f"- {art_link}: removed"
+    return f"- {art_link}: {t}"
+
+
+def write_recent_update_page(archive_dir, synced_at, events):
+    """Write a per-sync markdown page summarising the events.
+
+    Filename encodes the sync timestamp so files sort chronologically
+    and never collide between runs. Returns the relative filename for
+    the caller to register in the root .pages.
+    """
+    dt = datetime.datetime.fromisoformat(synced_at)
+    slug = dt.strftime("%Y-%m-%dT%H%M%SZ")
+    pretty = dt.strftime("%Y-%m-%d %H:%M UTC")
+
+    recent_dir = os.path.join(archive_dir, ARTICLES_SUBDIR, RECENT_UPDATES_DIR)
+    os.makedirs(recent_dir, exist_ok=True)
+
+    plural = "" if len(events) == 1 else "s"
+    lines = [
+        f"# {pretty}",
+        "",
+        f"Sync detected {len(events)} change{plural}:",
+        "",
+    ]
+    for ev in events:
+        lines.append(_event_line(ev))
+    lines.append("")
+
+    out_path = os.path.join(recent_dir, f"{slug}.md")
+    with open(out_path, "w") as fh:
+        fh.write("\n".join(lines))
+    return f"{slug}.md"
+
+
 def write_root_pages(archive_dir, articles):
     """Write the root `.pages` for awesome-pages.
 
     Sidebar order:
       Index → "Disposed Articles" group → "Tabled and Postponed
-      Articles" group → still-pending articles at the top level. Both
-      grouped sections are only emitted when non-empty. Tabled /
-      postponed articles are not "disposed" — Town Meeting will return
-      to them — but they're not actively pending either, so they get
-      their own collapsed group.
+      Articles" group → "Recent Updates" group → still-pending articles
+      at the top level. Each grouped section is only emitted when
+      non-empty. Tabled / postponed articles are not "disposed" — Town
+      Meeting will return to them — but they're not actively pending
+      either, so they get their own collapsed group. Recent Updates
+      sits between the deferred groups and the current-article list so
+      it's right next to the "active" section the reader is most
+      likely to be browsing.
 
     awesome-pages' `... | <glob>` filter only operates at the current
     directory level, so we enumerate the subdirs ourselves.
@@ -732,6 +857,15 @@ def write_root_pages(archive_dir, articles):
     disposed = [a for a in articles if a.get("status") == "disposed"]
     deferred = [a for a in articles if a.get("status") == "pending" and a.get("disposition")]
     pending = [a for a in articles if a.get("status") == "pending" and not a.get("disposition")]
+
+    recent_dir = os.path.join(archive_dir, ARTICLES_SUBDIR, RECENT_UPDATES_DIR)
+    if os.path.isdir(recent_dir):
+        recent_files = sorted(
+            (f for f in os.listdir(recent_dir) if f.endswith(".md")),
+            reverse=True,
+        )
+    else:
+        recent_files = []
 
     lines = ["nav:", "  - Index: index.md"]
     if disposed:
@@ -742,6 +876,10 @@ def write_root_pages(archive_dir, articles):
         lines.append("  - Tabled and Postponed Articles:")
         for a in deferred:
             lines.append(f"    - {ARTICLES_SUBDIR}/{article_dirname(a)}")
+    if recent_files:
+        lines.append("  - Recent Updates:")
+        for f in recent_files:
+            lines.append(f"    - {ARTICLES_SUBDIR}/{RECENT_UPDATES_DIR}/{f}")
     for a in pending:
         lines.append(f"  - {ARTICLES_SUBDIR}/{article_dirname(a)}")
     with open(os.path.join(archive_dir, ".pages"), "w") as fh:
@@ -884,7 +1022,10 @@ def sync():
         except (OSError, json.JSONDecodeError):
             pass
 
-    seen_dirs = set()
+    # Subdirs of articles/ that the orphan cleanup should preserve
+    # even though they don't correspond to an article. recent-updates/
+    # holds the per-sync change-event pages.
+    seen_dirs = {RECENT_UPDATES_DIR}
     for article in articles:
         adir = os.path.join(articles_dir, article_dirname(article))
         os.makedirs(adir, exist_ok=True)
@@ -1022,20 +1163,41 @@ def sync():
         "articles": articles,
     }
 
-    # If nothing but the timestamp would change, reuse the prior lastSynced so
-    # this run produces a no-op diff. Otherwise the scheduled CI job would
-    # commit every 30 minutes even when upstream is static.
+    # Load the prior manifest (if any) once: it backs both the change-
+    # event computation below and the no-op suppression that follows.
+    prior = None
     if os.path.exists(manifest_path):
         try:
             with open(manifest_path) as fh:
                 prior = json.load(fh)
-            prior_ts = prior.get("lastSynced")
-            if prior_ts and {k: v for k, v in prior.items() if k != "lastSynced"} == \
-                           {k: v for k, v in manifest.items() if k != "lastSynced"}:
-                manifest["lastSynced"] = prior_ts
-                synced_at = prior_ts
         except (OSError, json.JSONDecodeError):
-            pass
+            prior = None
+
+    # Compute change events relative to the prior manifest. If any
+    # fired, append one entry to the accumulated changeLog and write a
+    # per-sync markdown page summarising them — that page becomes a
+    # nav entry under the "Recent Updates" sidebar group. The
+    # changeLog itself persists in index.json so the rendered pages
+    # can be re-derived later if we ever change the markdown format.
+    change_log = list((prior or {}).get("changeLog", []))
+    events = compute_change_events(prior or {}, manifest) if prior else []
+    if events:
+        change_log.append({"syncedAt": synced_at, "events": events})
+        write_recent_update_page(archive_dir, synced_at, events)
+        print(f"Recorded {len(events)} change event(s) for this sync.")
+    manifest["changeLog"] = change_log
+
+    # If nothing but the timestamp would change, reuse the prior lastSynced
+    # so this run produces a no-op diff. Otherwise the scheduled CI job
+    # would commit every 30 minutes even when upstream is static. The
+    # comparison is naturally aware of the changeLog: a sync that produced
+    # events has a longer list than `prior`, so the suppression won't fire.
+    if prior:
+        prior_ts = prior.get("lastSynced")
+        if prior_ts and {k: v for k, v in prior.items() if k != "lastSynced"} == \
+                       {k: v for k, v in manifest.items() if k != "lastSynced"}:
+            manifest["lastSynced"] = prior_ts
+            synced_at = prior_ts
 
     with open(manifest_path, "w") as fh:
         json.dump(manifest, fh, indent=2)
@@ -1113,6 +1275,20 @@ def sync_progress_only():
         "articleCount": len(articles),
         "articles": articles,
     }
+
+    # Same change-event + changeLog accumulation as the full sync.
+    # Progress-only mode mostly produces status_change events (since
+    # articles[*] mutates in place from the progress sheet), but the
+    # diff is computed generically so anything the full sync's diff
+    # would catch is caught here too.
+    change_log = list(prior.get("changeLog", []))
+    events = compute_change_events(prior, manifest)
+    if events:
+        change_log.append({"syncedAt": synced_at, "events": events})
+        write_recent_update_page(archive_dir, synced_at, events)
+        print(f"Recorded {len(events)} change event(s) for this sync.")
+    manifest["changeLog"] = change_log
+
     # Same no-op suppression as the full sync: don't bump the timestamp
     # if nothing else changed. Keeps the working tree clean on uneventful
     # runs so the workflow's `git status --porcelain` check short-circuits.

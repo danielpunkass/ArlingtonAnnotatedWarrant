@@ -1,7 +1,7 @@
 {
   "source": "https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659",
   "meetingTemplateId": 1659,
-  "lastSynced": "2026-05-12T21:56:48+00:00",
+  "lastSynced": "2026-05-13T11:36:26+00:00",
   "articleCount": 95,
   "articles": [
     {
@@ -4115,5 +4115,6 @@
       ],
       "status": "pending"
     }
-  ]
+  ],
+  "changeLog": []
 }
