@@ -21,6 +21,5 @@ cp -R javascripts _site_build/
 sed 's|articles/||g' .pages > _site_build/.pages
 sed 's|articles/||g' INDEX.md > _site_build/index.md
 cp index.json _site_build/
-cp CNAME _site_build/
 
 echo "Staged content into _site_build/"

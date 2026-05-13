@@ -2,7 +2,7 @@ site_name: Arlington Annotated Warrant
 site_description: >-
   Searchable mirror of the Arlington Town Meeting Annotated Warrant —
   per-article descriptions, requesters, and supporting attachments.
-site_url: https://townmeeting.app/
+site_url: https://danielpunkass.github.io/ArlingtonAnnotatedWarrant/
 repo_url: https://github.com/danielpunkass/ArlingtonAnnotatedWarrant
 repo_name: ArlingtonAnnotatedWarrant
 edit_uri: ""

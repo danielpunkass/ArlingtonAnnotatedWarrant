@@ -91,7 +91,6 @@ jobs:
           sed 's|articles/||g' .pages > _site_build/.pages
           sed 's|articles/||g' INDEX.md > _site_build/index.md
           cp index.json _site_build/
-          cp CNAME _site_build/
 
       - name: Install MkDocs and plugins
         run: pip install mkdocs-material mkdocs-awesome-pages-plugin
