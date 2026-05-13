@@ -866,12 +866,17 @@ def write_root_pages(archive_dir, articles):
     deferred = [a for a in articles if a.get("status") == "pending" and a.get("disposition")]
     pending = [a for a in articles if a.get("status") == "pending" and not a.get("disposition")]
 
+    # NOTE: Recent Updates is temporarily hidden from the sidebar. The
+    # change-event diff is reporting every article's "View full text"
+    # PDF as a replaced document on each sync, because primegov
+    # rotates historyIds even when the binary is byte-identical (you
+    # can see this in the bot's commits — Bin 115484 -> 115484 bytes
+    # for every "View full text" file). Until compute_change_events
+    # filters that out, suppress the visible noise: don't list the
+    # directory in the root .pages, and don't update the section's
+    # own .pages either. The per-sync .md files still get written so
+    # the data is preserved for when we re-enable the section.
     recent_dir = os.path.join(archive_dir, ARTICLES_SUBDIR, RECENT_UPDATES_DIR)
-    has_recent = os.path.isdir(recent_dir) and any(
-        f.endswith(".md") for f in os.listdir(recent_dir)
-    )
-    if has_recent:
-        write_recent_updates_pages(archive_dir)
 
     lines = ["nav:", "  - Index: index.md"]
     if disposed:
@@ -882,8 +887,6 @@ def write_root_pages(archive_dir, articles):
         lines.append("  - Tabled and Postponed Articles:")
         for a in deferred:
             lines.append(f"    - {ARTICLES_SUBDIR}/{article_dirname(a)}")
-    if has_recent:
-        lines.append(f"  - {ARTICLES_SUBDIR}/{RECENT_UPDATES_DIR}")
     for a in pending:
         lines.append(f"  - {ARTICLES_SUBDIR}/{article_dirname(a)}")
     with open(os.path.join(archive_dir, ".pages"), "w") as fh:
