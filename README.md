@@ -12,19 +12,23 @@ existing ones revised as Town Meeting approaches and proceeds.
 - `INDEX.md` — Human-readable index of all articles.
 - `index.json` — Machine-readable manifest. Source of truth for what has been
   downloaded, including each attachment's `historyId` (primegov's stable
-  identifier).
+  identifier) and the cumulative `changeLog` of sync events.
 - `source.html` — Snapshot of the last-fetched warrant page (kept for
-  diffing/debugging).
-- `articles/Article-NN/` — One directory per article, containing
-  `article.md` and any downloaded attachment files.
+  diffing/debugging; gitignored).
+- `articles/Article-NN/` — One directory per article, containing the article
+  summary `index.md`, any downloaded attachment files, and per-attachment
+  subdirectories that hold the rendered attachment page.
+- `articles/recent-updates/` — One markdown page per sync run that produced
+  changes, summarising the events.
 
 ## Updating
-
-From the project root:
 
 ```bash
 python3 SyncAnnotatedWarrant.py
 ```
+
+Run from this directory — the script writes to its own working tree
+(`ARCHIVE_DIR = "."`).
 
 The sync is incremental: attachments whose `historyId` has not changed are
 skipped. Attachments that no longer exist upstream are removed. Article
