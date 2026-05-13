@@ -95,20 +95,22 @@
 
 /* Visual separator between the expandable groups at the top of the
    sidebar ("Disposed Articles", "Tabled and Postponed Articles") and
-   the flat list of still-current articles below them. Targets the
-   last group-style `.md-nav__item--nested` at the top level — i.e.
-   one whose direct child is a label-link (Material's group toggle),
-   not the `.md-nav__container` article items use. The `:has()` filter
-   on both halves of the `:not()` keeps article entries (which are
-   also `--nested` when they have child attachments) from matching. */
+   the flat list of still-current articles below them. Group-style
+   items have a direct-child `label.md-nav__link[for]` (Material's
+   bare toggle label); article-style items wrap their toggle inside a
+   `div.md-nav__container`, so `> .md-nav__link[for]` doesn't match
+   them. We use that distinction to target the first article-style
+   item directly after a group-style item — the boundary we want to
+   draw a line above — and paint its top border. Adjacent-sibling
+   (`+`) plus a `:not(:has(...))` filter keeps the rule sticking only
+   to the transition row even with multiple groups stacked. */
 .md-nav--primary
   > ul.md-nav__list
-  > li.md-nav__item--nested:has(> .md-nav__link[for]):not(
-    :has(~ li.md-nav__item--nested:has(> .md-nav__link[for]))
-  ) {
-  border-bottom: 1px solid var(--md-default-fg-color--lighter);
-  padding-bottom: 0.5rem;
-  margin-bottom: 0.5rem;
+  > li.md-nav__item--nested:has(> .md-nav__link[for])
+  + li.md-nav__item--nested:not(:has(> .md-nav__link[for])) {
+  border-top: 1px solid var(--md-default-fg-color--lighter);
+  padding-top: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 /* Mobile: render the primary nav as an in-place tree instead of
