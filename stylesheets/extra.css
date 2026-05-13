@@ -62,25 +62,18 @@
    ("Arlington Annotated Warrant"). Material renders the title as a
    bare text node directly inside the .md-nav__title label, next to
    the logo <a>. We can't select a bare text node in CSS, so collapse
-   the label's font-size to 0 (hiding the text node), re-expand the
-   logo button so the SVG keeps its size, and print "Articles" via
-   ::after. CSS-only so the substitution lands on first paint — a JS
-   rewrite (which we used to do) flashes the original text briefly
-   before being replaced. */
+   the label's font-size to 0 (hiding the text node) and print
+   "Articles" via ::after. CSS-only so the substitution lands on
+   first paint — a JS rewrite (which we used to do) flashes the
+   original text briefly before being replaced. Color, font-weight,
+   and spacing all inherit from Material's defaults so the result
+   matches the original styling. */
 .md-nav--primary > .md-nav__title {
   font-size: 0;
-  color: transparent;
-}
-.md-nav--primary > .md-nav__title > .md-nav__button {
-  font-size: 0.75rem;
 }
 .md-nav--primary > .md-nav__title::after {
   content: "Articles";
   font-size: 0.75rem;
-  font-weight: 700;
-  color: var(--md-default-fg-color);
-  margin-left: 0.4rem;
-  vertical-align: middle;
 }
 
 /* Sidebar nav: hide the disclosure chevron entirely. With
@@ -103,13 +96,16 @@
 /* Visual separator between the expandable groups at the top of the
    sidebar ("Disposed Articles", "Tabled and Postponed Articles") and
    the flat list of still-current articles below them. Targets the
-   last `.md-nav__item--nested` at the top level of the primary nav —
-   i.e. an --nested item with no --nested siblings after it. The
-   border sits on that group's <li>, so the rule visually closes the
-   "groups" stack and opens the "current articles" list. */
+   last group-style `.md-nav__item--nested` at the top level — i.e.
+   one whose direct child is a label-link (Material's group toggle),
+   not the `.md-nav__container` article items use. The `:has()` filter
+   on both halves of the `:not()` keeps article entries (which are
+   also `--nested` when they have child attachments) from matching. */
 .md-nav--primary
   > ul.md-nav__list
-  > li.md-nav__item--nested:not(:has(~ li.md-nav__item--nested)) {
+  > li.md-nav__item--nested:has(> .md-nav__link[for]):not(
+    :has(~ li.md-nav__item--nested:has(> .md-nav__link[for]))
+  ) {
   border-bottom: 1px solid var(--md-default-fg-color--lighter);
   padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
