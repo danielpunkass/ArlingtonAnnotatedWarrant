@@ -58,6 +58,31 @@
           mask-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12,2C17.5,2 22,6.5 22,12C22,17.5 17.5,22 12,22C6.5,22 2,17.5 2,12C2,6.5 6.5,2 12,2M12,4C7.58,4 4,7.58 4,12C4,16.42 7.58,20 12,20C16.42,20 20,16.42 20,12C20,7.58 16.42,4 12,4M7,11V13H17V11H7Z'/></svg>");
 }
 
+/* Sidebar primary-nav title: render "Articles" instead of `site_name`
+   ("Arlington Annotated Warrant"). Material renders the title as a
+   bare text node directly inside the .md-nav__title label, next to
+   the logo <a>. We can't select a bare text node in CSS, so collapse
+   the label's font-size to 0 (hiding the text node), re-expand the
+   logo button so the SVG keeps its size, and print "Articles" via
+   ::after. CSS-only so the substitution lands on first paint — a JS
+   rewrite (which we used to do) flashes the original text briefly
+   before being replaced. */
+.md-nav--primary > .md-nav__title {
+  font-size: 0;
+  color: transparent;
+}
+.md-nav--primary > .md-nav__title > .md-nav__button {
+  font-size: 0.75rem;
+}
+.md-nav--primary > .md-nav__title::after {
+  content: "Articles";
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+
 /* Sidebar nav: hide the disclosure chevron entirely. With
    `navigation.expand` enabled in mkdocs.yml, every section starts
    open and stays open — indentation alone communicates nesting,
@@ -73,6 +98,21 @@
    label itself in place as a clickable section header. */
 .md-nav__item--nested > .md-nav__link[for] > .md-nav__icon {
   display: none !important;
+}
+
+/* Visual separator between the expandable groups at the top of the
+   sidebar ("Disposed Articles", "Tabled and Postponed Articles") and
+   the flat list of still-current articles below them. Targets the
+   last `.md-nav__item--nested` at the top level of the primary nav —
+   i.e. an --nested item with no --nested siblings after it. The
+   border sits on that group's <li>, so the rule visually closes the
+   "groups" stack and opens the "current articles" list. */
+.md-nav--primary
+  > ul.md-nav__list
+  > li.md-nav__item--nested:not(:has(~ li.md-nav__item--nested)) {
+  border-bottom: 1px solid var(--md-default-fg-color--lighter);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Mobile: render the primary nav as an in-place tree instead of

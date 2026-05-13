@@ -25,25 +25,6 @@
     }
   }
 
-  /* Replace the sidebar's primary-nav title (a copy of `site_name`)
-   * with a shorter, sidebar-appropriate label. We don't want to change
-   * `site_name` itself — that controls the browser tab, the page
-   * header, and other places where the full project name still reads
-   * better. Find the existing text node inside the .md-nav--primary
-   * title label and overwrite its content; the sibling logo <a>
-   * stays untouched. */
-  function rewriteSidebarTitle() {
-    var label = document.querySelector(".md-nav--primary > .md-nav__title");
-    if (!label) return;
-    for (var i = 0; i < label.childNodes.length; i++) {
-      var node = label.childNodes[i];
-      if (node.nodeType !== 3) continue;
-      var trimmed = node.textContent.trim();
-      if (!trimmed || trimmed === "Articles") continue;
-      node.textContent = node.textContent.replace(trimmed, "Articles");
-    }
-  }
-
   function annotateExternalNavLinks() {
     var links = document.querySelectorAll(".md-nav__link");
     for (var i = 0; i < links.length; i++) {
@@ -244,7 +225,6 @@
 
   if (typeof document$ !== "undefined" && document$.subscribe) {
     document$.subscribe(function () {
-      rewriteSidebarTitle();
       annotateExternalNavLinks();
       annotateDispositionLinks();
       restoreNavScroll();
@@ -253,13 +233,11 @@
   } else {
     if (document.readyState === "loading") {
       document.addEventListener("DOMContentLoaded", function () {
-        rewriteSidebarTitle();
         annotateExternalNavLinks();
         annotateDispositionLinks();
         fitPdfRendersToWidth();
       });
     } else {
-      rewriteSidebarTitle();
       annotateExternalNavLinks();
       annotateDispositionLinks();
       fitPdfRendersToWidth();
