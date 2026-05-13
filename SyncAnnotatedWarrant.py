@@ -842,30 +842,36 @@ def write_root_pages(archive_dir, articles):
 
     Sidebar order:
       Index → "Disposed Articles" group → "Tabled and Postponed
-      Articles" group → "Recent Updates" group → still-pending articles
-      at the top level. Each grouped section is only emitted when
-      non-empty. Tabled / postponed articles are not "disposed" — Town
-      Meeting will return to them — but they're not actively pending
-      either, so they get their own collapsed group. Recent Updates
-      sits between the deferred groups and the current-article list so
-      it's right next to the "active" section the reader is most
-      likely to be browsing.
+      Articles" group → "Recent Updates" section → still-pending
+      articles at the top level. Each grouped/sectioned entry is only
+      emitted when non-empty. Tabled / postponed articles are not
+      "disposed" — Town Meeting will return to them — but they're not
+      actively pending either, so they get their own collapsed group.
+      Recent Updates sits between the deferred groups and the
+      current-article list so it's right next to the "active" section
+      the reader is most likely to be browsing.
 
-    awesome-pages' `... | <glob>` filter only operates at the current
-    directory level, so we enumerate the subdirs ourselves.
+    awesome-pages matches nav entries by *basename* against the items
+    at the current directory level (see plugin's navigation.py: the
+    items_by_basename lookup). Sub-directory file paths like
+    `recent-updates/foo.md` therefore don't resolve from the root
+    .pages — they'd be looked up under the basename "foo.md" alone,
+    which isn't a sibling. We sidestep that by listing
+    `articles/recent-updates` as a child directory and letting that
+    directory's own .pages (written by `write_recent_updates_pages`)
+    declare its section title and child order. That .pages references
+    each file by basename, which the plugin can resolve at that level.
     """
     disposed = [a for a in articles if a.get("status") == "disposed"]
     deferred = [a for a in articles if a.get("status") == "pending" and a.get("disposition")]
     pending = [a for a in articles if a.get("status") == "pending" and not a.get("disposition")]
 
     recent_dir = os.path.join(archive_dir, ARTICLES_SUBDIR, RECENT_UPDATES_DIR)
-    if os.path.isdir(recent_dir):
-        recent_files = sorted(
-            (f for f in os.listdir(recent_dir) if f.endswith(".md")),
-            reverse=True,
-        )
-    else:
-        recent_files = []
+    has_recent = os.path.isdir(recent_dir) and any(
+        f.endswith(".md") for f in os.listdir(recent_dir)
+    )
+    if has_recent:
+        write_recent_updates_pages(archive_dir)
 
     lines = ["nav:", "  - Index: index.md"]
     if disposed:
@@ -876,13 +882,32 @@ def write_root_pages(archive_dir, articles):
         lines.append("  - Tabled and Postponed Articles:")
         for a in deferred:
             lines.append(f"    - {ARTICLES_SUBDIR}/{article_dirname(a)}")
-    if recent_files:
-        lines.append("  - Recent Updates:")
-        for f in recent_files:
-            lines.append(f"    - {ARTICLES_SUBDIR}/{RECENT_UPDATES_DIR}/{f}")
+    if has_recent:
+        lines.append(f"  - {ARTICLES_SUBDIR}/{RECENT_UPDATES_DIR}")
     for a in pending:
         lines.append(f"  - {ARTICLES_SUBDIR}/{article_dirname(a)}")
     with open(os.path.join(archive_dir, ".pages"), "w") as fh:
+        fh.write("\n".join(lines) + "\n")
+
+
+def write_recent_updates_pages(archive_dir):
+    """Write `articles/recent-updates/.pages` declaring the section
+    title and the per-file nav order (newest first).
+
+    Each .md file is referenced by basename — awesome-pages resolves
+    nav entries against the items at the current directory level using
+    a basename-keyed lookup, so subdirectory paths from elsewhere
+    wouldn't match.
+    """
+    recent_dir = os.path.join(archive_dir, ARTICLES_SUBDIR, RECENT_UPDATES_DIR)
+    files = sorted(
+        (f for f in os.listdir(recent_dir) if f.endswith(".md")),
+        reverse=True,
+    )
+    lines = ['title: "Recent Updates"', "nav:"]
+    for f in files:
+        lines.append(f"  - {f}")
+    with open(os.path.join(recent_dir, ".pages"), "w") as fh:
         fh.write("\n".join(lines) + "\n")
 
 
