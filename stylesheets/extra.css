@@ -239,9 +239,10 @@
   max-width: 61rem;
 }
 
-/* Pages that embed a pdf2htmlEX render let the full content area be
-   used, so wide PDF pages aren't clipped. */
-.md-content__inner:has(.pdf-rendered) {
+/* Pages that embed a rendered PDF (pdf2htmlEX or PDF.js) let the
+   full content area be used, so wide PDF pages aren't clipped. */
+.md-content__inner:has(.pdf-rendered),
+.md-content__inner:has(.pdfjs-rendered) {
   max-width: none;
 }
 
@@ -253,7 +254,8 @@
    secondary sidebar). Material sets the sidebar's layout with
    !important inside its tablet/desktop media queries, so we need
    !important here too. */
-.md-main__inner:has(.pdf-rendered) .md-sidebar--secondary {
+.md-main__inner:has(.pdf-rendered) .md-sidebar--secondary,
+.md-main__inner:has(.pdfjs-rendered) .md-sidebar--secondary {
   display: none !important;
 }
 
@@ -296,6 +298,63 @@
 .pdf-rendered .pf {
   margin: 0 auto 1em;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+/* PDF.js-rendered content. Each .pdfjs-rendered wrapper contains one
+   .pdfjs-page per page; inside each page sits a <canvas> (visible
+   glyphs as pixels) and a <div class="textLayer"> overlay (transparent
+   spans for selection / Cmd+F). The canvas owns its pixel dimensions
+   via attributes, but we also need an explicit CSS size on .pdfjs-page
+   so its child .textLayer (which is absolutely positioned) gets a
+   non-zero containing box. */
+.pdfjs-rendered {
+  position: relative;
+  max-width: 100%;
+  margin: 1em 0;
+}
+
+.pdfjs-page {
+  position: relative;
+  margin: 0 auto 1em;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  background: white;
+  overflow: hidden;
+}
+
+.pdfjs-page > canvas {
+  display: block;
+}
+
+/* Text layer styling adapted from PDF.js standard text_layer_builder.css.
+   The layer sits on top of the canvas at the same dimensions; its child
+   spans are positioned per-glyph by the TextLayer API. We make the text
+   transparent (color: transparent doesn't break selection — the browser
+   still highlights the selected region) and let ::selection paint the
+   semitransparent overlay the user sees while dragging. */
+.pdfjs-page > .textLayer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  opacity: 1;
+  line-height: 1;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  forced-color-adjust: none;
+  transform-origin: 0 0;
+  z-index: 2;
+  caret-color: CanvasText;
+}
+
+.pdfjs-page > .textLayer :is(span, br) {
+  color: transparent;
+  position: absolute;
+  white-space: pre;
+  cursor: text;
+  transform-origin: 0% 0%;
+}
+
+.pdfjs-page > .textLayer ::selection {
+  background: rgba(0, 100, 255, 0.3);
 }
 
 /* Active leaf returns to full strength. */

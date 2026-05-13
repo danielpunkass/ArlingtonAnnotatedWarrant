@@ -621,26 +621,20 @@ def write_attachment_page(article_dir, slug, display_name, att):
             f'[Open PDF in new window](../{encoded}){{target="_blank" rel="noopener"}}',
             "",
         ]
-        # Prefer the pdf2htmlEX render (real DOM, Cmd+F-able, indexed by
-        # site search). Iframe is a fallback for the case where conversion
-        # didn't happen (no pdf2htmlEX, no Docker, or a tool error).
-        html_filename = att.get("htmlFilename")
-        styles = body = None
-        if html_filename:
-            styles, body = extract_html_body(
-                os.path.join(article_dir, html_filename)
-            )
-        if body:
-            if styles:
-                lines += [styles, ""]
-            lines += ['<div class="pdf-rendered">', body, "</div>", ""]
-        else:
-            title_attr = html.escape(display_name, quote=True)
-            lines += [
-                f'<iframe src="../{encoded}" style="width:100%; height:80vh; border:0;" '
-                f'title="{title_attr}"></iframe>',
-                "",
-            ]
+        # PDF.js renders each page at runtime as a <canvas> bitmap with
+        # a transparent text-layer overlay on top for Cmd+F / selection.
+        # Canvas pixels are immune to iOS Safari Page Zoom's text-only
+        # inflation, which smooshed the pdf2htmlEX inline render on
+        # iPad. javascripts/pdfjs-init.js drives the actual render;
+        # <noscript> falls back to a native iframe so the page is still
+        # functional without JS.
+        title_attr = html.escape(display_name, quote=True)
+        lines += [
+            f'<div class="pdfjs-rendered" data-pdf-src="../{encoded}">',
+            f'  <noscript><iframe src="../{encoded}" style="width:100%; height:80vh; border:0;" title="{title_attr}"></iframe></noscript>',
+            '</div>',
+            "",
+        ]
     else:
         lines += [f"[Download attachment](../{encoded})", ""]
 

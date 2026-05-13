@@ -56,6 +56,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/extra.js
+  - javascripts/pdfjs-init.js
 
 markdown_extensions:
   - tables
