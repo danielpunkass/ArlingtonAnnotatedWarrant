@@ -19,6 +19,7 @@ nav:
     - articles/Article-18
     - articles/Article-19
     - articles/Article-20
+    - articles/Article-21
     - articles/Article-22
     - articles/Article-23
     - articles/Article-24
@@ -46,6 +47,7 @@ nav:
     - articles/Article-47
     - articles/Article-48
     - articles/Article-49
+    - articles/Article-50
     - articles/Article-56
     - articles/Article-57
     - articles/Article-58
@@ -69,9 +71,7 @@ nav:
     - articles/Article-88
   - Tabled and Postponed Articles:
     - articles/Article-03
-    - articles/Article-21
     - articles/Article-30
-  - articles/Article-50
   - articles/Article-51
   - articles/Article-52
   - articles/Article-53
