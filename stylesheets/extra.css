@@ -103,14 +103,22 @@
    item directly after a group-style item — the boundary we want to
    draw a line above — and paint its top border. Adjacent-sibling
    (`+`) plus a `:not(:has(...))` filter keeps the rule sticking only
-   to the transition row even with multiple groups stacked. */
+   to the transition row even with multiple groups stacked.
+
+   Material already gives every primary-nav item a thin
+   `.05rem solid var(--md-default-fg-color--lightest)` border-top, so
+   the override has to be visibly heavier than the default — same
+   weight just replaces one near-invisible line with another. We
+   bump the weight, darken the color, and add a generous margin-top
+   so the divider reads as a deliberate section break. !important
+   beats Material's own per-item border-top declaration. */
 .md-nav--primary
   > ul.md-nav__list
   > li.md-nav__item--nested:has(> .md-nav__link[for])
   + li.md-nav__item--nested:not(:has(> .md-nav__link[for])) {
-  border-top: 1px solid var(--md-default-fg-color--lighter);
+  border-top: 2px solid var(--md-default-fg-color--light) !important;
   padding-top: 0.5rem;
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
 }
 
 /* Mobile: render the primary nav as an in-place tree instead of
