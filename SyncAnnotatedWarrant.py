@@ -165,9 +165,10 @@ def fetch_article_progress():
         code = cells[3].strip()
         has_outcome = bool(code and code != "-")
         # `status` drives sidebar grouping: only terminal codes get
-        # tucked under "Disposed Articles". Tabled/postponed articles
+        # tucked under the "Completed" group. Tabled/postponed articles
         # carry a `disposition` (so the summary page can show "Tabled
-        # on April 27, 2026.") but stay in the pending group.
+        # on April 27, 2026.") but stay in the pending group, and the
+        # sidebar surfaces them as "On Hold".
         is_terminal = has_outcome and code.lower() in TERMINAL_STATUS_CODES
         entry = {"status": "disposed" if is_terminal else "pending"}
         if has_outcome:
@@ -811,11 +812,15 @@ def compute_change_events(prior, new):
 def _event_line(event):
     """Render one change event as a markdown list item.
 
-    Article links point at `../Article-NN/` — relative from the
-    Recent Updates page's URL, which lives at the same depth.
+    Article links point at `../Article-NN/index.md` — referencing the
+    source file so MkDocs rewrites the URL correctly. (A bare
+    `../Article-NN/` slips through unrecognised under
+    `use_directory_urls`, leaving the browser to resolve it relative
+    to the served URL `/recent-updates/<slug>/`, which lands on
+    `/recent-updates/Article-NN/` instead of `/Article-NN/`.)
     """
     n = event["article"]
-    art_link = f"[Article {n}](../Article-{n:02d}/)"
+    art_link = f"[Article {n}](../Article-{n:02d}/index.md)"
     t = event["type"]
     if t == "status_change":
         old_label = event.get("fromLabel") or "Pending"
@@ -880,12 +885,13 @@ def write_root_pages(archive_dir, articles):
     """Write the root `.pages` for awesome-pages.
 
     Sidebar order:
-      Index → "Disposed Articles" group → "Tabled and Postponed
-      Articles" group → "Recent Updates" section → still-pending
-      articles at the top level. Each grouped/sectioned entry is only
-      emitted when non-empty. Tabled / postponed articles are not
-      "disposed" — Town Meeting will return to them — but they're not
-      actively pending either, so they get their own collapsed group.
+      Index → "Completed" group (disposed articles) → "On Hold" group
+      (tabled and postponed articles) → "Recent Updates" section →
+      still-pending articles at the top level. Each grouped/sectioned
+      entry is only emitted when non-empty. Tabled / postponed
+      articles are not "disposed" — Town Meeting will return to them
+      — but they're not actively pending either, so they get their
+      own collapsed group ("On Hold").
       Recent Updates sits between the deferred groups and the
       current-article list so it's right next to the "active" section
       the reader is most likely to be browsing.
@@ -914,11 +920,11 @@ def write_root_pages(archive_dir, articles):
 
     lines = ["nav:", "  - Index: index.md"]
     if disposed:
-        lines.append("  - Disposed Articles:")
+        lines.append("  - Completed:")
         for a in disposed:
             lines.append(f"    - {ARTICLES_SUBDIR}/{article_dirname(a)}")
     if deferred:
-        lines.append("  - Tabled and Postponed Articles:")
+        lines.append("  - On Hold:")
         for a in deferred:
             lines.append(f"    - {ARTICLES_SUBDIR}/{article_dirname(a)}")
     if has_recent:

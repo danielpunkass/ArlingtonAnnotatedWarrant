@@ -1,6 +1,6 @@
 nav:
   - Index: index.md
-  - Disposed Articles:
+  - Completed:
     - articles/Article-02
     - articles/Article-04
     - articles/Article-05
@@ -71,7 +71,7 @@ nav:
     - articles/Article-85
     - articles/Article-86
     - articles/Article-88
-  - Tabled and Postponed Articles:
+  - On Hold:
     - articles/Article-03
     - articles/Article-30
   - articles/recent-updates

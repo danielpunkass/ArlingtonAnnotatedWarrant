@@ -84,7 +84,7 @@
   display: none !important;
 }
 
-/* Label-only nav groups (like "Disposed Articles" — a section with
+/* Label-only nav groups (like "Completed" or "On Hold" — sections with
    no backing index page) don't go through .md-nav__container, so
    the rule above misses them. Their toggle label is still rendered
    with a trailing chevron; hide just the icon while leaving the
@@ -94,7 +94,7 @@
 }
 
 /* Visual separator between the expandable groups at the top of the
-   sidebar ("Disposed Articles", "Tabled and Postponed Articles") and
+   sidebar ("Completed", "On Hold") and
    the flat list of still-current articles below them. Group-style
    items have a direct-child `label.md-nav__link[for]` (Material's
    bare toggle label); article-style items wrap their toggle inside a
