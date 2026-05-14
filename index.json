@@ -4313,26 +4313,6 @@
   ],
   "changeLog": [
     {
-      "syncedAt": "2026-05-13T19:58:33+00:00",
-      "events": [
-        {
-          "type": "new_attachment",
-          "article": 53,
-          "filename": "Article 53 Macaluso Presentation.pdf"
-        },
-        {
-          "type": "new_attachment",
-          "article": 91,
-          "filename": "Article 91 Greg Dennis Materials.pdf"
-        },
-        {
-          "type": "new_attachment",
-          "article": 91,
-          "filename": "Article 91 Presentation.pdf"
-        }
-      ]
-    },
-    {
       "syncedAt": "2026-05-14T03:41:56+00:00",
       "events": [
         {
