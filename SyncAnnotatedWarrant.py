@@ -841,13 +841,20 @@ def _event_line(event):
 def write_recent_update_page(archive_dir, synced_at, events):
     """Write a per-sync markdown page summarising the events.
 
-    Filename encodes the sync timestamp so files sort chronologically
-    and never collide between runs. Returns the relative filename for
-    the caller to register in the root .pages.
+    Filename encodes the UTC sync timestamp so files sort
+    chronologically and never collide between runs. The visible
+    heading uses Arlington local time (America/New_York) for human
+    readability — the events are about a local meeting, the local
+    wall-clock is what readers care about. Returns the relative
+    filename for the caller to register in the root .pages.
     """
     dt = datetime.datetime.fromisoformat(synced_at)
     slug = dt.strftime("%Y-%m-%dT%H%M%SZ")
-    pretty = dt.strftime("%Y-%m-%d %H:%M UTC")
+    try:
+        local_dt = dt.astimezone(ZoneInfo("America/New_York"))
+        pretty = local_dt.strftime("%B %-d, %Y, %-I:%M %p")
+    except Exception:
+        pretty = dt.strftime("%B %-d, %Y, %-I:%M %p UTC")
 
     recent_dir = os.path.join(archive_dir, ARTICLES_SUBDIR, RECENT_UPDATES_DIR)
     os.makedirs(recent_dir, exist_ok=True)
