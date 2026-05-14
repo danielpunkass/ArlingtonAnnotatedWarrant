@@ -144,6 +144,18 @@ _MONTHS = [
 ]
 
 
+def _parse_humanized_date(date_str):
+    """Inverse of `humanize_date`. Parses "April 27, 2026" into a
+    `datetime.date`, or returns None when input is empty / unrecognized.
+    """
+    if not date_str:
+        return None
+    try:
+        return datetime.datetime.strptime(date_str, "%B %d, %Y").date()
+    except (ValueError, TypeError):
+        return None
+
+
 def humanize_date(value, year=None):
     """`4/27` → `April 27, 2026`. Year defaults to the current calendar
     year (Town Meeting doesn't span years, so the sync year is correct).
@@ -653,9 +665,21 @@ def write_article_summary(article_dir, article, att_pages):
         # admonition flavor (success/failure/warning/...) color-codes
         # the outcome at a glance. Vote tallies are kept in index.json
         # for downstream consumers but not rendered yet.
+        #
+        # Preposition tweak: for tabled/postponed articles the date is
+        # often when the meeting will *return* to the article, not
+        # when the deferral happened. Read "Postponed to May 18, 2026"
+        # as a future calendar date, not as the action's past date.
+        # Switch the preposition for `t`/`p` codes whose date is in
+        # the future; everything else keeps the historical "on".
         label = disp.get("label") or "Disposed"
         date = disp.get("date")
-        sentence = f"{label} on {date}" if date else label
+        preposition = "on"
+        if disp.get("code", "").lower() in {"t", "p"}:
+            parsed = _parse_humanized_date(date)
+            if parsed and parsed > datetime.date.today():
+                preposition = "to"
+        sentence = f"{label} {preposition} {date}" if date else label
         adm_type = ADMONITION_TYPE_BY_CODE.get(
             (disp.get("code") or "").lower(), "note"
         )
