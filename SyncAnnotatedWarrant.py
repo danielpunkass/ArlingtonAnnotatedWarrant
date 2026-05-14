@@ -17,6 +17,7 @@ attachments that no longer exist upstream are removed.
 """
 
 import datetime
+import hashlib
 import html
 import json
 import os
@@ -521,6 +522,23 @@ def download_attachment(history_id, dest_path):
         return len(body), server_filename
 
 
+def sha256_of_file(path):
+    """Return the hex SHA-256 digest of a file's contents.
+
+    Used as the authoritative change-detection key for attachments —
+    primegov rotates `historyId` on every republish even when the
+    underlying PDF is byte-identical, so historyId alone produces
+    spurious "replaced" events for ~all attachments on every republish.
+    Hashing the file bytes lets us tell whether a "new" historyId
+    actually represents new content.
+    """
+    h = hashlib.sha256()
+    with open(path, "rb") as fh:
+        for chunk in iter(lambda: fh.read(65536), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
 def article_dirname(article):
     return f"Article-{article['articleNumber']:02d}" if article["articleNumber"] else f"Item-{article['itemId']}"
 
@@ -768,7 +786,21 @@ def compute_change_events(prior, new):
         for fn in sorted(set(new_atts) - set(old_atts)):
             events.append({"type": "new_attachment", "article": num, "filename": fn})
         for fn in sorted(set(new_atts) & set(old_atts)):
-            if new_atts[fn].get("historyId") != old_atts[fn].get("historyId"):
+            new_hash = new_atts[fn].get("sha256")
+            old_hash = old_atts[fn].get("sha256")
+            if new_hash and old_hash:
+                # Hash comparison is authoritative when both sides have
+                # one: it ignores primegov's spurious historyId rotation
+                # on republish and only fires when the bytes actually
+                # differ.
+                if new_hash != old_hash:
+                    events.append({"type": "replaced_attachment", "article": num, "filename": fn})
+            elif new_atts[fn].get("historyId") != old_atts[fn].get("historyId"):
+                # Legacy fallback: one or both sides predate the hash
+                # field. This is the path that produced spurious events
+                # for the primegov republish behavior — the sync loop's
+                # backfill should populate hashes on first run so we
+                # rarely take this branch in practice.
                 events.append({"type": "replaced_attachment", "article": num, "filename": fn})
         for fn in sorted(set(old_atts) - set(new_atts)):
             events.append({"type": "removed_attachment", "article": num, "filename": fn})
@@ -866,17 +898,12 @@ def write_root_pages(archive_dir, articles):
     deferred = [a for a in articles if a.get("status") == "pending" and a.get("disposition")]
     pending = [a for a in articles if a.get("status") == "pending" and not a.get("disposition")]
 
-    # NOTE: Recent Updates is temporarily hidden from the sidebar. The
-    # change-event diff is reporting every article's "View full text"
-    # PDF as a replaced document on each sync, because primegov
-    # rotates historyIds even when the binary is byte-identical (you
-    # can see this in the bot's commits — Bin 115484 -> 115484 bytes
-    # for every "View full text" file). Until compute_change_events
-    # filters that out, suppress the visible noise: don't list the
-    # directory in the root .pages, and don't update the section's
-    # own .pages either. The per-sync .md files still get written so
-    # the data is preserved for when we re-enable the section.
     recent_dir = os.path.join(archive_dir, ARTICLES_SUBDIR, RECENT_UPDATES_DIR)
+    has_recent = os.path.isdir(recent_dir) and any(
+        f.endswith(".md") for f in os.listdir(recent_dir)
+    )
+    if has_recent:
+        write_recent_updates_pages(archive_dir)
 
     lines = ["nav:", "  - Index: index.md"]
     if disposed:
@@ -887,6 +914,8 @@ def write_root_pages(archive_dir, articles):
         lines.append("  - Tabled and Postponed Articles:")
         for a in deferred:
             lines.append(f"    - {ARTICLES_SUBDIR}/{article_dirname(a)}")
+    if has_recent:
+        lines.append(f"  - {ARTICLES_SUBDIR}/{RECENT_UPDATES_DIR}")
     for a in pending:
         lines.append(f"  - {ARTICLES_SUBDIR}/{article_dirname(a)}")
     with open(os.path.join(archive_dir, ".pages"), "w") as fh:
@@ -1040,15 +1069,38 @@ def sync():
     print(f"  {disposed_count} disposed, {len(articles) - disposed_count} pending")
 
     manifest_path = os.path.join(archive_dir, "index.json")
-    existing = {}
+
+    # Load the prior manifest once. It's used three ways:
+    #   1. as the per-attachment download cache (keyed by historyId)
+    #   2. for sha256-based content-change detection in this loop
+    #   3. for compute_change_events and the no-op suppression later
+    # Backfill missing sha256 fields by hashing on-disk files so the
+    # first sync after this feature ships has hashes on both sides of
+    # the diff — without this step, the prior manifest's lack of hashes
+    # would force compute_change_events back to historyId comparison
+    # and re-emit the spurious "every PDF replaced" events.
+    prior = None
     if os.path.exists(manifest_path):
         try:
             with open(manifest_path) as fh:
-                old = json.load(fh)
-            for a in old.get("articles", []):
-                existing[a["itemId"]] = a
+                prior = json.load(fh)
         except (OSError, json.JSONDecodeError):
-            pass
+            prior = None
+
+    if prior:
+        for prior_art in prior.get("articles", []):
+            prior_adir = os.path.join(articles_dir, article_dirname(prior_art))
+            for prior_att in prior_art.get("attachments", []):
+                if prior_att.get("sha256"):
+                    continue
+                fn = prior_att.get("filename")
+                if not fn:
+                    continue
+                fp = os.path.join(prior_adir, fn)
+                if os.path.exists(fp):
+                    prior_att["sha256"] = sha256_of_file(fp)
+
+    existing = {a["itemId"]: a for a in (prior.get("articles", []) if prior else [])}
 
     # Subdirs of articles/ that the orphan cleanup should preserve
     # even though they don't correspond to an article. recent-updates/
@@ -1059,44 +1111,73 @@ def sync():
         os.makedirs(adir, exist_ok=True)
         seen_dirs.add(os.path.basename(adir))
 
-        old_atts = {a["historyId"]: a for a in existing.get(article["itemId"], {}).get("attachments", [])}
+        prior_atts = existing.get(article["itemId"], {}).get("attachments", [])
+        old_by_history_id = {a["historyId"]: a for a in prior_atts}
+        # Filename-keyed lookup is the change-detection fallback when
+        # primegov rotates historyId but keeps the same filename.
+        old_by_filename = {a["filename"]: a for a in prior_atts if a.get("filename")}
         kept_filenames = set()
 
         for att in article["attachments"]:
-            old = old_atts.get(att["historyId"])
+            old = old_by_history_id.get(att["historyId"])
             target_filename = None
+            content_changed = False
             if old and old.get("filename"):
                 candidate = os.path.join(adir, old["filename"])
                 if os.path.exists(candidate):
                     target_filename = old["filename"]
                     att["filename"] = target_filename
                     att["size"] = old.get("size")
+                    # Same historyId guarantees same content; carry the
+                    # hash forward (backfilled above if absent).
+                    att["sha256"] = old.get("sha256") or sha256_of_file(candidate)
             if not target_filename:
                 tmp_path = os.path.join(adir, f".pending-{att['historyId']}")
                 size, server_name = download_attachment(att["historyId"], tmp_path)
+                new_hash = sha256_of_file(tmp_path)
                 final_name = safe_filename(server_name or f"{att['title']}.pdf")
                 final_path = os.path.join(adir, final_name)
+                # Hash-based change detection: any prior attachment with
+                # this same filename gives us a reference. If the bytes
+                # match, primegov just rotated the historyId — silently
+                # absorb. If they differ (or no prior under this name),
+                # the content really changed.
+                prior_by_name = old_by_filename.get(final_name)
+                prior_hash = prior_by_name.get("sha256") if prior_by_name else None
+                content_changed = (prior_hash != new_hash)
                 if os.path.exists(final_path):
                     os.remove(final_path)
                 os.rename(tmp_path, final_path)
                 att["filename"] = final_name
                 att["size"] = size
+                att["sha256"] = new_hash
                 target_filename = final_name
-                print(f"  Article {article['articleNumber']:>2}: downloaded {final_name} ({size} bytes)")
+                if content_changed:
+                    print(
+                        f"  Article {article['articleNumber']:>2}: "
+                        f"downloaded {final_name} ({size} bytes)"
+                    )
             kept_filenames.add(target_filename)
 
+            # The reusable "prior" for caches downstream is whichever
+            # entry actually carried the same content as `att`:
+            #   - historyId-matched old (same content, no download)
+            #   - filename-matched prior_by_name when content_changed is False
+            # In either case we want to inherit htmlFilename and pdfLinks.
+            content_source = old
+            if not content_source and not content_changed:
+                content_source = old_by_filename.get(target_filename)
+
             # Convert PDF → self-contained HTML for inline rendering. Skip
-            # if the PDF wasn't re-downloaded AND the .html is already on
-            # disk (idempotent re-runs stay cheap). Conversion failure is
-            # non-fatal — write_attachment_page falls back to the iframe.
+            # if the byte content didn't change AND the .html is already on
+            # disk (idempotent re-runs stay cheap, even across primegov
+            # historyId rotations). Conversion failure is non-fatal —
+            # write_attachment_page falls back to the iframe.
             if target_filename.lower().endswith(".pdf"):
                 html_filename = target_filename + ".html"
                 kept_filenames.add(html_filename)
-                pdf_unchanged = bool(
-                    old and old.get("filename") == target_filename
-                )
                 html_path = os.path.join(adir, html_filename)
-                needs_convert = not (pdf_unchanged and os.path.exists(html_path))
+                needs_convert = content_changed or not os.path.exists(html_path)
                 if needs_convert:
                     ok = convert_pdf_to_html(
                         os.path.join(adir, target_filename), html_path
@@ -1118,18 +1199,17 @@ def sync():
 
             # Extract /URI links with their visible anchor text for the
             # sidebar nav. Manifest format is [{"url": ..., "label": ...}].
-            # Reuse the cached entries when the PDF is unchanged AND the
-            # cache is in the new dict-shape (legacy string lists are
-            # rebuilt). Falls back to the raw-PDF binary scan when no HTML
-            # render is available — labels are then unknown so the URL
-            # itself is used.
-            cached = old.get("pdfLinks") if old else None
+            # Reuse the cached entries when the PDF byte content is
+            # unchanged AND the cache is in the new dict-shape (legacy
+            # string lists are rebuilt). Falls back to the raw-PDF binary
+            # scan when no HTML render is available.
+            cached = content_source.get("pdfLinks") if content_source else None
             cache_is_new_shape = (
                 isinstance(cached, list) and (not cached or isinstance(cached[0], dict))
             )
             if (
-                old
-                and old.get("filename") == target_filename
+                content_source
+                and content_source.get("filename") == target_filename
                 and cache_is_new_shape
             ):
                 att["pdfLinks"] = list(cached)
@@ -1191,17 +1271,8 @@ def sync():
         "articles": articles,
     }
 
-    # Load the prior manifest (if any) once: it backs both the change-
-    # event computation below and the no-op suppression that follows.
-    prior = None
-    if os.path.exists(manifest_path):
-        try:
-            with open(manifest_path) as fh:
-                prior = json.load(fh)
-        except (OSError, json.JSONDecodeError):
-            prior = None
-
-    # Compute change events relative to the prior manifest. If any
+    # Compute change events relative to the prior manifest (loaded at
+    # the top of this function, sha256-backfilled there too). If any
     # fired, append one entry to the accumulated changeLog and write a
     # per-sync markdown page summarising them — that page becomes a
     # nav entry under the "Recent Updates" sidebar group. The
