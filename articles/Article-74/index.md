@@ -20,7 +20,7 @@ Veterans’ Day Parade
 
 250th Anniversary Celebration
 
-Finance Committee 2026 Article Hearings - right click to view in new tab
+[Finance Committee 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77049&t=639075362950641137) - right click to view in new tab
 
 ## Resources
 

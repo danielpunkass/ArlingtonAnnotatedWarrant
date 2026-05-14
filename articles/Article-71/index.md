@@ -8,7 +8,7 @@ _Inserted at the request of the Town Manager and the Director of Public Works_
 
 To see if the Town will vote to appropriate a sum of money for the purpose of financing the construction or reconstruction of water mains and water facilities, including costs incidental and related thereto, and to determine how the appropriation shall be raised and expended, including the possibility of borrowing all or some of same; or take any action related thereto.
 
-Finance Committee 2026 Article Hearings - right click to view in new tab
+[Finance Committee 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77049&t=639075362950641137) - right click to view in new tab
 
 ## Resources
 

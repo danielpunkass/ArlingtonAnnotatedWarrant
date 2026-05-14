@@ -8,7 +8,7 @@ _Inserted at the request of Stephen McKenna and ten registered voters_
 
 To see if the Town will vote to amend the Zoning Map of the Town of Arlington by rezoning certain parcels presently located in the R-1 One-Family District to the R-2 Two-Family District, specifically parcels located on Norcross Street, North Union Street, Gardner Street and Granton Park; or take any action related thereto.
 
-Redevelopment Board 2026 Article Hearings - right click to view in new tab
+[Redevelopment Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77027&t=639071723292646384) - right click to view in new tab
 
 ## Resources
 

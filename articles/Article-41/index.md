@@ -8,7 +8,7 @@ _Inserted at the request of the Redevelopment Board_
 
 To see if the Town will vote to amend Section 5.8.4.G., Affordable Housing, of the Zoning Bylaw to remove the second sentence of the section; or take any action related thereto.
 
-Redevelopment Board 2026 Article Hearings - right click to view in new tab
+[Redevelopment Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77027&t=639071723292646384) - right click to view in new tab
 
 ## Resources
 

@@ -8,7 +8,7 @@ _Inserted at the request of Mary Winstanley and ten registered voters_
 
 To see if the Town will vote to amend Section 5.4.2 (A) Dimensional and Density Regulations the Arlington Zoning Bylaw to add the following under R6: “Assisted living residents on more than 20,000 square feet- 50 feet height; 3 stories; 1.2 FAR”; or take any action related thereto.
 
-Redevelopment Board 2026 Article Hearings - right click to view in new tab
+[Redevelopment Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77027&t=639071723292646384) - right click to view in new tab
 
 ## Resources
 

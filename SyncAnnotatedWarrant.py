@@ -61,6 +61,41 @@ def strip_tags(s):
     return s
 
 
+def paragraph_to_markdown(p):
+    """Convert an HTML paragraph's inner content to markdown text.
+
+    Like `strip_tags` but preserves `<a href="...">label</a>` anchors
+    by rewriting them as markdown links — so phrases like
+    "Redevelopment Board 2026 Article Hearings - right click to view
+    in new tab" stay clickable in the rendered article description.
+    Other tags are dropped, entities decoded, whitespace collapsed.
+    """
+    def _anchor(match):
+        href = match.group(1)
+        label = strip_tags(match.group(2))
+        if not label:
+            return ""
+        # Escape brackets in the label so it doesn't break markdown
+        # link syntax. Percent-encode parens in the URL since plain-
+        # form `[label](url)` would otherwise mis-balance — angle-
+        # bracketing the URL would be cleaner but the next-pass tag
+        # stripper would treat `<url>` as an HTML tag and remove it.
+        safe_label = label.replace("[", r"\[").replace("]", r"\]")
+        safe_href = href.replace("(", "%28").replace(")", "%29")
+        return f"[{safe_label}]({safe_href})"
+
+    s = re.sub(
+        r'<a[^>]*href="([^"]+)"[^>]*>(.*?)</a>',
+        _anchor,
+        p,
+        flags=re.DOTALL | re.IGNORECASE,
+    )
+    s = re.sub(r"<[^>]+>", "", s)
+    s = html.unescape(s)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+
 def safe_filename(name):
     name = name.replace("/", "-").replace("\\", "-")
     name = re.sub(r"[\x00-\x1f]", "", name)
@@ -442,21 +477,28 @@ def parse_articles(html_text):
         )
         body_html = body_match.group(1) if body_match else ""
 
+        # Each <p> yields a (text, markdown) pair. The text form drives
+        # classification (requester vs description vs the "Article #N"
+        # boilerplate primegov includes) since those checks just match
+        # against literal prefixes; the markdown form preserves inline
+        # anchors as `[label](<url>)` so links embedded in the article
+        # description stay clickable in the rendered page.
         paragraphs = []
         for p in re.findall(r"<p[^>]*>(.*?)</p>", body_html, re.DOTALL):
             text = strip_tags(p)
-            if text:
-                paragraphs.append(text)
+            if not text:
+                continue
+            paragraphs.append((text, paragraph_to_markdown(p)))
 
-        meaningful = [p for p in paragraphs if not p.startswith("Article #")]
+        meaningful = [pair for pair in paragraphs if not pair[0].startswith("Article #")]
 
         requester = None
         description_paragraphs = []
-        for p in meaningful:
-            if p.startswith("Inserted at the request of"):
-                requester = p
+        for text, md in meaningful:
+            if text.startswith("Inserted at the request of"):
+                requester = text
             else:
-                description_paragraphs.append(p)
+                description_paragraphs.append(md)
         description = "\n\n".join(description_paragraphs).strip()
 
         external_links = []

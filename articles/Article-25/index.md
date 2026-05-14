@@ -8,7 +8,7 @@ _Inserted at the request of the Town Manager_
 
 To see if the Town will vote to amend Title I, Article 22 of the Town Bylaws by adding a new section to establish and authorize a revolving fund as provided under M.G.L. c. 44, §53E½ to utilize monies received through the private use of space at 27 Maple Street so that those monies may be utilized for the upkeep of the rented facility or space; or take any action related thereto.
 
-Select Board 2026 Article Hearings - right click to view in new tab
+[Select Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77025&t=639071722566826263) - right click to view in new tab
 
 ## Resources
 

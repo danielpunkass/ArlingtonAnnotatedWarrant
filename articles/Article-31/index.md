@@ -8,7 +8,7 @@ _Inserted at the request of Carmine Granucci and ten registered voters_
 
 To see if the Town will vote to authorize and request the Select Board to file Home Rule Legislation or other Special Legislation exempting the Town from the requirement to accept and grant applications for valuation, assessment, and taxation of land under the provisions of Mass. Gen. Laws Chapter 61B while maintaining the Town's first refusal option and ability to collect any and all applicable conveyance and roll-back taxes for applications previously granted under Mass. Gen. Laws Chapter 61B; or take any action related thereto.
 
-Select Board 2026 Article Hearings - right click to view in new tab
+[Select Board 2026 Article Hearings](https://www.arlingtonma.gov/home/showdocument?id=77025&t=639071722566826263) - right click to view in new tab
 
 ## Resources
 
