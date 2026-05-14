@@ -15,7 +15,16 @@ name: Sync progress
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # every 5 minutes; UTC, best-effort
+    # Every 5 minutes during a typical Arlington Town Meeting session.
+    # Meetings convene Monday and Wednesday evenings, 8:00–11:00 PM
+    # local. Cron is UTC: in EDT (UTC-4, which covers the entire ATM
+    # spring season April–June), 8:00 PM Mon/Wed local = 00:00 UTC
+    # Tue/Thu, and 11:00 PM Mon/Wed local = 03:00 UTC Tue/Thu. We run
+    # hours 0–2 UTC inclusive so the final firing is at 02:55 (10:55
+    # PM EDT), well inside the session window. If a future meeting
+    # cycle ever runs during EST this would slip an hour earlier
+    # locally — adjust then.
+    - cron: "*/5 0-2 * * 2,4"
   workflow_dispatch:
 
 permissions:
