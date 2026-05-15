@@ -617,16 +617,24 @@ def content_hash_for_file(path):
     timestamp). Hashing the raw bytes would flag every attachment as
     "replaced" on each republish, defeating the whole filter.
 
-    For PDFs, extract the text via pdftotext and hash that — the text
-    is stable across republishes when the article content hasn't
-    actually changed. For non-PDF attachments (or when pdftotext is
-    unavailable / fails), fall back to byte-hash, which is the best we
-    can do.
+    For PDFs, extract the text via pdftotext, *normalize whitespace*
+    (collapse every run of whitespace to a single space, strip ends),
+    then hash. The normalization is the load-bearing piece: pdftotext
+    output isn't stable across poppler-utils versions — line-breaking
+    and exact spacing drift between versions, which already burned us
+    once when the ubuntu runner's package updated overnight and fired
+    `replaced_attachment` events for ~all attachments. Collapsing
+    whitespace makes the hash insensitive to that drift while still
+    catching genuine text changes.
+
+    For non-PDF attachments (or when pdftotext is unavailable /
+    fails), fall back to byte-hash, which is the best we can do.
     """
     if path.lower().endswith(".pdf"):
         text = extract_pdf_text(path)
         if text is not None:
-            return hashlib.sha256(text).hexdigest()
+            normalized = re.sub(rb"\s+", b" ", text).strip()
+            return hashlib.sha256(normalized).hexdigest()
     return sha256_of_file(path)
 
 
