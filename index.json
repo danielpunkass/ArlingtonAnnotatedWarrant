@@ -1,7 +1,7 @@
 {
   "source": "https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659",
   "meetingTemplateId": 1659,
-  "lastSynced": "2026-05-14T16:13:50+00:00",
+  "lastSynced": "2026-05-15T16:26:40+00:00",
   "articleCount": 95,
   "articles": [
     {
@@ -13,11 +13,11 @@
       "externalLinks": [],
       "attachments": [
         {
-          "historyId": "cb1219d3-9127-4627-8d50-aa15f971aae8",
+          "historyId": "08cc3710-da6a-4ab1-b866-fb46027964d5",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 115484,
-          "contentHash": "3ccdda9df764844e8c7e473b6c8dd9568db5ee487032f98e1c885d58c425de93",
+          "contentHash": "b8951c154376332a03bd34d3933e3f08281c863e6d6e7d899d683e3f295fa463",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": []
         }
@@ -40,11 +40,11 @@
       "externalLinks": [],
       "attachments": [
         {
-          "historyId": "3d9f3c86-1d75-4deb-bc27-2ad1fe1cad2a",
+          "historyId": "d74ca5f0-75bd-42b2-a2a8-bd5defb99148",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 115601,
-          "contentHash": "7cd830050a7811c7ee4f3affd22c7a15c268b95e45c62ee8fedf014924b4f82a",
+          "contentHash": "ccde1f561a056621fadb1148b68716820d6fd1411021f5195c41f283568c758f",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": []
         }
@@ -67,11 +67,11 @@
       "externalLinks": [],
       "attachments": [
         {
-          "historyId": "73fc16aa-2a00-420b-8f84-44dc64f0f4bf",
+          "historyId": "2d1c97e9-f1db-42fb-9df9-06b5a150e7b2",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 22870,
-          "contentHash": "fb293ef634f261a3587326027820884eaa9fed63d1d69e352e24c3b64d402c43",
+          "contentHash": "de120900395b704cea2164ad6b36e71282a33f969f4941745ed1f37fe97d51e1",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": []
         }
@@ -94,11 +94,11 @@
       "externalLinks": [],
       "attachments": [
         {
-          "historyId": "bc4fc098-2065-4439-a155-0bb5138cee40",
+          "historyId": "1a67d560-0774-4b6a-8117-7cefd9e41ac2",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 22861,
-          "contentHash": "c76657d133490f96962e402d1e3a6d7c759c4ff9176f05cc37a926585faf3acd",
+          "contentHash": "c04362b6373aba09fc89912066c31e4f8652fc1bc9446c4f57b99ca69a5f7137",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": []
         }
@@ -126,11 +126,11 @@
       ],
       "attachments": [
         {
-          "historyId": "797fbd27-8d65-45b0-9fe8-dd4004d2b05b",
+          "historyId": "d776160f-7b8f-4614-8025-9a371808e865",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117440,
-          "contentHash": "e513924dc6a25f2abcf0e7342f6d50f589b10c3bae71f94062ad1cd0378d52a6",
+          "contentHash": "4ef5fcd4e77f6bef6ba52421f97d06674efd37b051739df0aa6df597c72c864b",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -163,11 +163,11 @@
       ],
       "attachments": [
         {
-          "historyId": "0c816786-da38-4b33-b7a5-27575014eb27",
+          "historyId": "c4695a97-c7d2-4c30-a6f8-e54128a3ef4e",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 123248,
-          "contentHash": "cb9b1a220451ca72162081d0c20659183e89994dfe58de9055a63b815d00cb66",
+          "contentHash": "77b983017d2a318f8311d024fb38365dd662c85f6ea9376310a7f0c76d76245c",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -200,11 +200,11 @@
       ],
       "attachments": [
         {
-          "historyId": "020558a6-73e1-4597-82a0-524a4bf10110",
+          "historyId": "4005fcd1-8224-4ead-8e1b-e1cdc2f54454",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118144,
-          "contentHash": "82df1a17e464d960b6ebfe903f80f1b044c8b9ab59f50407e6a3617ab0e81bcc",
+          "contentHash": "ce61e167cb7ab3778728d348786d73535eb88fa7173c186a816d16abea1ccba4",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -237,11 +237,11 @@
       ],
       "attachments": [
         {
-          "historyId": "d47ef464-d057-490d-b1ea-3f3d30642276",
+          "historyId": "3b2abc4b-41d2-45b7-befa-84e5e167f4f5",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117424,
-          "contentHash": "d613aa31095e83c0b292c85f75e049723a2ed46513d2bb3becf1da05caccc56f",
+          "contentHash": "bda49c3728ba145b672f6aa0b809e37b8c9a9a1b511409eb15f3d8d8ddbfa2cb",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -274,11 +274,11 @@
       ],
       "attachments": [
         {
-          "historyId": "19a1871b-8653-4aa6-a2a2-dfcf3e124092",
+          "historyId": "6d746216-7113-44c8-88af-34178af584d1",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 194270,
-          "contentHash": "8a997e0f3538f687be8882e4e4ff25c8f94341d0cd47a7f4437f69f2344dc0c0",
+          "contentHash": "2fead156ac29b94f1cf4b9feeeaf703c471c1f7b53b963938ec28d951ca90c7e",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -288,29 +288,29 @@
           ]
         },
         {
-          "historyId": "df26d85a-c162-440f-986b-1f543f945ed8",
+          "historyId": "8fc8ef80-8216-4530-9c1f-7bb68ca5affc",
           "title": "Article 10 White Substitute Motion",
           "filename": "Article 10 White Substitute Motion.pdf",
           "size": 118011,
-          "contentHash": "607b51a54601c20a50e0baa0e7fa3cb9a2e2a8c9989276e0a2fef094e714c73e",
+          "contentHash": "75ef00a896623704a64b8ed8bd30b4a45018bf5fca421aa3f06bcb4fe1d94367",
           "htmlFilename": "Article 10 White Substitute Motion.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "c3a867bb-5bbe-4629-9f40-738c5060b7d8",
+          "historyId": "3f38a483-3147-4412-82cb-3798c2a28bb2",
           "title": "Article 10 David Morgan Memo",
           "filename": "Article 10 David Morgan Memo.pdf",
           "size": 256030,
-          "contentHash": "37e22d5168c5ff18386e695c93845294d6f45a80d7358b5956a3a72c26e8ec65",
+          "contentHash": "e1fd1ac95c27a15cd3573ccd48f2b83f58f9d42a4cb6c9981d991dedf9c6fc0e",
           "htmlFilename": "Article 10 David Morgan Memo.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "e23db338-9711-4d82-aa3b-f4a9858df271",
+          "historyId": "2afcf1a0-d5b9-4dd0-91ac-a1f366773ca7",
           "title": "Article 10 Benson Amendment",
           "filename": "Article 10 Benson Amendment.pdf",
           "size": 132595,
-          "contentHash": "7a83ddb376a329ac33b0fe2a43df187245518f24e3661bef8d647b9e3bae8ee1",
+          "contentHash": "9a08e5dd3081a854b09a98929ccd20eaca3674e9539e81575daa67b052604ea8",
           "htmlFilename": "Article 10 Benson Amendment.pdf.html",
           "pdfLinks": []
         }
@@ -338,11 +338,11 @@
       ],
       "attachments": [
         {
-          "historyId": "c0b61c0e-dfa0-48e3-8e98-5cf80b12b54f",
+          "historyId": "42ee7b9b-20d6-4433-974e-11adfa2a0838",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 120362,
-          "contentHash": "ccd555a049c8d7ca56b5edabdc372d9d1bab4937bc3cd95026c13f084d91d46e",
+          "contentHash": "662afadad0babff4ba50d7f53a046e0701f0d68d85859740e3257d542f3c9ad5",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -375,11 +375,11 @@
       ],
       "attachments": [
         {
-          "historyId": "3b446bec-e79a-4153-b5c1-b2553cd9b1b1",
+          "historyId": "06b7bf6c-7fcb-4562-a3d5-d410afff5071",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119473,
-          "contentHash": "7dcd7f3f020be70bd53343fb88405f0b1e6d91b664029ae5478cf16f97a02bd9",
+          "contentHash": "b163b4114761d6069562c0399be5efe051a0b776dd4bad179f1cbcaaef44392e",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -412,11 +412,11 @@
       ],
       "attachments": [
         {
-          "historyId": "7bcef88b-1c99-457b-a8de-4bbbd65edca8",
+          "historyId": "3eafb113-fc36-4b6f-8842-954fcbabdc78",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117736,
-          "contentHash": "bed6e302e45a85717f542fb4f9cc7fabe1d8dfef4b95239b84b0ddf1da324f27",
+          "contentHash": "5087d4a57d9612fef38cce22c88ed6910b772b326a8924df3b21d5dd708af983",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -426,11 +426,11 @@
           ]
         },
         {
-          "historyId": "65d22cff-71a8-4062-8798-97006214aaff",
+          "historyId": "d4584824-ad9d-4181-a568-0f0d27e769e7",
           "title": "Article 13 Notes on Town Meeting Time 4th Edition",
           "filename": "Article 13 Notes on Town Meeting Time 4th Edition.pdf",
           "size": 227062,
-          "contentHash": "bd611b40c5fe2e53a950b28300ff99fe9894efd0b08fd4510a00757d94e25246",
+          "contentHash": "10bb00d72e21c9f1ce660de33be12b77310b17a3f453dbfd9d0826018246bf23",
           "htmlFilename": "Article 13 Notes on Town Meeting Time 4th Edition.pdf.html",
           "pdfLinks": [
             {
@@ -463,11 +463,11 @@
       ],
       "attachments": [
         {
-          "historyId": "5e1cc30e-dd2f-4e6c-856b-8793dc534449",
+          "historyId": "3820827e-f3c8-45b4-b1c9-72d0a7a64f67",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119725,
-          "contentHash": "cd7fb9ebe863c690499c70a356b6273e1cdd4d718db9e7c5a56e7f9a2c174b11",
+          "contentHash": "1ed14cd641a0d2494492700111681ee6eb4f9d19609dd1a20ca7d31d5a544876",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -477,11 +477,11 @@
           ]
         },
         {
-          "historyId": "6fb7582d-c513-425e-a400-54a349b799e0",
+          "historyId": "47635425-aabb-4408-935c-1ab938048eeb",
           "title": "Article 14 Moore Presentation",
           "filename": "Article 14 Moore Presentation.pdf",
           "size": 153057,
-          "contentHash": "ef225d1914ac0968987471cba2f84e182118b93c6da243d486970b8d09c9870a",
+          "contentHash": "2a458f19a31100e4648934d29c3ac88d25a725243ba9738113ff6afa27d38747",
           "htmlFilename": "Article 14 Moore Presentation.pdf.html",
           "pdfLinks": []
         }
@@ -509,11 +509,11 @@
       ],
       "attachments": [
         {
-          "historyId": "ddc47315-5beb-4743-8e6e-b95211df89e4",
+          "historyId": "304968d9-b2df-49fb-a1e5-f471a728922d",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117562,
-          "contentHash": "553812bb86ce749dd41794d7813e9f2f295a616f226a23eb160f04670d2c3b7c",
+          "contentHash": "0b91460c28802f6eed992af37f39d735d7e5e73ac4dd8c178cdd67c2417b504e",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -546,11 +546,11 @@
       ],
       "attachments": [
         {
-          "historyId": "71b76b92-44a0-431c-b78d-9cf32cff2280",
+          "historyId": "0f2605d5-0785-407d-a5ca-36cd4e4b23a4",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 168591,
-          "contentHash": "991a78fe43c7120b7baace29c39180f29e3f8b8d75fa2ee963d7ccdfae9a8627",
+          "contentHash": "6ac0313b17b97e4389d66e98b89fd7f9722b6a2e4252393d6d298782d8b0adae",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -560,20 +560,20 @@
           ]
         },
         {
-          "historyId": "8c5f91be-60a2-4474-9f4c-c842c8fc5b60",
+          "historyId": "7c97ba4a-f95e-4bbb-9fa7-1aa134e31e77",
           "title": "Article 16 Fischer Amendment",
           "filename": "Article 16 Fischer Amendment.pdf",
           "size": 119875,
-          "contentHash": "6918dbc57711229c2971efb25d31e71b3a766c11bd8b553b281638115fc7a456",
+          "contentHash": "8810663efa9c54f2a6bbf2b5d1bc4cb712b9d5758225e5fa102b1c2628d0fa98",
           "htmlFilename": "Article 16 Fischer Amendment.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "241f47e5-b822-42e3-a791-9723dfeac309",
+          "historyId": "8d4905a1-a08f-4bcb-b7c9-cb8e7c73bb54",
           "title": "Article 16 Fee Information",
           "filename": "Article 16 Fee Information.pdf",
           "size": 652655,
-          "contentHash": "b13b86960626526a1256a646a96141a3cf4d436096cc51e595416b035cd32cd2",
+          "contentHash": "e306d1d355175e523518321ac03b3804b474ad84d41589562c2c0213c9d945c3",
           "htmlFilename": "Article 16 Fee Information.pdf.html",
           "pdfLinks": []
         }
@@ -601,11 +601,11 @@
       ],
       "attachments": [
         {
-          "historyId": "195d123c-48b4-4472-bc2c-62fee603a300",
+          "historyId": "8374a4c3-d044-4b44-8be0-e2c1f8a5153c",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118195,
-          "contentHash": "c0786e1c01e1efc788f054a613762c68f627309813665be815ed6b33f68590b3",
+          "contentHash": "e68640aecae767943c2fd8ded57c13a80133ccfce4ade3c220c4693dc6b06135",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -642,11 +642,11 @@
       ],
       "attachments": [
         {
-          "historyId": "979e278f-2f56-4b7f-891e-e062907df5aa",
+          "historyId": "547239a6-3249-43c8-acfd-b80e0c28b121",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117838,
-          "contentHash": "4b02a1f4fee9edf6e367bab9125acc407d6062ab75ba3120024ecc8adfa0cecf",
+          "contentHash": "0a64cd9a5edf445e4646fc1f7db3e6618e9a43194ea5e62a1eb28d8bba9c6d35",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -679,11 +679,11 @@
       ],
       "attachments": [
         {
-          "historyId": "0d2e9090-1227-4062-bc9f-1ebb38af2af1",
+          "historyId": "72f68907-f2d0-48db-ac89-07d2cacf2628",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 121393,
-          "contentHash": "cfe59b53d934f8a7016f7d75edc02276eac6d0cb6f73aaa0d803a807074af0ad",
+          "contentHash": "5fbe74ef5cf467e0dc18f6330226ee60c547d06c4a84e37e7e2e0099527fa00b",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -716,11 +716,11 @@
       ],
       "attachments": [
         {
-          "historyId": "cb4b2054-1a11-4a6a-bd87-819b8910941c",
+          "historyId": "4aa6e47c-647e-4134-aa1e-58d1ec5d860f",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 126878,
-          "contentHash": "0f7b00d11287dd0f6a92c66ddae01e155518ff6063852f7e976e7142b670b2dc",
+          "contentHash": "6c413abd0030342c7a624eee562e11574208f2d3ed4e857a0083954b582fe2b9",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -753,11 +753,11 @@
       ],
       "attachments": [
         {
-          "historyId": "b41198c6-c8f1-4239-b60a-d3a05b67bab9",
+          "historyId": "2aa3397d-28c1-4ecd-b8b1-2a8845dcb09a",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117436,
-          "contentHash": "c809797dea1dd233b025a1841dafc5acc3e7e3fb4bfb800497296ce296a0ec07",
+          "contentHash": "8d4a415e924f37d25ee8fd861fb233190c91cb8cd7cdd610591b65bd8adc4aa0",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -767,11 +767,11 @@
           ]
         },
         {
-          "historyId": "0e34dcc1-81b9-40d7-96ca-ee9be899eadc",
+          "historyId": "717bb052-6388-4f3d-8209-378985d10b07",
           "title": "Article 21 Hamlin Substitute Motion",
           "filename": "Article 21 Hamlin Substitute Motion.pdf",
           "size": 181942,
-          "contentHash": "824171aeb1fec254cb428087066f7082320cbc4f3eef1b470f037fe04103b36a",
+          "contentHash": "deb9f4348cb93d710bc33e575e72c5780d2098667a1c472f817349fcf75c0e66",
           "htmlFilename": "Article 21 Hamlin Substitute Motion.pdf.html",
           "pdfLinks": []
         }
@@ -799,11 +799,11 @@
       ],
       "attachments": [
         {
-          "historyId": "05d70e91-2734-4287-9cb3-b3ab2e97b18d",
+          "historyId": "3587f7dd-7c06-4563-ad58-90c712c92c80",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 124830,
-          "contentHash": "8bd59742f2ee2bbf2fae7f4ac64410ce213667a30bbb2d4ec33371008be23730",
+          "contentHash": "550dd32f745481d87a26cd2e9868d61e73fc4b4ebc3a75858bcf8228e35ed790",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -813,20 +813,20 @@
           ]
         },
         {
-          "historyId": "da80ed56-0dfd-4fc5-bd13-48b3b3d4956f",
+          "historyId": "d975cdc7-b534-4997-b5b2-e92b70155027",
           "title": "Article 22 Crowder Amendment",
           "filename": "Article 22 Crowder Amendment.pdf",
           "size": 104470,
-          "contentHash": "9cfc3b41ce39a8aeabf54373a8843ec075b3fe1d12351dcb2c1b2913f9f1392b",
+          "contentHash": "4ccff2feb9bce5600026f5f49f6db5213a153aafb95c73e1346f4b05cfacd920",
           "htmlFilename": "Article 22 Crowder Amendment.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "3e9ab8f4-ec9e-46e3-a671-3c3e16b9bfd9",
+          "historyId": "0afac7c5-3e47-4a7c-a3bb-bf1e60ab7f17",
           "title": "Article 22 Crowder Presentation",
           "filename": "Article 22 Crowder Presentation.pdf",
           "size": 9860444,
-          "contentHash": "ea93a2c26cf0e06a3bf131e0905bff037f6be78ed3f42f4de118f2a996636ecd",
+          "contentHash": "ba5eea0857bb01c8b04f0ad02f28f0d17c7a8926a00a656dc4ca408148b6e48a",
           "htmlFilename": "Article 22 Crowder Presentation.pdf.html",
           "pdfLinks": []
         }
@@ -854,11 +854,11 @@
       ],
       "attachments": [
         {
-          "historyId": "e8d73e32-d2f4-40ac-853f-a05091d586d6",
+          "historyId": "e5ae456b-d0c0-43fd-a6fb-18dcd34e9cb5",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117939,
-          "contentHash": "82da955d443fafb5171fa231866ff5fc625e141e0355dc26917404493583e96a",
+          "contentHash": "32d0ef2b04fd097f29bd64db0d685f6ef47518245200504652b9303f76b16f98",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -868,20 +868,20 @@
           ]
         },
         {
-          "historyId": "1b53d35e-51a0-4477-86a8-cfb91a8988ec",
+          "historyId": "02a9b868-fab0-467d-a592-d4965010c349",
           "title": "Article 23 Cutraro Substitute Motion",
           "filename": "Article 23 Cutraro Substitute Motion.pdf",
           "size": 142681,
-          "contentHash": "0adadd975ded71d967c865be85fdbd1346b1fdea2f677a5251412da64c9df7f6",
+          "contentHash": "cdb5a61b7600b641660f7dde90f3f57a6b5ead16cac764d01e216707ed9f2e0e",
           "htmlFilename": "Article 23 Cutraro Substitute Motion.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "73e3f9bc-db5b-4fe9-9c45-5149f57e9a64",
+          "historyId": "7b88089d-5da2-448b-8a95-56924e412a2e",
           "title": "Article 23 Statement Save Arlington Wildlife",
           "filename": "Article 23 Statement Save Arlington Wildlife.pdf",
           "size": 33028,
-          "contentHash": "812c622da8f413e4e42b33e05542c68aa3a873f98dc7c8aef169afa13da7a018",
+          "contentHash": "6a971c8d5ef0c9d200e751729d3125835b225b702444812d054952df0d2f85e1",
           "htmlFilename": "Article 23 Statement Save Arlington Wildlife.pdf.html",
           "pdfLinks": [
             {
@@ -891,20 +891,20 @@
           ]
         },
         {
-          "historyId": "5a2bf9d0-c1a7-4bc4-9331-74e4e4ff2acc",
+          "historyId": "7da30619-c190-4647-8341-844a7e08bde1",
           "title": "Article 23 Statement Mothers Out Front",
           "filename": "Article 23 Statement Mothers Out Front.pdf",
           "size": 116415,
-          "contentHash": "1a256c4e6101ee216ddd8757e81bb29cb300b7ab4982e32ebdfafa9caa93c635",
+          "contentHash": "fc2add4895e2f27aeae443a86f01a585b74041244becc7bba087e6d310256741",
           "htmlFilename": "Article 23 Statement Mothers Out Front.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "41831cc4-1d0f-41a2-99e7-3e2aa8815597",
+          "historyId": "2cc6a4ef-81ad-4de9-b139-18cd7ea01cd4",
           "title": "Article 23 Statement Trees as a Public Good Network",
           "filename": "Article 23 Statement Trees as a Public Good Network.pdf",
           "size": 5441082,
-          "contentHash": "7e99f9a057cf0a47e03ae73eed30919bf6b665961dd74646a4ecd3ee205a61f4",
+          "contentHash": "d34944b5f75c19487f3dda55b336bae2a6a2bcc6e03f31a3494fa8bade2d0379",
           "htmlFilename": "Article 23 Statement Trees as a Public Good Network.pdf.html",
           "pdfLinks": [
             {
@@ -1049,11 +1049,11 @@
       ],
       "attachments": [
         {
-          "historyId": "2ab2ac90-af63-4bd2-8dc0-0eaa2a05c2b6",
+          "historyId": "f062f27c-e4fd-4ea9-ac22-6b35ccdaa768",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118781,
-          "contentHash": "fc679409cf3fe941b5448167345b2659a9fcda2968f020608286706ce5283269",
+          "contentHash": "574784ca7d0990e7270e222a39c758faf2bd1f4219165fe7ec3a16b4abb92a45",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1063,11 +1063,11 @@
           ]
         },
         {
-          "historyId": "389fc1af-9394-42ec-a83f-f90d1ff6d1af",
+          "historyId": "160a9be8-2b71-438f-9e7f-d196eeb490e5",
           "title": "Article 24 Chart",
           "filename": "Article 24 Chart.pdf",
           "size": 114517,
-          "contentHash": "7b5775b408f4b12efb5e70b21b3e98a2421da1abbb18f91011b08c3ea1f51a13",
+          "contentHash": "ba011ee48b03acbc19342902a3cc6f3291c8ebad469c54635ac9fd5f85a9ef91",
           "htmlFilename": "Article 24 Chart.pdf.html",
           "pdfLinks": []
         }
@@ -1095,11 +1095,11 @@
       ],
       "attachments": [
         {
-          "historyId": "a4ccf7fa-109e-4475-a87d-252b6cf91790",
+          "historyId": "7fa57e33-69de-4753-a164-5066a1068df0",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119313,
-          "contentHash": "e13f98812b824157f508afa1245dff9ba6ca8d4baf4203b663527287eb5f1bbe",
+          "contentHash": "9fe588cf5243f3a2bad49ee209a763ba3fa7966d73c1c74a1f0ab475849afa91",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1109,11 +1109,11 @@
           ]
         },
         {
-          "historyId": "fd70533f-ed65-469a-9040-e1221831e0ad",
+          "historyId": "c3502441-7a57-4a27-b208-1e2103266c03",
           "title": "Article 25 Chart",
           "filename": "Article 25 Chart.pdf",
           "size": 116328,
-          "contentHash": "3e7fae3e422911e5b27c77bba57777b812319c4645481e5bb785f48bc9384f39",
+          "contentHash": "483870edd9a92213afde6a3e7beeaccd0e2c0637ed1db96cbad0050eb108485a",
           "htmlFilename": "Article 25 Chart.pdf.html",
           "pdfLinks": []
         }
@@ -1141,11 +1141,11 @@
       ],
       "attachments": [
         {
-          "historyId": "61c87b3a-befe-4820-a8eb-356d4dd1627f",
+          "historyId": "c41875f4-8c00-4ef6-99e6-181005de490c",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119204,
-          "contentHash": "1f990ed032ba133375d76c00fb784b40cd7fe5f00eabefc87f4573d33e252613",
+          "contentHash": "2318fb2c286c137152acd94d4dbfe936cb2fcc0adb77cc0417b4df818174cee3",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1155,11 +1155,11 @@
           ]
         },
         {
-          "historyId": "1dd8e0bc-0bda-4d58-a6c3-affdd147b61f",
+          "historyId": "449e1ad8-969b-406f-a730-dafd6d0b8f2c",
           "title": "Article 26 Chart",
           "filename": "Article 26 Chart.pdf",
           "size": 113513,
-          "contentHash": "59c8d6c890ea98f5bca690740194e6b2368a3e564c06daee7ed7512c042c2755",
+          "contentHash": "f1285267c693421a9c4b67220bd56408600bf66e17a1221bb2d4763f36009208",
           "htmlFilename": "Article 26 Chart.pdf.html",
           "pdfLinks": []
         }
@@ -1187,11 +1187,11 @@
       ],
       "attachments": [
         {
-          "historyId": "75214cf2-5440-4a55-b99f-7411fe56541e",
+          "historyId": "6ebeb366-19ec-4096-9782-99d9bfeb5bb7",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117348,
-          "contentHash": "d77ee0a767751764f013afca1ab6b9fdf5319e275deee110cdf8fdd16be07296",
+          "contentHash": "9602c5abdd16356e84e489b9b3f3a49aa535889c1fde8b07b5d332c787b93777",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1224,11 +1224,11 @@
       ],
       "attachments": [
         {
-          "historyId": "af7a5187-1539-4b5e-b014-47ff915dea9d",
+          "historyId": "467471fc-283b-45a2-bb98-05dceed5b17c",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 1485052,
-          "contentHash": "6698f3209e6421de83ad672c63a09316bbe227d0e54ee76383917236a65407f1",
+          "contentHash": "3dc944cdb704b64238ca012f36b5225643a0d1598b2995a8af041a02e32ac102",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1261,11 +1261,11 @@
       ],
       "attachments": [
         {
-          "historyId": "10770123-4393-4917-8045-6fff28234398",
+          "historyId": "7279efbe-6989-4308-b052-48e1d7c4ab35",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 123702,
-          "contentHash": "2d55ea75d5a0e02f8b7843859db3198782cf7558995c21fed1ad50ef72515277",
+          "contentHash": "9f2dc04a6e802cef8286e332151f5638352c7171d4d4fe1c837939f526cd6e83",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1298,11 +1298,11 @@
       ],
       "attachments": [
         {
-          "historyId": "11245adf-9993-456b-b612-a278548dfc39",
+          "historyId": "618d9415-a8c8-4251-a1f7-56603820b6d0",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119848,
-          "contentHash": "d9fac2ffd08a2ca806470959569864daf7102a0552f392ed821a6415b8adb302",
+          "contentHash": "608b39143fcf0f162d312be3fc6e679a187a4c329383b26c159b306d5913e9d6",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1312,20 +1312,20 @@
           ]
         },
         {
-          "historyId": "52884817-45d2-48df-931f-3f3dd6ec154e",
+          "historyId": "6720ef95-bd49-4111-81f2-d5e0bf2fed72",
           "title": "Article 30 Schlichtman Substitute Motion",
           "filename": "Article 30 Schlichtman Substitute Motion.pdf",
           "size": 57146,
-          "contentHash": "c6c0d8248af996ac54cef848cccc4460e12c6b4e4b01c461d908009e87d65832",
+          "contentHash": "d484433677f9d892607ab7d12bc91875c689f7c8171f9cf25acef11f5355bf4a",
           "htmlFilename": "Article 30 Schlichtman Substitute Motion.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "8f189180-049b-4b17-b24d-b29d90f584d3",
+          "historyId": "e547dbfe-a5e7-4574-8956-9f54dceca52f",
           "title": "Article 30 Schlichtman Statement",
           "filename": "Article 30 Schlichtman Statement.pdf",
           "size": 1853326,
-          "contentHash": "0e25646bb3505b7ca83f71556df919fe5b10d8f654fbb70896c1976f3150a9d0",
+          "contentHash": "8e59c1d011a8d6749e9713879f97482bd0329ff0d9968ce41d75f28b0929f6c1",
           "htmlFilename": "Article 30 Schlichtman Statement.pdf.html",
           "pdfLinks": []
         }
@@ -1353,11 +1353,11 @@
       ],
       "attachments": [
         {
-          "historyId": "846f6c8d-1ab3-4277-be18-9ba908e3ab4c",
+          "historyId": "78431ab9-437a-4f70-b041-3a2d24b16d24",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119757,
-          "contentHash": "9c440c48adabb62d3cb109ede8451cfbc6876e97b59cd351d2bd556480ce78bb",
+          "contentHash": "a21173741a72b679dd86bcb02ef3b79bd580250b79ee8223a0574dbe41891cf8",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1367,20 +1367,20 @@
           ]
         },
         {
-          "historyId": "2f008efe-8221-4831-a725-28da19553542",
+          "historyId": "789b2eed-13d2-401c-9ff1-7e0f503f5350",
           "title": "Article 31 Granucci Presentation",
           "filename": "Article 31 Granucci Presentation.pdf",
           "size": 652633,
-          "contentHash": "7a79f41233bf60e63721c0658675501327f0c41423b53545338172a5c8593a36",
+          "contentHash": "7e32fda8020df347f3c80d81f9f2e00141869b94bb95e42fbee6609af53f9ad5",
           "htmlFilename": "Article 31 Granucci Presentation.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "7dd172e3-d603-4d2d-b08b-da0006b71c9e",
+          "historyId": "1474d83c-68a7-4d7e-9322-4506001f0a62",
           "title": "Article 31 Granucci Statement",
           "filename": "Article 31 Granucci Statement.pdf",
           "size": 391376,
-          "contentHash": "7821d5f2ea71699312d81fe72c9f439bc111c3312c41c76e25254c1777c6957f",
+          "contentHash": "3e35679440db191e3009b99b78d87bb33c39af61f6ad22e984a9ca685fe2b268",
           "htmlFilename": "Article 31 Granucci Statement.pdf.html",
           "pdfLinks": []
         }
@@ -1408,11 +1408,11 @@
       ],
       "attachments": [
         {
-          "historyId": "5ce06c5a-3dc4-497b-91aa-431c0cbda51d",
+          "historyId": "2818e5e7-7ccd-4393-810a-80859c0dbdbf",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118318,
-          "contentHash": "7bcde5c7de7e26f7a90b18024bfe0e89a6d1f1df6689aab10e0641dade14771b",
+          "contentHash": "da57c7cdd836aa8722b7ac9152fc28f7153e980caa61bd1952617c6304209102",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1422,11 +1422,11 @@
           ]
         },
         {
-          "historyId": "040d4971-2f39-41af-9b9d-c183de5d870b",
+          "historyId": "d8d5ea4d-6f5b-4580-bcd8-df8f485e546d",
           "title": "Article 32 Presentation",
           "filename": "Article 32 Presentation.pdf",
           "size": 3977541,
-          "contentHash": "a448da4de53c49369929582efa516e3c62491bcdb34f91215299999c54f2824a",
+          "contentHash": "39f606deff8e29ddb79a6ed729b3049d40c5854561b1999c79bed618a41b3abb",
           "htmlFilename": "Article 32 Presentation.pdf.html",
           "pdfLinks": []
         }
@@ -1454,11 +1454,11 @@
       ],
       "attachments": [
         {
-          "historyId": "d38cccd9-ae98-42bb-ad6b-8c2c817bc20b",
+          "historyId": "2de38f41-5bf3-4fd2-abb3-ec7e82d8ab69",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117784,
-          "contentHash": "c0014c076e7057088f14614ccf8b51a055e36439d90fd8f9ce0b16cf1b23291d",
+          "contentHash": "911f5e974f044e8bf38bba98da28734c1ebc9ec8a70d2610008ef08077a12a0a",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1491,11 +1491,11 @@
       ],
       "attachments": [
         {
-          "historyId": "b21fbb3a-2d49-44ba-855b-4aa2f3bb23d3",
+          "historyId": "d2cd6589-f618-4844-8cca-2e4287953c12",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117000,
-          "contentHash": "8a66dfdbb419e862c56290a9f84e0ea893a7246a1db2cfa998914d812b95b239",
+          "contentHash": "860477b72a6b7e0942215fe5b17314b256e88da3e90489492ce4607f6ba4e84f",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1528,11 +1528,11 @@
       ],
       "attachments": [
         {
-          "historyId": "8127129d-da31-4dcc-8750-c63c483a7d7f",
+          "historyId": "6693c5bc-3264-4fbe-87b0-b66d7de9cb09",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116703,
-          "contentHash": "0415b97803874412d02aca22cfcf852ae1d6895a7bed4ecab568efc6f359d776",
+          "contentHash": "821d8b284a1b4d6a0834b8b9e02e8c1cf6612d50f2c5fa9d2b47c74a64cc1e43",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1569,11 +1569,11 @@
       ],
       "attachments": [
         {
-          "historyId": "df0ef5f5-fbfa-499e-8785-ddcb0443e9be",
+          "historyId": "170e5db3-40df-4fc4-84d8-ea4ac9b356ef",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 126007,
-          "contentHash": "d1e47f2818ec6986513f8b50995672bcb822b93981bc552d6263acdacd8dcd3e",
+          "contentHash": "4c5918ffdd9f2a130c0ca541887534bd03df327032076e689a0e458311850dd1",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1583,11 +1583,11 @@
           ]
         },
         {
-          "historyId": "2734c1f1-0905-4712-8a75-a5c49cf6df4a",
+          "historyId": "2a62ce76-65cc-448e-8e81-24a123789fa9",
           "title": "Article 36 Revolving Fund Expenditure Detail",
           "filename": "Article 36 Revolving Fund Expenditure Detail.pdf",
           "size": 48685,
-          "contentHash": "cb219cfcf151b808cdada5cc5d1f864bdb4eaf6d899c51ce7a9dae2b6dda6723",
+          "contentHash": "220de68324e757398ac97996ff9fe5eb9a95b57077894c5d873653c2c9c09a61",
           "htmlFilename": "Article 36 Revolving Fund Expenditure Detail.pdf.html",
           "pdfLinks": []
         }
@@ -1615,11 +1615,11 @@
       ],
       "attachments": [
         {
-          "historyId": "f98ce9b8-eeb2-411e-9675-b83c409cde72",
+          "historyId": "d71785dd-8c27-4300-b47e-625c1888d557",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117607,
-          "contentHash": "944732061f97d918306752bf664ab40f25d20d9d03ef579e64038724234086b6",
+          "contentHash": "0ddc89ec9362d9257255b144d13e6f43209927580c349dc45891a96de85873a8",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1652,11 +1652,11 @@
       ],
       "attachments": [
         {
-          "historyId": "800ff73c-5d48-4236-9a9c-e03487f1747d",
+          "historyId": "4c3d98da-5f63-411e-a571-565d1cd36723",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117234,
-          "contentHash": "32b0eb5356506eec12b99d587d5d3c2f797ed5c9418b6048c830d7bfec7fd2c6",
+          "contentHash": "3b73f5a31c7afe2bef13b07ae0f856a4c515464decf07a794709fe9badf99ae7",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1666,20 +1666,20 @@
           ]
         },
         {
-          "historyId": "947f5dd6-f12a-4074-9402-5b11fcfe19fa",
+          "historyId": "446c5bc2-3691-41d5-a213-d2c6ecd67aab",
           "title": "Article 38 ARB Presentation",
           "filename": "Article 38 ARB Presentation.pdf",
           "size": 164972,
-          "contentHash": "ab5a78240db8c7ec0093350bbcf1d6689506b02cefc4ec16050a23fe0c6aecd8",
+          "contentHash": "51aef266835ad7bda581bc79360deba10a6f20da818ffcc92096fa1999219a3f",
           "htmlFilename": "Article 38 ARB Presentation.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "ad42bcf6-e451-43e8-8b12-f0b329061996",
+          "historyId": "6156a64f-ff67-4700-84d7-bd293dca8b1c",
           "title": "Article 38 Draft Site List",
           "filename": "Article 38 Draft Site List.pdf",
           "size": 117831,
-          "contentHash": "449e29dd77b0d434d27892fbf8a3cd7e9e3e1c792bc93023f3296592e8312d9f",
+          "contentHash": "f6c4de71bb77e18bf9f1b0bb3a932fb6e5cdf15bde2180e32834b46e2bb19281",
           "htmlFilename": "Article 38 Draft Site List.pdf.html",
           "pdfLinks": []
         }
@@ -1707,11 +1707,11 @@
       ],
       "attachments": [
         {
-          "historyId": "b663bde6-619d-41d1-b3d6-9d9caaa31b94",
+          "historyId": "c2abe732-adb3-4a90-886c-977982b5f3e1",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119583,
-          "contentHash": "a0e38e72cda9f2ac37d7d7cda31a8b087de96b3e209ceba9a9da476909cd4833",
+          "contentHash": "d45201a8d3a7e836d0a542ef15f5d73ee433662e3ece41c2ae1ee8f789290050",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1721,11 +1721,11 @@
           ]
         },
         {
-          "historyId": "c786b369-ad8d-4aac-874b-9d33fb6c62f3",
+          "historyId": "1fa72f6a-7039-419a-8f30-2e9734c72612",
           "title": "Article 39 Statement Attorney General on ADUs",
           "filename": "Article 39 Statement Attorney General on ADUs.pdf",
           "size": 436936,
-          "contentHash": "e1ad2e611a4392effbd196605d691c4c56f2ab93eab06ab402ea2ac4032a1681",
+          "contentHash": "96115ccdfcf737b6741084cb2639b8017f4d9ac136c1f0ec012c012f2c639527",
           "htmlFilename": "Article 39 Statement Attorney General on ADUs.pdf.html",
           "pdfLinks": [
             {
@@ -1751,11 +1751,11 @@
           ]
         },
         {
-          "historyId": "6f541bf5-f8a1-4bb1-8fdd-1de7244481ff",
+          "historyId": "e5858b22-bb00-4405-aadb-164ed3800da7",
           "title": "Article 39 ARB Presentation",
           "filename": "Article 39 ARB Presentation.pdf",
           "size": 154699,
-          "contentHash": "56e8b2f14c5d69eed9c49b9ca835dbe411a2cb14a07fdf2a3da7b49721f7cd97",
+          "contentHash": "8dd49fd1c03b48a43354ced02cbe8231bd715b0bc323cf7f1e22cb6da29506ff",
           "htmlFilename": "Article 39 ARB Presentation.pdf.html",
           "pdfLinks": []
         }
@@ -1783,11 +1783,11 @@
       ],
       "attachments": [
         {
-          "historyId": "f9056a8c-7e52-4fa1-8444-b4f2631a6f63",
+          "historyId": "fdaa5553-50dc-4bb6-b340-1da356607ea6",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119755,
-          "contentHash": "471586fbd7399fb05239293c855cb3e82e4c04ed377266e1bf2d483e6e491aa7",
+          "contentHash": "29fdc50287fe4a96b79038818e6987a8678f185f5d5800ffcceb156ecbd0f637",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1797,11 +1797,11 @@
           ]
         },
         {
-          "historyId": "119e48da-9a20-4606-9482-7d14369a110c",
+          "historyId": "c0676559-bae0-4cc0-a34c-25184ca6abdd",
           "title": "Article 40 ARB Presentation",
           "filename": "Article 40 ARB Presentation.pdf",
           "size": 156428,
-          "contentHash": "d0a6c67536ef91abf084f3ac7bf10ba701f53892dc1d0ae533cd6a291f1c9d0a",
+          "contentHash": "89ef50c408bef386dfa40382fd71b4d4284f696e90ce25ced2c4a2ab8c67145f",
           "htmlFilename": "Article 40 ARB Presentation.pdf.html",
           "pdfLinks": []
         }
@@ -1829,11 +1829,11 @@
       ],
       "attachments": [
         {
-          "historyId": "3e6ced4c-7997-41cb-8c96-4978a59a06a1",
+          "historyId": "8814fb22-7103-449b-bb15-15066911dce1",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119602,
-          "contentHash": "ed9f5cdb647d7e9c45329085c2e583bea49d22699c4e892e1f6f4e231d6c5454",
+          "contentHash": "0c2bc62b466de26460eb48d1c823351b713c5380876667650c44f2620b256223",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1866,11 +1866,11 @@
       ],
       "attachments": [
         {
-          "historyId": "4b17bf95-a80b-4889-9aa3-a4619bc44a3f",
+          "historyId": "564361c2-ef61-4feb-bfd8-c49fd5955cda",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118208,
-          "contentHash": "b926b6faa6b22cea8c241889fea5e1b5cd67450f775b2ef5ba5182d1e48ae843",
+          "contentHash": "95012fd659a28c95b103acb6a8bc4764212a6485a725fb1173b2be4222aabae6",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1880,11 +1880,11 @@
           ]
         },
         {
-          "historyId": "34ad5cdd-9031-4346-9770-ecf9ff135149",
+          "historyId": "63a8945d-95ff-47a6-9d68-f6b1d2414735",
           "title": "Article 42 ARB presentation",
           "filename": "Article 42 ARB presentation.pdf",
           "size": 184322,
-          "contentHash": "856b9badf90ce510c19bbaeef71877d64afbecd5748b3a2406075bdc41d1d433",
+          "contentHash": "db3f28d1f6f0951a0bfb611f380eddb3d2da85b1acf43fab936f418871912e37",
           "htmlFilename": "Article 42 ARB presentation.pdf.html",
           "pdfLinks": []
         }
@@ -1912,11 +1912,11 @@
       ],
       "attachments": [
         {
-          "historyId": "08605c5a-1dc9-462c-ad17-05377f6bad62",
+          "historyId": "2c706d57-1afc-4f7c-b2b5-1540a973e2b2",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 280904,
-          "contentHash": "97b2510802e0866b2e496146b842351c9c18c52fce1965a00e0480a2b4c70c9b",
+          "contentHash": "02bc33f2564ee7eaabe54a34f463dac0e7020371c329a4eab3457a153dbb8c50",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1926,11 +1926,11 @@
           ]
         },
         {
-          "historyId": "04f8632c-20b4-48e9-be3c-dc142cd9e116",
+          "historyId": "6fcea7af-ef05-436c-847c-40ddfe703212",
           "title": "Article 43 ARB Presentation",
           "filename": "Article 43 ARB Presentation.pdf",
           "size": 449328,
-          "contentHash": "ff490efad0669f5eda5932382b89de068803d06fae6a834c2ed91679fc229f0f",
+          "contentHash": "07a4ac6aebaf37f28562f6f7bb5bff62b209c43e9e27eecdaf8144a0622ff45c",
           "htmlFilename": "Article 43 ARB Presentation.pdf.html",
           "pdfLinks": []
         }
@@ -1958,11 +1958,11 @@
       ],
       "attachments": [
         {
-          "historyId": "a3de1250-d99b-4a69-b02d-37acc5cd1972",
+          "historyId": "1430a213-3883-4fbc-8d39-8c1266768007",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 148140,
-          "contentHash": "7924901e9602897d85a4c7193c7698a265c8cefa2744cbc194767b0dd6cf19ed",
+          "contentHash": "7af67f2f5ef366e95302e970313052b2f8cefc2e4155b0c1473875b90d7078c3",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -1972,20 +1972,20 @@
           ]
         },
         {
-          "historyId": "89176c38-3a66-4a75-86e8-05ed934979da",
+          "historyId": "ed7a1880-8c1b-4e36-a71c-0cb98fe24f01",
           "title": "Article 44 Benson Amendment",
           "filename": "Article 44 Benson Amendment.pdf",
           "size": 95035,
-          "contentHash": "53c20ccf817afd76f9a070d3c521a95e2453edaced0ae1e3734590e1572bb071",
+          "contentHash": "8bf421a165f1f2a080bce398680bb479224c914927ee9c368b95cd01f8278088",
           "htmlFilename": "Article 44 Benson Amendment.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "5100eb32-3ab7-4c8f-87ea-5d090dc0bda6",
+          "historyId": "f85e93df-a1a9-4c81-bc5c-e799c55a8f44",
           "title": "Article 44 ARB Presentation",
           "filename": "Article 44 ARB Presentation.pdf",
           "size": 736775,
-          "contentHash": "a002206b840111421ad5008e0ec1ab0b105540737b37966af1c13c19bce3d920",
+          "contentHash": "5f08abbcc0451879098b7c5503da4b84d510721b0c0d53a03bb139d6689c2fc8",
           "htmlFilename": "Article 44 ARB Presentation.pdf.html",
           "pdfLinks": []
         }
@@ -2013,11 +2013,11 @@
       ],
       "attachments": [
         {
-          "historyId": "8d2e9348-e8ca-4671-af5f-43752bd0137c",
+          "historyId": "a63baaa1-b1fa-4f6b-84f7-109f6941c2b0",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 168798,
-          "contentHash": "55d14a93f2583935cbf018a4282d7efbf8a54956a16262bc7129c990d6d0de45",
+          "contentHash": "86c24ae0c0b2b4fa8a585f8bff7fa7d9a309c370d49f58590fa1e93fa8623bec",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -2027,11 +2027,11 @@
           ]
         },
         {
-          "historyId": "974d7ea4-558e-452d-8a58-9582cc5d359f",
+          "historyId": "27898093-2243-483f-af5a-4617c228102b",
           "title": "Article 45 ARB Presentation",
           "filename": "Article 45 ARB Presentation.pdf",
           "size": 200326,
-          "contentHash": "25509625decb3f329c8cceeb5a3e32cff2d658ecfdedd277072c0e396617f559",
+          "contentHash": "39516b12e03aeadb51fcbc9448c60ab187e7318e14c973079aab135662696954",
           "htmlFilename": "Article 45 ARB Presentation.pdf.html",
           "pdfLinks": []
         }
@@ -2059,11 +2059,11 @@
       ],
       "attachments": [
         {
-          "historyId": "2499aa5b-34f8-47a9-8842-9a7bccfd373e",
+          "historyId": "9c622a44-0d82-4bf7-8999-b3b874fbd148",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118875,
-          "contentHash": "ce64d736a7a709a87f28d89fa5cdd8a784db97a7023634bfce884e9a863ee68e",
+          "contentHash": "713e9d74d56492224cef99b188b8f51e22b44eb54d4fc639df6aef1b93ee9966",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -2073,11 +2073,11 @@
           ]
         },
         {
-          "historyId": "e2dacf0d-8629-4176-bd7d-11f54161c6e2",
+          "historyId": "6a3e8583-142f-4b31-933e-c952f2335c4f",
           "title": "Article 46 ARB Presentation",
           "filename": "Article 46 ARB Presentation.pdf",
           "size": 184646,
-          "contentHash": "6bd620c15dc975ed303f7ead10c438f7d109d8bc0457efdb0ac2382e6f5d83be",
+          "contentHash": "caaf32804b57030f6c1d34a4a596f26453e6d50ba217b1bb528d64f7ee8da91c",
           "htmlFilename": "Article 46 ARB Presentation.pdf.html",
           "pdfLinks": []
         }
@@ -2105,11 +2105,11 @@
       ],
       "attachments": [
         {
-          "historyId": "75e4764b-e00c-4011-adc9-39caef904395",
+          "historyId": "93772d61-a2ed-4ad3-a926-c5ab6667dffd",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118427,
-          "contentHash": "fa1e75fff20bb2d018a627f785a639aa90ba831137ecb12faf569d18d4b8dd5f",
+          "contentHash": "0d8b862779b9aef37fcae51075ced46581497ff11a760ccd648d521976a16621",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -2119,20 +2119,20 @@
           ]
         },
         {
-          "historyId": "73c28fcd-ad59-4855-8b9a-37a7db42ed57",
+          "historyId": "03989a2a-1fca-43ec-85f8-8f763db9db72",
           "title": "Article 47 Benson Amendment",
           "filename": "Article 47 Benson Amendment.pdf",
           "size": 90422,
-          "contentHash": "9f310020ab73d3b4b0db3d45ec4418d2f4b4c718f42e6ea225be300314b262ba",
+          "contentHash": "7ec654df9ebf1b14b1a55e552e6925b4830cab6441bee2329ef8aed9488214dc",
           "htmlFilename": "Article 47 Benson Amendment.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "bb9e1bfb-b460-4f28-a967-2636f8863fd5",
+          "historyId": "e46f3d69-df20-4b83-ab6b-5069b4f755dc",
           "title": "Article 47 ARB Presentation",
           "filename": "Article 47 ARB Presentation.pdf",
           "size": 738703,
-          "contentHash": "efbce1d90f1da239e8471573608d863e23ebbdfc0c4b5f21de5c938a22364e0e",
+          "contentHash": "f08d0537067313d38efa32546c565cd17f89c8a1e30468c9ab4702827796d2e7",
           "htmlFilename": "Article 47 ARB Presentation.pdf.html",
           "pdfLinks": []
         }
@@ -2160,11 +2160,11 @@
       ],
       "attachments": [
         {
-          "historyId": "2a75ca8c-fb4a-47df-9889-659a58601af1",
+          "historyId": "725aaa19-039e-4e2f-965f-fb3ddb48b46a",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 120170,
-          "contentHash": "051cc2ecd5c16f15cc0c741ce8038d080cb1fe428679e4df9ec3afaf6007bcea",
+          "contentHash": "ecb13a3996fd83a91b91d82fdd4a6a6f5ba667ad274149a19139296a93f5f4a2",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -2174,11 +2174,11 @@
           ]
         },
         {
-          "historyId": "a4c0c720-b194-4300-a470-e387e2fa540f",
+          "historyId": "46ef5cd2-7a96-42e2-ab56-63a8bbccc980",
           "title": "Article 48 ARB Presentation",
           "filename": "Article 48 ARB Presentation.pdf",
           "size": 165137,
-          "contentHash": "f653decc241068a92ac553c1a9107cc139afa23d8ee3af4541fe07c7243ba582",
+          "contentHash": "98acedd18b1fdfa886cec07d0af515a77d8f36fac1c83eee98eb3299405998fe",
           "htmlFilename": "Article 48 ARB Presentation.pdf.html",
           "pdfLinks": []
         }
@@ -2206,11 +2206,11 @@
       ],
       "attachments": [
         {
-          "historyId": "ac09f005-1301-4fdf-b4f9-acfcd527a017",
+          "historyId": "2646d339-0135-47be-ab09-75272f2e83fa",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 1044890,
-          "contentHash": "9212ab3477f9b621d836f0a19ec182f7e1fca634e5b960df2a79af110671f499",
+          "contentHash": "052686b9642c3aefdbe45a07578d8808d39230239fdfd2649c162566fe141fcc",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -2220,11 +2220,11 @@
           ]
         },
         {
-          "historyId": "75bf51d5-59ac-4b6f-8bb2-6369e816bbfc",
+          "historyId": "2f077d3e-2638-4c06-88db-bf0ec57a3ee6",
           "title": "Article 49 Presentation",
           "filename": "Article 49 Presentation.pdf",
           "size": 72499,
-          "contentHash": "05f6796e27dc1b28a1a693289c886dbbafbcba21489135fffab343360706d7fb",
+          "contentHash": "64f21610d21f1d0ad903039321ec04881c85a19aad994eea715407d1d96e5a0d",
           "htmlFilename": "Article 49 Presentation.pdf.html",
           "pdfLinks": []
         }
@@ -2252,11 +2252,11 @@
       ],
       "attachments": [
         {
-          "historyId": "bb444aea-4c35-494a-a930-2f164623722d",
+          "historyId": "ae6bdcad-e34b-4eff-8808-688987a58bbf",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 2145288,
-          "contentHash": "3ae1cd21a1a153de40eeb1227760db4df78a77473c46232d888828761516d22c",
+          "contentHash": "4f4c924b67ee1b663b0ec127b5d34d0a38aeb1579114e159e83a12b6463ea79b",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -2266,11 +2266,11 @@
           ]
         },
         {
-          "historyId": "764aa7f3-9e02-4381-aeae-5809cbab0178",
+          "historyId": "cac267ae-bf29-4719-b393-c49d678dfa7f",
           "title": "Article 50 Statement and Maps - Director of Planning and Community Development",
           "filename": "Article 50 Statement and Maps - Director of Planning and Community Development.pdf",
           "size": 6486562,
-          "contentHash": "186f8306ebd36e17232d7bb5224eb4ba7bb169aa2e1718346894a937de124748",
+          "contentHash": "539c1704dc2794227d134f4049d42f98cd0a82cc2db40e11f6f0077b5156506f",
           "htmlFilename": "Article 50 Statement and Maps - Director of Planning and Community Development.pdf.html",
           "pdfLinks": []
         }
@@ -2298,11 +2298,11 @@
       ],
       "attachments": [
         {
-          "historyId": "cf71427f-4e04-4861-b51d-5f6b31566420",
+          "historyId": "dde3935d-1f62-4792-a5a7-b3c151325d82",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 122203,
-          "contentHash": "e398d5d767fc48376446553edfec1005c42061483a14eb0ff91333e2b0f26782",
+          "contentHash": "5ab36efd2066a1ea9822223792c77798bb77b722f2b52619cb14263291c511d6",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -2335,11 +2335,11 @@
       ],
       "attachments": [
         {
-          "historyId": "907bcd08-d78f-4f3e-91f4-2910ad52c975",
+          "historyId": "5c75e4c4-b936-4c27-b771-71720e05aab3",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 2603443,
-          "contentHash": "5e0439574dccdf8fe3af52e1e71b26fd69641c88bd5af523d2a7f038b388d047",
+          "contentHash": "d989a3c1bd6323c33ab62026506cc8ef87f66ebc68cca45c056d02ba33fbb457",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -2349,20 +2349,20 @@
           ]
         },
         {
-          "historyId": "389f3a5a-643f-4a5d-bfb2-cccfd83b39fb",
+          "historyId": "f5579d66-7b70-43b7-b597-9d7dd2598ed8",
           "title": "Article 52 Statement and Maps - Director of Planning and Community Development",
           "filename": "Article 52 Statement and Maps - Director of Planning and Community Development.pdf",
           "size": 26527405,
-          "contentHash": "06839fee4cab295631afb4adaf75307bd904818409694681d373532b4cd9dd6e",
+          "contentHash": "761b61ff6d2448e31b6a1e8d7eb23952c404163770cbe027460d69fc8e610780",
           "htmlFilename": "Article 52 Statement and Maps - Director of Planning and Community Development.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "bf2809f2-17a6-4ca4-bf89-512271efdfbc",
+          "historyId": "cb8e117a-2e21-4c80-ab54-84d5bfe6736b",
           "title": "Article 52 Presentation",
           "filename": "Article 52 Presentation.pdf",
           "size": 3023432,
-          "contentHash": "32a061501072c301865d921f9d803b39fa99613d0b24355099d54e48bfa9f081",
+          "contentHash": "e975dd182e0038153f20bb260430c2353eb0879a4c42d011c1d2c58b33a49aca",
           "htmlFilename": "Article 52 Presentation.pdf.html",
           "pdfLinks": []
         }
@@ -2390,11 +2390,11 @@
       ],
       "attachments": [
         {
-          "historyId": "43728a5c-926c-4b56-9345-bcd826c237ce",
+          "historyId": "cf5fd4fa-db99-46bf-b8f1-54305c83ffca",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 122426,
-          "contentHash": "9a94ff3acef51e6ccd5dda4ec2e820fb32b331cc0e100a67a88b9f4a44edc852",
+          "contentHash": "f722b828c84c199b92fb782a9d11a924697ec88c1be25901b0fe7a45cf9f2012",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -2404,11 +2404,11 @@
           ]
         },
         {
-          "historyId": "096ecaad-ba46-4143-b583-ef8d7e93f2ff",
+          "historyId": "e0b97716-ae29-45b9-b82b-aa7d5821747d",
           "title": "Article 53 Cullinane Substitute Motion",
           "filename": "Article 53 Cullinane Substitute Motion.pdf",
           "size": 161864,
-          "contentHash": "c57f3e5376896e7dbed5ea283a7d4866047b6d30ea1371cc25f6ce46c5d92342",
+          "contentHash": "5ffd94c0e64b63cd0a11707cd7f9e88eb0e16546247e862a2832871af6860e3e",
           "htmlFilename": "Article 53 Cullinane Substitute Motion.pdf.html",
           "pdfLinks": [
             {
@@ -2418,29 +2418,29 @@
           ]
         },
         {
-          "historyId": "249633c5-59d2-46c0-b54a-7b9d0814b78d",
+          "historyId": "ff087576-e77c-44ee-beb2-5f6c16986345",
           "title": "Article 53 Macaluso Substitute Motion",
           "filename": "Article 53 Macaluso Substitute Motion.pdf",
           "size": 110198,
-          "contentHash": "5548b630785111003d8305e4bf6ff6ca9da58ac35413433c8cfbb5611ef269e9",
+          "contentHash": "8230387f64f056e84dbd6270b948c6189c45386c86323627afe7d07800847193",
           "htmlFilename": "Article 53 Macaluso Substitute Motion.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "c1a97c78-ce86-4a74-aee1-364d9d951cb8",
+          "historyId": "00daedee-a74b-4046-b030-6b3f5b8f33bc",
           "title": "Article 53 Benson Amendment",
           "filename": "Article 53 Benson Amendment.pdf",
           "size": 106129,
-          "contentHash": "2df99c5f01545906bfe30cbcee4cee7afae83ba314a878f1d4b7bda9dee7c8ec",
+          "contentHash": "7442f31835bdd2e5895372aaec94a451c86291d7726b4af8bc0533154ad97eef",
           "htmlFilename": "Article 53 Benson Amendment.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "059788dd-ab05-4880-a8e5-e438e3dc1e81",
+          "historyId": "5957cc27-3b22-456a-9de9-c65f0f81e049",
           "title": "Article 53 Cullinane Presentation",
           "filename": "Article 53 Cullinane Presentation.pdf",
           "size": 3047649,
-          "contentHash": "e8069dd6b3ae7608e5a204fc125cfb1e69e199596722783719ba648662b111c1",
+          "contentHash": "5bbb91f40dea4f47fe8ef8ef0d7f1cb9b2c4c35c89ee2bf0145266194124caaf",
           "htmlFilename": "Article 53 Cullinane Presentation.pdf.html",
           "pdfLinks": [
             {
@@ -2450,20 +2450,20 @@
           ]
         },
         {
-          "historyId": "a6680a16-0a1a-4fc7-8725-b6ba3bc1ede2",
+          "historyId": "3cf3ca93-b9de-46f7-bb6a-f08ef2599724",
           "title": "Article 53 Macaluso Presentation",
           "filename": "Article 53 Macaluso Presentation.pdf",
           "size": 448239,
-          "contentHash": "e888dc67c1052f4908b9118bbc43764dcd22ca6ca34848813b6c89f91e434e85",
+          "contentHash": "6ded280a3b867a6d741c6f9dac549f6b13b082902ea79f2772da2937bacf9203",
           "htmlFilename": "Article 53 Macaluso Presentation.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "1c2449aa-f970-4a3e-bb32-de1e17b1b73e",
+          "historyId": "cf7e74ca-5d99-4284-aec7-a18610ba1af7",
           "title": "Article 53 Joanne Cullinane Materials",
           "filename": "Article 53 Joanne Cullinane Materials.pdf",
           "size": 1294763,
-          "contentHash": "b1a2feb98221bc08ed6ff3531305795fa809d8f50782334343bd2dcf4e38a62a",
+          "contentHash": "d0b7a27971cffa450ad657b83abb440a7668ce5862a9d762c221456e11764ddc",
           "htmlFilename": "Article 53 Joanne Cullinane Materials.pdf.html",
           "pdfLinks": [
             {
@@ -2497,43 +2497,38 @@
           ]
         },
         {
-          "historyId": "f19531d0-1467-4c83-a44f-ebe158605b52",
+          "historyId": "a94b5c3d-1fa5-48ee-8b75-d478ca9863ef",
           "title": "Article 53 Larry Slotnick Materials",
           "filename": "Article 53 Larry Slotnick Materials.pdf",
-          "size": 651324,
-          "contentHash": "6fc76b01f35554c16a103a8fe5d7e53606945f63e5e5b83a7605b21d01ebc1c3",
+          "size": 747799,
+          "contentHash": "3f3c31324a1beb3afcf92e404f6ff22000bdab7afa00f51051453bb68a86b3af",
           "htmlFilename": "Article 53 Larry Slotnick Materials.pdf.html",
-          "pdfLinks": [
-            {
-              "url": "mailto:cwebb@mclean.harvard.edu",
-              "label": "e-mail: cwebb@mclean.harvard.edu"
-            }
-          ]
+          "pdfLinks": []
         },
         {
-          "historyId": "3a6cfbc5-88c4-4d22-941b-da6d076c3983",
+          "historyId": "585ce7eb-9ecb-4c88-b49e-18a4138fb5b4",
           "title": "Article 53 Melleta Marx Materials",
           "filename": "Article 53 Melleta Marx Materials.pdf",
           "size": 56702,
-          "contentHash": "86edb4886cff12f678ceee789a254b06676e019b71b473703978487721ec7367",
+          "contentHash": "e8231973693f5ac41ce3040f269658dacda2c9c57557a37a40976d199e17db0d",
           "htmlFilename": "Article 53 Melleta Marx Materials.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "474146d5-590b-47ac-b5a8-bd684c915944",
+          "historyId": "d149d00d-cdeb-4de5-8f9e-c5356e4c1b73",
           "title": "Article 53 Jennifer Cutraro Materials",
           "filename": "Article 53 Jennifer Cutraro Materials.pdf",
           "size": 125220,
-          "contentHash": "fa80104ccc672af89f36450a2b249e8a08d51789c83f49db55c92ad7469a59f6",
+          "contentHash": "0e1e98379588b73a74c11a48c5a39c602df211cf40327ea615a34634ff750161",
           "htmlFilename": "Article 53 Jennifer Cutraro Materials.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "c389df50-f650-421e-8c7a-dbcfab4e179b",
+          "historyId": "f45a902b-fd73-4f7d-8214-ecf2f9b0fa82",
           "title": "Article 53 Beth Melofchik Materials",
           "filename": "Article 53 Beth Melofchik Materials.pdf",
           "size": 219812,
-          "contentHash": "c87f244d00ce1c0ff65f5da6db3b3a8fedfaaf897f009cf688e0a6f079a66a11",
+          "contentHash": "54184509c98cde9f248b65aab2d47137ef2aed029e82cd505ade371fead2ebfb",
           "htmlFilename": "Article 53 Beth Melofchik Materials.pdf.html",
           "pdfLinks": [
             {
@@ -2543,47 +2538,47 @@
           ]
         },
         {
-          "historyId": "9c6a9f05-8d3f-42ff-a5bf-2b2d4d9dc133",
+          "historyId": "2bc1d7b5-259b-473a-96c9-3691387f3d7c",
           "title": "Article 53 Robin Bergman Materials",
           "filename": "Article 53 Robin Bergman Materials.pdf",
           "size": 12363,
-          "contentHash": "00b788153ea29085bfb85e3f6d5edd0c64805c336fb6507ea9673b902af1c9f7",
+          "contentHash": "87905edbf35c2fe6cb42a9ad1e76f622bfb6506c357601947aae17a606cf0825",
           "htmlFilename": "Article 53 Robin Bergman Materials.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "fd25d1b2-f4b4-4e56-b9f2-ea33aa4a5cb5",
+          "historyId": "bfb6abe6-2ae5-49f7-b8ab-844e92401a71",
           "title": "Article 53 Rebecca Peterson Materials",
           "filename": "Article 53 Rebecca Peterson Materials.pdf",
           "size": 26845,
-          "contentHash": "3f7f84fd9d4921408699a5ada4860f1f42a8d21efac55ce197d49e23b308129a",
+          "contentHash": "4ceeab78c823d958ef4ff225717b7792f312c02b98cb05a530353bce4c57a038",
           "htmlFilename": "Article 53 Rebecca Peterson Materials.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "2f7fb619-f4e6-4ed6-be77-a897b6a54ef3",
+          "historyId": "df8d6c7f-b977-492d-8323-a36a5e28ce52",
           "title": "Article 53 Claire Odom Materials",
           "filename": "Article 53 Claire Odom Materials.pdf",
           "size": 48867,
-          "contentHash": "5b9afb2303fda3a0778aa708868c508641b2b5d560e3e25105f90884c0ba4dd6",
+          "contentHash": "10420187d90958312685373a736b756e5ea76e408f457c9a0e7410c693e82124",
           "htmlFilename": "Article 53 Claire Odom Materials.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "4d00e3b4-1f99-472f-85db-8c972a9584e1",
+          "historyId": "5b4ed8d9-ab75-49b2-9c9d-32781347ba04",
           "title": "Article 53 Stephen Revilak Materials",
           "filename": "Article 53 Stephen Revilak Materials.pdf",
           "size": 33490,
-          "contentHash": "8a4a929c035776972f1138394ba04f9745540bcd89c7e34a1e658dc1a7c22d2c",
+          "contentHash": "8adf29931bb73657992e963da0f23ab683476260e55284cfa7a401c2f5dbdbff",
           "htmlFilename": "Article 53 Stephen Revilak Materials.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "31219d9a-cd65-405a-9dad-8ceb3ab4da98",
+          "historyId": "99366f4d-b524-4b39-ada4-3914db1dd14a",
           "title": "Article 53 Ratnakar Vellanki Materials",
           "filename": "Article 53 Ratnakar Vellanki Materials.pdf",
           "size": 147810,
-          "contentHash": "9a9961dc12c97f620ce5af2a18c04e0eac3de1d9deb5be4aab7f2886c3c69057",
+          "contentHash": "3ec9e67006b4232fffc52b69ef061738d6fd3f74f17ee0eea7eae73fa837c10c",
           "htmlFilename": "Article 53 Ratnakar Vellanki Materials.pdf.html",
           "pdfLinks": [
             {
@@ -2593,11 +2588,11 @@
           ]
         },
         {
-          "historyId": "29915078-dda7-40ed-b2e8-5e6812a9a55f",
+          "historyId": "0d77488f-37c0-46a9-86e1-1186692b3026",
           "title": "Article 53 Andrew Fischer Materials",
           "filename": "Article 53 Andrew Fischer Materials.pdf",
           "size": 103399,
-          "contentHash": "8db44f01940c90a221c53f48790e5e58cf080273c86595cbc5cbaea0ac70479d",
+          "contentHash": "b5e6b7372db6f843b6e49a6157a692a1ca7f6efff1b09979c886885284ebb192",
           "htmlFilename": "Article 53 Andrew Fischer Materials.pdf.html",
           "pdfLinks": [
             {
@@ -2623,11 +2618,11 @@
       ],
       "attachments": [
         {
-          "historyId": "50aea0e8-e342-4d67-a186-c26d8966eee4",
+          "historyId": "a92e3f09-a347-4a93-a025-a018a4ae4225",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118387,
-          "contentHash": "6c77aa11a84bbf731c2cdc5763f66b45909189eb813aa8d1344f3298b44d43e7",
+          "contentHash": "e3ac92fbdc2c08448d839092396b5388c5965e779e97ff9d651d8b1150f99dd5",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -2637,20 +2632,20 @@
           ]
         },
         {
-          "historyId": "8dc1f2eb-3160-456e-a5b0-b8a4dd1a3b1f",
+          "historyId": "644a0389-fce5-4c50-8d1d-0a10b516b35f",
           "title": "Article 54 Monaghan Substitute Motion",
           "filename": "Article 54 Monaghan Substitute Motion.pdf",
           "size": 114234,
-          "contentHash": "557e461f57f2b18d9bcbd6190757e9dea43b96c735e701df50e0bc1982084a08",
+          "contentHash": "10dd37ef0668524d71048f041241bcc62dd9347e724fb82bd075b127e155ae09",
           "htmlFilename": "Article 54 Monaghan Substitute Motion.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "8d0e5177-a474-4095-83c4-71f1c436ddb9",
+          "historyId": "bc1472b1-c15a-4d47-8136-b958428a5d85",
           "title": "Article 54 Statement Caitlin Monaghan",
           "filename": "Article 54 Statement Caitlin Monaghan.pdf",
           "size": 830074,
-          "contentHash": "a30ff9a1ea82c033667e168241176451f447351b89abe307be63587995d85036",
+          "contentHash": "63ace5122c182e0c55dccf2d462dd2b4c03cec67af3f8d6603741942024eb9b1",
           "htmlFilename": "Article 54 Statement Caitlin Monaghan.pdf.html",
           "pdfLinks": [
             {
@@ -2680,11 +2675,11 @@
           ]
         },
         {
-          "historyId": "67bcd4a0-f000-41ab-814c-804ba24017b4",
+          "historyId": "ea1093d0-2a81-47c3-8424-d7e523652642",
           "title": "Article 54 Monaghan Presentation",
           "filename": "Article 54 Monaghan Presentation.pdf",
           "size": 3057856,
-          "contentHash": "7f2bd1f14e177129d47cd0424e0b4f39952242a4ff669c18023698db242e4541",
+          "contentHash": "40e705122865dcaea09d26813071645fa71a0100bd802958527755fb9689db2e",
           "htmlFilename": "Article 54 Monaghan Presentation.pdf.html",
           "pdfLinks": []
         }
@@ -2705,11 +2700,11 @@
       ],
       "attachments": [
         {
-          "historyId": "80ef86b8-d75e-4c41-b945-2f3ed1f6f723",
+          "historyId": "dee78d98-5e24-4fc6-b507-0cf34a5d5367",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119381,
-          "contentHash": "92c2356f86ddcb73437bc1f909c3b4ffc250d7b611f4e60738a0c781669567f9",
+          "contentHash": "74f68672babfe90dd9e6a2a2f82c4eaf205ff91f12b15b691a0f648335b846c4",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -2719,47 +2714,47 @@
           ]
         },
         {
-          "historyId": "7a966a24-237d-49e6-ae46-ed8080747969",
+          "historyId": "611523c7-86a3-4ec8-9e48-84824a9803a7",
           "title": "Article 55 Hollman Substitute Motion",
           "filename": "Article 55 Hollman Substitute Motion.pdf",
           "size": 76740,
-          "contentHash": "b7d920cdf0ad16c59c0e90d6cea13588d8fb74a4706bcbf0f4307a2c8d678cb1",
+          "contentHash": "fba14e2192a7d85a5d82801baa195eb61af8d81acb11850f7df98262bb69696a",
           "htmlFilename": "Article 55 Hollman Substitute Motion.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "09c7da7c-7b40-4c0b-9589-8a001ad5aabd",
+          "historyId": "60d199b5-2750-4207-9558-533acf0892fe",
           "title": "Article 55 Macaluso Substitute Motion",
           "filename": "Article 55 Macaluso Substitute Motion.pdf",
           "size": 109749,
-          "contentHash": "9ea9e14141fcfccdbb9a9bc911cee037af8b5a049be76690492643452b45b4e9",
+          "contentHash": "a7e528e392f0e25713f761fc5df9f457a351a00c082d7782b33c4b76ab3943e6",
           "htmlFilename": "Article 55 Macaluso Substitute Motion.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "01195707-5171-4002-9cc9-d5869f7673c6",
+          "historyId": "822f4346-ee04-47b0-962b-16a5786a62b3",
           "title": "Article 55 Hollman Presentation",
           "filename": "Article 55 Hollman Presentation.pdf",
           "size": 108105,
-          "contentHash": "97e44adb8cbdd609beecd9acb76cf34af86b566cd6cfec589cc74799255bb5c1",
+          "contentHash": "d116c564087a74469b42e926c380030756d85609995055d7babc7f85542fd5fb",
           "htmlFilename": "Article 55 Hollman Presentation.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "cecad57c-534f-447a-af38-c09e61436c6d",
+          "historyId": "9ab85910-f019-48dd-ba9a-f8061db022b7",
           "title": "Article 55 Aram Hollman Materials",
           "filename": "Article 55 Aram Hollman Materials.pdf",
           "size": 316844,
-          "contentHash": "1517fb3a7fd2967f4afb09c79aac7ac241f939e04d119d1050115485a767fa63",
+          "contentHash": "ee6ab7269d2c529aac0a057f38e1800172eaa971f5f686f5084ad42899760bca",
           "htmlFilename": "Article 55 Aram Hollman Materials.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "bbbc17e8-e25f-415f-badf-0eb8ff9f0a3f",
+          "historyId": "d6291826-bb60-4e35-83c2-936ffb639e88",
           "title": "Article 55 Melleta Marx Materials",
           "filename": "Article 55 Melleta Marx Materials.pdf",
           "size": 41625,
-          "contentHash": "92052e153c83ee3e350929fb1a7761f8cd2f2f3af3ecb0ba49dd2b51532f56d6",
+          "contentHash": "38187b64755ab9ab4c990435f0f5fdff98c61bdca7bc4c7d25c00cf1ddff122e",
           "htmlFilename": "Article 55 Melleta Marx Materials.pdf.html",
           "pdfLinks": []
         }
@@ -2780,11 +2775,11 @@
       ],
       "attachments": [
         {
-          "historyId": "bfcd6a58-5977-46fa-bf94-38fb0589128c",
+          "historyId": "3c2e415c-770e-4eda-b624-9e8dd822cde1",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117631,
-          "contentHash": "828cac6bacb0cfdf902c09ae88773389bef2134f833f400275a000ed4dd5e6cb",
+          "contentHash": "124eb0f7915395eaa763475b8359a8805aafa835a4c6d65677d4eb264c3542cb",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -2817,11 +2812,11 @@
       ],
       "attachments": [
         {
-          "historyId": "8d39aba7-1e82-4dca-9796-ebe69f9045ef",
+          "historyId": "4e9aa683-f882-4b88-9324-74df3e6e5719",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118387,
-          "contentHash": "252e82a3885516d879137ba0fd4d57e4a255566afe69409034e159e590216f03",
+          "contentHash": "5bfba0958f7becce2ad80ecf0936ac3a61d7adf238b9cfd9921c070b12c1e0f9",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -2854,11 +2849,11 @@
       ],
       "attachments": [
         {
-          "historyId": "fbdf03d4-4284-44c6-903e-fdded57dec6d",
+          "historyId": "5ff3e030-0a96-489f-95ee-f55db4324998",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116822,
-          "contentHash": "1059453e41243ce01f5ce558479f365c8597a4fa52992e4356f459c4dd640e58",
+          "contentHash": "c919d09057c4932cb3b1af8c0981d282838f7b67c9cdd0efd47997d01ef725a0",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -2891,11 +2886,11 @@
       ],
       "attachments": [
         {
-          "historyId": "e740a849-2233-43fc-bf1b-fcb42406cbca",
+          "historyId": "57bd5ae2-aa2c-4b28-9d44-88455af242d6",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117830,
-          "contentHash": "7a1f67d11b1bf85d8f1a6f366e9ed6c3ef92c91d77bf130ea4b45b1f6b0b0c8b",
+          "contentHash": "5ab993c2a06c275e55582e19370e3d93307357602e52c1b2d3913ccbf69ad5c2",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -2921,11 +2916,11 @@
       ],
       "attachments": [
         {
-          "historyId": "8c1b16a2-ea13-4914-a06d-96970137a92e",
+          "historyId": "8057acea-9b05-4509-a8ad-4176d9177729",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118701,
-          "contentHash": "0abd3c358c9e4f21c8d255bd51e4afb14a09e81fba22eef9e49ea2e0009b3b1e",
+          "contentHash": "27b9e3520281f5c8269e6d9bc55e6d60e8ddc8d80a370105d6a07e745484108c",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -2935,11 +2930,11 @@
           ]
         },
         {
-          "historyId": "880bfad1-2a07-4726-93fa-443f82300eab",
+          "historyId": "ffaabf66-fa00-423c-a66d-cf837886826c",
           "title": "Article 60 FY27 Parking Fund Budget",
           "filename": "Article 60 FY27 Parking Fund Budget.pdf",
           "size": 125840,
-          "contentHash": "307854ada6019279ed3c06f31c1984965fc80f8317e479d6c566f6d724925c3d",
+          "contentHash": "4f32fb23114ea44f7fa6ac77b0c6da0bb73f12a54bbfc38713ce732f956c3ab8",
           "htmlFilename": "Article 60 FY27 Parking Fund Budget.pdf.html",
           "pdfLinks": []
         }
@@ -2960,11 +2955,11 @@
       ],
       "attachments": [
         {
-          "historyId": "8f24d722-c62e-4db5-86e6-80dd0b882fd9",
+          "historyId": "c7d4d321-3648-46b7-a41f-0f0f87f87cd8",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119034,
-          "contentHash": "ef78a1d1c7ede81975dd3287960f8b191277ad99f148b5f97971b90e18c7aae0",
+          "contentHash": "fe3fc62b2fe1cd387820f680945702b9a20fffec0270d7175721540e44d0fe7a",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -2990,11 +2985,11 @@
       ],
       "attachments": [
         {
-          "historyId": "46dfa76d-77e2-456e-b86c-caf93ccaf17f",
+          "historyId": "985e0026-eb5c-4c8c-9754-7fa277e5e916",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 886028,
-          "contentHash": "14d33a9b00ac6fb95401f0c45dca2f3eea68b8fc0e79515461baeb0877c63cef",
+          "contentHash": "851bc8374510fcba0b7d7d2a50a45a86d7040683a5fd20322affd3deb8c3e28c",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3020,11 +3015,11 @@
       ],
       "attachments": [
         {
-          "historyId": "22c2fea7-bf53-4f87-b4e9-aec6841db9c8",
+          "historyId": "c31474e7-2a36-4ae4-9f29-858b8d8a3407",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116102,
-          "contentHash": "3345e72751cd1cb77f5125a29b07fcd0e42774ad58ce908cd779854942016fa4",
+          "contentHash": "7e33765e5d4af4adf21dadaaf30c2cdd692cf83b982868627dfa2cc29a4983db",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3050,11 +3045,11 @@
       ],
       "attachments": [
         {
-          "historyId": "55d69c82-a9c3-4353-9132-e6d54b4bbd4b",
+          "historyId": "53e6074a-53b0-490f-b915-2a7ff0d65631",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117979,
-          "contentHash": "c94e3a08d42a58dbc608c8d1436c6ab83be56b5eaecf7e73d76d96e489f134ef",
+          "contentHash": "6ca017bb6d1b04e3ef8fd0d68eae30eeae1b4509d511be0df688d26fb704391d",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3068,38 +3063,38 @@
           ]
         },
         {
-          "historyId": "c6c677f4-9c22-4c39-b7ec-57f2cbacdad6",
+          "historyId": "daf765ed-76d6-4ad4-ad5f-d774de687d38",
           "title": "Appendix B FY27 Budget",
           "filename": "Appendix B FY27 Budget.pdf",
           "size": 184347,
-          "contentHash": "198370cd65a745f03c10fe0a6cb92f658e85dd091db4c24415d0583f4e081624",
+          "contentHash": "9d80a3885188d6622eda94759bc340958fcf1b508f82915fe65984c651c056dd",
           "htmlFilename": "Appendix B FY27 Budget.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "0ed1a0e4-aca6-4782-a02e-8a3bc7822e23",
+          "historyId": "89536b16-ce71-4ac1-8ab0-95955c181785",
           "title": "Article 64 Town Budget Presentation",
           "filename": "Article 64 Town Budget Presentation.pdf",
           "size": 610357,
-          "contentHash": "f9ddccb0ecf677f0a71fd1dbbb6e871bf7cfd47c3089f78ae1f07923019d8246",
+          "contentHash": "f1da40ff1584f360c320e4bafff8b8194e617e03e70e3c453dba4b5835b4d266",
           "htmlFilename": "Article 64 Town Budget Presentation.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "35bff4fb-5068-4a2a-a115-751306163c47",
+          "historyId": "0b3395ec-49ae-43b9-ae7b-db00b59646c9",
           "title": "Article 64 School Budget Presentation",
           "filename": "Article 64 School Budget Presentation.pdf",
           "size": 4537912,
-          "contentHash": "10245c621fd5b880dfd6e8712665a34111f68072877d4674c888fdc00446304a",
+          "contentHash": "58ffc0973c19605cd805652ef93c1a26ed8a787cd473eccd3edfadff413c1c02",
           "htmlFilename": "Article 64 School Budget Presentation.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "3b0cb751-91fc-461f-bfdc-19c1dc2af6a0",
+          "historyId": "989ccc4f-ba36-4659-843a-99126ac1a760",
           "title": "FY27 APS Budget Report",
           "filename": "FY27 APS Budget Report.pdf",
           "size": 2876551,
-          "contentHash": "11469805198600280a48c1dedc371f97eea73bdbd1da69b652dfb025546ddd5e",
+          "contentHash": "81c1ac56653e62b968633e0887cced6c829ec0201bcbd96d287786b59890d1b5",
           "htmlFilename": "FY27 APS Budget Report.pdf.html",
           "pdfLinks": [
             {
@@ -3144,11 +3139,11 @@
       ],
       "attachments": [
         {
-          "historyId": "73528665-bb9a-428b-a4ee-41ed73145c1f",
+          "historyId": "b807b572-1fc9-48e6-9268-295f4609388a",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 139966,
-          "contentHash": "0b3e66d82834e0c6efd395c6d6dd2e75074be9add63cfcf879347706f034fd46",
+          "contentHash": "8acd019f5046272581e9d963fb4c3cdd1618e56279ac675b6c0f6f51371c6775",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3185,11 +3180,11 @@
       ],
       "attachments": [
         {
-          "historyId": "6a68629b-b51b-4ef5-9901-a93a10e00158",
+          "historyId": "846a595e-3dc1-4ae6-b86a-b07f4d395df3",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118517,
-          "contentHash": "dd083f831d507a7b9518185877abd479ceda54a75c207b84c0d84d5d7b0500a0",
+          "contentHash": "75e293eb89e722cb0568800a1370e22f5e830cde96b37728b9260b016b98ef11",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3203,11 +3198,11 @@
           ]
         },
         {
-          "historyId": "4c5cb257-1e3c-4a0d-9898-af4a63ce053b",
+          "historyId": "f11fc0ff-938f-42f4-971e-12c08888478f",
           "title": "Article 66 Ottoson Study Presentation",
           "filename": "Article 66 Ottoson Study Presentation.pdf",
           "size": 752217,
-          "contentHash": "fe7dae8df8eb3c0093169f45db1e15d7a85d2ba7617a50c12f933186ccdcae86",
+          "contentHash": "4959d499335eb497270376e05f6f37bc85e00dfb743bcae87d5989b57a34bbbe",
           "htmlFilename": "Article 66 Ottoson Study Presentation.pdf.html",
           "pdfLinks": []
         }
@@ -3235,11 +3230,11 @@
       ],
       "attachments": [
         {
-          "historyId": "8c0f7251-226e-4c0a-a60f-325a4da7af06",
+          "historyId": "4b96360d-0f97-4cdb-a2e0-90198b49d0cc",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119608,
-          "contentHash": "e7c23e41d9d4f803b13ddc49b5d5ed81d7b2047023220b1127ba8fcc6b74710d",
+          "contentHash": "8ed140e288a57394a158d30c54fe30efb3ce5f604692fabfc3d657189235ab49",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3253,11 +3248,11 @@
           ]
         },
         {
-          "historyId": "84992b82-cafe-4f3b-bcac-c11ddcac8764",
+          "historyId": "4b082f00-8328-459b-b160-411d03226c2f",
           "title": "Article 67 Hardy Study Presentation",
           "filename": "Article 67 Hardy Study Presentation.pdf",
           "size": 320803,
-          "contentHash": "b4a8ff46276b0355e046b5f40c2fbf95e35eb5f295a972f80b16fa94f3fed9bd",
+          "contentHash": "e7dc3469851c4c296b3785471eefa0d0a93772041a937b0b2666abc7513e229b",
           "htmlFilename": "Article 67 Hardy Study Presentation.pdf.html",
           "pdfLinks": []
         }
@@ -3285,11 +3280,11 @@
       ],
       "attachments": [
         {
-          "historyId": "cde25cf4-d6b7-432e-9a6d-47c75e41d383",
+          "historyId": "29cf8a33-175b-4103-8d67-99edabcd1478",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116101,
-          "contentHash": "917c6533a3a022921c527d0232a9331e7d1392bda0d752d8db98a0e34e3e9a1b",
+          "contentHash": "fee3988774ef880e8e9baa65fa6786211e8f158251e9a971e6a941acd545f42a",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3322,11 +3317,11 @@
       ],
       "attachments": [
         {
-          "historyId": "0952812d-f2ac-424f-b326-eb1a8ba4a548",
+          "historyId": "f7a8b068-3de4-4d68-a720-366275257a6f",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 23291,
-          "contentHash": "13373ade296e4e9b2963c9ba0c125decf1f555fd70a8dd9554d8460b99429b4d",
+          "contentHash": "126318a72d69e8925e6e5a6eb6e0f0013bf373d18d3b1323659d4f8874a681d5",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": []
         }
@@ -3347,11 +3342,11 @@
       ],
       "attachments": [
         {
-          "historyId": "9f4ec75e-eb31-4d04-ac51-c5490ad1af31",
+          "historyId": "ee247ff4-025f-48d0-a58a-4332664c7d4d",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117441,
-          "contentHash": "4122490c5a3e54aee13bc6736111be382a5eabcee7a0c741557ef1eba441f30f",
+          "contentHash": "4dbb9859cbbcc5f53678be75b98b4c3e29d154435479ff9c24da09a132648df9",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3384,11 +3379,11 @@
       ],
       "attachments": [
         {
-          "historyId": "a538266b-84fd-4946-8efe-f68fd3544fe7",
+          "historyId": "4fd55bbb-4b1b-4eee-995c-082ae13d69df",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 688930,
-          "contentHash": "a20063b54c4b85c34b2d779fb4a80098f76c9a771cf4630214fb11c509ecc6f8",
+          "contentHash": "dfb042baf3e6f00662b9721b9122e7f66dfcc65b43d67df4e95b79db981b804c",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3421,11 +3416,11 @@
       ],
       "attachments": [
         {
-          "historyId": "1cfc126d-4944-4322-914c-6b5f3a64d08e",
+          "historyId": "7b20fbdb-fbca-4bed-8378-67a68c82fa96",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116507,
-          "contentHash": "91d0906cf8daa21288f07e12bdda1d232f44f698730787ea06e7a627bc57a52c",
+          "contentHash": "97fb4b181c320af0be29b63f46bac8312ff488b1aac6375f6944c33e4b31a198",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3435,11 +3430,11 @@
           ]
         },
         {
-          "historyId": "78a9db66-0b4f-4407-b1c8-50432e344427",
+          "historyId": "96c595a9-b310-4dcb-bebc-7e09749a9053",
           "title": "Article 72 Minuteman Presentation",
           "filename": "Article 72 Minuteman Presentation.pdf",
           "size": 8583668,
-          "contentHash": "dfac6b1fbd76e6b06aba004c69e0ebcafa6084897f2b4323dffe154b50c64170",
+          "contentHash": "6d042c8addb4044bc04fbfa05a911e2684b88429aa9f5a618a7fc00acc06b85e",
           "htmlFilename": "Article 72 Minuteman Presentation.pdf.html",
           "pdfLinks": []
         }
@@ -3467,11 +3462,11 @@
       ],
       "attachments": [
         {
-          "historyId": "4e6cd890-cb48-41e5-872a-1f16d182fe7f",
+          "historyId": "62b06667-9dde-4e84-bb95-95f09a8b5875",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 692032,
-          "contentHash": "2ddbde2b76928b9259beeab61c74e101d9c13d78fe103daed65d83cbe746d77d",
+          "contentHash": "ae98d513720fcbb43988802841311abe73100c01cc78bb1b892e441290229cbe",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3504,11 +3499,11 @@
       ],
       "attachments": [
         {
-          "historyId": "01711473-48a3-4247-a381-0a83480617df",
+          "historyId": "9b5ed83c-fe75-4675-b994-8bd2e6c0a3d3",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117324,
-          "contentHash": "db51c5a94a95fed33ba52852e85b2e4d9e67376bc2e5a4a14018529c4ee4f83d",
+          "contentHash": "61db075d957264a2c51eaff183866e24511095dec093e4123995ab9fa0950376",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3541,11 +3536,11 @@
       ],
       "attachments": [
         {
-          "historyId": "d8a68485-f040-4778-82be-23175f22c2b8",
+          "historyId": "64e1a4e9-459c-4eb7-a244-f61b03c3a90e",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117895,
-          "contentHash": "1c48a94fa051bb8f5444e9ea54c4030515fb1755681123b84c21b4fc7387cf02",
+          "contentHash": "f2e032439e02c5af4b50f868d54de704425fd62b4e20e91ca2c849a854343052",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3578,11 +3573,11 @@
       ],
       "attachments": [
         {
-          "historyId": "102d1897-ffb7-465e-827f-cab9692cbb44",
+          "historyId": "da3f73c3-7b3e-4f47-9a74-f239d81c7a18",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 117050,
-          "contentHash": "de6a10aaa683b5c1f947716531d42d25cca9300493be68551e9aa1e0f03ed754",
+          "contentHash": "c17ce3a1b0e6b27dd62900e55cb072d9227ec9473c9cb8c3f468e1a5735e9126",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3608,11 +3603,11 @@
       ],
       "attachments": [
         {
-          "historyId": "8d398865-1e56-4983-b520-72948907213e",
+          "historyId": "1e142480-125b-451e-8026-ddea2523552e",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 121922,
-          "contentHash": "6e0eeb213d80e081522f484d2e20ea97d3978509fe3b17c92634e222b32d2afa",
+          "contentHash": "e430525ce9a64515ec8cafac69b3e158427b0ffea415c24bffa78fc59f4edea9",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3642,11 +3637,11 @@
       ],
       "attachments": [
         {
-          "historyId": "1fc0ce26-ebc4-4880-801a-b72be14d2c13",
+          "historyId": "ed5e7b5b-6413-4606-8637-0f98f6e33fef",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116307,
-          "contentHash": "5fbe635bbb1ddc3c5a7dcbbec3975ebf7939a250ddc8c45e08331f226e0c301b",
+          "contentHash": "e0482d7e007c074d7abb1fae4d5887aa2403816ce590a277d45fcdffa7a04899",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3679,11 +3674,11 @@
       ],
       "attachments": [
         {
-          "historyId": "ae708cf4-67d5-4834-8072-f30b827f4c55",
+          "historyId": "78f6814a-2d3a-44ab-b516-47f48d1c0fd4",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119724,
-          "contentHash": "6741b2424cf3541650c9e068b7f79b5f84000808d3dc8a5b00e95bbb219b51e6",
+          "contentHash": "884bbf00ec1391c97578a9d61cfbf20e76b9ffdb1f9de615aa1ac936f04e98e6",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3713,11 +3708,11 @@
       ],
       "attachments": [
         {
-          "historyId": "533dd833-9c72-4e88-8a3f-3558db537167",
+          "historyId": "203121e5-4f16-4d94-a960-bf0fc5cb7b58",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116298,
-          "contentHash": "9437365cc5901dc2a511a21be58ac8c0b583d9d37bdbadb2b33d60e8916642cf",
+          "contentHash": "e0c9696b5f99903a9347592895c27e2cd096a32a1153d8a3414de720d0765713",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3743,11 +3738,11 @@
       ],
       "attachments": [
         {
-          "historyId": "0c2c3993-3da2-4154-9c56-0f9e13c0974f",
+          "historyId": "a7afcedd-2fcd-4d9d-af5c-6da9159ef419",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 118151,
-          "contentHash": "aac57e57082595c6319dead2801eb336cd5eadc076de96f3fe50c236c7367d62",
+          "contentHash": "ca27bdc39e49049b55ad7c4d18c802b11dd7af425380aa74cc01bd9904121ee3",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3780,11 +3775,11 @@
       ],
       "attachments": [
         {
-          "historyId": "0e4fc7fb-2cfb-452b-9601-3a398434aac1",
+          "historyId": "6ecf3e1d-2395-4946-9d30-c971353a0515",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116064,
-          "contentHash": "d94760e6152dfc84982c96f23b49747417c109b86808d6b85859671a233ad53e",
+          "contentHash": "9b58c00029569d5791bdd617fc88a64b10c0a933b5e3bcb4232c715f9055f0f7",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3817,11 +3812,11 @@
       ],
       "attachments": [
         {
-          "historyId": "f10cb1c2-f9be-492c-b4ac-bd26f49fa9cc",
+          "historyId": "29151b6d-5856-4a74-a452-10cbfd50651d",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 689189,
-          "contentHash": "91445877be023f5d91d40c5c2bacefc027671caa9965e04159f5dd84352c985d",
+          "contentHash": "a8c8156a74f2e349d8686757ee0e17ac2081ddda2e62857c14d7013ffbb5cb0a",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3854,11 +3849,11 @@
       ],
       "attachments": [
         {
-          "historyId": "143eac21-a6b9-405b-9280-f248b9288ce3",
+          "historyId": "770a0ed6-0687-4182-a611-b0eceb257bbc",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116672,
-          "contentHash": "1047903113bafd371c74124dd5afc661fa78fb384e3ef4b863bd733f180c35dc",
+          "contentHash": "e8ece0a79b4ea2cb7f7e64de7340ee3e32737db7f33971de576a0976f6ea5476",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3888,11 +3883,11 @@
       ],
       "attachments": [
         {
-          "historyId": "b0ab81ba-cd6a-4e86-8811-ee5eaedd19ad",
+          "historyId": "a80d0526-0b93-4a1d-b254-0c6f15e86fe6",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116360,
-          "contentHash": "1c86413b63f0418747f4c1112b87bd04eb35eccb31bacbdbea8dfc5bc806eda6",
+          "contentHash": "eea8a68d4393f172df5256fae995938bada1e74bd0f2dd782929ad3294c33e1d",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3925,11 +3920,11 @@
       ],
       "attachments": [
         {
-          "historyId": "3c634d0f-c7b6-4b61-a03b-9fd718d89b01",
+          "historyId": "b79cc53f-dab4-4fee-b0aa-6b0c9a2aa4b6",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116344,
-          "contentHash": "eba329188ad82ef04fc6e844533c297405220470572b451e98ab7ba656d2621b",
+          "contentHash": "34ed1342d4540656571b823fea01b055b8c5068b40769748640abf4946aa8ed4",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3962,11 +3957,11 @@
       ],
       "attachments": [
         {
-          "historyId": "33aea7b0-0c71-4ff9-b4bc-f8d5ac2a8ef5",
+          "historyId": "8211fad6-3f63-4dc4-b12c-6e256d53584b",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116521,
-          "contentHash": "dddb713a570e316324428a1d9834276c2eee9b7770d11216a526b129a272538f",
+          "contentHash": "d8d3b62ad8265d69411dcf81aba0baff07304c0a4c935010634d87164b12d287",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -3987,11 +3982,11 @@
       "externalLinks": [],
       "attachments": [
         {
-          "historyId": "7b584ac7-90d9-4c4c-8055-e4013637bdf3",
+          "historyId": "ea8f34b8-0f61-40a1-a107-ee793014e756",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116484,
-          "contentHash": "f8cba3481ffde5744ad5d5aba8ab633ec7b5628b004b644aca88ee79ec7f3fae",
+          "contentHash": "26a08824c82b664df3bf05a6ee98590548d41956070e0d671936d19bceff02f1",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -4019,11 +4014,11 @@
       "externalLinks": [],
       "attachments": [
         {
-          "historyId": "7e629d9f-8480-40cc-bc65-feaa873e05d9",
+          "historyId": "9735554b-f384-4f64-8659-8357d064886d",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 119625,
-          "contentHash": "303319701199ca514aed19c6fbf1dee0f4bfa74f49ef84b1bf8672da6fb4b16d",
+          "contentHash": "ea60334797ebe5b15faf10ced53941c05b0069b7e70c57e8b58bc45f35f16f15",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": [
             {
@@ -4048,12 +4043,105 @@
       "externalLinks": [],
       "attachments": [
         {
-          "historyId": "2f422400-b5e0-4247-bf67-df2f8243e670",
+          "historyId": "8f792b25-c714-4a75-b206-e8a936c62e1b",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
-          "size": 115701,
-          "contentHash": "082efa5b1dffca66f6c64135fb355ee0639113d46b79f450e87295e20f09c067",
+          "size": 115989,
+          "contentHash": "9051d8f46ea1d941ec3d0d38688be98231b404ae4a9d9520ac9d63197dff073f",
           "htmlFilename": "View full text of Article.pdf.html",
+          "pdfLinks": [
+            {
+              "url": "https://engagestantec.com/Arlington-comp-plan",
+              "label": "Comprehensive Plan webpage"
+            }
+          ]
+        },
+        {
+          "historyId": "a4b90686-4a2e-40e1-940b-f007329fc5c2",
+          "title": "Article 90 Revilak Main Motion",
+          "filename": "Article 90 Revilak Main Motion.pdf",
+          "size": 102776,
+          "contentHash": "7e129a74982c61190ec2e7fa8f91cdbd0aef65b0c71b8d882967e37256d19174",
+          "htmlFilename": "Article 90 Revilak Main Motion.pdf.html",
+          "pdfLinks": []
+        },
+        {
+          "historyId": "5bd93557-e238-42fa-866e-bb8f8c5de7f0",
+          "title": "Article 90 Memo & Comprehensive Plan",
+          "filename": "Article 90 Memo & Comprehensive Plan.pdf",
+          "size": 17126308,
+          "contentHash": "3e22ffd51c7e9be06d1731f6fad2005d72bd4d83b62f0f80ba4660877849c493",
+          "htmlFilename": "Article 90 Memo & Comprehensive Plan.pdf.html",
+          "pdfLinks": [
+            {
+              "url": "https://www.mass.gov/doc/guidelines-for-calculating-general-land-area-minimum-0/download",
+              "label": "https://www.mass.gov/doc/guidelines-for-calculating-general-land-area-minimum-0/download"
+            },
+            {
+              "url": "https://geo-massdot.opendata.arcgis.com/datasets/MassDOT::road-inventory-2024/explore?showTable=true",
+              "label": "US Highway 3"
+            },
+            {
+              "url": "https://gis.data.mass.gov/datasets/MassDOT::2020-crashes/explore",
+              "label": "Crash Data from 2024: 2024 Crashes | MassDOT Open Data Portal"
+            },
+            {
+              "url": "https://geo-massdot.opendata.arcgis.com/datasets/2021-crashes/about",
+              "label": "Crash Data from 2024: 2024 Crashes | MassDOT Open Data Portal"
+            },
+            {
+              "url": "https://geo-massdot.opendata.arcgis.com/datasets/2022-crashes/about",
+              "label": "Crash Data from 2024: 2024 Crashes | MassDOT Open Data Portal"
+            },
+            {
+              "url": "https://geo-massdot.opendata.arcgis.com/datasets/MassDOT::2023-crashes/about",
+              "label": "Crash Data from 2024: 2024 Crashes | MassDOT Open Data Portal"
+            },
+            {
+              "url": "https://geo-massdot.opendata.arcgis.com/datasets/MassDOT::2024-crashes/explore",
+              "label": "Crash Data from 2024: 2024 Crashes | MassDOT Open Data Portal"
+            },
+            {
+              "url": "https://open-data-massgis.hub.arcgis.com/maps/boston::sidewalk-inventory/about",
+              "label": "Archive"
+            },
+            {
+              "url": "https://archive.org/details/Arlington_MA_ShowDocument_Id_56982/page/n19/mode/2up",
+              "label": "Archive"
+            },
+            {
+              "url": "https://www.mbta.com/schedules/bus",
+              "label": "Average Boarding Data from Fall 2023: MBTA Ridership by Trip, Stop, Season, Route"
+            },
+            {
+              "url": "https://gis.data.mass.gov/datasets/MassDOT::mbta-bus-ridership-by-trip-season-route-line-and-stop/about",
+              "label": "Average Boarding Data from Fall 2023: MBTA Ridership by Trip, Stop, Season, Route"
+            },
+            {
+              "url": "https://cdn.mbta.com/sites/default/files/2025-06/2025-06-15-system-map.pdf",
+              "label": "System Map Data from 2025: MBTA System Map"
+            },
+            {
+              "url": "https://www.replicahq.com/",
+              "label": "Other 30%"
+            },
+            {
+              "url": "https://data.census.gov/table?q=commute+in+arlington+massachusetts&t=Commuting",
+              "label": "Massachusetts - Census Bureau Tables"
+            },
+            {
+              "url": "https://data.census.gov/",
+              "label": "Massachusetts - Census Bureau Tables"
+            }
+          ]
+        },
+        {
+          "historyId": "940b03e6-a831-4c75-b140-ace96d73b2c0",
+          "title": "Article 90 Presentation",
+          "filename": "Article 90 Presentation.pdf",
+          "size": 10488962,
+          "contentHash": "0d02f1b142e9b323af9b1d9daa9176f33db5b0a502cd765198bce19b2e3c8462",
+          "htmlFilename": "Article 90 Presentation.pdf.html",
           "pdfLinks": []
         }
       ],
@@ -4068,38 +4156,38 @@
       "externalLinks": [],
       "attachments": [
         {
-          "historyId": "7e989408-b65a-4e96-b5e3-dcb1d8d4eab1",
+          "historyId": "65542489-9fa7-4f7a-84f8-e1f920659874",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 115702,
-          "contentHash": "5f08b60c1e574a9023149019c0d645a2b69a5f72ac2e2b3ad14b67844996a79e",
+          "contentHash": "593ebcd94293f19920bf83f296f858714e47d96ba9fcdd33bc8154e60483d92d",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "3c729193-cf82-4d41-9899-81c7a8463567",
+          "historyId": "fedcd9ee-485a-4b4e-9a10-7a2c66d4efb8",
           "title": "Article 91 Dennis Main Motion",
           "filename": "Article 91 Dennis Main Motion.pdf",
           "size": 91117,
-          "contentHash": "bf1b8bba9a2db950e8d16f56023190b574dd5ee2c49f15dc715095ba96edffa7",
+          "contentHash": "5fff8245c887849bba2a8dec913e9e4b39974d9c20a6a1b354ea9b0d5d9860ab",
           "htmlFilename": "Article 91 Dennis Main Motion.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "5738020f-ba7c-47c3-b5a4-177de89c4b1f",
+          "historyId": "8b4634e6-4dc9-4234-95e0-170fbdb12466",
           "title": "Article 91 Presentation",
           "filename": "Article 91 Presentation.pdf",
           "size": 2386029,
-          "contentHash": "2726d6d4b16e7a92fb58a67cbd7a93dca2f4dc93da673994422c86491e56b278",
+          "contentHash": "102f4ccbcdc9bdbad1eae3d4b7cabf98d7c8101c799f8efe40a7e10bd945ba6c",
           "htmlFilename": "Article 91 Presentation.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "5add7e12-1897-4867-bdaa-ea853bd8188f",
+          "historyId": "00cd4e04-c315-487e-bba2-3d93b085d67f",
           "title": "Article  91 Greg Dennis Materials",
           "filename": "Article 91 Greg Dennis Materials.pdf",
           "size": 118146,
-          "contentHash": "36fc4d53fa0ce745a1475b2c621e73724817c6659e171354e627c38101fdc8d2",
+          "contentHash": "de5cd86778587e8f2aabe1df989dcbb6a1d0564245620f93df0dff1f3f077ce8",
           "htmlFilename": "Article 91 Greg Dennis Materials.pdf.html",
           "pdfLinks": [
             {
@@ -4124,29 +4212,29 @@
       "externalLinks": [],
       "attachments": [
         {
-          "historyId": "d33c742c-9998-4c7d-bddc-37e7d3f2d01b",
+          "historyId": "c6c4c850-e54c-4787-9b60-19beb8cd05f9",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 116099,
-          "contentHash": "6676b908bf6694f86efaaec5f4e55781e2fc5dc232a3a8f65322d9fa43a88968",
+          "contentHash": "2cd6880ee256bf02bcc191d79bebf10a873bf5a57fdd7be1d729d5b83adb1bab",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "f8ab0a08-346e-4bd3-b8a9-095641086b61",
+          "historyId": "7fad1697-aaf3-47d5-983c-4733bfe54bf9",
           "title": "Article 92 Hanlon Main Motion",
           "filename": "Article 92 Hanlon Main Motion.pdf",
           "size": 160111,
-          "contentHash": "7f31c55aed828ad5de2f4240728ee12585570def8cf19981abecc70fdec47fc2",
+          "contentHash": "43457cf184db8984c8a2b7c6af792fee925204fc2c4074257eb3e821b8b44928",
           "htmlFilename": "Article 92 Hanlon Main Motion.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "dc643a28-1872-4cae-986e-e32d7086eece",
+          "historyId": "8dadbfcc-c7d0-4835-a4db-5da03b4f9d57",
           "title": "Article 92 Clean Energy Future Committee Statement",
           "filename": "Article 92 Clean Energy Future Committee Statement.pdf",
           "size": 271965,
-          "contentHash": "909bc8399b688f1b56765bb42b638e0407be2339c979fe9273838e21a7b6794b",
+          "contentHash": "fb2097b3275f1d6a399025bc4775e102f29e2bd183fdcaed57e816284c03df8b",
           "htmlFilename": "Article 92 Clean Energy Future Committee Statement.pdf.html",
           "pdfLinks": [
             {
@@ -4154,6 +4242,15 @@
               "label": "h\ue7a9ps://www.mass.gov/news/ag-campbell-applauds-changes-to-gsep-program-that-will-save-ratepayers-money"
             }
           ]
+        },
+        {
+          "historyId": "4ee1b548-2fca-4ddc-93e6-ebfa4721b527",
+          "title": "Article 92 Marina Popova Materials",
+          "filename": "Article 92 Marina Popova Materials.pdf",
+          "size": 77168,
+          "contentHash": "3db2d0eb89959d194502b9b1d8f80f0516ae9f4789e8b0775e73a0a570ce6e21",
+          "htmlFilename": "Article 92 Marina Popova Materials.pdf.html",
+          "pdfLinks": []
         }
       ],
       "status": "pending"
@@ -4167,29 +4264,29 @@
       "externalLinks": [],
       "attachments": [
         {
-          "historyId": "08df3224-0a5e-44df-92b5-2ab99ee6c463",
+          "historyId": "37f8bec6-86e4-4832-93da-cf3165368d2d",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 115863,
-          "contentHash": "5a51eaa535ed563d3d40fe3acf7c417ebaf32457a7500d04074648f9fe315608",
+          "contentHash": "6b4dab92274701b485e99f0b11995ee87b08b0425c02e884975590ca45f89432",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "8ee5bde0-be97-4bae-8ecd-5ff4dfaa532e",
+          "historyId": "e5794ed7-0a9b-45ae-bfb7-faa4ef463645",
           "title": "Article 93 Hanson Main Motion",
           "filename": "Article 93 Hanson Main Motion.pdf",
           "size": 145920,
-          "contentHash": "eaba531d6eb39019cb6ca014069ce1d4f7b6c214041fca2eb3d198553dfd2d80",
+          "contentHash": "f4411920a7b13fc050bcfcdb6aabe6b8664fb33456429ea936485dc6d22544e4",
           "htmlFilename": "Article 93 Hanson Main Motion.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "8c6964b3-70de-43ec-89e0-9f12b9ddf0b7",
+          "historyId": "26bd2eeb-9626-4b12-aceb-eea089af3d25",
           "title": "Article 93 Human Rights Commission Statement",
           "filename": "Article 93 Human Rights Commission Statement.pdf",
           "size": 87245,
-          "contentHash": "c6f50a42195e1c829ba7c7168939671af60f1162b68e496622a4d9111db46261",
+          "contentHash": "a7441951dd121a2cb123bb818b660901c173aedfdf2924029e9c3f9390449dd2",
           "htmlFilename": "Article 93 Human Rights Commission Statement.pdf.html",
           "pdfLinks": []
         }
@@ -4205,48 +4302,57 @@
       "externalLinks": [],
       "attachments": [
         {
-          "historyId": "6a17aace-07ed-4327-89f4-bd8f9308d9e9",
+          "historyId": "331f10b5-96ce-4604-887a-718b26ad3719",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 121787,
-          "contentHash": "c0d7ae0a136fd570fc70efe96e15b284b7f16d6607758ba8b9ad3844b4fd1f9c",
+          "contentHash": "62263154c3f62b100ba9a3b85948264beefd1db049702e2338fc92c0b4c9d7b1",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "e5c975df-13ed-49c6-a5f5-0b917fe91ed7",
+          "historyId": "d99b0b07-63ad-4e09-83c9-7311ed266859",
           "title": "Article 94 Polk Main Motion",
           "filename": "Article 94 Polk Main Motion.pdf",
-          "size": 94583,
-          "contentHash": "8e976912f5ed813f911c37b3d74ff3fe09df56d17987e25b1b1a3be73862a4b3",
+          "size": 117190,
+          "contentHash": "943c5745660ae7749908dc145c5f0171febe319d5a0bc2e26e56ebaf8e39112d",
           "htmlFilename": "Article 94 Polk Main Motion.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "b52726a6-a3e9-40f9-bd4e-0250f8be7922",
+          "historyId": "225e2f22-e41f-4160-972b-c96e9458c2a4",
           "title": "Article 94 Polk Presentation",
           "filename": "Article 94 Polk Presentation.pdf",
           "size": 1886064,
-          "contentHash": "0627e1d3ea7417b1b1bae50ca9c6048011486c47145695e63ae916b4196e30bc",
+          "contentHash": "ef6dad6eb843a2e16cf5f8295743e7849672116426db8dfecbc08629f519bc24",
           "htmlFilename": "Article 94 Polk Presentation.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "23e0e43e-6307-4bfd-af88-21bab690def1",
+          "historyId": "cb0dd181-b2b7-4738-99a7-64eb5f376a6a",
           "title": "Article 94 Human Rights Commission Statement",
           "filename": "Article 94 Human Rights Commission Statement.pdf",
           "size": 87257,
-          "contentHash": "821be4a018e53a766b0f54206c82cd7e56533273582277523e756d75a151932e",
+          "contentHash": "c75c5f99640b10066cabe72e024b08418ef8b265ac583e48066982f6ddc1dea3",
           "htmlFilename": "Article 94 Human Rights Commission Statement.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "d38d7c58-0349-49d8-a298-c07b532a1001",
+          "historyId": "2a9ec419-089c-4f0a-bfc1-25489c9f2e6f",
           "title": "Article 94 Chief Flaherty Statement",
           "filename": "Article 94 Chief Flaherty Statement.pdf",
           "size": 52449,
-          "contentHash": "ef6cbd2161eaea7943ce8693b9824d23d1793ffb1c0fca05b600d3899b44c977",
+          "contentHash": "d7b0e0b0dda55b3297be83589e08be203d239f32da4f6479d6211226a4b6d64c",
           "htmlFilename": "Article 94 Chief Flaherty Statement.pdf.html",
+          "pdfLinks": []
+        },
+        {
+          "historyId": "d42397c7-5f93-4f33-8b9f-26ba3681d9f1",
+          "title": "Article 94 April 11 Polk Main Motion",
+          "filename": "Article 94 April 11 Polk Main Motion.pdf",
+          "size": 94583,
+          "contentHash": "b1a83c498bf25a102f0ebdb5ddbdba9a2a71bcc9151e657c0ddeaa6804848330",
+          "htmlFilename": "Article 94 April 11 Polk Main Motion.pdf.html",
           "pdfLinks": []
         }
       ],
@@ -4261,21 +4367,30 @@
       "externalLinks": [],
       "attachments": [
         {
-          "historyId": "3a8ab651-bdf0-4f44-b7bc-7c454549cdcb",
+          "historyId": "cf0b8708-c4fc-47e3-a73a-3d29650ecf8c",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 115663,
-          "contentHash": "543e9fe664d945a9e0c200b2266d607a7c8e7840d45db2fe998d25f1c9fbf296",
+          "contentHash": "30532da563a24b6817ec4dc01c9618312563916671bd5940df3f1d04bdbe070c",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "81eaeac6-1980-4a61-a932-bdaaf077b9ba",
+          "historyId": "f1fa2577-1660-458c-9843-2a69b6440e37",
           "title": "Article 95 Hamlin Main Motion",
           "filename": "Article 95 Hamlin Main Motion.pdf",
-          "size": 96211,
-          "contentHash": "afae42dc7a39eed9eb3da77b74e41cce6681eadf45c0927e502e286afdd1dbd2",
+          "size": 158483,
+          "contentHash": "dfef8bccc94b3be68c4dce5dbb648f82e02e99b2dc5ea1c93842d1d6e964c6a4",
           "htmlFilename": "Article 95 Hamlin Main Motion.pdf.html",
+          "pdfLinks": []
+        },
+        {
+          "historyId": "fc5e5029-6daa-4a53-bdfd-4af411ca73b9",
+          "title": "Article 95 April 29 Hamlin Main Motion",
+          "filename": "Article 95 April 29 Hamlin Main Motion.pdf",
+          "size": 96211,
+          "contentHash": "7ccdaab9d33ebc0392b5a4c2c097add13a237d2ba7ad8bc0eace2091218443e2",
+          "htmlFilename": "Article 95 April 29 Hamlin Main Motion.pdf.html",
           "pdfLinks": []
         }
       ],
@@ -4290,20 +4405,20 @@
       "externalLinks": [],
       "attachments": [
         {
-          "historyId": "6ef80172-b4da-41cb-98cb-9a983b84323e",
+          "historyId": "a64fccc0-2b9e-43d8-8e9f-9c66bb77655e",
           "title": "View full text of Article",
           "filename": "View full text of Article.pdf",
           "size": 115819,
-          "contentHash": "e36adf927e54be2a84083148cb6e05affc51c3303b3cce63b60020da2f855154",
+          "contentHash": "38f2b9c0be5af1108b02cda5aaf2b73b50ad58ea73001825a7aa2878c11f2f71",
           "htmlFilename": "View full text of Article.pdf.html",
           "pdfLinks": []
         },
         {
-          "historyId": "98dfafb5-759c-4b73-8cc7-729e194379c3",
+          "historyId": "a0bff901-2e39-47e3-ae02-fe614a0b2a3c",
           "title": "Article 96 Chiarito Main Motion",
           "filename": "Article 96 Chiarito Main Motion.pdf",
           "size": 49077,
-          "contentHash": "329e7db8bac00cd0774161729c2d8619930a57a3c750c578e7472b1b98bc6a5d",
+          "contentHash": "3674e942e7018255a689e5dd5621c5fbc982a1969e90250a63f678afa1f30dab",
           "htmlFilename": "Article 96 Chiarito Main Motion.pdf.html",
           "pdfLinks": []
         }
@@ -4323,6 +4438,946 @@
           "fromLabel": null,
           "toLabel": "Passed",
           "date": "May 13, 2026"
+        }
+      ]
+    },
+    {
+      "syncedAt": "2026-05-15T16:26:40+00:00",
+      "events": [
+        {
+          "type": "replaced_attachment",
+          "article": 2,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 3,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 4,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 5,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 6,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 7,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 8,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 9,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 10,
+          "filename": "Article 10 Benson Amendment.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 10,
+          "filename": "Article 10 David Morgan Memo.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 10,
+          "filename": "Article 10 White Substitute Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 10,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 11,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 12,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 13,
+          "filename": "Article 13 Notes on Town Meeting Time 4th Edition.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 13,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 14,
+          "filename": "Article 14 Moore Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 14,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 15,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 16,
+          "filename": "Article 16 Fee Information.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 16,
+          "filename": "Article 16 Fischer Amendment.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 16,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 17,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 18,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 19,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 20,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 21,
+          "filename": "Article 21 Hamlin Substitute Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 21,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 22,
+          "filename": "Article 22 Crowder Amendment.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 22,
+          "filename": "Article 22 Crowder Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 22,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 23,
+          "filename": "Article 23 Cutraro Substitute Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 23,
+          "filename": "Article 23 Statement Mothers Out Front.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 23,
+          "filename": "Article 23 Statement Save Arlington Wildlife.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 23,
+          "filename": "Article 23 Statement Trees as a Public Good Network.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 23,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 24,
+          "filename": "Article 24 Chart.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 24,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 25,
+          "filename": "Article 25 Chart.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 25,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 26,
+          "filename": "Article 26 Chart.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 26,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 27,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 28,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 29,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 30,
+          "filename": "Article 30 Schlichtman Statement.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 30,
+          "filename": "Article 30 Schlichtman Substitute Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 30,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 31,
+          "filename": "Article 31 Granucci Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 31,
+          "filename": "Article 31 Granucci Statement.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 31,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 32,
+          "filename": "Article 32 Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 32,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 33,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 34,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 35,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 36,
+          "filename": "Article 36 Revolving Fund Expenditure Detail.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 36,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 37,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 38,
+          "filename": "Article 38 ARB Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 38,
+          "filename": "Article 38 Draft Site List.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 38,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 39,
+          "filename": "Article 39 ARB Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 39,
+          "filename": "Article 39 Statement Attorney General on ADUs.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 39,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 40,
+          "filename": "Article 40 ARB Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 40,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 41,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 42,
+          "filename": "Article 42 ARB presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 42,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 43,
+          "filename": "Article 43 ARB Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 43,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 44,
+          "filename": "Article 44 ARB Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 44,
+          "filename": "Article 44 Benson Amendment.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 44,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 45,
+          "filename": "Article 45 ARB Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 45,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 46,
+          "filename": "Article 46 ARB Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 46,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 47,
+          "filename": "Article 47 ARB Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 47,
+          "filename": "Article 47 Benson Amendment.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 47,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 48,
+          "filename": "Article 48 ARB Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 48,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 49,
+          "filename": "Article 49 Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 49,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 50,
+          "filename": "Article 50 Statement and Maps - Director of Planning and Community Development.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 50,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 51,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 52,
+          "filename": "Article 52 Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 52,
+          "filename": "Article 52 Statement and Maps - Director of Planning and Community Development.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 52,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 53,
+          "filename": "Article 53 Andrew Fischer Materials.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 53,
+          "filename": "Article 53 Benson Amendment.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 53,
+          "filename": "Article 53 Beth Melofchik Materials.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 53,
+          "filename": "Article 53 Claire Odom Materials.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 53,
+          "filename": "Article 53 Cullinane Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 53,
+          "filename": "Article 53 Cullinane Substitute Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 53,
+          "filename": "Article 53 Jennifer Cutraro Materials.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 53,
+          "filename": "Article 53 Joanne Cullinane Materials.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 53,
+          "filename": "Article 53 Larry Slotnick Materials.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 53,
+          "filename": "Article 53 Macaluso Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 53,
+          "filename": "Article 53 Macaluso Substitute Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 53,
+          "filename": "Article 53 Melleta Marx Materials.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 53,
+          "filename": "Article 53 Ratnakar Vellanki Materials.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 53,
+          "filename": "Article 53 Rebecca Peterson Materials.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 53,
+          "filename": "Article 53 Robin Bergman Materials.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 53,
+          "filename": "Article 53 Stephen Revilak Materials.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 53,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 54,
+          "filename": "Article 54 Monaghan Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 54,
+          "filename": "Article 54 Monaghan Substitute Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 54,
+          "filename": "Article 54 Statement Caitlin Monaghan.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 54,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 55,
+          "filename": "Article 55 Aram Hollman Materials.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 55,
+          "filename": "Article 55 Hollman Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 55,
+          "filename": "Article 55 Hollman Substitute Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 55,
+          "filename": "Article 55 Macaluso Substitute Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 55,
+          "filename": "Article 55 Melleta Marx Materials.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 55,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 56,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 57,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 58,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 59,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 60,
+          "filename": "Article 60 FY27 Parking Fund Budget.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 60,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 61,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 62,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 63,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 64,
+          "filename": "Appendix B FY27 Budget.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 64,
+          "filename": "Article 64 School Budget Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 64,
+          "filename": "Article 64 Town Budget Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 64,
+          "filename": "FY27 APS Budget Report.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 64,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 65,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 66,
+          "filename": "Article 66 Ottoson Study Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 66,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 67,
+          "filename": "Article 67 Hardy Study Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 67,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 68,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 69,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 70,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 71,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 72,
+          "filename": "Article 72 Minuteman Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 72,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 73,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 74,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 75,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 76,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 77,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 78,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 79,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 80,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 81,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 82,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 83,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 84,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 85,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 86,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 87,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 88,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 89,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "new_attachment",
+          "article": 90,
+          "filename": "Article 90 Memo & Comprehensive Plan.pdf"
+        },
+        {
+          "type": "new_attachment",
+          "article": 90,
+          "filename": "Article 90 Presentation.pdf"
+        },
+        {
+          "type": "new_attachment",
+          "article": 90,
+          "filename": "Article 90 Revilak Main Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 90,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 91,
+          "filename": "Article 91 Dennis Main Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 91,
+          "filename": "Article 91 Greg Dennis Materials.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 91,
+          "filename": "Article 91 Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 91,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "new_attachment",
+          "article": 92,
+          "filename": "Article 92 Marina Popova Materials.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 92,
+          "filename": "Article 92 Clean Energy Future Committee Statement.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 92,
+          "filename": "Article 92 Hanlon Main Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 92,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 93,
+          "filename": "Article 93 Hanson Main Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 93,
+          "filename": "Article 93 Human Rights Commission Statement.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 93,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "new_attachment",
+          "article": 94,
+          "filename": "Article 94 April 11 Polk Main Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 94,
+          "filename": "Article 94 Chief Flaherty Statement.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 94,
+          "filename": "Article 94 Human Rights Commission Statement.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 94,
+          "filename": "Article 94 Polk Main Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 94,
+          "filename": "Article 94 Polk Presentation.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 94,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "new_attachment",
+          "article": 95,
+          "filename": "Article 95 April 29 Hamlin Main Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 95,
+          "filename": "Article 95 Hamlin Main Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 95,
+          "filename": "View full text of Article.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 96,
+          "filename": "Article 96 Chiarito Main Motion.pdf"
+        },
+        {
+          "type": "replaced_attachment",
+          "article": 96,
+          "filename": "View full text of Article.pdf"
         }
       ]
     }

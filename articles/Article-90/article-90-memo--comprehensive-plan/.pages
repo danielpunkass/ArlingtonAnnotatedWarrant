@@ -1,0 +1,18 @@
+title: "Article 90 Memo & Comprehensive Plan"
+nav:
+  - index.md
+  - "https://www.mass.gov/doc/guidelines-for-calculating-general-land-area-minimum-0/download": "https://www.mass.gov/doc/guidelines-for-calculating-general-land-area-minimum-0/download"
+  - "US Highway 3": "https://geo-massdot.opendata.arcgis.com/datasets/MassDOT::road-inventory-2024/explore?showTable=true"
+  - "Crash Data from 2024: 2024 Crashes | MassDOT Open Data Portal": "https://gis.data.mass.gov/datasets/MassDOT::2020-crashes/explore"
+  - "Crash Data from 2024: 2024 Crashes | MassDOT Open Data Portal": "https://geo-massdot.opendata.arcgis.com/datasets/2021-crashes/about"
+  - "Crash Data from 2024: 2024 Crashes | MassDOT Open Data Portal": "https://geo-massdot.opendata.arcgis.com/datasets/2022-crashes/about"
+  - "Crash Data from 2024: 2024 Crashes | MassDOT Open Data Portal": "https://geo-massdot.opendata.arcgis.com/datasets/MassDOT::2023-crashes/about"
+  - "Crash Data from 2024: 2024 Crashes | MassDOT Open Data Portal": "https://geo-massdot.opendata.arcgis.com/datasets/MassDOT::2024-crashes/explore"
+  - "Archive": "https://open-data-massgis.hub.arcgis.com/maps/boston::sidewalk-inventory/about"
+  - "Archive": "https://archive.org/details/Arlington_MA_ShowDocument_Id_56982/page/n19/mode/2up"
+  - "Average Boarding Data from Fall 2023: MBTA Ridership by Trip, Stop, Season, Route": "https://www.mbta.com/schedules/bus"
+  - "Average Boarding Data from Fall 2023: MBTA Ridership by Trip, Stop, Season, Route": "https://gis.data.mass.gov/datasets/MassDOT::mbta-bus-ridership-by-trip-season-route-line-and-stop/about"
+  - "System Map Data from 2025: MBTA System Map": "https://cdn.mbta.com/sites/default/files/2025-06/2025-06-15-system-map.pdf"
+  - "Other 30%": "https://www.replicahq.com/"
+  - "Massachusetts - Census Bureau Tables": "https://data.census.gov/table?q=commute+in+arlington+massachusetts&t=Commuting"
+  - "Massachusetts - Census Bureau Tables": "https://data.census.gov/"

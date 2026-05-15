@@ -1,7 +1,7 @@
 # Annotated Warrant — Index
 
 Source: [Official 2026 Annotated Town Warrant](https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659)  
-<small>Last synced on Thursday, May 14 at 12:13PM</small>.
+<small>Last synced on Friday, May 15 at 12:26PM</small>.
 
 | # | Title | Requested By | Attachments |
 | ---: | --- | --- | ---: |
@@ -93,10 +93,10 @@ Source: [Official 2026 Annotated Town Warrant](https://arlingtonma.primegov.com/
 | 87 | [USE OF FREE CASH](./articles/Article-87/index.md) | Finance Committee | 1 |
 | 88 | [APPROPRIATION / FISCAL STABILITY STABILIZATION FUND](./articles/Article-88/index.md) | Finance Committee | 1 |
 | 89 | [RESOLUTION / HYBRID TOWN MEETING](./articles/Article-89/index.md) | Alexander Bagnall and ten registered voters | 1 |
-| 90 | [RESOLUTION / COMPREHENSIVE PLAN ENDORSEMENT](./articles/Article-90/index.md) | Department of Planning and Community Development | 1 |
+| 90 | [RESOLUTION / COMPREHENSIVE PLAN ENDORSEMENT](./articles/Article-90/index.md) | Department of Planning and Community Development | 4 |
 | 91 | [RESOLUTION / MEDICARE FOR ALL](./articles/Article-91/index.md) | Greg Dennis and ten registered voters | 4 |
-| 92 | [RESOLUTION / TRANSITIONING TO CLEAN HEAT IN MASSACHUSETTS](./articles/Article-92/index.md) | Patrick Hanlon and ten registered voters | 3 |
+| 92 | [RESOLUTION / TRANSITIONING TO CLEAN HEAT IN MASSACHUSETTS](./articles/Article-92/index.md) | Patrick Hanlon and ten registered voters | 4 |
 | 93 | [RESOLUTION / DESIGNATING ARLINGTON A 4TH AMENDMENT WORKPLACE COMMUNITY](./articles/Article-93/index.md) | Linda Hanson and Elizabeth Dray and ten registered voters | 3 |
-| 94 | [RESOLUTION / AUTOMATIC LICENSE PLATE RECOGNITION SAFEGUARDS AND DRIVER PRIVACY](./articles/Article-94/index.md) | Samuel Polk and ten registered voters | 5 |
-| 95 | [RESOLUTION / CONCERNING ICE FACILITY](./articles/Article-95/index.md) | Guillermo Hamlin and ten registered voters | 2 |
+| 94 | [RESOLUTION / AUTOMATIC LICENSE PLATE RECOGNITION SAFEGUARDS AND DRIVER PRIVACY](./articles/Article-94/index.md) | Samuel Polk and ten registered voters | 6 |
+| 95 | [RESOLUTION / CONCERNING ICE FACILITY](./articles/Article-95/index.md) | Guillermo Hamlin and ten registered voters | 3 |
 | 96 | [RESOLUTION / PROHIBIT FIRST GENERATION ANTICOAGULANT RODENTICIDES AND BROMETHALIN](./articles/Article-96/index.md) | Suzanne Chiarito and ten registered voters | 2 |

@@ -13,6 +13,7 @@ To see if the Town will vote to adopt a resolution opposing widespread deploymen
 - [Article 94 Polk Presentation](article-94-polk-presentation/index.md)
 - [Article 94 Human Rights Commission Statement](article-94-human-rights-commission-statement/index.md)
 - [Article 94 Chief Flaherty Statement](article-94-chief-flaherty-statement/index.md)
+- [Article 94 April 11 Polk Main Motion](article-94-april-11-polk-main-motion/index.md)
 
 ---
 *Source:* <https://arlingtonma.primegov.com/Portal/Meeting?meetingTemplateId=1659>
